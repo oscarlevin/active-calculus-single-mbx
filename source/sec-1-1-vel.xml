@@ -50,7 +50,19 @@
       Questions like this one are central to our study of differential calculus.
     </p>
 
-    <xi:include href="./previews/PA-1-1.xml" />
+    <exploration>
+      <title>Preview Activity</title>
+
+        <interactive xml:id="interactive-doenetml-example" platform="doenetml" width="150%" aspect="1:2">
+
+          <slate surface="doenetml">
+            <xi:include href="doenet-preview.xml" parse="text"/>
+              <!-- Hi There, this is rendered by Doenet! -->
+          </slate>
+        </interactive>
+  </exploration>
+
+    <!-- <xi:include href="./previews/PA-1-1.xml" /> -->
   </introduction>
 
   <subsection permid="iwq">
@@ -298,4 +310,3 @@
 
   <xi:include href="./exercises/ez-1-1.xml" />
 </section>
-
