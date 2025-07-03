@@ -51,8 +51,8 @@
     </p>
 
     <xi:include href="./previews/PA-1-1-WW.xml" />
-<xi:include href="./previews/PA-1-1.xml" />
-  </introduction>
+    <xi:include href="./previews/PA-1-1.xml" />
+  </subsection>
 
   <subsection>
     <title>Position and average velocity</title>

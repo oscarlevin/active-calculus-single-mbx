@@ -79,8 +79,8 @@
     </p>
 
     <xi:include href="./previews/PA-1-2-WW.xml" />
-<xi:include href="./previews/PA-1-2.xml" />
-  </introduction>
+    <xi:include href="./previews/PA-1-2.xml" />
+  </subsection>
 
   <subsection>
     <title>The Notion of Limit</title>
