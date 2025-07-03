@@ -55,10 +55,13 @@
       with the problems progressing to require greater independence as we move along.
     </p>
 
-    <xi:include href="./previews/PA-3-4.xml"/>
+    <xi:include href="./previews/PA-3-4-WW.xml" />
+    <xi:include href="./previews/PA-3-4.xml" />
   </subsection>
 
-  <subsection>
+  <xi:include href="./proteus/proteus-3-4.xml" />
+
+  <subsection permid="FNq">
     <title>More applied optimization problems</title>
     <p>
       Many of the steps in <xref ref="PA-3-4">Preview Activity</xref>

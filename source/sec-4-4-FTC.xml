@@ -79,10 +79,14 @@
       We turn our attention to an alternate approach.
     </p>
 
-    <xi:include href="./previews/PA-4-4.xml"/>
+    <xi:include href="./previews/PA-4-4-WW.xml" />
+    <xi:include href="./previews/PA-4-4.xml" />
   </subsection>
 
-  <subsection>
+  <xi:include href="./proteus/proteus-4-4.xml" />
+  
+
+  <subsection permid="rJY">
     <title>The Fundamental Theorem of Calculus</title>
     <idx><h>fundamental theorem of calculus</h></idx>
 

@@ -10,9 +10,16 @@ published
 
 # don't track assets generated from source
 generated-assets
+generated-assets-ed1
+generated-assets-ed2
+generated-assets-runestone
+generated-assets-proteus
 
 # don't track the executables.ptx file
 executables.ptx
+
+# don't track pretext cache
+.cache
 
 # don't track node packages
 node_modules

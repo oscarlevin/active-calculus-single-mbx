@@ -58,10 +58,13 @@
       and whether or not the function has a derivative <m>f'(a)</m> at <m>x = a</m>.
     </p>
 
-    <xi:include href="./previews/PA-1-7.xml"/>
+    <xi:include href="./previews/PA-1-7-WW.xml" />
+    <xi:include href="./previews/PA-1-7.xml" />
   </subsection>
 
-  <subsection>
+  <xi:include href="./proteus/proteus-1-7.xml" />
+
+  <subsection permid="AAh">
     <title>Having a limit at a point</title>
     <p>
       In <xref ref="sec-1-2-lim">Section</xref>,
@@ -156,15 +159,14 @@
       That is, a function has a limit at <m>x = a</m> if and only if both the left- and right-hand limits at <m>x = a</m> exist and have the same value.
     </p>
 
-    <p>
-      In <xref ref="PA-1-7">Preview Activity</xref>,
-      the function <m>f</m> given in <xref ref="F-1-7-PA1">Figure</xref>
+    <p permid="nQq">
+      The function <m>f</m> given in the figure in <xref ref="PA-1-7">Preview Activity</xref>
       fails to have a limit at only two values:
       at <m>a = -2</m>
       (where the left- and right-hand limits are 2 and <m>-1</m>,
       respectively)
       and at <m>x = 2</m>,
-      where <m>\lim_{x \to 2^+} f(x)</m> does not exist).
+      where <m>\lim_{x \to 2^+} f(x)</m> does not exist.
       Note well that even at values such as <m>a = -1</m> and <m>a = 0</m> where there are holes in the graph,
       the limit still exists.
     </p>

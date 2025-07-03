@@ -51,10 +51,13 @@
       can we determine how fast the radius of the balloon is increasing at the moment the balloon's diameter is 12 inches?
     </p>
 
-    <xi:include href="./previews/PA-3-5.xml"/>
+    <xi:include href="./previews/PA-3-5-WW.xml" />
+    <xi:include href="./previews/PA-3-5.xml" />
   </subsection>
 
-  <subsection>
+  <xi:include href="./proteus/proteus-3-5.xml" />
+
+  <subsection permid="aqb">
     <title>Related Rates Problems</title>
     <p>
       In problems where two or more quantities can be related to one another,

@@ -45,7 +45,7 @@
 
   <subsection><title>Introduction</title>
     <p>
-      In Section 1.1 we used a function, <m>s(t)</m>,
+      In <xref ref="sec-1-1-vel" /> we used a function, <m>s(t)</m>,
       to model the location of a moving object at a given time.
       Functions can model other interesting phenomena,
       such as the rate at which an automobile consumes gasoline at a given velocity,
@@ -78,8 +78,9 @@
       We first use the graph of a function to explore points where interesting behavior occurs.
     </p>
 
-    <xi:include href="./previews/PA-1-2.xml"/>
-  </subsection>
+    <xi:include href="./previews/PA-1-2-WW.xml" />
+<xi:include href="./previews/PA-1-2.xml" />
+  </introduction>
 
   <subsection>
     <title>The Notion of Limit</title>
@@ -135,8 +136,8 @@
 
     <example>
       <statement>
-        <p>
-          For the function <m>g</m> pictured in <xref ref="F-1-2-PA1">Figure</xref>,
+        <p permid="QHh">
+          For the function <m>g</m> pictured in the figure in <xref ref="PA-1-2">Preview Activity</xref>,
           we make the following observations:
           <me>
             \lim_{x \to -1} g(x) = 3, \  \lim_{x \to 0} g(x) = 4, \ \text{and}  \  \lim_{x \to 2} g(x) = 1

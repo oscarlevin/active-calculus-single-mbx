@@ -122,10 +122,16 @@
       as we did in the example above with <m>C(x) = \sin(x^2)</m>.
     </p>
 
-    <xi:include href="./previews/PA-2-5.xml"/>
+    <xi:include href="./previews/PA-2-5-WW.xml" />
+    <xi:include href="./previews/PA-2-5.xml" />
   </subsection>
 
-  <subsection>
+  
+  <xi:include href="./proteus/proteus-2-5.xml" />
+
+  
+
+  <subsection permid="Utl">
     <title>The chain rule</title>
     <p>
       Often a composite function cannot be written in an alternate algebraic form.

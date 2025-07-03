@@ -80,10 +80,15 @@
       it turns out that the rules for computing derivatives of products and quotients are more complicated.
     </p>
 
-    <xi:include href="./previews/PA-2-3.xml"/>
+    <xi:include href="./previews/PA-2-3-WW.xml" />
+    <xi:include href="./previews/PA-2-3.xml" />
   </subsection>
 
-  <subsection>
+  <xi:include href="./proteus/proteus-2-3.xml" />
+
+  
+
+  <subsection permid="MVQ">
     <title>The product rule</title>
     <p>
       As part (b) of <xref ref="PA-2-3">Preview Activity</xref> shows,
@@ -148,7 +153,7 @@
       and the rising value of each share.
       If only the number of shares is increasing
       (and the value of each share is constant),
-      the rate at which which total value would rise is the product of the current value of the shares and the rate at which the number of shares is changing.
+      the rate at which total value would rise is the product of the current value of the shares and the rate at which the number of shares is changing.
       That is, the rate at which total value would change is given by
       <me>
         S(100) \cdot N'(100) = 27.50 \, \frac{\text{dollars} }{\text{share} } \cdot 12 \, \frac{\text{shares} }{\text{day} } = 330 \, \frac{\text{dollars} }{\text{day} }
@@ -504,8 +509,8 @@
             This, the derivative of <m>F</m> can be found by applying the quotient rule and then using the sum and constant multiple rules to differentiate the numerator and the product rule to differentiate the denominator.
           </p>
         </li>
-      </ul>
-    </p>
+      </ul></p>
+
   </subsection>
 
   <xi:include href="./exercises/ez-2-3.xml"/>

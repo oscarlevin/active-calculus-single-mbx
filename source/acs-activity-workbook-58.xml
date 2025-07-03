@@ -60,11 +60,10 @@
       </preface>
     </frontmatter>
 
-    <xi:include href="./chap-5-wb.xml" />
-    <xi:include href="./chap-6-wb.xml" />
-    <xi:include href="./chap-7-wb.xml" />
-    <xi:include href="./chap-8-wb.xml" />
-
+    <xi:include href="./chap-5.xml" />
+    <xi:include href="./chap-6.xml" />
+    <xi:include href="./chap-7.xml" />
+    <xi:include href="./chap-8a.xml" />
     <backmatter>
   <appendix xml:id="integral-table" permid="Alz">
     <title>A Short Table of Integrals</title>

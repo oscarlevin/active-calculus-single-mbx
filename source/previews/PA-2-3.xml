@@ -12,7 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<worksheet label="ws-PA-2-3">
+<worksheet component="static" label="ws-PA-2-3">
   <page>
     <exploration xml:id="PA-2-3">
       <introduction>

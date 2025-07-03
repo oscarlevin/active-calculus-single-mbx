@@ -109,7 +109,7 @@
           </p>
         </hint>
         <answer>
-          <p><m>B_{\text{AVG} [0,100]} \approx 25.9798 \text{ pounds}</m>.
+          <p><m>B_{\text{AVG} [0,100]} \approx 27.98 \text{ pounds}</m>.
           </p>
         </answer>
         <solution>
@@ -117,12 +117,12 @@
             Given that <m>B(h) = 25 + 15e^{-0.05h}</m> is the weight of the bucket when <m>h</m> feet of rope have been pulled in,
             it follows that the total work to move the bucket 100 feet is
             <me>
-              W = \int_0^{100} (25 + 5e^{-0.05h})\, dh \approx 2597.98 \text{ foot-pounds}
+              W = \int_0^{100} (25 + 15e^{-0.05h})\, dh \approx 2797.98 \text{ foot-pounds}
             </me>.
             In addition,
             the average force that was exerted on the bucket is precisely the average weight of the bucket, which is
             <me>
-              B_{\text{AVG} [0,100]} = \frac{1}{100-0} \int_0^{100} (25 + 5e^{-0.05h})\, dh \approx 25.9798 \text{ pounds}
+              B_{\text{AVG} [0,100]} = \frac{1}{100-0} \int_0^{100} (25 + 5e^{-0.05h})\, dh \approx 27.98 \text{ pounds}
             </me>.
           </p>
         </solution>
