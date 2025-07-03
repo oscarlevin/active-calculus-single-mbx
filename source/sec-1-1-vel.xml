@@ -53,7 +53,7 @@
     <xi:include href="./previews/PA-1-1-WW.xml" />
     <xi:include href="./previews/PA-1-1.xml" />
   </subsection>
-
+  <xi:include href="./proteus/proteus-1-1.xml" />
   <subsection>
     <title>Position and average velocity</title>
     <p>

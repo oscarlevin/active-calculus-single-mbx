@@ -98,6 +98,7 @@
     <xi:include href="./previews/PA-2-7-WW.xml" />
     <xi:include href="./previews/PA-2-7.xml" />
   </subsection>
+  <xi:include href="./proteus/proteus-2-7.xml" />
 
   <subsection>
     <title>Implicit Differentiation</title>

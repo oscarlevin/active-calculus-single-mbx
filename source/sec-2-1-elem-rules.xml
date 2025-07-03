@@ -81,7 +81,7 @@
     <xi:include href="./previews/PA-2-1-WW.xml" />
     <xi:include href="./previews/PA-2-1.xml" />
   </subsection>
-
+  <xi:include href="./proteus/proteus-2-1.xml" />
   <subsection>
     <title>Some Key Notation</title>
     <p>

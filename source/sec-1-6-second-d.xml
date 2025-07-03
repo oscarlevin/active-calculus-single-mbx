@@ -103,6 +103,7 @@
     <xi:include href="./previews/PA-1-6-WW.xml" />
     <xi:include href="./previews/PA-1-6.xml" />
   </subsection>
+  <xi:include href="./proteus/proteus-1-6.xml" />
 
   <subsection>
     <title>Increasing or decreasing</title>

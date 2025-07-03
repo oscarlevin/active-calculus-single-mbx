@@ -69,7 +69,7 @@
     <xi:include href="./previews/PA-2-8-WW.xml" />
     <xi:include href="./previews/PA-2-8.xml" />
   </subsection>
-
+  <xi:include href="./proteus/proteus-2-8.xml" />
   <subsection>
     <title>Using derivatives to evaluate indeterminate limits of the form <m>\frac{0}{0}</m>.</title>
     <figure xml:id="F-2-8-LHR">

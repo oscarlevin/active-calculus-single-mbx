@@ -81,7 +81,7 @@
     <xi:include href="./previews/PA-1-2-WW.xml" />
     <xi:include href="./previews/PA-1-2.xml" />
   </subsection>
-
+  <xi:include href="./proteus/proteus-1-2.xml" />
   <subsection>
     <title>The Notion of Limit</title>
     <p>

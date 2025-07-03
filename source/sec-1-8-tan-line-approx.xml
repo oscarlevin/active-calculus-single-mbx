@@ -65,7 +65,7 @@
     <xi:include href="./previews/PA-1-8-WW.xml" />
     <xi:include href="./previews/PA-1-8.xml" />
   </subsection>
-
+  <xi:include href="./proteus/proteus-1-8.xml" /> 
   <subsection>
     <title>The tangent line</title>
     <idx><h>tangent line</h><h>equation</h></idx>
