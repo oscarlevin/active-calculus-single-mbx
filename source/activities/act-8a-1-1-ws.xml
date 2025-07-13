@@ -59,8 +59,9 @@
       <statement>
         <p>
 						Enter the formulas you've determined for <m>f(x)</m>, <m>f'(x)</m>, <m>f''(x)</m>, <m>T_2(x)</m>, <m>T_2'(x)</m>, and <m>T_2''(x)</m> in <xref ref="T-act-8a-1-1-formulas">Table</xref>.
+        </p>
 
-						<table xml:id="T-act-8a-1-1-formulas"><title>Formulas for <m>f(x)</m> and <m>T_2(x)</m> and their derivatives.</title><tabular top="none" bottom="none"><row><cell halign="right"><m>f(x)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_2(x)=</m></cell><cell><fillin/></cell></row><row><cell halign="right"><m>f'(x)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_2'(x)=</m></cell><cell><fillin/></cell></row><row><cell halign="right"><m>f''(x)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_2''(x)=</m></cell><cell><fillin/></cell></row></tabular></table></p>
+						<table xml:id="T-act-8a-1-1-formulas"><title>Formulas for <m>f(x)</m> and <m>T_2(x)</m> and their derivatives.</title><tabular top="none" bottom="none"><row><cell halign="right"><m>f(x)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_2(x)=</m></cell><cell><fillin/></cell></row><row><cell halign="right"><m>f'(x)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_2'(x)=</m></cell><cell><fillin/></cell></row><row><cell halign="right"><m>f''(x)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_2''(x)=</m></cell><cell><fillin/></cell></row></tabular></table>
       </statement>
       <hint/>
       <answer>
@@ -266,8 +267,9 @@
       <statement>
         <p>
 						Next, observe that since <m>T_2(x) = c_0 + c_1 x + c_2 x^2</m>, it follows that <m>T_2(0) = c_0</m>.  Reason similarly to determine the values of <m>T_2'(0)</m> and <m>T_2''(0)</m>, as well as those of <m>f(0)</m>, <m>f'(0)</m>, and <m>f''(0)</m> and enter these 6 values appropriately in <xref ref="T-act-8a-1-1-values">Table</xref>.
+        </p>
 
-						<table xml:id="T-act-8a-1-1-values"><title>Values of <m>f(x)</m> and <m>T_2(x)</m> and their derivatives at <m>x = 0</m>.</title><tabular top="none" bottom="none"><row><cell halign="right"><m>f(0)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_2(0)=</m></cell><cell><fillin/></cell></row><row><cell halign="right"><m>f'(0)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_2'(0)=</m></cell><cell><fillin/></cell></row><row><cell halign="right"><m>f''(0)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_2''(0)=</m></cell><cell><fillin/></cell></row></tabular></table></p>
+        <table xml:id="T-act-8a-1-1-values"><title>Values of <m>f(x)</m> and <m>T_2(x)</m> and their derivatives at <m>x = 0</m>.</title><tabular top="none" bottom="none"><row><cell halign="right"><m>f(0)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_2(0)=</m></cell><cell><fillin/></cell></row><row><cell halign="right"><m>f'(0)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_2'(0)=</m></cell><cell><fillin/></cell></row><row><cell halign="right"><m>f''(0)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_2''(0)=</m></cell><cell><fillin/></cell></row></tabular></table>
       </statement>
       <hint/>
       <answer>
@@ -302,8 +304,9 @@
       <statement>
         <p>
 						Having now determined the numerical values of <m>c_0</m>, <m>c_1</m>, and <m>c_2</m>, plot the function <m>T_2(x) = c_0 + c_1 x + c_2 x^2</m> along with <m>f(x)=e^x</m> and <m>T_1(x)=1+x</m> in <xref ref="F-8a-1-act-1">Figure</xref>.  What do you notice?  For about which values of <m>x</m> is <m>|f(x)-T_2(x)| \lt 0.1</m>?
+        </p>
 
-						<figure xml:id="F-8a-1-act-1"><caption>The function <m>f(x)=e^x</m> and its tangent line <m>T_1(x)=1+x</m> near the point <m>(0,f(0))</m>.</caption><image width="50%" source="images/8a_1_act_1"/></figure></p>
+        <figure xml:id="F-8a-1-act-1"><caption>The function <m>f(x)=e^x</m> and its tangent line <m>T_1(x)=1+x</m> near the point <m>(0,f(0))</m>.</caption><image width="50%" source="images/8a_1_act_1"/></figure>
       </statement>
       <hint/>
       <answer>
