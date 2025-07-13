@@ -29,13 +29,95 @@
             </me>
             where the first <q><m>-1</m></q> arises from the power rule, while the second <q><m>-1</m></q> results from the chain rule, since <m>\frac{d}{dx}[1-x] = -1</m>.  In order to see key patterns that arise, it's helpful not to combine the products of numbers that arise in the various derivatives.  Record the first five derivatives of <m>f(x)</m> in <xref ref="T-8a-3-act-3-geom">Table</xref>.
           </p>
+          <table xml:id="T-8a-3-act-3-geom">
+            <title>Finding the derivatives of <m>f(x) = \frac{1}{1-x}</m>.</title>
+              <tabular top="none" bottom="none">
+                <row>
+                  <cell halign="right"><m>f(x) =</m></cell>
+                  <cell><m>\frac{1}{1-x} = (1-x)^{-1}</m></cell>
+                </row>
+                <row>
+                  <cell halign="right"><m>f'(x) =</m></cell>
+                  <cell><m>(-1)(1-x)^{-2}(-1)</m></cell>
+                </row>
+                <row>
+                  <cell halign="right"><m>f''(x) = </m></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell halign="right"><m>f'''(x) = </m></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell halign="right"><m>f^{(4)}(x) = </m></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell halign="right"><m>f^{(5)}(x) = </m></cell>
+                  <cell></cell>
+                </row>
+              </tabular>
+            </table>  
       </statement>
       <hint/>
-      <answer/>
+      <answer>
+        <tabular top="none" bottom="none">
+          <row>
+            <cell halign="right"><m>f(x) =</m></cell>
+            <cell><m>\frac{1}{1-x} = (1-x)^{-1}</m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f'(x) =</m></cell>
+            <cell><m>(-1)(1-x)^{-2}(-1)</m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f''(x) = </m></cell>
+            <cell><m>(-2)(-1)(1-x)^{-3}(-1)(-1)</m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f'''(x) = </m></cell>
+            <cell><m>(-3)(-2)(-1)(1-x)^{-4}(-1)(-1)(-1)</m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f^{(4)}(x) = </m></cell>
+            <cell><m>(-4)(-3)(-2)(-1)(1-x)^{-5}(-1)(-1)(-1)(-1)</m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f^{(5)}(x) = </m></cell>
+            <cell><m>(-5)(-4)(-3)(-2)(-1)(1-x)^{-6}(-1)(-1)(-1)(-1)(-1)</m></cell>
+          </row>
+        </tabular>
+      </answer>
       <solution>
         <p>
-            The first five derivatives of <m>f(x)</m> are shown in <xref ref="T-8a-3-act-3-geom-soln">Table</xref>.
+            The first five derivatives of <m>f(x)</m> are shown below.
           </p>
+          <tabular top="none" bottom="none">
+            <row>
+              <cell halign="right"><m>f(x) =</m></cell>
+              <cell><m>\frac{1}{1-x} = (1-x)^{-1}</m></cell>
+            </row>
+            <row>
+              <cell halign="right"><m>f'(x) =</m></cell>
+              <cell><m>(-1)(1-x)^{-2}(-1)</m></cell>
+            </row>
+            <row>
+              <cell halign="right"><m>f''(x) = </m></cell>
+              <cell><m>(-2)(-1)(1-x)^{-3}(-1)(-1)</m></cell>
+            </row>
+            <row>
+              <cell halign="right"><m>f'''(x) = </m></cell>
+              <cell><m>(-3)(-2)(-1)(1-x)^{-4}(-1)(-1)(-1)</m></cell>
+            </row>
+            <row>
+              <cell halign="right"><m>f^{(4)}(x) = </m></cell>
+              <cell><m>(-4)(-3)(-2)(-1)(1-x)^{-5}(-1)(-1)(-1)(-1)</m></cell>
+            </row>
+            <row>
+              <cell halign="right"><m>f^{(5)}(x) = </m></cell>
+              <cell><m>(-5)(-4)(-3)(-2)(-1)(1-x)^{-6}(-1)(-1)(-1)(-1)(-1)</m></cell>
+            </row>
+          </tabular>          
       </solution>
     </task>
     <task workspace="3cm" xml:id="act-8a-3-3-task-1">
@@ -43,13 +125,131 @@
         <p>
             Next, evaluate the derivatives you determined in (a) at <m>a = 0</m> and use these to find the values of the coefficients of the Taylor polynomial centered at <m>a = 0</m>.  Record your work in <xref ref="T-8a-3-act-3-geom-2">Table</xref>.
           </p>
+          <table xml:id="T-8a-3-act-3-geom-2">
+            <title>Finding the Taylor polynomial coefficients <m>c_k</m>.</title>
+              <tabular top="none" bottom="none">
+                <row>
+                  <cell halign="right"><m>f(0) =</m></cell>
+                  <cell><m>\frac{1}{1-0} = 1</m></cell>
+                  <cell halign="right"><m>c_0 =</m></cell>
+                  <cell><m>f(0) = 1</m></cell>
+                </row>
+                <row>
+                  <cell halign="right"><m>f'(0) =</m></cell>
+                  <cell><m>(-1)(1-0)^{-2}(-1) = 1</m></cell>
+                  <cell halign="right"><m>c_1 =</m></cell>
+                  <cell><m>\frac{f'(0)}{1!} = \frac{1}{1!} = 1</m></cell>
+                </row>
+                <row>
+                  <cell halign="right"><m>f''(0) = </m></cell>
+                  <cell></cell>
+                  <cell halign="right"><m>c_2 =</m></cell>
+                  <cell><m>\frac{f''(0)}{2!} = </m></cell>
+                </row>
+                <row>
+                  <cell halign="right"><m>f'''(0) = </m></cell>
+                  <cell></cell>
+                  <cell halign="right"><m>c_3 = </m></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell halign="right"><m>f^{(4)}(0) = </m></cell>
+                  <cell></cell>
+                  <cell halign="right"><m>c_4 =</m></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell halign="right"><m>f^{(5)}(0) = </m></cell>
+                  <cell></cell>
+                  <cell halign="right"><m>c_5 =</m></cell>
+                  <cell></cell>
+                </row>
+              </tabular>
+            </table> 
       </statement>
       <hint/>
-      <answer/>
+      <answer>
+        <tabular top="none" bottom="none">
+          <row>
+            <cell halign="right"><m>f(0) =</m></cell>
+            <cell><m>\frac{1}{1-0} = 1</m></cell>
+            <cell halign="right"><m>c_0 =</m></cell>
+            <cell><m>f(0) = 1</m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f'(0) =</m></cell>
+            <cell><m>(-1)(1-0)^{-2}(-1) = 1</m></cell>
+            <cell halign="right"><m>c_1 =</m></cell>
+            <cell><m>\frac{f'(0)}{1!} = \frac{1}{1!} = 1</m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f''(0) = </m></cell>
+            <cell><m>(-2)(-1)(1)^{-3}(-1)(-1) = 2!</m></cell>
+            <cell halign="right"><m>c_2 =</m></cell>
+            <cell><m>\frac{f''(0)}{2!} = \frac{2!}{2!} = 1 </m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f'''(0) = </m></cell>
+            <cell><m>(-3)(-2)(-1)(1)^{-4}(-1)(-1)(-1) = 3!</m></cell>
+            <cell halign="right"><m>c_3 = </m></cell>
+            <cell><m>\frac{f'''(0)}{3!} = \frac{3!}{3!} = 1 </m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f^{(4)}(0) = </m></cell>
+            <cell><m>(-4)(-3)(-2)(-1)(1)^{-5}(-1)(-1)(-1)(-1) = 4!</m></cell>
+            <cell halign="right"><m>c_4 =</m></cell>
+            <cell><m>\frac{f^{(4)}(0)}{4!} = \frac{4!}{4!} = 1 </m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f^{(5)}(0) = </m></cell>
+            <cell><m>(-5)(-4)(-3)(-2)(-1)(1)^{-6}(-1)(-1)(-1)(-1)(-1) = 5!</m></cell>
+            <cell halign="right"><m>c_5 =</m></cell>
+            <cell><m>\frac{f^{(5)}(0)}{5!} = \frac{5!}{5!} = 1 </m></cell>
+          </row>
+        </tabular>
+      </answer>
       <solution>
         <p>
-            Evaluating the derivatives at <m>a = 0</m> and finding the various values of <m>c_k</m>, we see the results in <xref ref="T-8a-3-act-3-geom-soln-2">Table</xref>:
-          </p>
+            Evaluating the derivatives at <m>a = 0</m> and finding the various values of <m>c_k</m>, we see the results below.
+        </p>
+        <tabular top="none" bottom="none">
+          <row>
+            <cell halign="right"><m>f(0) =</m></cell>
+            <cell><m>\frac{1}{1-0} = 1</m></cell>
+            <cell halign="right"><m>c_0 =</m></cell>
+            <cell><m>f(0) = 1</m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f'(0) =</m></cell>
+            <cell><m>(-1)(1-0)^{-2}(-1) = 1</m></cell>
+            <cell halign="right"><m>c_1 =</m></cell>
+            <cell><m>\frac{f'(0)}{1!} = \frac{1}{1!} = 1</m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f''(0) = </m></cell>
+            <cell><m>(-2)(-1)(1)^{-3}(-1)(-1) = 2!</m></cell>
+            <cell halign="right"><m>c_2 =</m></cell>
+            <cell><m>\frac{f''(0)}{2!} = \frac{2!}{2!} = 1 </m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f'''(0) = </m></cell>
+            <cell><m>(-3)(-2)(-1)(1)^{-4}(-1)(-1)(-1) = 3!</m></cell>
+            <cell halign="right"><m>c_3 = </m></cell>
+            <cell><m>\frac{f'''(0)}{3!} = \frac{3!}{3!} = 1 </m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f^{(4)}(0) = </m></cell>
+            <cell><m>(-4)(-3)(-2)(-1)(1)^{-5}(-1)(-1)(-1)(-1) = 4!</m></cell>
+            <cell halign="right"><m>c_4 =</m></cell>
+            <cell><m>\frac{f^{(4)}(0)}{4!} = \frac{4!}{4!} = 1 </m></cell>
+          </row>
+          <row>
+            <cell halign="right"><m>f^{(5)}(0) = </m></cell>
+            <cell><m>(-5)(-4)(-3)(-2)(-1)(1)^{-6}(-1)(-1)(-1)(-1)(-1) = 5!</m></cell>
+            <cell halign="right"><m>c_5 =</m></cell>
+            <cell><m>\frac{f^{(5)}(0)}{5!} = \frac{5!}{5!} = 1 </m></cell>
+          </row>
+        </tabular>
       </solution>
     </task>
     <task workspace="3cm" xml:id="act-8a-3-3-task-2">

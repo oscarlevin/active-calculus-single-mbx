@@ -24,8 +24,9 @@
       <statement>
         <p>
           As in previous work, the derivatives of <m>T_3(x)</m> and their respective values at <m>a = 0</m> are those shown in the following table.  Compute the various derivatives of <m>f(x) = \sin(x)</m> and evaluate them at <m>a = 0</m> accordingly, recording your results in the left side of <xref ref="T-8a-2-PA">Table</xref>.
+        </p>
 
-          <table xml:id="T-8a-2-PA"><title>Formulas and values for <m>f(x) = \sin(x)</m> and <m>T_3(x)</m>.</title><tabular top="none" bottom="none"><row><cell halign="right"><m>f(x)=</m></cell><cell><m>\sin(x)</m></cell><cell halign="right"><m>T_3(x)=</m></cell><cell><m>c_0 + c_1 x + c_2 x^2 + c_3 x^3</m></cell></row><row><cell halign="right"><m>f'(x)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_3'(x)=</m></cell><cell><m>c_1 + 2 c_2 x + 3 c_3 x^2</m></cell></row><row><cell halign="right"><m>f''(x)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_3''(x)=</m></cell><cell><m>2 c_2 + 6 c_3 x</m></cell></row><row><cell halign="right"><m>f'''(x)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_3'''(x)=</m></cell><cell><m>6 c_3</m></cell></row><row><cell/><cell/><cell/><cell/></row><row><cell halign="right"><m>f(0)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_3(0)=</m></cell><cell><m>c_0</m></cell></row><row><cell halign="right"><m>f'(0)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_3'(0)=</m></cell><cell><m>c_1</m></cell></row><row><cell halign="right"><m>f''(0)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_3''(0)=</m></cell><cell><m>2c_2</m></cell></row><row><cell halign="right"><m>f'''(0)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_3'''(0)=</m></cell><cell><m>6c_3</m></cell></row></tabular></table></p>
+          <table xml:id="T-8a-2-PA"><title>Formulas and values for <m>f(x) = \sin(x)</m> and <m>T_3(x)</m>.</title><tabular top="none" bottom="none"><row><cell halign="right"><m>f(x)=</m></cell><cell><m>\sin(x)</m></cell><cell halign="right"><m>T_3(x)=</m></cell><cell><m>c_0 + c_1 x + c_2 x^2 + c_3 x^3</m></cell></row><row><cell halign="right"><m>f'(x)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_3'(x)=</m></cell><cell><m>c_1 + 2 c_2 x + 3 c_3 x^2</m></cell></row><row><cell halign="right"><m>f''(x)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_3''(x)=</m></cell><cell><m>2 c_2 + 6 c_3 x</m></cell></row><row><cell halign="right"><m>f'''(x)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_3'''(x)=</m></cell><cell><m>6 c_3</m></cell></row><row><cell/><cell/><cell/><cell/></row><row><cell halign="right"><m>f(0)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_3(0)=</m></cell><cell><m>c_0</m></cell></row><row><cell halign="right"><m>f'(0)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_3'(0)=</m></cell><cell><m>c_1</m></cell></row><row><cell halign="right"><m>f''(0)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_3''(0)=</m></cell><cell><m>2c_2</m></cell></row><row><cell halign="right"><m>f'''(0)=</m></cell><cell><fillin/></cell><cell halign="right"><m>T_3'''(0)=</m></cell><cell><m>6c_3</m></cell></row></tabular></table>
       </statement>
       <hint/>
       <answer/>
@@ -46,6 +47,10 @@
         <p>
           Recall that the tangent line approximation <m>T_1</m> to <m>f(x) = \sin(x)</m> at <m>a = 0</m> is <m>T_1(x) = x</m>, as plotted in <xref ref="F-8a-2-PA">Figure</xref>.  On the same axes, plot the cubic approximation <m>T_3(x)</m> you found in (b).  What do you observe about the approximation of <m>f(x)</m> by <m>T_3(x)</m> compared to the approximation of <m>f(x)</m> by <m>T_1(x)</m>?
         </p>
+        <figure xml:id="F-8a-2-PA">
+          <caption>The function <m>f(x)=\sin(x)</m> and its tangent line approximation  <m>T_1(x) = x</m> near the point <m>(0,f(0))</m>.</caption>
+          <image width="50%" source="images/8a_2_PA" />
+        </figure>
       </statement>
       <hint/>
       <answer/>
