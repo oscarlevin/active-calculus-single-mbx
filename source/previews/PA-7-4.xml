@@ -13,7 +13,7 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <worksheet component="static" label="ws-PA-7-4">
-  <page>
+   
     <exploration xml:id="PA-7-4">
       <introduction>
         <p>
@@ -94,5 +94,5 @@
         <solution/>
       </task>
     </exploration>
-  </page>
+   
 </worksheet>

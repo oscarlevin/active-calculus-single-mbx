@@ -44,11 +44,6 @@
   <xsl:value-of select="$latex.preamble.late.common" />
 </xsl:param>
 
-
-<!-- Set font size  -->
-<xsl:param name="latex.font.size" select="'10pt'" />
-<xsl:param name="latex.pageref" select="'no'" />
-
 <!-- Font configuration should be consistent -->
 <xsl:param name="latex.preamble.early">
        <xsl:text>%% Customized to load Palatino fonts&#xa;</xsl:text>

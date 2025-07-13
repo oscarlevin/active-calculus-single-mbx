@@ -13,7 +13,7 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <worksheet label="ws-act-6-4-1">
-  <page>
+   
     <activity xml:id="act-6-4-1" workspace="7cm">
       <introduction>
         <p>
@@ -198,5 +198,5 @@
         </solution>
       </task>
     </activity>
-  </page>
+   
 </worksheet>
