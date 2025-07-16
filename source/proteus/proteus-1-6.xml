@@ -18,7 +18,7 @@
     <p>
     As noted in the introduction to <xref ref="sec-1-6-second-d" text="type-global"/>, we are interested in learning more about how the the second derivative of a function and the behavior of the graph of the function are related.
     </p>
-  <exercise>
+  <exercise component="proteus" label="proteus-desmos-concavity"  xml:id="proteus-desmos-concavity">
     <statement>
       <p>
         In the <em>Desmos</em> window below, you will find a graph of a function that you can experiment with by clicking on the point <m>P</m> on the graph, and moving it along the graph of <m>f</m>.  You will also see a green point representing the value of the second derivative of graph of <m>f</m> corresponding to the point <m>P</m>.  As you move the point <m>P</m>, note that the tangent line to the graph moves along with the point.  Then, do the following: 
@@ -76,7 +76,7 @@
     </matches>
   </exercise>
   <exercise>
-    <statement>
+    <statement component="proteus" label="proteus-concavity-summary"  xml:id="proteus-concavity-summary">
       <p>
         Finally, write a summary of your findings that will help you to understand how the sign of the second derivative relates to the shape of the graph.
       </p>
