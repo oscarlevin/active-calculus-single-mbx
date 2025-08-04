@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,162 +12,155 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<worksheet label="ws-act-3-1-1">
-   
-    <activity xml:id="act-3-1-1" workspace="3cm">
-      <introduction>
-        <p>
-      Suppose that <m>g(x)</m> is a function continuous for every value of <m>x \ne 2</m> whose first derivative is <m>g'(x) = \frac{(x+4)(x-1)^2}{x-2}</m>.
-      Further, assume that it is known that <m>g</m> has a vertical asymptote at <m>x = 2</m>.
 
+<worksheet xml:id="ws-act-3-1-1">
+  
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-1-1">
+  <introduction>
+    <p>
+      Suppose that <m>g(x)</m> is a function whose first derivative is 
+      <me>
+        g'(x) = \frac{(x+4)(x-2)}{x^2+1}
+      </me>.
+    </p>  
+  </introduction> 
+  <task workspace="3cm" xml:id="act-3-1-1-task-0">
+    <statement>
+      <p>
+        Determine, with justification, all critical numbers of <m>g</m>.
       </p>
-      </introduction>
-      <task workspace="4cm" xml:id="act-3-1-1-task-0">
-        <statement>
+    </statement>
+    <hint>
           <p>
-            Determine all critical numbers of <m>g</m>.
+            Where is <m>g'(x) = 0</m>?  Is there anywhere that <m>g'(x)</m> is undefined?
           </p>
-        </statement>
-        <hint>
-          <p>
-            For which <m>x</m> is <m>g'(x) = 0</m>?
-          </p>
-        </hint>
-        <answer>
-          <p><m>x = -4</m> or <m>x = 1</m>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            Since <m>g'(x) = \frac{(x+4)(x-1)^2}{x-2}</m>,
-            we see that <m>g'(x) = 0</m> implies that <m>x = -4</m> or <m>x = 1</m>.
-            While <m>x = 2</m> makes <m>g'</m> undefined,
-            we are told that <m>g</m> has a vertical asymptote at <m>x = 2</m>,
-            so <m>x = 2</m> is not in the domain of <m>g</m>,
-            and hence is technically not a critical number of <m>g</m>.
-            Nonetheless,
-            we place <m>x = 2</m> on our first derivative sign chart since the vertical asymptote is a location at which <m>g'</m> may change sign.
-          </p>
-        </solution>
-      </task>
-      <task workspace="9cm" xml:id="act-3-1-1-task-1">
-        <statement>
-          <p>
-            By developing a carefully labeled first derivative sign chart,
-            decide whether <m>g</m> has as a local maximum,
-            local minimum,
-            or neither at each critical number.
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Note that <m>(x-1)^2</m> is positive for all <m>x \ne 1</m>.
-          </p>
-        </hint>
-        <answer>
-          <p><m>g</m> has a local maximum at <m>x = -4</m> and neither a max nor min at <m>x = 1</m>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            The first derivative sign chart shows that <m>g'(x) \gt 0</m> for <m>x \lt -4</m>,
-            <m>g'(x) \lt 0</m> for <m>-4 \lt x \lt 1</m>,
-            <m>g'(x) \lt 0</m> for <m>1 \lt x \lt 2</m>,
-            and <m>g'(x) \gt 0</m> for <m>x \gt 2</m>.
-            By the first derivative test,
-            <m>g</m> has a local maximum at <m>x = -4</m> and neither a max nor min at <m>x = 1</m>.
-            As these are the only two critical numbers,
-            these are the only two locations for possible extremes.
-            (Note:
-            although <m>g</m> changes from decreasing to increasing at <m>x = 2</m>,
-            this is due to a vertical asymptote,
-            and <m>g</m> does not have a minimum there.)
-          </p>
-        </solution>
-      </task>
-      <task workspace="5cm" xml:id="act-3-1-1-task-2">
-        <statement>
-          <p>
-            Does <m>g</m> have a global maximum? global minimum?
-            Justify your claims.
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Use your first derivative sign chart from (b).
-          </p>
-        </hint>
-        <answer>
-          <p><m>g</m> does not have a global minimum;
-            it is unclear
-            (at this point in our work)
-            if <m>g</m> increases without bound,
-            so we can't say for certain whether or not <m>g</m> has a global maximum.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            Because <m>g</m> is decreasing as <m>x \to 2^-</m>
-            (where <m>g</m> has a vertical asymptote),
-            <m>g</m> does not have a global minimum.
-            For <m>x \gt 2</m>, <m>g</m> is always increasing,
-            which suggests that <m>g</m> does not have a global maximum
-            (though we do not know for sure that <m>g</m> increases without bound).
-          </p>
-        </solution>
-      </task>
-      <task workspace="6cm" xml:id="act-3-1-1-task-3">
-        <statement>
-          <p>
-            What is the value of <m>\displaystyle \lim_{x \to \infty} g'(x)</m>?
-            What does the value of this limit tell you about the long-term behavior of <m>g</m>?
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Try expanding the numerator before evaluating the limit.
-          </p>
-        </hint>
-        <answer>
-          <p><m> \lim_{x \to \infty} g'(x) = \infty</m>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            We observe that
-            <md><mrow>\lim_{x \to \infty} g'(x) =\mathstrut \amp  \lim_{x \to \infty} \frac{(x+4)(x-1)^2}{x-2}</mrow><mrow>=\mathstrut \amp  \lim_{x \to \infty} \frac{x^3 + 2x^2 - 7x + 4}{x-2} \cdot \frac{\frac{1}{x}}{\frac{1}{x}}</mrow><mrow>=\mathstrut \amp  \lim_{x \to \infty} \frac{x^2 + 2x - 7 + \frac{4}{x}}{1 - \frac{2}{x}}</mrow><mrow>=\mathstrut \amp  \infty</mrow></md>
-            Since <m>g'(x) \to \infty</m> as <m>x \to \infty</m>,
-            this tells us that <m>g</m> increases without bound as <m>x \to \infty</m>.
-          </p>
-        </solution>
-      </task>
-      <task workspace="8cm" xml:id="act-3-1-1-task-4">
-        <statement>
-          <p>
-            Sketch a possible graph of <m>y = g(x)</m>.
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Think carefully about the information from the sign chart found in (b).
-          </p>
-        </hint>
-        <answer>
-          <p>
-            A possible graph of <m>g</m> is the following.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            From all of our work above,
-            we know that <m>g</m> has a local maximum at <m>x = -4</m>,
-            a horizontal tangent line with neither a max nor min at <m>x = 1</m>,
-            and a vertical asymptote at <m>x = 2</m>,
-            plus <m>g</m> and <m>g'</m> both increase without bound as <m>x \to \infty</m>.
-            Thus, a possible graph of <m>g</m> is the following.
-          </p>
-        </solution>
-      </task>
-    </activity>
-   
+    </hint>
+    <answer>
+      <p>
+        <m>x = -4</m> and <m>x = 2</m> are the only two critical numbers of <m>g</m>.
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Using the given fact that <m>g'(x) = \frac{(x+4)(x-2)}{x^2+1}</m>, we observe that since <m>x^2 + 1</m> is never 0, <m>g'(x)</m> is never undefined.  Moreover, <m>g'(x) = 0</m> implies that <m>(x+4)(x-2) = 0</m>, which only happens when <m>x = -4</m> or <m>x = 2</m>, so these are the two critical numbers of <m>g</m>.
+      </p>
+    </solution>
+  </task>
+  <task workspace="5cm" xml:id="act-3-1-1-task-1">
+    <statement>
+      <p>
+        By developing a carefully labeled first derivative sign chart,
+        decide whether <m>g</m> has as a local maximum,
+        local minimum,
+        or neither at each critical number.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Choose values of <m>x</m> that lie just before and/or just after each of the critical numbers, and find the sign of <m>g'(x)</m> at each of them.
+      </p>
+    </hint>
+    <answer>
+      <p>
+        For <m>x \lt -4</m>, <m>g'(x) \gt 0</m>;  for <m>-4 \lt x \lt 2</m>, <m>g'(x) \lt 0</m>; and for <m>x \gt 2</m>, <m>g'(x) \gt 0</m>.
+      </p>
+    </answer>
+    <solution>
+      <p>
+        We can observe that for <m>x \lt -4</m>, <m>g'(x) \gt 0</m>;  for <m>-4 \lt x \lt 2</m>, <m>g'(x) \lt 0</m>; and for <m>x \gt 2</m>, <m>g'(x) \gt 0</m>.
+      </p>
+    </solution>
+  </task>
+  <task workspace="3cm" xml:id="act-3-1-1-task-2">
+    <statement>
+      <p>
+        Does <m>g</m> have a global maximum? global minimum?
+        Justify your claims.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Are there <m>x</m>-values where <m>g'(x)</m> changes from negative to positive?  positive to negative?
+      </p>
+    </hint>
+    <answer>
+      <p>
+        <m>g</m> has a local maximum at <m>x = -4</m>; <m>g</m> has a local minimum at <m>x = 2</m>.
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Using the First Derivative Test and the signs of <m>g'(x)</m> we found in (b), it follows <m>g</m> has a local maximum at <m>x = -4</m>, since at that value <m>g'(x)</m> changes from positive to negative; similarly, <m>g</m> has a local minimum at <m>x = 2</m> since there the derivative changes from negative to positive.
+      </p>
+    </solution>
+  </task>    
+  <task workspace="5cm" xml:id="act-3-1-1-task-3">
+    <statement>
+      <p>
+        Sketch a possible graph of <m>y = g(x)</m>.  Clearly label any local or global extrema on the graph.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Think about where <m>g</m> is increasing and decreasing, as well as where <m>g</m> has relative extremes.
+      </p>
+    </hint>
+    <answer>
+            <figure xml:id="F-act-3-1-1-ans">
+              <caption>A plot of a possible function <m>y = g(x)</m> whose derivative is the given formula for <m>g'(x)</m>.</caption>
+            <image width="60%">
+              <prefigure label="Fig-act-3-1-1-ans" xmlns="https://prefigure.org">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>f(x) = log(x^2+1) + x - 9*atan(x) - 2</definition>
+                  <definition>a = -4</definition>
+                  <definition>b = 2</definition>  
+                  <coordinates bbox="(-15,-15,15,15)">
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <graph function="f"/>
+                    <point p="(a,f(a))" alignment="nw" clear-background="yes">
+                      <m>(-4,g(-4))</m>
+                    </point>
+                    <point p="(b,f(b))" alignment="se" clear-background="yes">
+                      <m>(2,g(2))</m>
+                    </point>    
+                  </coordinates>
+                </diagram>
+              </prefigure>
+            </image>  
+            </figure>
+    </answer>
+    <solution>
+      <p>
+        By thinking about where <m>g</m> is increasing and decreasing, as well as where <m>g</m> has local extremes, we can sketch the following possible graph of <m>g</m>.
+      </p>  
+        <figure xml:id="F-act-3-1-1-soln">
+          <caption>A plot of a possible function <m>y = g(x)</m> whose derivative is the given formula for <m>g'(x)</m>.</caption>
+            <image width="60%">
+              <prefigure label="Fig-act-3-1-1-soln" xmlns="https://prefigure.org">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>f(x) = log(x^2+1) + x - 9*atan(x) - 2</definition>
+                  <definition>a = -4</definition>
+                  <definition>b = 2</definition>  
+                  <coordinates bbox="(-15,-15,15,15)">
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <graph function="f"/>
+                    <point p="(a,f(a))" alignment="nw" clear-background="yes">
+                      <m>(-4,g(-4))</m>
+                    </point>
+                    <point p="(b,f(b))" alignment="se" clear-background="yes">
+                      <m>(2,g(2))</m>
+                    </point>    
+                  </coordinates>
+                </diagram>
+              </prefigure>
+            </image>  
+        </figure>
+        <p>
+          Note that any vertical shift of <m>g</m> will have the same shape and same derivative, so multiple graphs are possible.  In addition, we can observe that as <m>x \to \pm \infty</m>, <m>g'(x) \to 1</m>, and this explains why our graph looks linear in its end behavior in each direction.
+        </p>
+    </solution>
+  </task>
+
+</activity>
+
 </worksheet>

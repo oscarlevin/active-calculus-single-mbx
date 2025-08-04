@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2018                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+ 
 <!-- Conveniences for classes of similar elements -->
 <!DOCTYPE xsl:stylesheet [
     <!ENTITY % entities SYSTEM "entities.ent">
@@ -37,7 +38,8 @@
     <xsl:text>boxrule=0pt,borderline west={3pt}{0pt}{ActiveBlue}, &#xa;</xsl:text>
     <xsl:text>runintitlestyle, blockspacingstyle, after title={.\space}, &#xa;</xsl:text>
     <xsl:text>colback=white,&#xa;</xsl:text>
-    <xsl:text>coltitle=black,after={\cleardoublepage}</xsl:text>
+    <!-- <xsl:text>coltitle=black,after={\cleardoublepage}</xsl:text> the line below puts linebreaks between paragraphs -->
+    <xsl:text>coltitle=black,before upper app={\setparstyle},after={\cleardoublepage}</xsl:text>
 </xsl:template>
 
 <xsl:param name="latex.preamble.late">

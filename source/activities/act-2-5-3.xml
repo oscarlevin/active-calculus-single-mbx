@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,16 +12,17 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet label="ws-act-2-5-3">
    
     <activity xml:id="act-2-5-3" workspace="7cm">
       <introduction>
         <p>
-      Use known derivative rules, including the chain rule,
-      as needed to answer each of the following questions.
-
-      </p>
+          Use known derivative rules, including the chain rule,
+          as needed to respond to each of the following prompts.
+        </p>
       </introduction>
+
       <task workspace="8cm" xml:id="act-2-5-3-task-0">
         <statement>
           <p>
@@ -52,6 +53,7 @@
           </p>
         </solution>
       </task>
+
       <task workspace="10cm" xml:id="act-2-5-3-task-1">
         <statement>
           <p>
@@ -80,6 +82,7 @@
           </p>
         </solution>
       </task>
+
       <task workspace="9cm" xml:id="act-2-5-3-task-2">
         <statement>
           <p>
@@ -112,11 +115,35 @@
           </p>
         </solution>
       </task>
-      <task workspace="9cm" xml:id="act-2-5-3-task-3">
+
+      <task workspace="6cm" xml:id="act-2-5-3-task-3">
         <statement>
           <p>
             Suppose that <m>f(x)</m> and <m>g(x)</m> are differentiable functions and that the following information about them is known:
           </p>
+          <tabular>
+            <row top="minor" bottom="minor">
+              <cell halign="center"><m>x</m></cell>
+              <cell halign="center"><m>f(x)</m></cell>
+              <cell halign="center"><m>f'(x)</m></cell>
+              <cell halign="center"><m>g(x)</m></cell>
+              <cell halign="center"><m>g'(x)</m></cell>
+            </row>
+            <row top="minor" bottom="minor">
+              <cell halign="center"><m>-1</m></cell>
+              <cell halign="center"><m>2</m></cell>
+              <cell halign="center"><m>-5</m></cell>
+              <cell halign="center"><m>-3</m></cell>
+              <cell halign="center"><m>4</m></cell>
+            </row>  
+            <row top="minor" bottom="minor">
+              <cell halign="center"><m>2</m></cell>
+              <cell halign="center"><m>-3</m></cell>
+              <cell halign="center"><m>4</m></cell>
+              <cell halign="center"><m>-1</m></cell>
+              <cell halign="center"><m>2</m></cell>
+            </row>                       
+          </tabular>
           <p>
             If <m>C(x)</m> is a function given by the formula <m>f(g(x))</m>,
             determine <m>C'(2)</m>.
