@@ -270,7 +270,7 @@
 -->
 
     <p>  
-      In <xref ref="act-1-5a-2">Activity</xref>, we used this data to compute approximations to <m>F'(20)</m> and <m>F'(40)</m> using central differences.  Those values are provided in <xref ref="table-2-act-1-6-2">Table</xref>, along with several others computed in the same way.
+      In <xref ref="act-1-5-2">Activity</xref>, we used this data to compute approximations to <m>F'(20)</m> and <m>F'(40)</m> using central differences.  Those values are provided in <xref ref="table-2-act-1-6-2">Table</xref>, along with several others computed in the same way.
     </p>
 
     </introduction>
