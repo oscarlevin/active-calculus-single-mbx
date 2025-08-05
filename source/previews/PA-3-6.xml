@@ -13,9 +13,9 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<worksheet component="static" label="ws-PA-3-4">
+<worksheet component="static" label="ws-PA-3-6">
    
-    <exploration xml:id="PA-3-4">
+    <exploration xml:id="PA-3-6">
       <introduction>
         <p>
           According to U.S.<nbsp/>postal regulations,
@@ -26,7 +26,7 @@
         </p>
         <image width="40%" source="images/3_4_PA1" />
       </introduction>
-      <task workspace="0.05cm" xml:id="PA-3-4-task-0">
+      <task workspace="0.05cm" xml:id="PA-3-6-task-0">
         <statement>
           <p>
           Let <m>x</m> represent the length of one side of the square end and <m>y</m> the length of the longer side.
@@ -38,7 +38,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="2.5cm" xml:id="PA-3-4-task-1">
+      <task workspace="2.5cm" xml:id="PA-3-6-task-1">
         <statement>
           <p>
           What is the quantity to be optimized in this situation?
@@ -49,7 +49,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="2cm" xml:id="PA-3-4-task-2">
+      <task workspace="2cm" xml:id="PA-3-6-task-2">
         <statement>
           <p>
           The problem statement tells us that the parcel's girth plus length may not exceed 108 inches.
@@ -62,7 +62,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="4cm" xml:id="PA-3-4-task-3">
+      <task workspace="4cm" xml:id="PA-3-6-task-3">
         <statement>
           <p>
           Solve the equation you found in (c) for one of <m>x</m> or <m>y</m>
@@ -73,7 +73,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="3cm" xml:id="PA-3-4-task-4">
+      <task workspace="3cm" xml:id="PA-3-6-task-4">
         <statement>
           <p>
           Now use your work in (b) and (d) to determine a formula for the volume of the parcel so that this formula is a function of a single variable.
@@ -83,7 +83,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="3cm" xml:id="PA-3-4-task-5">
+      <task workspace="3cm" xml:id="PA-3-6-task-5">
         <statement>
           <p>
           Over what domain should we consider this function?
@@ -95,7 +95,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="8cm" xml:id="PA-3-4-task-6">
+      <task workspace="8cm" xml:id="PA-3-6-task-6">
         <statement>
           <p>
           Find the absolute maximum of the volume of the parcel on the domain you established in (f) and hence also determine the dimensions of the box of greatest volume.

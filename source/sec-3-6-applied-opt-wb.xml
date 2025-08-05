@@ -13,11 +13,11 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
  
-<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-4-applied-opt">
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-6-applied-opt">
   <title>Applied optimization</title>
-    <xi:include href="./previews/PA-3-4.xml"/>
-    <xi:include href="./activities/act-3-4-1.xml"/>
-    <xi:include href="./activities/act-3-4-2.xml"/>
-    <xi:include href="./activities/act-3-4-4.xml"/>    
-    <xi:include href="./activities/act-3-4-3.xml"/>
+    <xi:include href="./previews/PA-3-6.xml"/>
+    <xi:include href="./activities/act-3-6-1.xml"/>
+    <xi:include href="./activities/act-3-6-2.xml"/>
+    <xi:include href="./activities/act-3-6-4.xml"/>    
+    <xi:include href="./activities/act-3-6-3.xml"/>
 </section>

@@ -13,7 +13,7 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-4-applied-opt">
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-6-applied-opt">
   <title>Applied optimization</title>
   <objectives>
     <ul>
@@ -56,8 +56,8 @@
       with the problems progressing to require greater independence as we move along.
     </p>
 
-    <xi:include href="./previews/PA-3-4-WW.xml" />
-    <xi:include href="./previews/PA-3-4.xml" />
+    <xi:include href="./previews/PA-3-6-WW.xml" />
+    <xi:include href="./previews/PA-3-6.xml" />
   </subsection>
 
   <xi:include href="./proteus/proteus-3-4.xml" />
@@ -65,7 +65,7 @@
   <subsection permid="FNq">
     <title>More applied optimization problems</title>
     <p>
-      Many of the steps in <xref ref="PA-3-4">Preview Activity</xref>
+      Many of the steps in <xref ref="PA-3-6">Preview Activity</xref>
       are ones that we will execute in any applied optimization problem.
       We briefly summarize those here to provide an overview of our approach in subsequent questions.
     </p>
@@ -97,7 +97,7 @@
             <p>
               Determine a function of a single variable that models the quantity to be optimized;
               this may involve using other relationships among variables to eliminate one or more variables in the function formula.
-              For example, in <xref ref="PA-3-4">Preview Activity</xref>,
+              For example, in <xref ref="PA-3-6">Preview Activity</xref>,
               we initially found that <m>V = x^2 y</m>,
               but then the additional relationship that <m>4x + y = 108</m>
               (girth plus length equals 108 inches)
@@ -141,10 +141,10 @@
       </p>
     </note>
 
-    <xi:include href="./activities/act-3-4-1.xml"/>
+    <xi:include href="./activities/act-3-6-1.xml"/>
 
     <p>
-      Familiarity with common geometric formulas is particularly helpful in problems such as the one in <xref ref="act-3-4-1">Activity</xref>.
+      Familiarity with common geometric formulas is particularly helpful in problems such as the one in <xref ref="act-3-6-1">Activity</xref>.
       Sometimes those involve perimeter,
       area, volume, or surface area.
       At other times,
@@ -153,7 +153,7 @@
       or other functions whose formulas provide relationships among the variables.
     </p>
 
-    <xi:include href="./activities/act-3-4-2.xml"/>
+    <xi:include href="./activities/act-3-6-2.xml"/>
 
     <p>
       In more geometric problems,
@@ -169,9 +169,9 @@
       The final activity in the section is similar to the latter situation.
     </p>
 
-    <xi:include href="./activities/act-3-4-4.xml"/>
+    <xi:include href="./activities/act-3-6-4.xml"/>
 
-    <xi:include href="./activities/act-3-4-3.xml"/>
+    <xi:include href="./activities/act-3-6-3.xml"/>
 
 
   </subsection>

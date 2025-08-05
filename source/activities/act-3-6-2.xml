@@ -12,9 +12,9 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<worksheet label="ws-act-3-4-2">
+<worksheet label="ws-act-3-6-2">
    
-    <activity xml:id="act-3-4-2" workspace="3cm">
+    <activity xml:id="act-3-6-2" workspace="3cm">
       <statement>
         <p>
       A hiker starting at a point <m>P</m> on a straight road walks east towards point <m>Q</m>,
