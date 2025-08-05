@@ -12,9 +12,9 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<worksheet component="static" label="ws-PA-3-5b">
+<worksheet component="static" label="ws-PA-3-1">
    
-    <exploration xml:id="PA-3-5b">
+    <exploration xml:id="PA-3-1">
       <introduction>
         <p>
     A spherical balloon is being inflated at a constant rate of 20 cubic inches per second.
@@ -24,7 +24,7 @@
 
     </p>
       </introduction>
-      <task workspace="5cm" xml:id="PA-3-5b-task-0">
+      <task workspace="5cm" xml:id="PA-3-1-task-0">
         <statement>
           <p>
           Draw at least three different spheres with different radii. 
@@ -35,7 +35,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="7cm" xml:id="PA-3-5b-task-1">
+      <task workspace="7cm" xml:id="PA-3-1-task-1">
         <statement>
           <p>
           Recall that the volume of a sphere of radius <m>r</m> is <m>V = \frac{4}{3} \pi r^3</m>.
@@ -55,7 +55,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="4cm" xml:id="PA-3-5b-task-2">
+      <task workspace="4cm" xml:id="PA-3-1-task-2">
         <statement>
           <p>
           At this point in our work,
@@ -73,7 +73,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="5cm" xml:id="PA-3-5b-task-3">
+      <task workspace="5cm" xml:id="PA-3-1-task-3">
         <statement>
           <p>
           From part (c), we know the value of
@@ -91,7 +91,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="5cm" xml:id="PA-3-5b-task-4">
+      <task workspace="5cm" xml:id="PA-3-1-task-4">
         <statement>
           <p>
           How is the situation different when <m>d = 16</m>?

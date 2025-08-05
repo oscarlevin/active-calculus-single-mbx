@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,11 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-5b-rel-rates">
-  <title>Related rates</title>
-    <xi:include href="./previews/PA-3-5b.xml"/>
-    <xi:include href="./activities/act-3-5b-1.xml"/>
-    <xi:include href="./activities/act-3-5b-2.xml"/>
-    <xi:include href="./activities/act-3-5b-3.xml"/>
-    <xi:include href="./activities/act-3-5b-4.xml"/>
-</section>
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-3-1" permid="wJM" label="ACS__Preview__3-5" component="runestone">
+  <webwork source="Library/Westmont/ActiveCalculus/Preview_3_5/preview_3_5_bcde.pg" />
+</exploration>
+

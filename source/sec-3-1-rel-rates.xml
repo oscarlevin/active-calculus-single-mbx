@@ -13,7 +13,7 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-5b-rel-rates">
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-1-rel-rates">
   <title>Related rates</title>
   <objectives>
     <ul>
@@ -52,8 +52,8 @@
       can we determine how fast the radius of the balloon is increasing at the moment the balloon's diameter is 12 inches?
     </p>
 
-    <xi:include href="./previews/PA-3-5b-WW.xml" />
-    <xi:include href="./previews/PA-3-5b.xml" />
+    <xi:include href="./previews/PA-3-1-WW.xml" />
+    <xi:include href="./previews/PA-3-1.xml" />
   </subsection>
 
   <xi:include href="./proteus/proteus-3-5.xml" />
@@ -233,7 +233,7 @@
     </p>
 
     <p>
-      Our work with the sandpile problem above is similar in many ways to our approach in <xref ref="PA-3-5b">Preview Activity</xref>,
+      Our work with the sandpile problem above is similar in many ways to our approach in <xref ref="PA-3-1">Preview Activity</xref>,
       and these steps are typical of most related rates problems.
       In certain ways,
       they also resemble work we do in applied optimization problems,
@@ -307,7 +307,7 @@
         <li>
           <p>
             how the <url href="https://gvsu.edu/s/9p" visual="gvsu.edu/s/9p">water level changes</url> in a conical tank as it fills with water at a constant rate
-            (compare the setting in <xref ref="act-3-5b-1">Activity</xref>);
+            (compare the setting in <xref ref="act-3-1-1">Activity</xref>);
           </p>
         </li>
 
@@ -323,13 +323,13 @@
       Drawing well-labeled diagrams (usually several of them) and envisioning how different parts of the figure change is a key part of understanding related rates problems and being successful at solving them.
     </p>
 
-    <xi:include href="./activities/act-3-5b-1.xml"/>
+    <xi:include href="./activities/act-3-1-1.xml"/>
 
     <p>
       Recognizing which geometric relationships are relevant in a given problem 
       often simplifies the process of differentiation when we relate the rates.
       For instance,
-      although the problem in <xref ref="act-3-5b-1">Activity</xref>
+      although the problem in <xref ref="act-3-1-1">Activity</xref>
       is about a conical tank,
       the most important fact is that there are two similar right triangles involved.
       In another setting,
@@ -340,7 +340,7 @@
       trigonometric functions may provide the means to find relationships among various parts of the triangle.
     </p>
 
-    <xi:include href="./activities/act-3-5b-2.xml"/>
+    <xi:include href="./activities/act-3-1-2.xml"/>
 
     <p>
       In addition to finding instantaneous rates of change at specific instants,
@@ -356,7 +356,7 @@
       We make this observation by solving the equation that relates the various rates for one particular rate,
       without substituting any particular values for known variables or rates.
       For instance,
-      in the conical tank problem in <xref ref="act-3-5b-1">Activity</xref>,
+      in the conical tank problem in <xref ref="act-3-1-1">Activity</xref>,
       we established that
       <me>
         \frac{dV}{dt} = \frac{1}{16} \pi h^2 \frac{dh}{dt}
@@ -375,7 +375,7 @@
       Hence, the depth of the water is increasing at a decreasing rate.
     </p>
 
-    <xi:include href="./activities/act-3-5b-3.xml"/>
+    <xi:include href="./activities/act-3-1-3.xml"/>
 
     <p>
       In the first three activities of this section,
@@ -384,7 +384,7 @@
       most of the detailed work is left to the reader.
     </p>
 
-    <xi:include href="./activities/act-3-5b-4.xml"/>
+    <xi:include href="./activities/act-3-1-4.xml"/>
   </subsection>
 
   <subsection>

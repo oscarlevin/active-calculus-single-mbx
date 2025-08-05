@@ -13,9 +13,9 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<worksheet label="ws-act-3-5b-1">
+<worksheet label="ws-act-3-1-1">
    
-    <activity xml:id="act-3-5b-1" workspace="3cm">
+    <activity xml:id="act-3-1-1" workspace="3cm">
       <introduction>
         <p>
           A water tank has the shape of an inverted circular cone
@@ -24,7 +24,7 @@
           Suppose that water is being pumped into the tank at a constant instantaneous rate of 4 cubic feet per minute.
         </p>
       </introduction>
-      <task workspace="8cm" xml:id="act-3-5b-1-task-0">
+      <task workspace="8cm" xml:id="act-3-1-1-task-0">
         <statement>
           <p>
             Draw 2-3 pictures of the conical tank that show sketches of the water level at different points in time when the tank is not yet full.
@@ -40,7 +40,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="4cm" xml:id="act-3-5b-1-task-1">
+      <task workspace="4cm" xml:id="act-3-1-1-task-1">
         <statement>
           <p>
             Say that <m>r</m> is the radius and <m>h</m> the depth of the water at a given time,
@@ -67,7 +67,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="4cm" xml:id="act-3-5b-1-task-2">
+      <task workspace="4cm" xml:id="act-3-1-1-task-2">
         <statement>
           <p>
             Determine an equation that relates the volume of water in the tank at time <m>t</m> to the depth <m>h</m> of the water at that time.
@@ -94,7 +94,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="6cm" xml:id="act-3-5b-1-task-3">
+      <task workspace="6cm" xml:id="act-3-1-1-task-3">
         <statement>
           <p>
             Through differentiation,
@@ -120,7 +120,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="5cm" xml:id="act-3-5b-1-task-4">
+      <task workspace="5cm" xml:id="act-3-1-1-task-4">
         <statement>
           <p>
             Find the instantaneous rate at which the water level is rising when the water in the tank is 3 feet deep.
@@ -149,7 +149,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="5cm" xml:id="act-3-5b-1-task-5">
+      <task workspace="5cm" xml:id="act-3-1-1-task-5">
         <statement>
           <p>
             When is the water rising most rapidly:
