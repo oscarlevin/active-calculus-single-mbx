@@ -41,7 +41,7 @@
   <!--   <title>Finding coefficients in a Taylor series expansion of a function involving <m>\arctan(x)</m></title> -->
     <introduction>
       <p>
-        You can interpret <q>power series</q> in the following problem statement as <q>Taylor series</q>.  You might also want to recall the result of <xref ref="act-8a-5-2">Activity</xref> where we found the series expansion for <m>\arctan(x)</m>.
+        You can interpret <q>power series</q> in the following problem statement as <q>Taylor series</q>.  You might also want to recall the result of <xref ref="act-8-5-2">Activity</xref> where we found the series expansion for <m>\arctan(x)</m>.
       </p>
     </introduction>    
     <webwork source="Library/Rochester/setSeries8Power/eva8_6e.pg"/>

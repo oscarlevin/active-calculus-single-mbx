@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,13 +12,14 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-8" component="ed1">
-  <title>Sequences and Series</title>
-  <xi:include  href="sec-8-1-sequences.xml" />
-  <xi:include  href="sec-8-2-geometric.xml" />
-  <xi:include  href="sec-8-3-series.xml" />
-  <xi:include  href="sec-8-4-alternating.xml" />
-  <xi:include  href="sec-8-5-taylor.xml" />
-  <xi:include  href="sec-8-6-power-series.xml" />
+ 
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-8" component="ed2">
+  <title>Taylor Polynomials and Taylor Series</title>
+  <xi:include  href="sec-8-1-linear-poly.xml" />
+  <xi:include  href="sec-8-2-taylor-poly.xml" />  
+  <xi:include  href="sec-8-3-geometric.xml" />  
+  <xi:include  href="sec-8-4-taylor-series.xml" />  
+  <xi:include  href="sec-8-5-finding-using-taylor-series.xml" />   
+  <xi:include  href="sec-8-6-accuracy-of-approx.xml" />        
+<!--  <xi:include  href="sec-8-6-series-and-DEs.xml" /> -->  
 </chapter>
-
