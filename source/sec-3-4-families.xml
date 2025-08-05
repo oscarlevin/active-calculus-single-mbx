@@ -13,7 +13,7 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-2-families">
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-4-families">
   <title>Using derivatives to describe families of functions</title>
   <objectives>
     <ul>
@@ -86,8 +86,8 @@
       we revisit a common collection of functions to see how calculus confirms things we already know.
     </p>
 
-    <xi:include href="./previews/PA-3-2-WW.xml" />
-    <xi:include href="./previews/PA-3-2.xml" />
+    <xi:include href="./previews/PA-3-4-WW.xml" />
+    <xi:include href="./previews/PA-3-4.xml" />
   </subsection>
 
   <xi:include href="./proteus/proteus-3-2.xml" />
@@ -255,11 +255,11 @@
       The following activities offer several key examples where we see that the values of the parameters substantially affect the behavior of individual functions within a given family.
     </p>
 
-    <xi:include href="./activities/act-3-2-1.xml"/>
+    <xi:include href="./activities/act-3-4-1.xml"/>
 
-    <xi:include href="./activities/act-3-2-2.xml"/>
+    <xi:include href="./activities/act-3-4-2.xml"/>
 
-    <xi:include href="./activities/act-3-2-3.xml"/>
+    <xi:include href="./activities/act-3-4-3.xml"/>
   </subsection>
 
   <subsection>

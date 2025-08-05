@@ -13,9 +13,9 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<worksheet label="ws-act-3-2-3">
+<worksheet label="ws-act-3-4-3">
    
-    <activity xml:id="act-3-2-3" workspace="3cm">
+    <activity xml:id="act-3-4-3" workspace="3cm">
       <introduction>
         <p>
       Let <m>L(t) = \frac{A}{1+ce^{-kt}}</m>, where <m>A</m>,
@@ -23,7 +23,7 @@
 
       </p>
       </introduction>
-      <task workspace="5cm" xml:id="act-3-2-3-task-0">
+      <task workspace="5cm" xml:id="act-3-4-3-task-0">
         <statement>
           <p>
             Observe that we can equivalently write <m>L(t) = A(1+ce^{-kt})^{-1}</m>.
@@ -58,7 +58,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="5cm" xml:id="act-3-2-3-task-1">
+      <task workspace="5cm" xml:id="act-3-4-3-task-1">
         <statement>
           <p>
             It turns out that
@@ -107,7 +107,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="6cm" xml:id="act-3-2-3-task-2">
+      <task workspace="6cm" xml:id="act-3-4-3-task-2">
         <statement>
           <p>
             What is the value of
@@ -149,7 +149,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="3cm" xml:id="act-3-2-3-task-3">
+      <task workspace="3cm" xml:id="act-3-4-3-task-3">
         <statement>
           <p>
             Find the value of <m>L(x)</m> at the inflection point found in (b).
@@ -178,7 +178,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="8cm" xml:id="act-3-2-3-task-4">
+      <task workspace="8cm" xml:id="act-3-4-3-task-4">
         <statement>
           <p>
             Without using a graphing utility,

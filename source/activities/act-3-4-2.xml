@@ -13,16 +13,16 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<worksheet label="ws-act-3-2-2">
+<worksheet label="ws-act-3-4-2">
    
-    <activity xml:id="act-3-2-2" workspace="3cm">
+    <activity xml:id="act-3-4-2" workspace="3cm">
       <introduction>
         <p>
           Consider the two-parameter family of functions of the form <m>h(x) = a(1-e^{-bx})</m>,
           where <m>a</m> and <m>b</m> are positive real numbers.
         </p>
       </introduction>
-      <task workspace="6cm" xml:id="act-3-2-2-task-0">
+      <task workspace="6cm" xml:id="act-3-4-2-task-0">
         <statement>
           <p>
             Find the first derivative and the critical numbers of <m>h</m>.
@@ -53,7 +53,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="6cm" xml:id="act-3-2-2-task-1">
+      <task workspace="6cm" xml:id="act-3-4-2-task-1">
         <statement>
           <p>
             Find the second derivative and build a second derivative sign chart.
@@ -81,7 +81,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="5cm" xml:id="act-3-2-2-task-2">
+      <task workspace="5cm" xml:id="act-3-4-2-task-2">
         <statement>
           <p>
             What is the value of
@@ -117,7 +117,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="4cm" xml:id="act-3-2-2-task-3">
+      <task workspace="4cm" xml:id="act-3-4-2-task-3">
         <statement>
           <p>
             How does changing the value of <m>b</m> affect the shape of the curve?
@@ -154,7 +154,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="8cm" xml:id="act-3-2-2-task-4">
+      <task workspace="8cm" xml:id="act-3-4-2-task-4">
         <statement>
           <p>
             Without using a graphing utility,
