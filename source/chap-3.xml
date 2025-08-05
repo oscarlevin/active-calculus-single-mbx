@@ -15,7 +15,7 @@
 
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-3" permid="hcC">
   <title>Using Derivatives</title>
-  <xi:include  href="./sec-3-5-rel-rates.xml" />
+  <xi:include  href="./sec-3-5b-rel-rates.xml" />
   <xi:include  href="./sec-3-2-LHR.xml" />
   <xi:include  href="./sec-3-1-tests.xml" />
   <xi:include  href="./sec-3-4-families.xml" />
