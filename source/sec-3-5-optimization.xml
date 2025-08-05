@@ -13,7 +13,7 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-3-optimization">
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-5-optimization">
   <title>Global optimization</title>
   <objectives>
     <ul>
@@ -76,8 +76,8 @@
       either over its entire domain or on some restricted portion.
     </p>
 
-    <xi:include href="./previews/PA-3-3-WW.xml" />
-    <xi:include href="./previews/PA-3-3.xml" />
+    <xi:include href="./previews/PA-3-5-WW.xml" />
+    <xi:include href="./previews/PA-3-5.xml" />
   </subsection>
 
   <!-- This one might be good to go before the preview activity? idk. -->
@@ -87,7 +87,7 @@
     <title>Global Optimization</title>
     <p>
       In <xref ref="F-3-3-Intro">Figure</xref>
-      and <xref ref="PA-3-3">Preview Activity</xref>,
+      and <xref ref="PA-3-5">Preview Activity</xref>,
       we were interested in finding the global minimum and global maximum for <m>f</m> on its entire domain.
       At other times, we might focus on some restriction of the domain.
     </p>
@@ -107,10 +107,10 @@
       rather than the <em>global</em> maximum or minimum.
     </p>
 
-    <xi:include href="./activities/act-3-3-1.xml"/>
+    <xi:include href="./activities/act-3-5-1.xml"/>
 
     <p>
-      In <xref ref="act-3-3-1">Activity</xref>,
+      In <xref ref="act-3-5-1">Activity</xref>,
       we saw how the absolute maximum and absolute minimum of a function on a closed,
       bounded interval <m>[a,b]</m>,
       depend not only on the critical numbers of the function,
@@ -140,7 +140,7 @@
       a continuous function has to achieve both an absolute minimum and an absolute maximum.
       The theorem does not tell us where these extreme values occur,
       but rather only that they must exist.
-      As we saw in <xref ref="act-3-3-1">Activity</xref>,
+      As we saw in <xref ref="act-3-5-1">Activity</xref>,
       the only possible locations for relative extremes are at the endpoints of the interval or at a critical number.
     </p>
 
@@ -172,7 +172,7 @@
       </p>
     </note>
 
-    <xi:include href="./activities/act-3-3-2.xml"/>
+    <xi:include href="./activities/act-3-5-2.xml"/>
 
     <p>
       The interval we choose has nearly the same influence on extreme values as the function under consideration.
@@ -335,11 +335,11 @@
       </solution>
     </example>
 
-    <xi:include href="./activities/act-3-3-3.xml"/>
+    <xi:include href="./activities/act-3-5-3.xml"/>
 
     <p>
       <xref ref="Ex-3-3-1">Example</xref>
-      and <xref ref="act-3-3-3">Activity</xref>
+      and <xref ref="act-3-5-3">Activity</xref>
       illustrate standard steps that we undertake in almost every applied optimization problem:
       we draw a picture to demonstrate the situation,
       introduce one or more variables to represent quantities that are changing,

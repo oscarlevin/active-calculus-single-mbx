@@ -19,7 +19,7 @@
   <xi:include  href="./sec-3-2-LHR-wb.xml" />   
   <xi:include  href="./sec-3-1-tests-wb.xml" /> 
   <xi:include  href="./sec-3-4-families-wb.xml" />
-  <xi:include  href="./sec-3-3-optimization-wb.xml" />
+  <xi:include  href="./sec-3-5-optimization-wb.xml" />
   <xi:include  href="./sec-3-6-applied-opt-wb.xml" />
 </chapter>
 

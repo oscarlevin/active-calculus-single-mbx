@@ -12,9 +12,9 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<worksheet label="ws-act-3-3-3">
+<worksheet label="ws-act-3-5-3">
    
-    <activity xml:id="act-3-3-3" workspace="3cm">
+    <activity xml:id="act-3-5-3" workspace="3cm">
       <introduction>
         <p>
       A piece of cardboard that is <m>10 \times 15</m>
@@ -28,7 +28,7 @@
 
       </p>
       </introduction>
-      <task workspace="5.5cm" xml:id="act-3-3-3-task-0">
+      <task workspace="5.5cm" xml:id="act-3-5-3-task-0">
         <statement>
           <p>
             Draw a labeled diagram that shows the given information.
@@ -50,7 +50,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="2.5cm" xml:id="act-3-3-3-task-1">
+      <task workspace="2.5cm" xml:id="act-3-5-3-task-1">
         <statement>
           <p>
             Determine a formula for the function <m>V</m> (that depends on the variable in (a)) that tells us the volume of the box.
@@ -75,7 +75,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="2.5cm" xml:id="act-3-3-3-task-2">
+      <task workspace="2.5cm" xml:id="act-3-5-3-task-2">
         <statement>
           <p>
             What is the domain of the function <m>V</m>?
@@ -101,7 +101,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="5cm" xml:id="act-3-3-3-task-3">
+      <task workspace="5cm" xml:id="act-3-5-3-task-3">
         <statement>
           <p>
             Determine all critical numbers of the function <m>V</m>.
@@ -126,7 +126,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="3cm" xml:id="act-3-3-3-task-4">
+      <task workspace="3cm" xml:id="act-3-5-3-task-4">
         <statement>
           <p>
             Evaluate <m>V</m> at each of the endpoints of the domain and at any critical numbers that lie in the domain.
@@ -166,7 +166,7 @@
             <ul><li><p><m>V(1.961873908) = 132.0382370</m></p></li><li><p><m>V(1) = 104</m></p></li><li><p><m>V(3) = 108</m></p></li></ul></p>
         </solution>
       </task>
-      <task workspace="3cm" xml:id="act-3-3-3-task-5">
+      <task workspace="3cm" xml:id="act-3-5-3-task-5">
         <statement>
           <p>
             What is the maximum possible volume of the box? the minimum?

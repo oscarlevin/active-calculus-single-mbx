@@ -28,12 +28,12 @@
 
   <subsection><title>Introduction</title>
     <p>
-      Near the conclusion of <xref ref="sec-3-3-optimization">Section</xref>,
+      Near the conclusion of <xref ref="sec-3-5-optimization">Section</xref>,
       we considered two optimization problems where determining the function to be optimized was part of the problem.
       In <xref ref="Ex-3-3-1">Example</xref>,
       we sought to use a single piece of wire to build an equilateral triangle and square
       in order to maximize the total combined area enclosed.
-      In the subsequent <xref ref="act-3-3-3">Activity</xref>,
+      In the subsequent <xref ref="act-3-5-3">Activity</xref>,
       we investigated how the volume of a box constructed from a piece of cardboard by removing squares from each corner and folding up the sides depends on the size of the squares removed.
     </p>
 
