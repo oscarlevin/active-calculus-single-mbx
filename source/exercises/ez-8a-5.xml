@@ -445,7 +445,7 @@
               <me>
                 \lim_{t \to 0} \frac{\sin(2t)}{t}
               </me>.
-              Compare your result to what follows from L'Hôpital's Rule (see <xref ref="sec-2-8-LHR">Section</xref> as needed).
+              Compare your result to what follows from L'Hôpital's Rule (see <xref ref="sec-3-2-LHR">Section</xref> as needed).
             </p>
           </li>
           <li>

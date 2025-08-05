@@ -13,7 +13,7 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-2-8-LHR">
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-2-LHR">
   <title>Using derivatives to evaluate limits</title>
   <objectives>
     <ul>
@@ -67,8 +67,8 @@
       we explore how to use derivatives to evaluate certain limits.
     </p>
 
-    <xi:include href="./previews/PA-2-8-WW.xml" />
-    <xi:include href="./previews/PA-2-8.xml" />
+    <xi:include href="./previews/PA-3-2-WW.xml" />
+    <xi:include href="./previews/PA-3-2.xml" />
   </subsection>
   <xi:include href="./proteus/proteus-2-8.xml" />
 
@@ -80,7 +80,7 @@
     </figure>
 
     <p>
-      The idea demonstrated in <xref ref="PA-2-8">Preview Activity</xref>
+      The idea demonstrated in <xref ref="PA-3-2">Preview Activity</xref>
       <mdash/> that we can evaluate an indeterminate limit of the form
       <m>\frac{0}{0}</m> by replacing each of the numerator and denominator with their local linearizations at the point of interest <mdash/> can be generalized in a way that enables us to evaluate a wide range of limits.
       We have a function <m>h(x)</m> that can be written as a quotient
@@ -159,7 +159,7 @@
 
     <p>
       For example,
-      if we consider the limit from <xref ref="PA-2-8">Preview Activity</xref>,
+      if we consider the limit from <xref ref="PA-3-2">Preview Activity</xref>,
       <me>
         \lim_{x \to 1} \frac{x^5 + x - 2}{x^2 - 1}
       </me>,
@@ -174,7 +174,7 @@
       we often replace an indeterminate limit with one whose value we can easily determine.
     </p>
 
-    <xi:include href="./activities/act-2-8-1.xml"/>
+    <xi:include href="./activities/act-3-2-1.xml"/>
 
     <p>
       While L'Hôpital's Rule can be applied in an entirely algebraic way, 
@@ -206,7 +206,7 @@
       the the limit of <m>\frac{f(x)}{g(x)}</m> as <m>x \to a</m> is given by the ratio of the slopes of <m>f</m> and <m>g</m> at <m>x = a</m>.
     </p>
 
-    <xi:include href="./activities/act-2-8-2.xml"/>
+    <xi:include href="./activities/act-3-2-2.xml"/>
   </subsection>
 
   <subsection>
@@ -462,7 +462,7 @@
       </me>.
     </p>
 
-    <xi:include href="./activities/act-2-8-3.xml"/>
+    <xi:include href="./activities/act-3-2-3.xml"/>
 
     <p>
       To evaluate the limit of a quotient of two functions

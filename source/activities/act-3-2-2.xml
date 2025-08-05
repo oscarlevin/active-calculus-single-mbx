@@ -12,9 +12,9 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<worksheet label="ws-act-2-8-2">
+<worksheet label="ws-act-3-2-2">
    
-    <activity xml:id="act-2-8-2" workspace="3cm">
+    <activity xml:id="act-3-2-2" workspace="3cm">
       <introduction>
         <p>
       In this activity,
@@ -24,7 +24,7 @@
           <image width="100%" source="images/2_8_Act2"/>
 
       </introduction>
-      <task workspace="3cm" xml:id="act-2-8-2-task-0">
+      <task workspace="3cm" xml:id="act-3-2-2-task-0">
         <statement>
           <p>
             Use the left-hand graph to determine the values of <m>f(2)</m>,
@@ -55,7 +55,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="3cm" xml:id="act-2-8-2-task-1">
+      <task workspace="3cm" xml:id="act-3-2-2-task-1">
         <statement>
           <p>
             Use the middle graph to find <m>p(2)</m>,
@@ -90,7 +90,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="3cm" xml:id="act-2-8-2-task-2">
+      <task workspace="3cm" xml:id="act-3-2-2-task-2">
         <statement>
           <p>
             Assume that <m>r</m> and <m>s</m> are functions whose for which

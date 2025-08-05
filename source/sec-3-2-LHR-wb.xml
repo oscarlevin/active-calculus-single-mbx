@@ -12,10 +12,10 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-2-8-LHR">
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-2-LHR">
   <title>Using derivatives to evaluate limits</title>
-    <xi:include href="./previews/PA-2-8.xml"/>
-    <xi:include href="./activities/act-2-8-1.xml"/>
-    <xi:include href="./activities/act-2-8-2.xml"/>
-    <xi:include href="./activities/act-2-8-3.xml"/>
+    <xi:include href="./previews/PA-3-2.xml"/>
+    <xi:include href="./activities/act-3-2-1.xml"/>
+    <xi:include href="./activities/act-3-2-2.xml"/>
+    <xi:include href="./activities/act-3-2-3.xml"/>
 </section>
