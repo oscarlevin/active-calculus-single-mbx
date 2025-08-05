@@ -13,7 +13,7 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-1-tests">
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-3-tests">
   <title>Using derivatives to identify extreme values</title>
   <objectives>
     <ul>
@@ -128,8 +128,8 @@
       it is often straightforward to locate these important behaviors visually.
     </p>
 
-    <xi:include href="./previews/PA-3-1-WW.xml" />
-    <xi:include href="./previews/PA-3-1.xml" />
+    <xi:include href="./previews/PA-3-3-WW.xml" />
+    <xi:include href="./previews/PA-3-3.xml" />
   </subsection>
 
   <!-- lol hey look it is a matching / cardsort!!!!!! -->
@@ -283,7 +283,7 @@
       </solution>
     </example>
 
-    <xi:include href="./activities/act-3-1-1.xml"/>
+    <xi:include href="./activities/act-3-3-1.xml"/>
   </subsection>
 
   <subsection>
@@ -489,7 +489,7 @@
       the function <m>f</m> is increasing or decreasing.
     </p>
 
-    <xi:include href="./activities/act-3-1-2.xml"/>
+    <xi:include href="./activities/act-3-3-2.xml"/>
 
     <p>
       As we will see in more detail in the following section,
@@ -505,7 +505,7 @@
       In the final activity in this section, we explore the impact a parameter has on the concavity of an interesting function.
     </p>
 
-    <xi:include href="./activities/act-3-1-3.xml"/>
+    <xi:include href="./activities/act-3-3-3.xml"/>
   </subsection>
 
   <subsection>

@@ -12,9 +12,9 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<worksheet component="static" label="ws-PA-3-1">
+<worksheet component="static" label="ws-PA-3-3">
    
-    <exploration xml:id="PA-3-1">
+    <exploration xml:id="PA-3-3">
       <introduction>
         <p>
     Consider the function <m>h</m> given by the graph in <xref ref="F-3-1-PA1">Figure</xref>.
@@ -26,7 +26,7 @@
         </figure>
         <p/>
       </introduction>
-      <task workspace="2.5cm" xml:id="PA-3-1-task-0">
+      <task workspace="2.5cm" xml:id="PA-3-3-task-0">
         <statement>
           <p>
           Identify all of the values of <m>c</m> such that <m>-3 \lt c \lt 3</m> for which <m>h(c)</m> is a local maximum of <m>h</m>.
@@ -36,7 +36,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="2.5cm" xml:id="PA-3-1-task-1">
+      <task workspace="2.5cm" xml:id="PA-3-3-task-1">
         <statement>
           <p>
           Identify all of the values of <m>c</m> such that <m>-3 \lt c \lt 3</m> for which <m>h(c)</m> is a local minimum of <m>h</m>.
@@ -46,7 +46,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="2.5cm" xml:id="PA-3-1-task-2">
+      <task workspace="2.5cm" xml:id="PA-3-3-task-2">
         <statement>
           <p>
           Does <m>h</m> have a global maximum on the interval <m>[-3,3]</m>?
@@ -57,7 +57,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="2.5cm" xml:id="PA-3-1-task-3">
+      <task workspace="2.5cm" xml:id="PA-3-3-task-3">
         <statement>
           <p>
           Does <m>h</m> have a global minimum on the interval <m>[-3,3]</m>?
@@ -68,7 +68,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="3cm" xml:id="PA-3-1-task-4">
+      <task workspace="3cm" xml:id="PA-3-3-task-4">
         <statement>
           <p>
           Identify all values of <m>c</m> for which <m>h'(c) = 0</m>.
@@ -78,7 +78,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="3cm" xml:id="PA-3-1-task-5">
+      <task workspace="3cm" xml:id="PA-3-3-task-5">
         <statement>
           <p>
           Identify all values of <m>c</m> for which <m>h'(c)</m> does not exist.
@@ -88,7 +88,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="3cm" xml:id="PA-3-1-task-6">
+      <task workspace="3cm" xml:id="PA-3-3-task-6">
         <statement>
           <p>
           True or false:
@@ -99,7 +99,7 @@
         <answer/>
         <solution/>
       </task>
-      <task workspace="3cm" xml:id="PA-3-1-task-7">
+      <task workspace="3cm" xml:id="PA-3-3-task-7">
         <statement>
           <p>
           True or false:

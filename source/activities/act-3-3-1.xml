@@ -13,9 +13,9 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<worksheet xml:id="ws-act-3-1-1">
+<worksheet xml:id="ws-act-3-3-1">
   
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-1-1">
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-3-1">
   <introduction>
     <p>
       Suppose that <m>g(x)</m> is a function whose first derivative is 
@@ -24,7 +24,7 @@
       </me>.
     </p>  
   </introduction> 
-  <task workspace="3cm" xml:id="act-3-1-1-task-0">
+  <task workspace="3cm" xml:id="act-3-3-1-task-0">
     <statement>
       <p>
         Determine, with justification, all critical numbers of <m>g</m>.
@@ -46,7 +46,7 @@
       </p>
     </solution>
   </task>
-  <task workspace="5cm" xml:id="act-3-1-1-task-1">
+  <task workspace="5cm" xml:id="act-3-3-1-task-1">
     <statement>
       <p>
         By developing a carefully labeled first derivative sign chart,
@@ -71,7 +71,7 @@
       </p>
     </solution>
   </task>
-  <task workspace="3cm" xml:id="act-3-1-1-task-2">
+  <task workspace="3cm" xml:id="act-3-3-1-task-2">
     <statement>
       <p>
         Does <m>g</m> have a global maximum? global minimum?
@@ -94,7 +94,7 @@
       </p>
     </solution>
   </task>    
-  <task workspace="5cm" xml:id="act-3-1-1-task-3">
+  <task workspace="5cm" xml:id="act-3-3-1-task-3">
     <statement>
       <p>
         Sketch a possible graph of <m>y = g(x)</m>.  Clearly label any local or global extrema on the graph.
@@ -106,10 +106,10 @@
       </p>
     </hint>
     <answer>
-            <figure xml:id="F-act-3-1-1-ans">
+            <figure xml:id="F-act-3-3-1-ans">
               <caption>A plot of a possible function <m>y = g(x)</m> whose derivative is the given formula for <m>g'(x)</m>.</caption>
             <image width="60%">
-              <prefigure label="Fig-act-3-1-1-ans" xmlns="https://prefigure.org">
+              <prefigure label="Fig-act-3-3-1-ans" xmlns="https://prefigure.org">
                 <diagram dimensions="(300,300)" margins="5">
                   <definition>f(x) = log(x^2+1) + x - 9*atan(x) - 2</definition>
                   <definition>a = -4</definition>
@@ -133,10 +133,10 @@
       <p>
         By thinking about where <m>g</m> is increasing and decreasing, as well as where <m>g</m> has local extremes, we can sketch the following possible graph of <m>g</m>.
       </p>  
-        <figure xml:id="F-act-3-1-1-soln">
+        <figure xml:id="F-act-3-3-1-soln">
           <caption>A plot of a possible function <m>y = g(x)</m> whose derivative is the given formula for <m>g'(x)</m>.</caption>
             <image width="60%">
-              <prefigure label="Fig-act-3-1-1-soln" xmlns="https://prefigure.org">
+              <prefigure label="Fig-act-3-3-1-soln" xmlns="https://prefigure.org">
                 <diagram dimensions="(300,300)" margins="5">
                   <definition>f(x) = log(x^2+1) + x - 9*atan(x) - 2</definition>
                   <definition>a = -4</definition>
