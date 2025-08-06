@@ -41,7 +41,9 @@
             Which two are changing?
           </p>
         </hint>
-        <answer/>
+        <answer>
+          <image width="40%" source="images/3_5_Act2Soln" />
+        </answer>
         <solution>
           <p>
             Letting <m>\theta</m> be the camera's elevation angle,
@@ -49,6 +51,7 @@
             and <m>z</m> the distance from the camera to the rocket,
             we have the following situation at a given point in time:
           </p>
+          <image width="40%" source="images/3_5_Act2Soln" />
         </solution>
       </task>
       <task workspace="4cm" xml:id="act-3-1-2-task-1">

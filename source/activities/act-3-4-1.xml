@@ -147,7 +147,9 @@
             Think about how a typical cubic polynomial's graph behaves.
           </p>
         </hint>
-        <answer/>
+        <answer>
+          <image width="80%" source="images/3_2_Act1Soln" />
+        </answer>
         <solution>
           <p>
             Below, we show the two possible situations.
@@ -159,6 +161,7 @@
             Note, too,
             that <m>p</m> has its <m>x</m>-intercepts at <m>x = \pm \sqrt{a}</m>.
           </p>
+          <image width="80%" source="images/3_2_Act1Soln" />
         </solution>
       </task>
     </activity>

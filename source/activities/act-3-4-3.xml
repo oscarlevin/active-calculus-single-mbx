@@ -193,7 +193,9 @@
             where <m>L</m> is increasing and decreasing, and concavity.
           </p>
         </hint>
-        <answer/>
+        <answer>
+          <image width="50%" source="images/3_2_Act3Soln" />
+        </answer>
         <solution>
           <p>
             We have shown that <m>L</m> is an always increasing function that has horizontal asymptotes at <m>y =0</m> and <m>y = A</m>,
@@ -202,6 +204,7 @@
             In addition, we see that <m>L(0) = \frac{A}{1+c}</m>.
             The combination of all of this information shows us that a typical graph in this family of functions is given by the following figure.
           </p>
+          <image width="50%" source="images/3_2_Act3Soln" />
         </solution>
       </task>
     </activity>

@@ -42,12 +42,15 @@
             Consider letting the length of one side of the removed squares be represented by <m>x</m>.
           </p>
         </hint>
-        <answer/>
+        <answer>
+          <image width="65%" source="images/3_3_Act3Soln" />
+        </answer>
         <solution>
           <p>
             We let <m>x</m> represent the length of a side of the square that is cut from each corner,
             so that we have the following picture:
           </p>
+          <image width="65%" source="images/3_3_Act3Soln" />
         </solution>
       </task>
       <task workspace="2.5cm" xml:id="act-3-5-3-task-1">

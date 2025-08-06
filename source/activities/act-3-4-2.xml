@@ -167,13 +167,16 @@
             Use your work in (a)-(d).
           </p>
         </hint>
-        <answer/>
+        <answer>
+          <image width="50%" source="images/3_2_Act2Soln" />
+        </answer>
         <solution>
           <p>
             Observing that <m>h(0) = 0</m> and <m>\lim_{x \to \infty} h(x) = a</m>,
             along with the facts that <m>h</m> is always increasing and always concave down,
             we see that a typical member of this family looks like the following graph.
           </p>
+          <image width="50%" source="images/3_2_Act2Soln" />
         </solution>
       </task>
     </activity>

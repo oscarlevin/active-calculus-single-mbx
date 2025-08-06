@@ -39,11 +39,14 @@
             Note that the lengths of the legs of the right triangle will be <m>15</m> for the vertical one and <m>x + s</m> for the horizontal one.
           </p>
         </hint>
-        <answer/>
+        <answer>
+          <image width="40%" source="images/3_5_Act3Soln" />
+        </answer>
         <solution>
           <p>
             The given information leads us to construct the following diagram:
           </p>
+          <image width="40%" source="images/3_5_Act3Soln" />
         </solution>
       </task>
       <task workspace="4cm" xml:id="act-3-1-3-task-1">

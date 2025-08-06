@@ -33,11 +33,15 @@
           </p>
         </statement>
         <hint/>
-        <answer/>
+        <answer>
+          <image width="50%" source="images/3_5_Act1Soln" />
+        </answer>
         <solution>
           <p>
-            Your drawings should be similar to what see in <url href="http://webspace.ship.edu/msrenault/GeoGebraCalculus/derivative_app_rr_conical_tank.html" >this animation</url>.
+            Letting <m>r</m> represent the water's radius at time <m>t</m> and <m>h</m> the water's depth,
+            we see the following situation:
           </p>
+          <image width="50%" source="images/3_5_Act1Soln" />
         </solution>
       </task>
       <task workspace="4cm" xml:id="act-3-1-1-task-1">
