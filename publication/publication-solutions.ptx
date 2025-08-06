@@ -1,6 +1,6 @@
 <publication>
   <source>
-    <version include="production"/>
+    <version include=""/>
     <directories external="../assets" generated="../generated-assets"
 		 />
   </source>

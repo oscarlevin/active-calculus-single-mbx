@@ -25,7 +25,7 @@
     </p>
   </statement>
 
-  <matches>
+  <cardsort>
     <match>
       <premise order="1"><m>\small{f(x) = \sin(x) \cdot \cos(x) + e^x  \sqrt{x}}</m></premise>
       <response>The sum of two products</response>
@@ -57,7 +57,7 @@
     <match>
       <response>The sum of a quotient and a product</response>
     </match>
-  </matches>
+  </cardsort>
 </exercise>
 
 
@@ -91,7 +91,7 @@
 
     <p>Each of the quantities on the left below has units that explain the quantity's meaning. For each, identify the corresponding units given on the right.  It is possible that not every set of units gets used, and also that some functions and expressions have the same units.</p>
   </statement>
-  <matches>
+  <cardsort>
     <match>
       <premise order="2"><m>N(t)</m></premise>
       <response>apples per day</response>
@@ -127,7 +127,7 @@
     <match>
       <response>apples <m>\cdot</m> dollars</response>
     </match>
-  </matches>
+  </cardsort>
 </exercise>
 
 </exercises>

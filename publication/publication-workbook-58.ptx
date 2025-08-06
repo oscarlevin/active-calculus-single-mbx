@@ -1,6 +1,6 @@
 <publication>
   <source webwork-problems="../generated-assets/webwork/webwork-representations.xml">
-    <version include="production static ed2"/>
+    <version include="static ed2"/>
     <directories external="../assets" generated="../generated-assets"
 		 />
   </source>
