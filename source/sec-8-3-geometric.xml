@@ -324,7 +324,7 @@
       <me>
         \lim_{n \to \infty} S_n = \lim_{n \to \infty} \frac{a(1-r^{n})}{1-r} = \frac{a}{1-r}
       </me>.
-      In <xref ref="ez-8a-3-1">Exercise</xref>, we will explore why the infinite geometric series does not converge when <m>|r| = 1</m> and when <m>|r| \gt 1</m>.
+      In <xref ref="ez-8-3-1">Exercise</xref>, we will explore why the infinite geometric series does not converge when <m>|r| = 1</m> and when <m>|r| \gt 1</m>.
     </p> 
 
     <p>
@@ -441,6 +441,6 @@
     </p>
   </subsection>
 
-<xi:include href="./exercises/ez-8a-3.xml" />
+<xi:include href="./exercises/ez-8-3.xml" />
 
 </section>
