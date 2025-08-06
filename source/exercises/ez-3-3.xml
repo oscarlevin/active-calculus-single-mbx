@@ -12,642 +12,662 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-3-3" permid="GWJ">
-  <exercise label="Library__Michigan__Chap4Sec3__Q07.pg">
-    <webwork source="Library/Michigan/Chap4Sec3/Q07.pg"/>
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-3-1" permid="RJW">
+  <exercise label="Library__Michigan__Chap4Sec1__Q03.pg">
+    <webwork source="Library/Michigan/Chap4Sec1/Q03.pg"/>
   </exercise>
-  <exercise label="Library__Michigan__Chap4Sec3__Q09.pg">
-    <webwork source="Library/Michigan/Chap4Sec3/Q09.pg"/>
+  <exercise label="Library__Michigan__Chap4Sec1__Q11.pg">
+    <webwork source="Library/Michigan/Chap4Sec1/Q11.pg"/>
   </exercise>
-  <exercise label="Library__Michigan__Chap4Sec3__Q21.pg">
-    <webwork source="Library/Michigan/Chap4Sec3/Q21.pg"/>
+  <exercise label="Library__Michigan__Chap4Sec1__Q25.pg">
+    <webwork source="Library/Michigan/Chap4Sec1/Q25.pg"/>
   </exercise>
-  <exercise label="Library__ASU-topics__setOptimization__4-5-18.pg">
-    <webwork source="csafranski/3.3HW_prob4.pg"/>
+  <exercise label="Library__UVA-Stew5e__setUVA-Stew5e-C04S03-GraphShape__4-3-08.pg">
+    <webwork source="Library/UVA-Stew5e/setUVA-Stew5e-C04S03-GraphShape/4-3-08.pg"/>
   </exercise>
-  <exercise label="Library__ASU-topics__setOptimization__s3_1_44a.pg">
-    <webwork source="Library/ASU-topics/setOptimization/s3_1_44a.pg"/>
+  <exercise label="Library__UCSB__Stewart5_4_3__Stewart5_4_3_11.pg">
+    <webwork source="Library/UCSB/Stewart5_4_3/Stewart5_4_3_11.pg"/>
   </exercise>
-  <exercise label="Library__OSU__high_school_apcalc__dchmwk6__prob11.pg">
-    <webwork source="csafranski/3.3HW_prob6.pg"/>
+  <exercise label="Library__UCSB__Stewart5_4_3__Stewart5_4_3_13.pg">
+    <webwork source="Library/UCSB/Stewart5_4_3/Stewart5_4_3_13.pg"/>
   </exercise>
-  <exercise permid="SIl">
+  <exercise label="csafranski__3.1HW_prob7.pg">
+    <webwork source="csafranski/3.1HW_prob7.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap4Sec1__Q21.pg">
+    <webwork source="Library/Michigan/Chap4Sec1/Q21.pg"/>
+  </exercise>
+  <!--  WeBWorK exercise not compatible with PTX  -->
+  <!--
+  <exercise label="Library__Rochester__setDerivatives22Graphing__S04-_03-_DerivativesShapeGraph-_PTP02" xml:id="ez-3-1-WW4">
+    <webwork source="Library/Rochester/setDerivatives22Graphing/S04.03.DerivativesShapeGraph.PTP02.pg" />
+  </exercise>
+  -->
+  <exercise permid="TGn">
     <statement>
-      <p permid="WfH">
-        Based on the given information about each function,
-        decide whether the function has global maximum,
-        a global minimum, neither, both,
-        or that it is not possible to say without more information.
-        Assume that each function is twice differentiable and defined for all real numbers,
-        unless noted otherwise.
-        In each case, write one sentence to explain your conclusion.
+      <p permid="gSU">
+        This problem concerns a function about which the following information is known:
 
-        <ol marker="a." permid="qfC">
-          <li permid="ITa">
-            <p permid="rzq">
-              <m>f</m> is a function such that <m>f''(x) \lt 0</m> for every <m>x</m>.
+        <ul permid="SAU">
+          <li permid="rdE">
+            <p permid="hot">
+              <m>f</m> is a differentiable function defined at every real number <m>x</m>
             </p>
           </li>
-          <li permid="paj">
-            <p permid="XGz">
-              <m>g</m> is a function with two critical numbers <m>a</m> and <m>b</m>
-              (where <m>a \lt b</m>),
-              and <m>g'(x) \lt 0</m> for <m>x \lt a</m>,
-              <m>g'(x) \lt 0</m> for <m>a \lt x \lt b</m>,
-              and <m>g'(x) \gt 0</m> for <m>x \gt b</m>.
+          <li permid="XkN">
+            <p permid="NvC">
+              <m>f(0) = -1/2</m>
             </p>
           </li>
-          <li permid="Vhs">
-            <p permid="DNI">
-              <m>h</m> is a function with two critical numbers <m>a</m> and <m>b</m>
-              (where <m>a \lt b</m>),
-              and <m>h'(x) \lt 0</m> for <m>x \lt a</m>,
-              <m>h'(x) \gt 0</m> for <m>a \lt x \lt b</m>,
-              and <m>h'(x) \lt 0</m> for <m>x \gt b</m>.
+          <li permid="DrW">
+            <p permid="tCL">
+              <m>y = f'(x)</m> has its graph given at center in <xref ref="F-3-1-Ez1">Figure</xref>
+            </p>
+          </li>
+        </ul>
+      </p>
+      <figure xml:id="F-3-1-Ez1" permid="thm">
+        <caption>At center, a graph of <m>y = f'(x)</m>; at left, axes for plotting <m>y = f(x)</m>; at right, axes for plotting <m>y = f''(x)</m>.</caption>
+        <image width="100%" source="images/3_1_Ez1"/>
+      </figure>
+      <p permid="Nad">
+        <ol marker="a." permid="yId">
+          <li permid="jzf">
+            <p permid="ZJU">
+              Construct a first derivative sign chart for <m>f</m>.
+              Clearly identify all critical numbers of <m>f</m>,
+              where <m>f</m> is increasing and decreasing,
+              and where <m>f</m> has local extrema.
+            </p>
+          </li>
+          <li permid="PGo">
+            <p permid="FRd">
+              On the right-hand axes,
+              sketch an approximate graph of <m>y = f''(x)</m>.
+            </p>
+          </li>
+          <li permid="vNx">
+            <p permid="lYm">
+              Construct a second derivative sign chart for <m>f</m>.
+              Clearly identify where <m>f</m> is concave up and concave down,
+              as well as all inflection points.
+            </p>
+          </li>
+          <li permid="bUG">
+            <p permid="Sfv">
+              On the left-hand axes,
+              sketch a possible graph of <m>y = f(x)</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer permid="Yqg">
+      <p permid="wbS">
+        <ol marker="a." permid="NRb">
+          <li permid="IbP">
+            <p permid="ymE">
+              <m>f'</m> is positive for <m>-1 \lt x lt 1</m> and for <m>x \gt 1</m>;
+              <m>f'</m> is negative for all
+              <m>x \lt -1</m>. <m>f</m> has a local minimum at <m>x = -1</m>.
+            </p>
+          </li>
+          <li permid="oiY">
+            <p permid="etN">
+              A possible graph of <m>y = f''(x)</m> is shown at right in the figure.
+            </p>
+          </li>
+          <li permid="Uqh">
+            <p permid="KAW">
+              <m>f''(x)</m> is negative for <m>-0.35 \lt x \lt 1</m>;
+              <m>f''(x)</m> is positive everywhere else;
+              <m>f</m> has points of inflection at <m>x \approx -0.35</m> and <m>x = 1</m>.
+            </p>
+          </li>
+          <li permid="Axq">
+            <p permid="qIf">
+              A possible graph of <m>y = f(x)</m> is shown at left in the figure.
+            </p>
+            <sidebyside permid="WAT">
+              <image source="images/3_1_Ez1Soln"/>
+            </sidebyside>
+          </li>
+        </ol>
+      </p>
+    </answer>
+    <solution permid="siX">
+      <p permid="Xzi">
+        <ol marker="a." permid="por">
+          <li permid="gEz">
+            <p permid="WPo">
+              From the given graph of <m>f'</m>,
+              the first derivative sign chart for <m>f</m> shows that <m>f</m> has critical numbers at
+              <m>x = -1, 1</m> and that <m>f'</m> is positive for
+              <m>-1 \lt x \lt 1</m> and for <m>x \gt 1</m>,
+              while being negative for all <m>x \lt -1</m>.
+              Hence <m>f</m> is increasing for
+              <m>-1 \lt x \lt 1</m> and for <m>x \gt 1</m>,
+              and decreasing for <m>x \lt -1</m>.
+              It follows by the first derivative test that <m>f</m> has a local minimum at <m>x = -1</m> because <m>f</m> changes from decreasing to increasing there.
+            </p>
+          </li>
+          <li permid="MLI">
+            <p permid="CWx">
+              Based on where <m>f'(x)</m> has horizontal tangent lines and where its slope is positive and negative,
+              we can sketch an approximate graph of
+              <m>y = f''(x)</m> in the usual way that we sketch the derivative of a given function.
+              From the given graph of <m>y = f'(x)</m>,
+              we can see that <m>f''(x) = 0</m> at <m>x \approx -0.35</m> and at <m>x = 1</m>,
+              and that between these points,
+              <m>f''(x)</m> is negative because <m>f'(x)</m> is decreasing,
+              while <m>f''(x)</m> is positive everywhere else since <m>f'(x)</m> is increasing everywhere else.
+              A possible graph of <m>y = f''(x)</m> is shown at right in the following figure.
+            </p>
+          </li>
+          <li permid="sSR">
+            <p permid="jdG">
+              From our sketch of the second derivative in (b),
+              we can develop a second derivative sign chart for <m>f</m>.
+              In particular, we saw that
+              <m>f''(x) = 0</m> at <m>x \approx -0.35</m> and at <m>x = 1</m>,
+              and that between these points,
+              <m>f''(x)</m> is negative, while <m>f''(x)</m> is positive everywhere else.
+              This shows that <m>f</m> is concave down for
+              <m>-0.35 \lt x \lt 1</m> while being concave up everywhere else.
+              We thus see that <m>f</m> has points of inflection at both <m>x \approx -0.35</m> and <m>x = 1</m>.
+            </p>
+          </li>
+          <li permid="Zaa">
+            <p permid="PkP">
+              Now that we know where <m>f</m> is increasing and decreasing as well as where <m>f</m> is concave up and concave down,
+              along with the fact that <m>f(0) = -0.5</m>,
+              we can sketch an approximate graph of <m>y = f(x)</m>.
+              Note that we also know <m>f</m> has a horizontal tangent line at <m>x = 1</m> while being increasing on either side of <m>x = 1</m>,
+              and earlier we established that <m>f</m> has a local minimum at <m>x = -1</m>.
+              After making a few rough sketches and shifting the graph vertically to pass through <m>(0,-0.5)</m>,
+              we arrive at the graph shown at left below.
+            </p>
+            <sidebyside permid="CIc">
+              <image source="images/3_1_Ez1Soln"/>
+            </sidebyside>
+          </li>
+        </ol>
+      </p>
+    </solution>
+  </exercise>
+  <exercise permid="zNw">
+    <statement>
+      <p permid="Zov">
+        Suppose that <m>g</m> is a differentiable function and <m>g'(2) = 0</m>.
+        In addition, suppose that on <m>1 \lt x\lt 2</m> and
+        <m>2 \lt x \lt 3</m> it is known that <m>g'(x)</m> is positive.
+
+        <ol marker="a." permid="ePm">
+          <li permid="Fhj">
+            <p permid="vrY">
+              Does <m>g</m> have a local maximum,
+              local minimum, or neither at <m>x = 2</m>?
+              Why?
+            </p>
+          </li>
+          <li permid="los">
+            <p permid="bzh">
+              Suppose that <m>g''(x)</m> exists for every <m>x</m> such that <m>1 \lt x \lt 3</m>.
+              Reasoning graphically,
+              describe the behavior of <m>g''(x)</m> for <m>x</m>-values near <m>2</m>.
+            </p>
+          </li>
+          <li permid="RvB">
+            <p permid="HGq">
+              Besides being a critical number of <m>g</m>,
+              what is special about the value <m>x = 2</m> in terms of the behavior of the graph of <m>g</m>?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer permid="kEy">
+      <p permid="cjb">
+        <ol marker="a." permid="tYk">
+          <li permid="xCK">
+            <p permid="nNz">
+              Neither.
+            </p>
+          </li>
+          <li permid="dJT">
+            <p permid="TUI">
+              <m>g''(2) = 0</m>; <m>g''</m> is negative for
+              <m>1 \lt x \lt 2</m> and positive for <m>2 \lt x \lt 3</m>.
+            </p>
+          </li>
+          <li permid="JRc">
+            <p permid="AbR">
+              <m>g</m> has a point of inflection at <m>x = 2</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+    <solution permid="Exp">
+      <p permid="DGr">
+        <ol marker="a." permid="VvA">
+          <li permid="pYl">
+            <p permid="gja">
+              <m>g</m> has neither a local maximum nor local minimum at <m>x = 2</m> because <m>f'</m> does not change sign at <m>x = 2</m>.
+            </p>
+          </li>
+          <li permid="Wfu">
+            <p permid="Mqj">
+              Because <m>g'(2) = 0</m> and <m>g'</m> is positive for
+              <m>1 \lt x \lt 2</m> and for <m>2 \lt x \lt 3</m>,
+              it must be that <m>g'</m> is decreasing for
+              <m>1 \lt x \lt 2</m> and <m>g'</m> is increasing for <m>2 \lt x \lt 3</m>.
+              Since <m>g'</m> changes from decreasing to increasing at <m>x = 2</m>,
+              it follows that <m>g'</m> has a local minimum at <m>x = 2</m> and thus <m>g''(2) = 0</m>.
               In addition,
-              <m>\lim_{x \to \infty} h(x) = 0</m> and <m>\lim_{x \to -\infty} h(x) = 0</m>.
+              <m>g''(x)</m> must change sign from negative to positive at <m>x = 2</m>.
+              In particular, <m>g''</m> is negative for
+              <m>1 \lt x \lt 2</m> and positive for <m>2 \lt x \lt 3</m>.
             </p>
           </li>
-          <li permid="BoB">
-            <p permid="jUR">
-              <m>p</m> is a function differentiable everywhere except at <m>x = a</m> and
-              <m>p''(x) \gt 0</m> for <m>x \lt a</m> and <m>p''(x) \lt 0</m> for <m>x \gt a</m>.
-            </p>
-          </li>
-        </ol>
-      </p>
-    </statement>
-    <answer permid="Xse">
-      <p permid="xCX">
-        <ol marker="a." permid="RCS">
-          <li permid="hvK">
-            <p permid="Qca">
-              Not enough information is given.
-            </p>
-          </li>
-          <li permid="NCT">
-            <p permid="wjj">
-              Global minimum at <m>x = b</m>.
-            </p>
-          </li>
-          <li permid="tKc">
-            <p permid="cqs">
-              Global minimum at <m>x = a</m>;
-              global maximum at <m>x = b</m>.
-            </p>
-          </li>
-          <li permid="ZRl">
-            <p permid="IxB">
-              Not enough information is provided.
-            </p>
-          </li>
-        </ol>
-      </p>
-    </answer>
-    <solution permid="rkV">
-      <p permid="Zan">
-        <ol marker="a." permid="oqp">
-          <li permid="FYu">
-            <p permid="oEK">
-              It's not possible to say without more information:
-              for instance, the functions
-              <m>f(x) = e^{-x}</m>, <m>f(x) = e^{-x}</m>,
-              and <m>f(x) = x^2</m> are each always concave up,
-              but only one of them has a global minimum.
-              We can say for sure that by being always concave up,
-              <m>f</m> cannot have a global maximum,
-              and it also cannot have both a global maximum and a global minimum.
-              It might have a global minimum, or it might have neither.
-            </p>
-          </li>
-          <li permid="mfD">
-            <p permid="ULT">
-              By being twice differentiable,
-              we know that <m>g'(x) = 0</m> any time <m>x</m> is a critical number of <m>g</m>.
-              Thus, given the signs of <m>g'(x)</m> on the stated intervals,
-              <m>g</m> is decreasing before <m>x = a</m> and decreasing on <m>a \lt x \lt b</m>,
-              with a horizontal tangent line at <m>x = a</m>.
-              In addition, <m>g</m> is increasing for <m>x \gt b</m>.
-              Thus, we know that <m>g</m> has a global minimum at <m>x = b</m>.
-            </p>
-          </li>
-          <li permid="SmM">
-            <p permid="ATc">
-              Since <m>h</m> is always decreasing for <m>x \lt a</m>,
-              always increasing for <m>a \lt x \lt b</m>,
-              and always decreasing for <m>x \gt b</m>,
-              we know that <m>h</m> has a local minimum at <m>x = a</m> and a local maximum at <m>x = b</m>.
-              Moreover, these local extremes are both global extremes since
-              <m>h(x) to 0</m> as <m>x \to \pm \infty</m>.
-              In particular,
-              since <m>h(x)</m> decreases to <m>0</m> for <m>x \gt b</m> and increases on <m>a \lt x \lt b</m>,
-              it follows that <m>h(b)</m> is the largest value of <m>h(x)</m> on <m>(a, \infty)</m>,
-              and that <m>h(b) \gt 0</m>.
-              Similarly, since <m>h(x)</m> decreases on
-              <m>(-\infty,
-              a)</m> and approaches <m>0</m> as <m>x \to -\infty</m>,
-              and <m>h(x)</m> increases on <m>a \lt x \lt b</m>,
-              it must be the case that <m>h(a)</m> is the least value of <m>h(x)</m> on
-              <m>(-\infty,
-              b)</m> and that <m>h(b) \lt 0</m>.
-              Hence, <m>h(x)</m> is always negative on <m>x \lt a</m> and <m>h(x)</m> is always positive on <m>x \gt b</m>.
-              From all of these observations,
-              it follows that <m>h</m> has a global minimum at <m>x = a</m> and a global maximum at <m>x = b</m>.
-            </p>
-          </li>
-          <li permid="ytV">
-            <p permid="hal">
-              First, observe that <m>p</m> is defined for all real numbers by assumption,
-              so <m>p(a)</m> has some finite value.
-              However, <m>p</m> is not differentiable at <m>x = a</m> and <m>p</m> is concave up to the left of <m>x = a</m> and concave down to the right of <m>x = a</m>.
-              This indicates that <m>p</m> has a relative maximum at <m>x = a</m>.
-              Not enough information is provided,
-              however, to determine if this relative maximum is a global maximum,
-              nor if <m>p</m> happens to have a global minimum at some other point.
+          <li permid="CmD">
+            <p permid="sxs">
+              <m>g</m> has a horizontal tangent line at <m>x = 2</m>,
+              is increasing before <m>x = 2</m> and decreasing after <m>x = 2</m>,
+              and concave down before <m>x = 2</m> and concave up after <m>x = 2</m>,
+              and thus <m>g</m> has a point of inflection at <m>x = 2</m>.
             </p>
           </li>
         </ol>
       </p>
     </solution>
   </exercise>
-  <exercise permid="yPu">
+  <exercise permid="fUF">
     <statement>
-      <p permid="CmQ">
-        For each family of functions that depends on one or more parameters,
-        determine the function's absolute maximum and absolute minimum on the given interval.
-
-        <ol marker="a." permid="WmL">
-          <li permid="eBe">
-            <p permid="Nhu">
-              <m>p(x) = x^3 - a^2x</m>,
-              <m>[0,a]</m> (<m>a \gt 0</m>)
-            </p>
-          </li>
-          <li permid="KIn">
-            <p permid="toD">
-              <m>r(x) = axe^{-bx}</m>,
-              <m>[\frac{1}{2b}, \frac{2}{b}]</m> (<m>a \gt 0,
-              b \gt 1</m>)
-            </p>
-          </li>
-          <li permid="qPw">
-            <p permid="ZvM">
-              <m>w(x) = a(1-e^{-bx})</m>,
-              <m>[b, 3b]</m> (<m>a, b \gt 0</m>)
-            </p>
-          </li>
-          <li permid="WWF">
-            <p permid="FCV">
-              <m>s(x) = \sin(kx)</m>,
-              <m>\left[\frac{\pi}{3k}, \frac{5\pi}{6k}\right]</m> (<m>k \gt 0</m>)
-            </p>
-          </li>
-        </ol>
+      <p permid="FvE">
+        Suppose that <m>h</m> is a differentiable function whose first derivative is given by the graph in <xref ref="F-3-1-Ez3">Figure</xref>.
       </p>
+      <sidebyside widths="47% 47%" margins="0%" permid="iPl">
+        <p permid="UEC">
+          <ol marker="a." permid="mtL">
+            <li permid="itM">
+              <p permid="YEB">
+                How many real number solutions can the equation <m>h(x) = 0</m> have?
+                Why?
+              </p>
+            </li>
+            <li permid="OAV">
+              <p permid="ELK">
+                If <m>h(x) = 0</m> has two distinct real solutions,
+                what can you say about the signs of the two solutions?
+                Why?
+              </p>
+            </li>
+            <li permid="uIe">
+              <p permid="kST">
+                Assume that <m>\lim_{x \to \infty} h'(x) = 3</m>,
+                as appears to be indicated in <xref ref="F-3-1-Ez3">Figure</xref>.
+                How will the graph of
+                <m>y = h(x)</m> appear as <m>x \to \infty</m>?
+                Why?
+              </p>
+            </li>
+            <li permid="aPn">
+              <p permid="Rac">
+                Describe the concavity of
+                <m>y = h(x)</m> as fully as you can from the provided information.
+              </p>
+            </li>
+          </ol>
+        </p>
+        <figure xml:id="F-3-1-Ez3" permid="ALL">
+          <caption>The graph of <m>y = h'(x)</m>.</caption>
+          <image source="images/3_1_Ez3"/>
+        </figure>
+      </sidebyside>
     </statement>
-    <answer permid="jGw">
-      <p permid="dKg">
-        <ol marker="a." permid="xKb">
-          <li permid="DdO">
-            <p permid="lKe">
-              Absolute maximum <m>p(0) = p(a) = 0</m>;
-              absolute minimum <m>p\left( \frac{a}{\sqrt{3}} \right) = -\frac{2a^3}{3\sqrt{3}}</m>.
+    <answer permid="wSQ">
+      <p permid="Iqk">
+        <ol marker="a." permid="aft">
+          <li permid="GWw">
+            <p permid="xhl">
+              <m>h</m> can have no, one, or two real zeros.
+            </p>
+            <sidebyside width="50%" permid="OWu">
+              <image source="images/3_1_Ez3Soln"/>
+            </sidebyside>
+          </li>
+          <li permid="ndF">
+            <p permid="dou">
+              One root is negative and the other positive.
             </p>
           </li>
-          <li permid="jkX">
-            <p permid="RRn">
-              Absolute max <m>r\left( \frac{1}{b} \right) \approx 0.368 \frac{a}{b}</m>;
-              absolute min <m>r\left( \frac{2}{b} \right) \approx 0.270 \frac{a}{b}</m>.
+          <li permid="TkO">
+            <p permid="JvD">
+              <m>h</m> will look like a line with slope <m>3</m>.
             </p>
           </li>
-          <li permid="Psg">
-            <p permid="xYw">
-              Absolute minimum <m>g(b) = a(1-e^{-b^2})</m>;
-              absolute maximum <m>g(3b) = a(1-e^{-3b^2})</m>.
-            </p>
-          </li>
-          <li permid="vzp">
-            <p permid="efF">
-              Absolute max <m>s\left( \frac{\pi}{2k} \right) = 1</m>;
-              absolute min <m>s\left( \frac{5\pi}{6k} \right) = \frac{1}{2}</m>.
+          <li permid="zrX">
+            <p permid="pCM">
+              <m>h</m> is concave up everywhere;
+              <m>h</m> is almost linear for large values of <m>|x|</m>.
             </p>
           </li>
         </ol>
       </p>
     </answer>
-    <solution permid="Dzn">
-      <p permid="Fhw">
-        <ol marker="a." permid="gLQ">
-          <li permid="bGy">
-            <p permid="KmO">
-              Given <m>p(x) = x^3 - a^2x</m> on <m>[0,a]</m>,
-              we first find the critical number(s) of <m>p</m> that lie in <m>[0,a]</m>.
-              Since <m>p'(x) = 3x^2 - a^2 = 3\left(x^2 - \frac{a^2}{3} \right)</m>,
-              we know <m>p</m> has critical numbers at <m>x = \pm \frac{a}{\sqrt{3}}</m>.
-              The negative critical number lies outside the interval,
-              while the positive one lies within the interval since <m>0 \lt \frac{1}{\sqrt{3}} \lt 1</m>.
-              Evaluating <m>p</m> at the endpoints and the critical number within the interval,
-              we find that <m>p(0) = 0</m>,
-              <m>p(a) = a^3 - a^2 \cdot a = 0</m>,
-              and <m>p\left( \frac{a}{\sqrt{3}} \right) = \left( \frac{a}{\sqrt{3}} \right)^3 - a^2 \cdot \left( \frac{a}{\sqrt{3}} \right) = \frac{a^3}{3\sqrt{3}} - \frac{a^3}{\sqrt{3}} = -\frac{2a^3}{3\sqrt{3}}</m>.
-              Hence, the absolute maximum of <m>p</m> on <m>[0,a]</m> is
-              <m>p(0) = p(a) = 0</m> and the absolute minimum is <m>p\left( \frac{a}{\sqrt{3}} \right) = -\frac{2a^3}{3\sqrt{3}}</m>.
+    <solution permid="QLH">
+      <p permid="jNA">
+        <ol marker="a." permid="BCJ">
+          <li permid="fzg">
+            <p permid="VJV">
+              Since <m>h'</m> is negative to the left of <m>0</m> and positive to the right of <m>0</m>,
+              the function <m>h</m> is decreasing for <m>x \lt 0</m> and increasing for <m>x \gt 0</m>.
+              So <m>h</m> can have at most <m>2</m> real roots (solutions to <m>h(x)=0</m>.
+              As the graphs in the following figure show,
+              it is possible that <m>h</m> has no real zeros,
+              one real zero, or two real zeros.
+            </p>
+            <sidebyside width="50%" permid="vdD">
+              <image source="images/3_1_Ez3Soln"/>
+            </sidebyside>
+          </li>
+          <li permid="LGp">
+            <p permid="BRe">
+              Given that <m>h</m> is decreasing for <m>x \lt 0</m> and increasing for <m>x \gt 0</m>,
+              the function <m>h</m> has an absolute minimum value at <m>x=0</m>.
+              So one root is to the left of this minimum and the other to the right.
+              Thus, one root is negative and the other positive.
+              See, for instance,
+              the lowest of the three possibilities for <m>h</m> shown in the figure in (a).
             </p>
           </li>
-          <li permid="HNH">
-            <p permid="qtX">
-              Given <m>r(x) = axe^{-bx}</m> on <m>\left[\frac{1}{2b}, \frac{2}{b}\right]</m>,
-              we first find the critical numbers of <m>r</m> that lie in the given interval.
-              Note that by the product rule,
-              <m>r'(x) = ax e^{-bx} (-b) + e^{-bx} a</m>.
-              Factoring, <m>r'(x) = ae^{-bx}(-bx + 1)</m>,
-              and thus the only critical number of <m>r</m> occurs where <m>x = \frac{1}{b}</m>.
-              Note that <m>\frac{1}{2b} \lt \frac{1}{b} \lt b</m> since <m>b \gt 1</m>,
-              and thus the critical number lies within the interval.
-            </p>
-            <p permid="WBg">
-              Evaluating <m>r</m> at the endpoints and the critical number, we find
-
-              <ul permid="Uxy">
-                <li permid="OIm">
-                  <p permid="Uqu">
-                    <m>r\left( \frac{1}{2b} \right) = a \cdot \frac{1}{2b} \cdot e^{-1/2} \approx 0.607 \frac{a}{2b} = 0.3035 \frac{a}{b}</m>
-                  </p>
-                </li>
-                <li permid="uPv">
-                  <p permid="CIp">
-                    <m>r\left( \frac{2}{b} \right) = a \cdot \frac{2}{b} \cdot e^{-2} \approx 0.135 \frac{2a}{b} = 0.270 \frac{a}{b}</m>
-                  </p>
-                </li>
-                <li permid="aWE">
-                  <p permid="iPy">
-                    <m>r\left( \frac{1}{b} \right) = a \cdot \frac{1}{b} \cdot e^{-1} \approx 0.368 \frac{a}{b} </m>
-                  </p>
-                </li>
-              </ul>
-
-              The absolute max of <m>r</m> is therefore
-              <m>r\left( \frac{1}{b} \right) \approx 0.368 \frac{a}{b}</m> and the absolute min is <m>r\left( \frac{2}{b} \right) \approx 0.270 \frac{a}{b}</m>.
+          <li permid="rNy">
+            <p permid="hYn">
+              The slopes of the tangent lines to <m>h</m> will all be near <m>3</m>,
+              but less than <m>3</m>, as <m>x</m> gets large.
+              So the graph of <m>h</m> will look very much like a line with slope <m>3</m> for large values of <m>x</m>.
             </p>
           </li>
-          <li permid="nUQ">
-            <p permid="OWH">
-              For <m>w(x) = a(1-e^{-bx})</m> on <m>[b, 3b]</m>,
-              we first note that <m>w'(x) = a(be^{-bx}) = abe^{-bx}</m>.
-              Since <m>a</m> and <m>b</m> are both positive and so is <m>e^{-bx}</m> for every value of <m>x</m>,
-              we see that <m>w'(x) \gt 0</m> for every value of <m>x</m>.
-              Because <m>w</m> is always increasing
-              (specifically on <m>[b,3b]</m>),
-              <m>w</m> has its absolute minimum at the left endpoint (<m>g(b) = a(1-e^{-b^2})</m>) and its absolute maximum at the right endpoint (<m>g(3b) = a(1-e^{-3b^2})</m>).
-            </p>
-          </li>
-          <li permid="UbZ">
-            <p permid="vdQ">
-              Finally, for <m>s(x) = \sin(kx)</m> on <m>\left[\frac{\pi}{3k}, \frac{5\pi}{6k}\right]</m>,
-              we know <m>s'(x) = k\cos(kx)</m>,
-              and <m>\cos(kx) = 0</m> when
-              <m>kx = \frac{\pi}{2} \pm n\pi</m> for some integer <m>n</m>,
-              so <m>x = \frac{\pi}{2k} \pm n\pi = \frac{\pi \pm 2n\pi}{2k}</m>.
-              These <m>x</m>-values are the critical numbers of <m>s</m>.
-              Note that when <m>n = -1, 0, 1</m>,
-              the corresponding critical numbers are
-              <me permid="uIr">
-                x = -\frac{\pi}{2k}, \frac{\pi}{2k}, \frac{3\pi}{2k}
-              </me>
-              Comparing the values of <m>-\frac{\pi}{2}</m>, <m>\frac{\pi}{2k}</m>,
-              and <m>\frac{3\pi}{2k}</m> to
-              <m>\frac{\pi}{3}</m> and <m>\frac{5\pi}{6}</m>,
-              we see that only <m>\frac{\pi}{2k}</m> lies in the given interval <m>\left[\frac{\pi}{3k}, \frac{5\pi}{6k}\right]</m>,
-              and thus <m>x = \frac{\pi}{2k}</m> is the only critical number at which we need to evaluate <m>s</m>.
-            </p>
-            <p permid="bkZ">
-              Evaluating <m>s</m> at the endpoints and relevant critical number, we find:
-
-              <ul permid="AEH">
-                <li permid="HdN">
-                  <p permid="AxD">
-                    <m>s\left( \frac{\pi}{3k} \right) = \sin\left( k \cdot \frac{\pi}{3k} \right) = \sin\left( \frac{\pi}{3} \right) = \frac{\sqrt{3}}{2}</m>;
-                  </p>
-                </li>
-                <li permid="nkW">
-                  <p permid="Hsi">
-                    <m>s\left( \frac{5\pi}{6k} \right) = \sin\left( k \cdot \frac{5\pi}{6k} \right) = \sin\left( \frac{5\pi}{6} \right) = \frac{1}{2}</m>; and
-                  </p>
-                </li>
-                <li permid="Tsf">
-                  <p permid="nzr">
-                    <m>s\left( \frac{\pi}{2k} \right) = \sin\left( k \cdot \frac{\pi}{2k} \right) = \sin\left( \frac{\pi}{2} \right) = 1</m>.
-                  </p>
-                </li>
-              </ul>
-
-              Hence the absolute max of <m>s</m> on <m>\left[\frac{\pi}{3k}, \frac{5\pi}{6k}\right]</m> is
-              <m>s\left( \frac{\pi}{2k} \right) = 1</m> and the absolute min of <m>s</m> is <m>s\left( \frac{5\pi}{6k} \right) = \frac{1}{2}</m>.
+          <li permid="XUH">
+            <p permid="Ofw">
+              We note that <m>h'</m> is increasing everywhere,
+              <m>h</m> is concave up everywhere.
+              Since the graph of <m>h'</m> levels off for large values of <m>|x|</m>,
+              the concavity of <m>h</m> is small when <m>|x|</m> is large.
+              Also, the largest value of the slope of the tangent line to <m>h'</m> occurs when <m>x=0</m>,
+              so <m>h</m> has its largest second dervitive when <m>x=0</m>.
+              So <m>h</m> is almost linear as <m>x</m> decreases without bound,
+              <m>h</m> has more bend as <m>x</m> approaches <m>0</m>,
+              has its greatest bend at <m>x=0</m>,
+              then the second derivative of <m>h</m> as <m>x</m> increases,
+              ultimately having <m>h</m> become almost linear as <m>x</m> increases without bound.
             </p>
           </li>
         </ol>
       </p>
     </solution>
   </exercise>
-  <exercise permid="eWD">
-    <statement>
-      <p permid="itZ">
-        For each of the functions described below
-        (each continuous on <m>[a,b]</m>),
-        state the location of the function's absolute maximum and absolute minimum on the interval <m>[a,b]</m>,
-        or say there is not enough information provided to make a conclusion.
-        Assume that any critical numbers mentioned in the problem statement represent all of the critical numbers the function has in <m>[a,b]</m>.
-        In each case, write one sentence to explain your answer.
 
-        <ol marker="a." permid="CtU">
-          <li permid="Aji">
-            <p permid="TGA">
-              <m>f'(x) \le 0</m> for all <m>x</m> in <m>[a,b]</m>
-            </p>
-          </li>
-          <li permid="gqr">
-            <p permid="zNJ">
-              <m>g</m> has a critical number at <m>c</m> such that <m>a \lt c\lt b</m> and
-              <m>g'(x) \gt 0</m> for <m>x \lt c</m> and <m>g'(x) \lt 0</m> for <m>x \gt c</m>
-            </p>
-          </li>
-          <li permid="MxA">
-            <p permid="fUS">
-              <m>h(a) = h(b)</m> and
-              <m>h''(x) \lt 0</m> for all <m>x</m> in <m>[a,b]</m>
-            </p>
-          </li>
-          <li permid="sEJ">
-            <p permid="Mcb">
-              <m>p(a) \gt 0</m>, <m>p(b) \lt 0</m>,
-              and for the critical number <m>c</m> such that <m>a \lt c \lt b</m>,
-              <m>p'(x) \lt 0</m> for <m>x \lt c</m> and <m>p'(x) \gt 0</m> for <m>x \gt c</m>
-            </p>
-          </li>
-        </ol>
-      </p>
-    </statement>
-    <answer permid="vUO">
-      <p permid="JRp">
-        <ol marker="a." permid="dRk">
-          <li permid="YLS">
-            <p permid="sjk">
-              Global maximum at <m>x=a</m>;
-              global minimum at <m>x=b</m>.
-            </p>
-          </li>
-          <li permid="ETb">
-            <p permid="Yqt">
-              Global maximum at <m>x=c</m>;
-              global minimum at either <m>x=a</m> or <m>x=b</m>.
-            </p>
-          </li>
-          <li permid="lak">
-            <p permid="ExC">
-              Global minimum at <m>x=a</m> and <m>x=b</m>;
-              global maximum somewhere in <m>(a,b)</m>.
-            </p>
-          </li>
-          <li permid="Rht">
-            <p permid="kEL">
-              Global minimum at <m>x=c</m>;
-              global maximum value at <m>x = a</m>.
-            </p>
-          </li>
-        </ol>
-      </p>
-    </answer>
-    <solution permid="PNF">
-      <p permid="loF">
-        <ol marker="a." permid="MSZ">
-          <li permid="xoC">
-            <p permid="QLU">
-              The fact that <m>f'(x) \leq 0</m> for all <m>x</m> in <m>[a,b]</m> means that <m>f</m> cannot increase in this interval.
-              So either <m>f</m> is constant or <m>f</m> decreases somewhere in this interval.
-              We can conclude that the global maximum value of <m>f</m> occurs at <m>x=a</m> and the global minimum value at <m>x=b</m>.
-            </p>
-          </li>
-          <li permid="dvL">
-            <p permid="wTd">
-              The information we are given shows that <m>g</m> is increasing on <m>(a,c)</m> and decreasing on <m>(c,b)</m>.
-              So <m>g</m> has a global maximum value at <m>x=c</m>.
-              We know that <m>g</m> must have a global minimum at either <m>x=a</m> or <m>x=b</m>.
-              The information given does not tell us how much <m>g</m> increases on <m>(a,c)</m> and decreases on <m>(c,b)</m>,
-              so we cannot determine the endpoint at which <m>g</m> attains its global minimum value.
-            </p>
-          </li>
-          <li permid="JCU">
-            <p permid="dam">
-              In order for <m>h(a)=h(b)</m> and
-              <m>h''(x) \lt 0</m> for all <m>x</m> in <m>[a,b]</m>,
-              the graph of <m>h</m> must look something like a parabola that opens down on the interval <m>[a,b]</m>.
-              Consequently,
-              <m>h</m> has its global minimum at <m>x=a</m> and <m>x=b</m>,
-              and its global maximum somewhere in <m>(a,b)</m>,
-              but we do not know the exact point at which <m>h</m> attains its global maximum.
-            </p>
-          </li>
-          <li permid="pKd">
-            <p permid="Jhv">
-              The given information forces the graph of <m>p</m> to decrease on <m>(a,c)</m> then increase on <m>(c,b)</m>.
-              Thus, we must have <m>p(c) \lt p(b)</m> and so <m>p</m> has its global minimum value at <m>x=c</m>.
-              Since <m>p(a) \gt p(b)</m>,
-              this makes <m>p(a)</m> the global maximum value of <m>p</m> on <m>[a,b]</m>.
-            </p>
-          </li>
-        </ol>
-      </p>
-    </solution>
+  <exercise>
+    <!-- this exercise was Activity 3.1.2 in the first edition; I wrote a new activity to replace it -->
+      <statement>
+        <p>
+          Suppose that <m>g(x)</m> is a function continuous for every value of <m>x \ne 2</m> whose first derivative is <m>g'(x) = \frac{(x+4)(x-1)^2}{x-2}</m>.
+          Further, assume that it is known that <m>g</m> has a vertical asymptote at <m>x = 2</m>.
+
+          <ol marker="a.">
+            <li>
+              <p>
+                Determine all critical numbers of <m>g</m>.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                By developing a carefully labeled first derivative sign chart,
+                decide whether <m>g</m> has as a local maximum,
+                local minimum,
+                or neither at each critical number.  <alert>Note</alert>: observe that <m>g'(x)</m> can change sign at the vertical asymptote of <m>g(x)</m>.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Does <m>g</m> have a global maximum? global minimum?
+                Justify your claims.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                What is the value of <m>\lim_{x \to \infty} g'(x)</m>?
+                What does the value of this limit tell you about the long-term behavior of <m>g</m>?
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Sketch a possible graph of <m>y = g(x)</m>.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+
+      <answer>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>x = -4</m> or <m>x = 1</m>.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>g</m> has a local maximum at <m>x = -4</m> and neither a max nor min at <m>x = 1</m>.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>g</m> does not have a global minimum;
+                it is unclear
+                (at this point in our work)
+                if <m>g</m> increases without bound,
+                so we can't say for certain whether or not <m>g</m> has a global maximum.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m> \lim_{x \to \infty} g'(x) = \infty</m>.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                A possible graph of <m>g</m> is the following.
+              </p>
+
+              <sidebyside width="50%">
+                <image width="50%" source="images/3_1_Act1Soln" />
+              </sidebyside>
+
+            </li>
+          </ol>
+        </p>
+      </answer>
+      <solution>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                Since <m>g'(x) = \frac{(x+4)(x-1)^2}{x-2}</m>,
+                we see that <m>g'(x) = 0</m> implies that <m>x = -4</m> or <m>x = 1</m>.
+                While <m>x = 2</m> makes <m>g'</m> undefined,
+                we are told that <m>g</m> has a vertical asymptote at <m>x = 2</m>,
+                so <m>x = 2</m> is not in the domain of <m>g</m>,
+                and hence is technically not a critical number of <m>g</m>.
+                Nonetheless,
+                we place <m>x = 2</m> on our first derivative sign chart since the vertical asymptote is a location at which <m>g'</m> may change sign.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                The first derivative sign chart shows that <m>g'(x) \gt 0</m> for <m>x \lt -4</m>,
+                <m>g'(x) \lt 0</m> for <m>-4 \lt x \lt 1</m>,
+                <m>g'(x) \lt 0</m> for <m>1 \lt x \lt 2</m>,
+                and <m>g'(x) \gt 0</m> for <m>x \gt 2</m>.
+                By the first derivative test,
+                <m>g</m> has a local maximum at <m>x = -4</m> and neither a max nor min at <m>x = 1</m>.
+                As these are the only two critical numbers,
+                these are the only two locations for possible extremes.
+                (Note:
+                although <m>g</m> changes from decreasing to increasing at <m>x = 2</m>,
+                this is due to a vertical asymptote,
+                and <m>g</m> does not have a minimum there.)
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Because <m>g</m> is decreasing as <m>x \to 2^-</m>
+                (where <m>g</m> has a vertical asymptote),
+                <m>g</m> does not have a global minimum.
+                For <m>x \gt 2</m>, <m>g</m> is always increasing,
+                which suggests that <m>g</m> does not have a global maximum
+                (though we do not know for sure that <m>g</m> increases without bound).
+              </p>
+            </li>
+
+            <li>
+              <p>
+                We observe that
+                <md>
+                  <mrow>\lim_{x \to \infty} g'(x) =\mathstrut \amp  \lim_{x \to \infty} \frac{(x+4)(x-1)^2}{x-2}</mrow>
+                  <mrow>=\mathstrut \amp  \lim_{x \to \infty} \frac{x^3 + 2x^2 - 7x + 4}{x-2} \cdot \frac{\frac{1}{x}}{\frac{1}{x}}</mrow>
+                  <mrow>=\mathstrut \amp  \lim_{x \to \infty} \frac{x^2 + 2x - 7 + \frac{4}{x}}{1 - \frac{2}{x}}</mrow>
+                  <mrow>=\mathstrut \amp  \infty</mrow>
+                </md>
+                Since <m>g'(x) \to \infty</m> as <m>x \to \infty</m>,
+                this tells us that <m>g</m> increases without bound as <m>x \to \infty</m>.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                From all of our work above,
+                we know that <m>g</m> has a local maximum at <m>x = -4</m>,
+                a horizontal tangent line with neither a max nor min at <m>x = 1</m>,
+                and a vertical asymptote at <m>x = 2</m>,
+                plus <m>g</m> and <m>g'</m> both increase without bound as <m>x \to \infty</m>.
+                Thus, a possible graph of <m>g</m> is the following.
+              </p>
+
+              <sidebyside width="50%">
+                <image source="images/3_1_Act1Soln" />
+              </sidebyside>
+
+            </li>
+          </ol>
+        </p>
+      </solution>
   </exercise>
-  <exercise permid="LdM">
-    <statement>
-      <p permid="OBi">
-        Let <m>s(t) = 3\sin(2(t-\frac{\pi}{6})) + 5</m>.
-        Find the exact absolute maximum and minimum of <m>s</m> on the provided intervals by testing the endpoints and finding and evaluating all relevant critical numbers of <m>s</m>.
 
-        <ol marker="a." cols="2" permid="iBd">
-          <li permid="VRm">
-            <p permid="poE">
-              <m>[\frac{\pi}{6}, \frac{7\pi}{6}]</m>
+  <exercise permid="MbO">
+    <statement>
+      <p permid="lCN">
+        Let <m>p</m> be a function whose second derivative is <m>p''(x) = (x+1)(x-2)e^{-x}</m>.
+
+        <ol marker="a." permid="KWv">
+          <li permid="EbQ">
+            <p permid="umF">
+              Construct a second derivative sign chart for <m>p</m> and determine all inflection points of <m>p</m>.
             </p>
           </li>
-          <li permid="BYv">
-            <p permid="VvN">
-              <m>[0, \frac{\pi}{2}]</m>
+          <li permid="kiZ">
+            <p permid="atO">
+              Suppose you also know that
+              <m>x = \frac{\sqrt{5}-1}{2}</m> is a critical number of <m>p</m>.
+              Does <m>p</m> have a local minimum,
+              local maximum, or neither at <m>x = \frac{\sqrt{5}-1}{2}</m>?
+              Why?
             </p>
           </li>
-          <li permid="ifE">
-            <p permid="BCW">
-              <m>[0, 2\pi]</m>
-            </p>
-          </li>
-          <li permid="OmN">
-            <p permid="hKf">
-              <m>[\frac{\pi}{3}, \frac{5\pi}{6}]</m>
+          <li permid="Qqi">
+            <p permid="GAX">
+              If the point <m>(2, \frac{12}{e^2})</m> lies on the graph of
+              <m>y = p(x)</m> and <m>p'(2) = -\frac{5}{e^2}</m>,
+              find the equation of the tangent line to
+              <m>y = p(x)</m> at the point where <m>x = 2</m>.
+              Does the tangent line lie above the curve,
+              below the curve, or neither at this value?
+              Why?
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <answer permid="Ijg">
-      <p permid="pYy">
-        <ol marker="a." permid="JYt">
-          <li permid="utW">
-            <p permid="NRo">
-              Absolute max <m>s(\frac{5\pi}{12}) = 8</m>;
-              absolute min <m>s(\frac{11\pi}{12}) = 2</m>.
+    <answer permid="Jhi">
+      <p permid="oxt">
+        <ol marker="a." permid="GmC">
+          <li permid="wxr">
+            <p permid="mIg">
+              <m>p''(x)</m> is negative for
+              <m>-1 \lt x \lt 2</m> and positive for all other values of <m>x</m>;
+              <m>p</m> has points of inflection at <m>x = -1</m> and <m>x = 2</m>.
             </p>
           </li>
-          <li permid="aBf">
-            <p permid="tYx">
-              Absolute max <m>s(\frac{5\pi}{12}) = 8</m>;
-              absolute min <m>s(0) = 5 - \frac{3\sqrt{3}}{2} \approx 2.402</m>.
+          <li permid="cEA">
+            <p permid="SPp">
+              Local maximum.
             </p>
           </li>
-          <li permid="GIo">
-            <p permid="afG">
-              Absolute max <m>s(\frac{5\pi}{12}) = 8</m>;
-              absolute min <m>s(\frac{11\pi}{12}) = 2</m>.
-              (There are other points at which the function achieves these values on the given interval.)
-            </p>
-          </li>
-          <li permid="mPx">
-            <p permid="GmP">
-              Absolute max <m>s(\frac{5\pi}{12}) = 8</m>;
-              absolute min <m>s(\frac{5\pi}{6}) \approx 2.402</m>.
+          <li permid="ILJ">
+            <p permid="yWy">
+              Neither.
             </p>
           </li>
         </ol>
       </p>
     </answer>
-    <solution permid="cbX">
-      <p permid="RvO">
-        <ol marker="a." permid="lvJ">
-          <li permid="SWG">
-            <p permid="mtY">
-              For <m>s(t) = 3\sin(2(t-\frac{\pi}{6})) + 5</m>,
-              <m>s'(t) = 3\cos(2(t-\frac{\pi}{6})) \cdot 2 = 6\cos(2(t-\frac{\pi}{6}))</m>.
-              It follows that <m>s'(t) = 0</m> if and only if <m>\cos(2(t-\frac{\pi}{6})) = 0</m>,
-              and thus <m>2(t-\frac{\pi}{6}) = \frac{\pi}{2} \pm k\pi</m> for some integer value of <m>k</m>.
-              Solving this most recent equation for <m>t</m>,
-              we have <m>t-\frac{\pi}{6} = \frac{\pi}{4} \pm \frac{k\pi}{2}</m>, so
-              <me permid="aPA">
-                t = \frac{\pi}{6} + \frac{\pi}{4} \pm \frac{k\pi}{2} = \frac{5\pi}{12} \pm \frac{k\pi}{2}
-              </me>.
-              Now we consider the given interval <m>[\frac{\pi}{6}, \frac{7\pi}{6}]</m>,
-              which we can think of as <m>[\frac{2\pi}{12}, \frac{14\pi}{12}]</m>.
-              The value <m>t = \frac{5\pi}{12}</m> lies in this interval,
-              as does <m>t = \frac{5\pi}{12} + \frac{\pi}{2} = \frac{11\pi}{12}</m>.
-              Thus, we have two critical numbers in the interval at which to evaluate <m>s</m>,
-              as well as at the endpoints.
-            </p>
-            <p permid="SBh">
-              Doing so, we find:
-
-              <ul permid="tai">
-                <li permid="zzo">
-                  <p permid="gEM">
-                    <m>s(\frac{5\pi}{12}) = 8</m>;
-                  </p>
-                </li>
-                <li permid="fGx">
-                  <p permid="yIq">
-                    <m>s(\frac{11\pi}{12}) = 2</m>;
-                  </p>
-                </li>
-                <li permid="LNG">
-                  <p permid="ePz">
-                    <m>s(\frac{\pi}{6}) = 5</m>; and
-                  </p>
-                </li>
-                <li permid="rUP">
-                  <p permid="KWI">
-                    <m>s(\frac{7\pi}{6}) = 5</m>.
-                  </p>
-                </li>
-              </ul>
-
-              The absolute max of <m>s</m> on
-              <m>[\frac{\pi}{6}, \frac{7\pi}{6}]</m> is thus <m>s(\frac{5\pi}{12}) = 8</m>,
-              while the absolute min is <m>s(\frac{11\pi}{12}) = 2</m>.
+    <solution permid="cZZ">
+      <p permid="PUJ">
+        <ol marker="a." permid="hJS">
+          <li permid="oSS">
+            <p permid="fdH">
+              Note that <m>p''(x)=0</m> at <m>x=-1</m> and <m>x=2</m>.
+              The second derivative sign chart for <m>p</m> shows that <m>p''(x)</m> is negative for
+              <m>-1 \lt x \lt 2</m> and positive for all other values of <m>x</m>.
+              Since <m>p''</m> changes sign at <m>x = -1</m> and <m>x = 2</m>,
+              <m>p</m> has points of inflection at <m>x = -1</m> and <m>x = 2</m>.
+              In particular, <m>p</m> is concave down for
+              <m>-1 \lt x \lt 2</m> and concave up for all other values of <m>x</m>.
             </p>
           </li>
-          <li permid="zdP">
-            <p permid="rdR">
-              From our work in (a),
-              we know that <m>s</m> has critical numbers at <m>t = \frac{5\pi}{12} \pm \frac{k\pi}{2}</m>.
-              On the interval <m>[0, \frac{\pi}{2}]</m>,
-              only <m>t = \frac{5\pi}{12}</m> lies in the interval.
-              Thus we have three values at which to evaluate <m>s</m>.
-            </p>
-            <p permid="Xla">
-              Doing so:
-
-              <ul permid="Zhr">
-                <li permid="YbY">
-                  <p permid="MLV">
-                    <m>s(\frac{5\pi}{12}) = 8</m>;
-                  </p>
-                </li>
-                <li permid="Ejh">
-                  <p permid="Dsj">
-                    <m>s(0) = 3\sin(2(0-\frac{\pi}{6})) + 5 = 3\sin(-\frac{\pi}{3}) + 5 = 5 - \frac{3\sqrt{3}}{2} \approx 2.402</m>; and
-                  </p>
-                </li>
-                <li permid="kqq">
-                  <p permid="jzs">
-                    <m>s(\frac{\pi}{2}) = 3\sin(2(\frac{\pi}{2}-\frac{\pi}{6})) + 5 = 3\sin(\frac{2\pi}{3}) + 5 = 5 + \frac{3\sqrt{3}}{2} \approx 7.598</m>.
-                  </p>
-                </li>
-              </ul>
-
-              The absolute max of <m>s</m> on
-              <m>[0, \frac{\pi}{2}]</m> is thus <m>s(\frac{5\pi}{12}) = 8</m>,
-              while the absolute min is <m>s(0) = 5 - \frac{3\sqrt{3}}{2} \approx 2.402</m>.
+          <li permid="Vab">
+            <p permid="LkQ">
+              If we compute <m>p''\left(\frac{\sqrt{5}-1}{2} \right)</m>,
+              we find that <m>p''\left(\frac{\sqrt{5}-1}{2} \right) \approx -1.205</m>,
+              which means that <m>p</m> is concave down at <m>x = \frac{\sqrt{5}-1}{2}</m>.
+              Since <m>p</m> has a horizontal tangent line at this point,
+              it follows that <m>p</m> has a local maximum at
+              <m>x = \frac{\sqrt{5}-1}{2}</m> by the second derivative test.
             </p>
           </li>
-          <li permid="fkY">
-            <p permid="PGB">
-              On the interval from <m>t = 0</m> to <m>t = 2\pi</m>,
-              <m>s</m> completes nearly two full periods,
-              and thus achieves each of its maximum and minimum values.
-              The absolute maximum is <m>8</m> as determined in (a),
-              and the absolute minimum is <m>2</m>.
-              These occur, for example, at <m>s(\frac{5\pi}{12}) = 8</m>,
-              while the absolute min is <m>s(\frac{11\pi}{12}) = 2</m>.
-              There are other points at which the function achieves these values on the given interval.
-            </p>
-          </li>
-          <li permid="Lsh">
-            <p permid="vNK">
-              On the interval <m>[\frac{\pi}{3}, \frac{5\pi}{6}] = [\frac{4\pi}{12}, \frac{10\pi}{12}]</m>,
-              only the critical number <m>t = \frac{5\pi}{12}</m> lies in the interval.
-              Thus we have three values at which to evaluate <m>s</m>.
-            </p>
-            <p permid="bUT">
-              Doing so:
-
-              <ul permid="FoA">
-                <li permid="Qxz">
-                  <p permid="sTe">
-                    <m>s(\frac{5\pi}{12}) = 8</m>;
-                  </p>
-                </li>
-                <li permid="wEI">
-                  <p permid="Icc">
-                    <m>s(\frac{\pi}{3}) = 3\sin(2(\frac{\pi}{3}-\frac{\pi}{6})) + 5 = 3\sin(\frac{\pi}{3}) + 5 = \frac{3\sqrt{3}}{2} + 5 \approx 7.598</m>; and
-                  </p>
-                </li>
-                <li permid="cLR">
-                  <p permid="ojl">
-                    <m>s(\frac{5\pi}{6}) = 3\sin(2(\frac{5\pi}{6}-\frac{\pi}{6})) + 5 = 3\sin(\frac{4\pi}{3}) + 5 = 5 - \frac{3\sqrt{3}}{2} \approx 2.402</m>.
-                  </p>
-                </li>
-              </ul>
-
-              The absolute max of <m>s</m> on
-              <m>[\frac{\pi}{3}, \frac{5\pi}{6}]</m> is thus <m>s(\frac{5\pi}{12}) = 8</m>,
-              while the absolute min is <m>s(\frac{5\pi}{6}) \approx 2.402</m>.
+          <li permid="Bhk">
+            <p permid="rrZ">
+              Since <m>p(2) = \frac{12}{e^2}</m> and <m>p'(2) = -\frac{5}{e^2}</m>,
+              the equation of the tangent line to <m>p</m> at <m>x = 2</m> is given by <m>y = -\frac{5}{e^2}(x-2) + \frac{12}{e^2}</m>.
+              To determine whether the tangent line lies above or below the graph of <m>y=p(x)</m> at <m>x = 2</m>,
+              we consider the concavity of <m>p</m>.
+              Recall we know that <m>p''(2) = 0</m> and that <m>p</m> is concave down to the left of <m>x = 2</m> and concave up to the right.
+              Thus, the tangent line lies neither solely below nor solely above the graph of <m>y = p(x)</m> at <m>x = 2</m>;
+              it lies below <m>y = p(x)</m> to the right of <m>x = 2</m> and above
+              <m>y = p(x)</m> to the left of <m>x = 2</m>.
             </p>
           </li>
         </ol>
