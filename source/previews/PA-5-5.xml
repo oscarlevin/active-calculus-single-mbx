@@ -35,8 +35,8 @@
           <nbsp/><m>\int x^5 \sin(x^3) \, dx</m></p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="9cm" xml:id="PA-5-5-task-1">
         <statement>
@@ -47,8 +47,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="8cm" xml:id="PA-5-5-task-2">
         <statement>
@@ -59,8 +59,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="8cm" xml:id="PA-5-5-task-3">
         <statement>
@@ -71,8 +71,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
     </exploration>
    

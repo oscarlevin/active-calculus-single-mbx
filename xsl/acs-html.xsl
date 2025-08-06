@@ -23,5 +23,5 @@
   <!-- Kill answers to WeBWorK exercises -->
   <xsl:template match="exercise[webwork-reps]|exercise[webwork]" mode="solutions"> </xsl:template>
   <!-- Deal with footnotes from #url -->
-   <xsl:template match="fn[@pi:url]" />
+  <xsl:template match="fn[@pi:url]" />
 </xsl:stylesheet>
