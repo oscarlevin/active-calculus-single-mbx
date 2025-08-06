@@ -17,6 +17,7 @@
     <tableofcontents level="2" />
     <exercise-divisional statement="yes" hint="no" answer="no" solution="no"/>
     <exercise-project statement="yes" hint="no" answer="no" solution="no" />
+    <worksheet left="13mm" right="13mm" top="13mm" bottom="13mm" />
   </common>
   <webwork server="https://webwork-dev.uleth.ca"
   course="chrissy-playground" userpassword="anonymous"
