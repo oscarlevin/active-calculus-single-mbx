@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,231 +12,148 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+ 
 <worksheet label="ws-act-8-3-1">
-   
-    <activity xml:id="act-8-3-1" workspace="3cm">
-      <introduction>
-        <p>
-      Consider the series
-      <me>
-        \sum_{k=1}^{\infty} \frac{1}{k^2}
-      </me>.
+  <activity xml:id="act-8-3-1">
+    <introduction>
+      <p>
+      Let <m>a = 1</m> and <m>r = \frac{2}{5}</m> be real numbers
+      and consider the corresponding finite geometric series
+      <men xml:id="eq-act-8-3-1">
+        S_n = 1 + \frac{2}{5} + \left(\frac{2}{5}\right)^2 + \cdots + \left(\frac{2}{5}\right)^{n-2} + \left(\frac{2}{5}\right)^{n-1}
+      </men>.
     </p>
+      <p>
+      Our goal in this activity is to find a shortcut formula for <m>S_n</m> that can be written as a single fraction that does not involve a sum of <m>n</m> terms.
+    </p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-8-3-1-task-0">
+      <statement>
         <p>
-      While it is physically impossible to add an infinite collection of numbers,
-      we can, of course, add any finite collection of them.
-      In what follows,
-      we investigate how understanding how to find the <m>n</m>th partial sum
-      (that is, the sum of the first <m>n</m> terms)
-      enables us to make sense of the infinite sum.
-
-      </p>
-      </introduction>
-      <task workspace="3cm" xml:id="act-8-3-1-task-0">
-        <statement>
-          <p>
-            Sum the first two numbers in this series.
-            That is, find a numeric value for
+            Multiply both sides of <xref ref="eq-act-8-3-1">Equation</xref> by <m>r = \frac{2}{5}</m>.
+            Write the new equation in the form 
+            <men xml:id="eq-act-8-3-1-Sn">
+              \frac{2}{5} \cdot S_n = <fillin characters="5" />
+            </men>.
+          </p>
+      </statement>
+      <hint>
+        <p>
+            Note that <m>\frac{2}{5} \cdot \left( \frac{2}{5} \right)^{n-1} = \left( \frac{2}{5} \right)^{n} </m>.
+          </p>
+      </hint>
+      <answer>
+        <p><m>\frac{2}{5} \cdot S_n = \frac{2}{5} + \left(\frac{2}{5}\right)^2 + \left(\frac{2}{5}\right)^3 + \cdots + \left(\frac{2}{5}\right)^n  </m>.
+          </p>
+      </answer>
+      <solution>
+        <p>
+                We see that
+                <me>
+                  \frac{2}{5} \cdot S_n = \frac{2}{5} \left( 1 + \frac{2}{5} + \left(\frac{2}{5}\right)^2 + \cdots + \left(\frac{2}{5}\right)^{n-1}  + \left(\frac{2}{5}\right)^{n} \right) 
+                </me>,
+                or
+                <men xml:id="eq-act-8-3-1-soln">
+                  \frac{2}{5} \cdot S_n = \frac{2}{5} + \left(\frac{2}{5}\right)^2 + \left(\frac{2}{5}\right)^3 + \cdots + \left(\frac{2}{5}\right)^{n-1}  + \left(\frac{2}{5}\right)^{n}
+                </men>.
+              </p>
+      </solution>
+    </task>
+    <task workspace="3cm" xml:id="act-8-3-1-task-1">
+      <statement>
+        <p>
+            Now subtract <xref ref="eq-act-8-3-1-Sn">Equation</xref> from <xref ref="eq-act-8-3-1">Equation</xref>, and explain why it follows that
+            <men xml:id="eq-8a-3-1-partial-geometric-sum">
+              S_n - \frac{2}{5} \cdot S_n = 1 - \left(\frac{2}{5}\right)^{n}
+            </men>.
+          </p>
+      </statement>
+      <hint>
+        <p>
+            Observe that <m>\frac{2}{5} \left( 1 + \frac{2}{5} + \left(\frac{2}{5}\right)^2 + \cdots + \left(\frac{2}{5}\right)^{n-1} \right) = \frac{2}{5} + \left(\frac{2}{5}\right)^2 + \left(\frac{2}{5}\right)^3 + \cdots + \left(\frac{2}{5}\right)^{n}</m>.
+          </p>
+      </hint>
+      <answer>
+        <p>
+            The key observation is that <m>1 + \frac{2}{5} + \left(\frac{2}{5}\right)^2 + \cdots + \left(\frac{2}{5}\right)^{n-1} - \frac{2}{5} - \left(\frac{2}{5}\right)^2 - \left(\frac{2}{5}\right)^3 - \cdots - \left(\frac{2}{5}\right)^n = 1 -  \left(\frac{2}{5}\right)^n</m>.
+          </p>
+      </answer>
+      <solution>
+        <p>
+            Next, we use <xref ref="eq-act-8-3-1-soln">Equation</xref> in the expression <m>S_n - \frac{2}{5} \cdot S_n</m> to find that
+            <md>
+              <mrow>
+                S_n - \frac{2}{5} \cdot S_n \amp= \left( 1 + \frac{2}{5} + \left(\frac{2}{5}\right)^2 + \cdots + \left(\frac{2}{5}\right)^{n-1} \right) - \left(\frac{2}{5} + \left(\frac{2}{5}\right)^2 + \left(\frac{2}{5}\right)^3 + \cdots + \left(\frac{2}{5}\right)^n \right)
+              </mrow>
+              <mrow>
+                \amp= 1 + \frac{2}{5} + \left(\frac{2}{5}\right)^2 + \cdots + \left(\frac{2}{5}\right)^{n-1} - \frac{2}{5} - \left(\frac{2}{5}\right)^2 - \left(\frac{2}{5}\right)^3 - \cdots - \left(\frac{2}{5}\right)^n 
+              </mrow>
+              <mrow>
+                \amp= 1 -  \left(\frac{2}{5}\right)^n
+              </mrow>.
+            </md></p>
+      </solution>
+    </task>
+    <task workspace="6.5cm" xml:id="act-8-3-1-task-2">
+      <statement>
+        <p>
+            Solve  <xref ref="eq-8a-3-1-partial-geometric-sum">Equation</xref> for <m>S_n</m> to find a simple formula for <m>S_n</m> that does not involve adding <m>n</m> terms.
+          </p>
+      </statement>
+      <hint>
+        <p>
+            Observe that we can remove a factor of <m>S_n</m> from <m>S_n - \frac{2}{5} \cdot S_n</m>.
+          </p>
+      </hint>
+      <answer>
+        <p>
+          <m>S_n = \frac{1 -  \left(\frac{2}{5}\right)^n}{\frac{3}{5}}</m>
+        </p>
+      </answer>
+      <solution>
+        <p>
+            Using the fact that <m>S_n - \frac{2}{5} \cdot S_n = \frac{3}{5} \cdot S_n</m>, we see that 
             <me>
-              \sum_{k=1}^2 \frac{1}{k^2}
+              \frac{3}{5} \cdot S_n = 1 -  \left(\frac{2}{5}\right)^{n}
+            </me>
+            so 
+            <me>
+              S_n = \frac{1 -  \left(\frac{2}{5}\right)^{n}}{\frac{3}{5}}
+            </me>.
+          </p>
+      </solution>
+    </task>
+    <task workspace="3cm" xml:id="act-8-3-1-task-3">
+      <statement>
+        <p>
+            How would your work above change if instead of the original geometric sum <m>S_n</m>, we considered the situation with <m>a = 7</m>,
+            <me>
+              S_n = 7 + 7 \cdot \frac{2}{5} + 7 \cdot \left(\frac{2}{5}\right)^2 + \cdots + 7 \cdot \left(\frac{2}{5}\right)^{n-1}
+            </me>?
+          </p>
+      </statement>
+      <hint>
+        <p>
+            Note that we can remove a factor of <m>7</m> from every term.
+          </p>
+      </hint>
+      <answer>
+        <p>
+          <m>S_n = \frac{7 -  7 \cdot \left(\frac{2}{5}\right)^n}{\frac{3}{5}}</m>
+        </p>
+      </answer>
+      <solution>
+        <p>
+            If instead of the original geometric sum <m>S_n</m>, we had <m>a = 7</m> and
+            <me>
+              S_n = 7 + 7 \cdot \frac{2}{5} + 7 \cdot \left(\frac{2}{5}\right)^2 + \cdots + 7 \cdot \left(\frac{2}{5}\right)^{n-1}
+            </me>,
+            the only thing that would change is that our shortcut formula for <m>S_n</m> would be multiplied by <m>7</m>:
+            <me>
+              S_n = \frac{7 -  7 \cdot \left(\frac{2}{5}\right)^n}{\frac{3}{5}}
             </me></p>
-        </statement>
-        <hint>
-          <p>
-            Compute <m>\frac{1}{1^2} + \frac{1}{2^2}</m>.
-          </p>
-        </hint>
-        <answer>
-          <p>
-            See the table in <xref ref="part-act-8-3-1-ans-c">part</xref>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            See the table in <xref ref="part-act-8-3-1-soln-c">part</xref>.
-          </p>
-        </solution>
-      </task>
-      <task workspace="3cm" xml:id="act-8-3-1-task-1">
-        <statement>
-          <p>
-            Next, add the first three numbers in the series.
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Do likewise but include the third term, <m>\frac{1}{3^2}</m>.
-          </p>
-        </hint>
-        <answer>
-          <p>
-            See the table in <xref ref="part-act-8-3-1-ans-c">part</xref>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            See the table in <xref ref="part-act-8-3-1-soln-c">part</xref>.
-          </p>
-        </solution>
-      </task>
-      <task workspace="0.1cm" xml:id="act-8-3-1-task-2">
-        <statement>
-          <p>
-            Continue adding terms in this series to complete the list below.
-            Carry each sum to at least 8 decimal places.
-          </p>
-          <p>
-            <ul marker="" cols="2">
-              <li>
-                <m>\displaystyle\sum_{k=1}^{1} \frac{1}{k^2}=1</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{2} \frac{1}{k^2}=</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{3} \frac{1}{k^2}=</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{4} \frac{1}{k^2}=</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{5} \frac{1}{k^2}=\phantom{1.46361111}</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{6} \frac{1}{k^2}=</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{7} \frac{1}{k^2}=</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{8} \frac{1}{k^2}=</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{9} \frac{1}{k^2}=</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{10} \frac{1}{k^2} = \phantom{1.549767731}</m>
-              </li>
-            </ul>
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Note that you can use your work in each previous stage and just add one more term to get the next desired sum.
-          </p>
-        </hint>
-        <answer>
-          <ul marker="" cols="2">
-            <li permid="BRA"><m>\displaystyle\sum_{k=1}^{1} \frac{1}{k^2}=1</m></li>
-
-            <li permid="hYJ">
-              <m>\displaystyle\sum_{k=1}^{2} \frac{1}{k^2}=1.25</m>
-            </li>
-
-            <li permid="OfS">
-              <m>\displaystyle\sum_{k=1}^{3} \frac{1}{k^2}=1.361111111</m>
-            </li>
-
-            <li permid="unb">
-              <m>\displaystyle\sum_{k=1}^{4} \frac{1}{k^2}=1.423611111</m>
-            </li>
-
-            <li permid="auk">
-              <m>\displaystyle\sum_{k=1}^{5} \frac{1}{k^2}=1.463611111</m>
-            </li>
-
-            <li permid="GBt">
-              <m>\displaystyle\sum_{k=1}^{6} \frac{1}{k^2}=1.491388889</m>
-            </li>
-
-            <li permid="mIC">
-              <m>\displaystyle\sum_{k=1}^{7} \frac{1}{k^2}=1.511797052</m>
-            </li>
-
-            <li permid="SPL">
-              <m>\displaystyle\sum_{k=1}^{8} \frac{1}{k^2}=1.527422052</m>
-            </li>
-
-            <li permid="yWU">
-              <m>\displaystyle\sum_{k=1}^{9} \frac{1}{k^2}=1.539767731</m>
-            </li>
-
-            <li permid="fed">
-              <m>\displaystyle\sum_{k=1}^{10} \frac{1}{k^2} =1.549767731 \phantom{1.54976773}</m>
-            </li>
-          </ul>
-        </answer>
-        <solution>
-          <p>
-            If we add the first few terms of the sequence
-            <m>\left\{\frac{1}{k^2}\right\}</m> we obtain the entries (to 10 decimal places) in the following table.
-          </p>
-          <p>
-            <ul marker="" cols="2">
-              <li>
-                <m>\displaystyle\sum_{k=1}^{1} \frac{1}{k^2}=1</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{2} \frac{1}{k^2}=1.25</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{3} \frac{1}{k^2}=1.361111111</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{4} \frac{1}{k^2}=1.423611111</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{5} \frac{1}{k^2}=1.463611111</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{6} \frac{1}{k^2}=1.491388889</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{7} \frac{1}{k^2}=1.511797052</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{8} \frac{1}{k^2}=1.527422052</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{9} \frac{1}{k^2}=1.539767731</m>
-              </li>
-              <li>
-                <m>\displaystyle\sum_{k=1}^{10} \frac{1}{k^2} =1.549767731 \phantom{1.54976773}</m>
-              </li>
-            </ul>
-          </p>
-        </solution>
-      </task>
-      <task workspace="5cm" xml:id="act-8-3-1-task-3">
-        <statement>
-          <p>
-            The sums in <xref ref="act-8-3-1-task-2">part</xref>
-            form a sequence whose <m>n</m>th term is <m>S_n = \sum_{k=1}^{n} \frac{1}{k^2}</m>.
-            Based on your calculations in the table,
-            do you think the sequence <m>\{S_n\}</m> converges or diverges?
-            Explain.
-            How do you think this sequence <m>\{S_n\}</m> is related to the series <m>\sum_{k=1}^{\infty} \frac{1}{k^2}</m>?
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Look for a pattern in the numbers you computed in part (c).
-          </p>
-        </hint>
-        <answer>
-          <p>
-            It appears <m>\{S_n\}</m> converges to something a bit larger than 1.5.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            These sums in the table in part (c) seem to indicate that the sequence <m>\{S_n\}</m> converges to something a bit larger than 1.5.
-            Since the sequence <m>\{S_n\}</m> is found by adding up the first <m>k</m> terms of the series,
-            we should expect that the series
-            <m>\sum_{k=1}^{n} \frac{1}{k^2}</m> is the limit of the sequence <m>\{S_n\}</m> as <m>n</m> goes to infinity.
-          </p>
-        </solution>
-      </task>
-    </activity>
-   
+      </solution>
+    </task>
+  </activity>
 </worksheet>

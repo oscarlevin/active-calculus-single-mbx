@@ -12,294 +12,645 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-3-5" permid="Pzx">
-  <exercise label="csafranski__3.5HW_prob1.pg">
-    <webwork source="csafranski/3.5HW_prob1.pg"/>
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-3-3" permid="GWJ">
+  <exercise label="Library__Michigan__Chap4Sec3__Q07.pg">
+    <webwork source="Library/Michigan/Chap4Sec3/Q07.pg"/>
   </exercise>
-  <exercise label="csafranski__3.5HW_prob2.pg">
-    <webwork source="csafranski/3.5HW_prob2.pg"/>
+  <exercise label="Library__Michigan__Chap4Sec3__Q09.pg">
+    <webwork source="Library/Michigan/Chap4Sec3/Q09.pg"/>
   </exercise>
-  <exercise label="csafranski__3.5HW_prob3.pg">
-    <webwork source="csafranski/3.5HW_prob3.pg"/>
+  <exercise label="Library__Michigan__Chap4Sec3__Q21.pg">
+    <webwork source="Library/Michigan/Chap4Sec3/Q21.pg"/>
   </exercise>
-  <exercise label="csafranski__3.5HW_prob4.pg">
-    <webwork source="csafranski/3.5HW_prob4.pg"/>
+  <exercise label="Library__ASU-topics__setOptimization__4-5-18.pg">
+    <webwork source="csafranski/3.3HW_prob4.pg"/>
   </exercise>
-  <exercise label="csafranski__3.5HW_prob5.pg">
-    <webwork source="csafranski/3.5HW_prob5.pg"/>
+  <exercise label="Library__ASU-topics__setOptimization__s3_1_44a.pg">
+    <webwork source="Library/ASU-topics/setOptimization/s3_1_44a.pg"/>
   </exercise>
-  <exercise label="csafranski__3.5HW_prob6.pg">
-    <webwork source="csafranski/3.5HW_prob6.pg"/>
+  <exercise label="Library__OSU__high_school_apcalc__dchmwk6__prob11.pg">
+    <webwork source="csafranski/3.3HW_prob6.pg"/>
   </exercise>
-  <exercise label="Library__Rochester__setDerivatives8RelatedRates__c2s8p4.pg">
-    <webwork source="Library/Rochester/setDerivatives8RelatedRates/c2s8p4.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setDerivatives8RelatedRates__c2s8p3.pg">
-    <webwork source="Library/Rochester/setDerivatives8RelatedRates/c2s8p3.pg"/>
-  </exercise>
-  <!-- Uses EV2 so not compatible with PTX -->
-  <!--
-  <exercise label="Library__Rochester__setDerivatives8RelatedRates__csuf_dr_8_1" xml:id="ez-3-5-WW1">
-    <webwork source="Library/Rochester/setDerivatives8RelatedRates/csuf_dr_8_1.pg" />
-  </exercise>
-  -->
-  <exercise permid="UEP">
+  <exercise permid="SIl">
     <statement>
-      <p permid="Eqy">
-        A sailboat is sitting at rest near its dock.
-        A rope attached to the bow of the boat is drawn in over a pulley that stands on a post on the end of the dock that is 5 feet higher than the bow.
-        If the rope is being pulled in at a rate of 2 feet per second,
-        how fast is the boat approaching the dock when the length of rope from bow to pulley is 13 feet?
+      <p permid="WfH">
+        Based on the given information about each function,
+        decide whether the function has global maximum,
+        a global minimum, neither, both,
+        or that it is not possible to say without more information.
+        Assume that each function is twice differentiable and defined for all real numbers,
+        unless noted otherwise.
+        In each case, write one sentence to explain your conclusion.
+
+        <ol marker="a." permid="qfC">
+          <li permid="ITa">
+            <p permid="rzq">
+              <m>f</m> is a function such that <m>f''(x) \lt 0</m> for every <m>x</m>.
+            </p>
+          </li>
+          <li permid="paj">
+            <p permid="XGz">
+              <m>g</m> is a function with two critical numbers <m>a</m> and <m>b</m>
+              (where <m>a \lt b</m>),
+              and <m>g'(x) \lt 0</m> for <m>x \lt a</m>,
+              <m>g'(x) \lt 0</m> for <m>a \lt x \lt b</m>,
+              and <m>g'(x) \gt 0</m> for <m>x \gt b</m>.
+            </p>
+          </li>
+          <li permid="Vhs">
+            <p permid="DNI">
+              <m>h</m> is a function with two critical numbers <m>a</m> and <m>b</m>
+              (where <m>a \lt b</m>),
+              and <m>h'(x) \lt 0</m> for <m>x \lt a</m>,
+              <m>h'(x) \gt 0</m> for <m>a \lt x \lt b</m>,
+              and <m>h'(x) \lt 0</m> for <m>x \gt b</m>.
+              In addition,
+              <m>\lim_{x \to \infty} h(x) = 0</m> and <m>\lim_{x \to -\infty} h(x) = 0</m>.
+            </p>
+          </li>
+          <li permid="BoB">
+            <p permid="jUR">
+              <m>p</m> is a function differentiable everywhere except at <m>x = a</m> and
+              <m>p''(x) \gt 0</m> for <m>x \lt a</m> and <m>p''(x) \lt 0</m> for <m>x \gt a</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </statement>
-    <answer permid="ZoI">
-      <p permid="fNO">
-        The boat is approaching the dock at a rate of <m>\frac{13}{6} \approx 2.167</m> feet per second.
+    <answer permid="Xse">
+      <p permid="xCX">
+        <ol marker="a." permid="RCS">
+          <li permid="hvK">
+            <p permid="Qca">
+              Not enough information is given.
+            </p>
+          </li>
+          <li permid="NCT">
+            <p permid="wjj">
+              Global minimum at <m>x = b</m>.
+            </p>
+          </li>
+          <li permid="tKc">
+            <p permid="cqs">
+              Global minimum at <m>x = a</m>;
+              global maximum at <m>x = b</m>.
+            </p>
+          </li>
+          <li permid="ZRl">
+            <p permid="IxB">
+              Not enough information is provided.
+            </p>
+          </li>
+        </ol>
       </p>
     </answer>
-    <solution permid="thz">
-      <p permid="qmT">
-        Using the given information, we construct the figure shown below.
-      </p>
-      <sidebyside permid="jNN">
-        <image source="images/3_5_Ez1Soln"/>
-      </sidebyside>
-      <p permid="Wuc">
-        As pictured,
-        we know that <m>5</m> is the vertical height from the pulley to the level of the bow of the boat,
-        and we let <m>z</m> be the length of the rope from the pulley to the bow of the boat,
-        and <m>x</m> the horizontal distance from the dock to the bow of the boat.
-      </p>
-      <p permid="CBl">
-        We are given that the rope is being pulled in at <m>2</m> feet per second,
-        and thus <m>\frac{dz}{dt} = -2</m> feet per second.
-        Because we want to know how fast the boat is approaching the dock when the length of rope from bow to pulley is 13 feet,
-        we want to know <m>\left. \frac{dx}{dt} \right|_{z=13}</m>.
-        Thus, we need to relate the changing quantities <m>z</m> and <m>x</m>.
-      </p>
-      <p permid="iIu">
-        Because the rope, the post
-        (vertically extended),
-        and the horizontal distance from the bow of the boat to the post on the dock form a right triangle at all times,
-        it follows that
-        <me permid="phA">
-          x^2 + 5^2 = z^2
-        </me>.
-        Having now related <m>z</m> and <m>x</m>,
-        we differentiate this equation with respect to <m>t</m>.
-        By the chain rule, we now see that
-        <me permid="VoJ">
-          2x \frac{dx}{dt} = 2z \frac{dz}{dt}
-        </me>.
-        At the instant <m>z = 13</m>,
-        <m>x^2 + 5^2 = 13^2</m>, and thus <m>x = 12</m>.
-        Using all of the given information at the instant <m>z = 13</m> (including that <m>\frac{dz}{dt} = -2</m>),
-        <me permid="BvS">
-          2(12) \left. \frac{dx}{dt} \right|_{z = 13} = 2(13)(-2)
-        </me>.
-        Solving for <m>\left. \frac{dx}{dt} \right|_{z = 13}</m>,
-        <me permid="hDb">
-          \left. \frac{dx}{dt} \right|_{z = 13} = -\frac{13}{6}
-        </me>
-        feet per second.
-        Thus the boat is approaching the dock at a rate of <m>\frac{13}{6} \approx 2.167</m> feet per second.
+    <solution permid="rkV">
+      <p permid="Zan">
+        <ol marker="a." permid="oqp">
+          <li permid="FYu">
+            <p permid="oEK">
+              It's not possible to say without more information:
+              for instance, the functions
+              <m>f(x) = e^{-x}</m>, <m>f(x) = e^{-x}</m>,
+              and <m>f(x) = x^2</m> are each always concave up,
+              but only one of them has a global minimum.
+              We can say for sure that by being always concave up,
+              <m>f</m> cannot have a global maximum,
+              and it also cannot have both a global maximum and a global minimum.
+              It might have a global minimum, or it might have neither.
+            </p>
+          </li>
+          <li permid="mfD">
+            <p permid="ULT">
+              By being twice differentiable,
+              we know that <m>g'(x) = 0</m> any time <m>x</m> is a critical number of <m>g</m>.
+              Thus, given the signs of <m>g'(x)</m> on the stated intervals,
+              <m>g</m> is decreasing before <m>x = a</m> and decreasing on <m>a \lt x \lt b</m>,
+              with a horizontal tangent line at <m>x = a</m>.
+              In addition, <m>g</m> is increasing for <m>x \gt b</m>.
+              Thus, we know that <m>g</m> has a global minimum at <m>x = b</m>.
+            </p>
+          </li>
+          <li permid="SmM">
+            <p permid="ATc">
+              Since <m>h</m> is always decreasing for <m>x \lt a</m>,
+              always increasing for <m>a \lt x \lt b</m>,
+              and always decreasing for <m>x \gt b</m>,
+              we know that <m>h</m> has a local minimum at <m>x = a</m> and a local maximum at <m>x = b</m>.
+              Moreover, these local extremes are both global extremes since
+              <m>h(x) to 0</m> as <m>x \to \pm \infty</m>.
+              In particular,
+              since <m>h(x)</m> decreases to <m>0</m> for <m>x \gt b</m> and increases on <m>a \lt x \lt b</m>,
+              it follows that <m>h(b)</m> is the largest value of <m>h(x)</m> on <m>(a, \infty)</m>,
+              and that <m>h(b) \gt 0</m>.
+              Similarly, since <m>h(x)</m> decreases on
+              <m>(-\infty,
+              a)</m> and approaches <m>0</m> as <m>x \to -\infty</m>,
+              and <m>h(x)</m> increases on <m>a \lt x \lt b</m>,
+              it must be the case that <m>h(a)</m> is the least value of <m>h(x)</m> on
+              <m>(-\infty,
+              b)</m> and that <m>h(b) \lt 0</m>.
+              Hence, <m>h(x)</m> is always negative on <m>x \lt a</m> and <m>h(x)</m> is always positive on <m>x \gt b</m>.
+              From all of these observations,
+              it follows that <m>h</m> has a global minimum at <m>x = a</m> and a global maximum at <m>x = b</m>.
+            </p>
+          </li>
+          <li permid="ytV">
+            <p permid="hal">
+              First, observe that <m>p</m> is defined for all real numbers by assumption,
+              so <m>p(a)</m> has some finite value.
+              However, <m>p</m> is not differentiable at <m>x = a</m> and <m>p</m> is concave up to the left of <m>x = a</m> and concave down to the right of <m>x = a</m>.
+              This indicates that <m>p</m> has a relative maximum at <m>x = a</m>.
+              Not enough information is provided,
+              however, to determine if this relative maximum is a global maximum,
+              nor if <m>p</m> happens to have a global minimum at some other point.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
-  <exercise xml:id="ez-3-5-pool" permid="ALY">
+  <exercise permid="yPu">
     <statement>
-      <p permid="kxH">
-        A swimming pool is <m>60</m> feet long and <m>25</m> feet wide.
-        Its depth varies uniformly from <m>3</m> feet at the shallow end to <m>15</m> feet at the deep end,
-        as shown in the <xref ref="F-3-5-Ez3">Figure</xref>.
-      </p>
-      <figure xml:id="F-3-5-Ez3" permid="wLZ">
-        <caption>The swimming pool.</caption>
-        <image width="50%" source="images/3_5_Ez3"/>
-      </figure>
-      <p permid="QEQ">
-        Suppose the pool has been emptied and is now being filled with water at a rate of <m>800</m> cubic feet per minute.
-        At what rate is the depth of water
-        (measured at the deepest point of the pool)
-        increasing when it is <m>5</m> feet deep at that end?
-        Over time, describe how the depth of the water will increase:
-        at an increasing rate, at a decreasing rate, or at a constant rate.
-        Explain.
+      <p permid="CmQ">
+        For each family of functions that depends on one or more parameters,
+        determine the function's absolute maximum and absolute minimum on the given interval.
+
+        <ol marker="a." permid="WmL">
+          <li permid="eBe">
+            <p permid="Nhu">
+              <m>p(x) = x^3 - a^2x</m>,
+              <m>[0,a]</m> (<m>a \gt 0</m>)
+            </p>
+          </li>
+          <li permid="KIn">
+            <p permid="toD">
+              <m>r(x) = axe^{-bx}</m>,
+              <m>[\frac{1}{2b}, \frac{2}{b}]</m> (<m>a \gt 0,
+              b \gt 1</m>)
+            </p>
+          </li>
+          <li permid="qPw">
+            <p permid="ZvM">
+              <m>w(x) = a(1-e^{-bx})</m>,
+              <m>[b, 3b]</m> (<m>a, b \gt 0</m>)
+            </p>
+          </li>
+          <li permid="WWF">
+            <p permid="FCV">
+              <m>s(x) = \sin(kx)</m>,
+              <m>\left[\frac{\pi}{3k}, \frac{5\pi}{6k}\right]</m> (<m>k \gt 0</m>)
+            </p>
+          </li>
+        </ol>
       </p>
     </statement>
-    <answer permid="lDa">
-      <p permid="LUX">
-        The depth of the water is increasing at
-        <me permid="NKk">
-          \left. \frac{dh}{dt}\right|_{h = 5} = 1.28
-        </me>
-        feet per minute.
-        The depth of the water is increasing at a decreasing rate.
+    <answer permid="jGw">
+      <p permid="dKg">
+        <ol marker="a." permid="xKb">
+          <li permid="DdO">
+            <p permid="lKe">
+              Absolute maximum <m>p(0) = p(a) = 0</m>;
+              absolute minimum <m>p\left( \frac{a}{\sqrt{3}} \right) = -\frac{2a^3}{3\sqrt{3}}</m>.
+            </p>
+          </li>
+          <li permid="jkX">
+            <p permid="RRn">
+              Absolute max <m>r\left( \frac{1}{b} \right) \approx 0.368 \frac{a}{b}</m>;
+              absolute min <m>r\left( \frac{2}{b} \right) \approx 0.270 \frac{a}{b}</m>.
+            </p>
+          </li>
+          <li permid="Psg">
+            <p permid="xYw">
+              Absolute minimum <m>g(b) = a(1-e^{-b^2})</m>;
+              absolute maximum <m>g(3b) = a(1-e^{-3b^2})</m>.
+            </p>
+          </li>
+          <li permid="vzp">
+            <p permid="efF">
+              Absolute max <m>s\left( \frac{\pi}{2k} \right) = 1</m>;
+              absolute min <m>s\left( \frac{5\pi}{6k} \right) = \frac{1}{2}</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </answer>
-    <solution permid="FvR">
-      <p permid="OPD">
-        The variables in this problem are the volume <m>V</m> of water in the pool and the depth <m>y</m> of water in the pool (measured at the deepest point of the pool);
-        each is implicitly a function of time, <m>t</m>.
-        We are given that <m>\frac{dV}{dt}</m> is a constant <m>800</m> cubic feet per minute and want to find <m>\frac{dh}{dt}\bigm|_{h=5}</m>.
-        To do this, we first need to relate <m>V</m> and <m>h</m>.
-        The volume of the water in the pool at height
-        <m>h \lt 12</m> is the volume of the triangular cross sectional area of height <m>h</m>
-        (as shown in the figure below)
-        times the width (25 feet) of the pool.
-        The height of the triangular cross section is <m>h</m> and the length is distance of the dotted line indicated in the figure.
-      </p>
-      <sidebyside width="65%" permid="PUW">
-        <image source="images/3_5_Ez2Soln"/>
-      </sidebyside>
-      <p permid="uWM">
-        Placing the cross section on a coordinate system as in the figure,
-        the hypotenuse of the triangle is the line connecting the points <m>(0,-15)</m> and <m>(60, -3)</m>.
-        This line has slope <m>\frac{12}{60} = 0.2</m> and <m>y</m>-intercept <m>(0,-15)</m>.
-        So the equation of this line is <m>y = 0.2x-15</m>.
-        It is the <m>x</m> coordinate of the point on this line corresponding to the <m>y</m>-coordinate <m>h-15</m> that is the length of the triangle whose height is <m>h</m>.
-        So the length <m>l</m> is <m>l = \frac{(h-15)+15}{0.2} = 5h</m>.
-        Thus, the volume of water in the pool at height <m>h</m> is
-        <me permid="tRt">
-          V = \left(\frac{1}{2}(h)(5h)\right)(25) = 62.5h^2
-        </me>.
-        Both <m>V</m> and <m>h</m> are functions of time.
-        Differentiating both sides of the equation with respect to  <m>t</m> gives
-        <me permid="ZYC">
-          \frac{dV}{dt} = 62.5(2h) \frac{dh}{dt}
-        </me>,
-        so
-        <me permid="GfL">
-          \frac{dh}{dt} = \frac{1}{125h} \frac{dV}{dt}
-        </me>.
-        When the depth of water in the pool is <m>5</m> feet,
-        then the depth is increasing at the rate
-        <me permid="mmU">
-          \left. \frac{dh}{dt}\right|_{h = 5} = \frac{1}{125(5)} (800) = 1.28
-        </me>
-        feet per minute.
-        Since <m>\frac{dh}{dt}</m> is inversely proportional to <m>h</m>,
-        the rate at which the depth of the water increases slows as <m>h</m> increases,
-        so the depth of the water is increasing at a decreasing rate.
+    <solution permid="Dzn">
+      <p permid="Fhw">
+        <ol marker="a." permid="gLQ">
+          <li permid="bGy">
+            <p permid="KmO">
+              Given <m>p(x) = x^3 - a^2x</m> on <m>[0,a]</m>,
+              we first find the critical number(s) of <m>p</m> that lie in <m>[0,a]</m>.
+              Since <m>p'(x) = 3x^2 - a^2 = 3\left(x^2 - \frac{a^2}{3} \right)</m>,
+              we know <m>p</m> has critical numbers at <m>x = \pm \frac{a}{\sqrt{3}}</m>.
+              The negative critical number lies outside the interval,
+              while the positive one lies within the interval since <m>0 \lt \frac{1}{\sqrt{3}} \lt 1</m>.
+              Evaluating <m>p</m> at the endpoints and the critical number within the interval,
+              we find that <m>p(0) = 0</m>,
+              <m>p(a) = a^3 - a^2 \cdot a = 0</m>,
+              and <m>p\left( \frac{a}{\sqrt{3}} \right) = \left( \frac{a}{\sqrt{3}} \right)^3 - a^2 \cdot \left( \frac{a}{\sqrt{3}} \right) = \frac{a^3}{3\sqrt{3}} - \frac{a^3}{\sqrt{3}} = -\frac{2a^3}{3\sqrt{3}}</m>.
+              Hence, the absolute maximum of <m>p</m> on <m>[0,a]</m> is
+              <m>p(0) = p(a) = 0</m> and the absolute minimum is <m>p\left( \frac{a}{\sqrt{3}} \right) = -\frac{2a^3}{3\sqrt{3}}</m>.
+            </p>
+          </li>
+          <li permid="HNH">
+            <p permid="qtX">
+              Given <m>r(x) = axe^{-bx}</m> on <m>\left[\frac{1}{2b}, \frac{2}{b}\right]</m>,
+              we first find the critical numbers of <m>r</m> that lie in the given interval.
+              Note that by the product rule,
+              <m>r'(x) = ax e^{-bx} (-b) + e^{-bx} a</m>.
+              Factoring, <m>r'(x) = ae^{-bx}(-bx + 1)</m>,
+              and thus the only critical number of <m>r</m> occurs where <m>x = \frac{1}{b}</m>.
+              Note that <m>\frac{1}{2b} \lt \frac{1}{b} \lt b</m> since <m>b \gt 1</m>,
+              and thus the critical number lies within the interval.
+            </p>
+            <p permid="WBg">
+              Evaluating <m>r</m> at the endpoints and the critical number, we find
+
+              <ul permid="Uxy">
+                <li permid="OIm">
+                  <p permid="Uqu">
+                    <m>r\left( \frac{1}{2b} \right) = a \cdot \frac{1}{2b} \cdot e^{-1/2} \approx 0.607 \frac{a}{2b} = 0.3035 \frac{a}{b}</m>
+                  </p>
+                </li>
+                <li permid="uPv">
+                  <p permid="CIp">
+                    <m>r\left( \frac{2}{b} \right) = a \cdot \frac{2}{b} \cdot e^{-2} \approx 0.135 \frac{2a}{b} = 0.270 \frac{a}{b}</m>
+                  </p>
+                </li>
+                <li permid="aWE">
+                  <p permid="iPy">
+                    <m>r\left( \frac{1}{b} \right) = a \cdot \frac{1}{b} \cdot e^{-1} \approx 0.368 \frac{a}{b} </m>
+                  </p>
+                </li>
+              </ul>
+
+              The absolute max of <m>r</m> is therefore
+              <m>r\left( \frac{1}{b} \right) \approx 0.368 \frac{a}{b}</m> and the absolute min is <m>r\left( \frac{2}{b} \right) \approx 0.270 \frac{a}{b}</m>.
+            </p>
+          </li>
+          <li permid="nUQ">
+            <p permid="OWH">
+              For <m>w(x) = a(1-e^{-bx})</m> on <m>[b, 3b]</m>,
+              we first note that <m>w'(x) = a(be^{-bx}) = abe^{-bx}</m>.
+              Since <m>a</m> and <m>b</m> are both positive and so is <m>e^{-bx}</m> for every value of <m>x</m>,
+              we see that <m>w'(x) \gt 0</m> for every value of <m>x</m>.
+              Because <m>w</m> is always increasing
+              (specifically on <m>[b,3b]</m>),
+              <m>w</m> has its absolute minimum at the left endpoint (<m>g(b) = a(1-e^{-b^2})</m>) and its absolute maximum at the right endpoint (<m>g(3b) = a(1-e^{-3b^2})</m>).
+            </p>
+          </li>
+          <li permid="UbZ">
+            <p permid="vdQ">
+              Finally, for <m>s(x) = \sin(kx)</m> on <m>\left[\frac{\pi}{3k}, \frac{5\pi}{6k}\right]</m>,
+              we know <m>s'(x) = k\cos(kx)</m>,
+              and <m>\cos(kx) = 0</m> when
+              <m>kx = \frac{\pi}{2} \pm n\pi</m> for some integer <m>n</m>,
+              so <m>x = \frac{\pi}{2k} \pm n\pi = \frac{\pi \pm 2n\pi}{2k}</m>.
+              These <m>x</m>-values are the critical numbers of <m>s</m>.
+              Note that when <m>n = -1, 0, 1</m>,
+              the corresponding critical numbers are
+              <me permid="uIr">
+                x = -\frac{\pi}{2k}, \frac{\pi}{2k}, \frac{3\pi}{2k}
+              </me>
+              Comparing the values of <m>-\frac{\pi}{2}</m>, <m>\frac{\pi}{2k}</m>,
+              and <m>\frac{3\pi}{2k}</m> to
+              <m>\frac{\pi}{3}</m> and <m>\frac{5\pi}{6}</m>,
+              we see that only <m>\frac{\pi}{2k}</m> lies in the given interval <m>\left[\frac{\pi}{3k}, \frac{5\pi}{6k}\right]</m>,
+              and thus <m>x = \frac{\pi}{2k}</m> is the only critical number at which we need to evaluate <m>s</m>.
+            </p>
+            <p permid="bkZ">
+              Evaluating <m>s</m> at the endpoints and relevant critical number, we find:
+
+              <ul permid="AEH">
+                <li permid="HdN">
+                  <p permid="AxD">
+                    <m>s\left( \frac{\pi}{3k} \right) = \sin\left( k \cdot \frac{\pi}{3k} \right) = \sin\left( \frac{\pi}{3} \right) = \frac{\sqrt{3}}{2}</m>;
+                  </p>
+                </li>
+                <li permid="nkW">
+                  <p permid="Hsi">
+                    <m>s\left( \frac{5\pi}{6k} \right) = \sin\left( k \cdot \frac{5\pi}{6k} \right) = \sin\left( \frac{5\pi}{6} \right) = \frac{1}{2}</m>; and
+                  </p>
+                </li>
+                <li permid="Tsf">
+                  <p permid="nzr">
+                    <m>s\left( \frac{\pi}{2k} \right) = \sin\left( k \cdot \frac{\pi}{2k} \right) = \sin\left( \frac{\pi}{2} \right) = 1</m>.
+                  </p>
+                </li>
+              </ul>
+
+              Hence the absolute max of <m>s</m> on <m>\left[\frac{\pi}{3k}, \frac{5\pi}{6k}\right]</m> is
+              <m>s\left( \frac{\pi}{2k} \right) = 1</m> and the absolute min of <m>s</m> is <m>s\left( \frac{5\pi}{6k} \right) = \frac{1}{2}</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
-  <exercise permid="gTh">
+  <exercise permid="eWD">
     <statement>
-      <p permid="cTi">
-        A baseball diamond is a square with sides <m>90</m> feet long.
-        Suppose a baseball player is advancing from second to third base at the rate of <m>24</m> feet per second,
-        and an umpire is standing on home plate.
-        Let <m>\theta</m> be the angle between the third baseline and the line of sight from the umpire to the runner.
-        How fast is <m>\theta</m> changing when the runner is <m>30</m> feet from third base?
+      <p permid="itZ">
+        For each of the functions described below
+        (each continuous on <m>[a,b]</m>),
+        state the location of the function's absolute maximum and absolute minimum on the interval <m>[a,b]</m>,
+        or say there is not enough information provided to make a conclusion.
+        Assume that any critical numbers mentioned in the problem statement represent all of the critical numbers the function has in <m>[a,b]</m>.
+        In each case, write one sentence to explain your answer.
+
+        <ol marker="a." permid="CtU">
+          <li permid="Aji">
+            <p permid="TGA">
+              <m>f'(x) \le 0</m> for all <m>x</m> in <m>[a,b]</m>
+            </p>
+          </li>
+          <li permid="gqr">
+            <p permid="zNJ">
+              <m>g</m> has a critical number at <m>c</m> such that <m>a \lt c\lt b</m> and
+              <m>g'(x) \gt 0</m> for <m>x \lt c</m> and <m>g'(x) \lt 0</m> for <m>x \gt c</m>
+            </p>
+          </li>
+          <li permid="MxA">
+            <p permid="fUS">
+              <m>h(a) = h(b)</m> and
+              <m>h''(x) \lt 0</m> for all <m>x</m> in <m>[a,b]</m>
+            </p>
+          </li>
+          <li permid="sEJ">
+            <p permid="Mcb">
+              <m>p(a) \gt 0</m>, <m>p(b) \lt 0</m>,
+              and for the critical number <m>c</m> such that <m>a \lt c \lt b</m>,
+              <m>p'(x) \lt 0</m> for <m>x \lt c</m> and <m>p'(x) \gt 0</m> for <m>x \gt c</m>
+            </p>
+          </li>
+        </ol>
       </p>
     </statement>
-    <answer permid="xRs">
-      <p permid="scg">
-        <m>
-        \left. \frac{d\theta}{dt} \right|_{x = 30} = -0.24
-        </m>
-        radians per second.
+    <answer permid="vUO">
+      <p permid="JRp">
+        <ol marker="a." permid="dRk">
+          <li permid="YLS">
+            <p permid="sjk">
+              Global maximum at <m>x=a</m>;
+              global minimum at <m>x=b</m>.
+            </p>
+          </li>
+          <li permid="ETb">
+            <p permid="Yqt">
+              Global maximum at <m>x=c</m>;
+              global minimum at either <m>x=a</m> or <m>x=b</m>.
+            </p>
+          </li>
+          <li permid="lak">
+            <p permid="ExC">
+              Global minimum at <m>x=a</m> and <m>x=b</m>;
+              global maximum somewhere in <m>(a,b)</m>.
+            </p>
+          </li>
+          <li permid="Rht">
+            <p permid="kEL">
+              Global minimum at <m>x=c</m>;
+              global maximum value at <m>x = a</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </answer>
-    <solution permid="RKj">
-      <p permid="bdV">
-        Let <m>x</m> represent the distance from the runner to third base along the path from second to third,
-        let <m>z</m> be the distance from the umpire at home plate to the runner,
-        and call <m>\theta</m> the angle between the third baseline and the line of sight from the umpire to the runner.
-        See the figure below.
-      </p>
-      <sidebyside permid="wcf">
-        <image source="images/3_5_Ez3Soln"/>
-      </sidebyside>
-      <p permid="Hle">
-        Each of <m>x</m>, <m>z</m>,
-        and <m>\theta</m> is implicitly a function of <m>t</m>.
-        We are given that the runner is advancing at a rate of <m>24</m> feet per second,
-        so <m>\frac{dx}{dt} = -24</m>.
-        Since we want to know <m>\left. \frac{d\theta}{dt} \right|_{x = 30}</m>,
-        we want to relate <m>x</m> and <m>\theta</m>.
-      </p>
-      <p permid="nsn">
-        We first observe that by definition,
-        <me permid="Sud">
-          \tan(\theta) = \frac{x}{90} = \frac{1}{90}x
-        </me>.
-        Having related <m>x</m> and <m>\theta</m>,
-        we can differentiate both sides of the preceding equation with respect  to <m>t</m>.
-        By the chain rule,
-        <me permid="yBm">
-          \sec^2 (\theta) \frac{d\theta}{dt} = \frac{1}{90} \frac{dx}{dt}
-        </me>,
-        and thus
-        <me permid="eIv">
-          \frac{d\theta}{dt} = \frac{1}{90 \sec^2 (\theta)} \frac{dx}{dt}
-        </me>
-        At the instant <m>x = 30</m>,
-        since <m>x^2 + 90^2 = z^2</m>,
-        <m>z = \sqrt{90^2 + 30^2} = \sqrt{9000} = 30\sqrt{10}</m>.
-        Hence, at this same instance,
-        <m>\sec(\theta) = \frac{1}{\cos(\theta)} = \frac{30\sqrt{10}}{90} = \frac{\sqrt{10}}{3}</m>.
-        Recall we also know that <m>\frac{dx}{dt} = -24</m>.
-        Applying this information to the equation that relates the rates of change of <m>x</m> and <m>\theta</m>,
-        <me permid="KPE">
-          \left. \frac{d\theta}{dt} \right|_{x = 30} = \frac{1}{90 \left( \frac{\sqrt{10}}{3} \right)^2} (-24) = -\frac{1}{100}(24) = -0.24
-        </me>
-        radians per second.
+    <solution permid="PNF">
+      <p permid="loF">
+        <ol marker="a." permid="MSZ">
+          <li permid="xoC">
+            <p permid="QLU">
+              The fact that <m>f'(x) \leq 0</m> for all <m>x</m> in <m>[a,b]</m> means that <m>f</m> cannot increase in this interval.
+              So either <m>f</m> is constant or <m>f</m> decreases somewhere in this interval.
+              We can conclude that the global maximum value of <m>f</m> occurs at <m>x=a</m> and the global minimum value at <m>x=b</m>.
+            </p>
+          </li>
+          <li permid="dvL">
+            <p permid="wTd">
+              The information we are given shows that <m>g</m> is increasing on <m>(a,c)</m> and decreasing on <m>(c,b)</m>.
+              So <m>g</m> has a global maximum value at <m>x=c</m>.
+              We know that <m>g</m> must have a global minimum at either <m>x=a</m> or <m>x=b</m>.
+              The information given does not tell us how much <m>g</m> increases on <m>(a,c)</m> and decreases on <m>(c,b)</m>,
+              so we cannot determine the endpoint at which <m>g</m> attains its global minimum value.
+            </p>
+          </li>
+          <li permid="JCU">
+            <p permid="dam">
+              In order for <m>h(a)=h(b)</m> and
+              <m>h''(x) \lt 0</m> for all <m>x</m> in <m>[a,b]</m>,
+              the graph of <m>h</m> must look something like a parabola that opens down on the interval <m>[a,b]</m>.
+              Consequently,
+              <m>h</m> has its global minimum at <m>x=a</m> and <m>x=b</m>,
+              and its global maximum somewhere in <m>(a,b)</m>,
+              but we do not know the exact point at which <m>h</m> attains its global maximum.
+            </p>
+          </li>
+          <li permid="pKd">
+            <p permid="Jhv">
+              The given information forces the graph of <m>p</m> to decrease on <m>(a,c)</m> then increase on <m>(c,b)</m>.
+              Thus, we must have <m>p(c) \lt p(b)</m> and so <m>p</m> has its global minimum value at <m>x=c</m>.
+              Since <m>p(a) \gt p(b)</m>,
+              this makes <m>p(a)</m> the global maximum value of <m>p</m> on <m>[a,b]</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
-  <exercise permid="Naq">
+  <exercise permid="LdM">
     <statement>
-      <p permid="Jar">
-        Sand is being dumped off a conveyor belt onto a pile in such a way that the pile forms in the shape of a cone whose radius is always equal to its height.
-        Assuming that the sand is being dumped at a rate of <m>10</m> cubic feet per minute,
-        how fast is the height of the pile changing when there are <m>1000</m> cubic feet on the pile?
+      <p permid="OBi">
+        Let <m>s(t) = 3\sin(2(t-\frac{\pi}{6})) + 5</m>.
+        Find the exact absolute maximum and minimum of <m>s</m> on the provided intervals by testing the endpoints and finding and evaluating all relevant critical numbers of <m>s</m>.
+
+        <ol marker="a." cols="2" permid="iBd">
+          <li permid="VRm">
+            <p permid="poE">
+              <m>[\frac{\pi}{6}, \frac{7\pi}{6}]</m>
+            </p>
+          </li>
+          <li permid="BYv">
+            <p permid="VvN">
+              <m>[0, \frac{\pi}{2}]</m>
+            </p>
+          </li>
+          <li permid="ifE">
+            <p permid="BCW">
+              <m>[0, 2\pi]</m>
+            </p>
+          </li>
+          <li permid="OmN">
+            <p permid="hKf">
+              <m>[\frac{\pi}{3}, \frac{5\pi}{6}]</m>
+            </p>
+          </li>
+        </ol>
       </p>
     </statement>
-    <answer permid="KfK">
-      <p permid="Yjp">
-        <m>
-        \left. \frac{dh}{dt}\right|_{V=1000} = \frac{10}{\pi \left( \sqrt[3]{\frac{3000}{\pi}} \right)^2} \approx 0.0328
-        </m>
-        feet per minute.
+    <answer permid="Ijg">
+      <p permid="pYy">
+        <ol marker="a." permid="JYt">
+          <li permid="utW">
+            <p permid="NRo">
+              Absolute max <m>s(\frac{5\pi}{12}) = 8</m>;
+              absolute min <m>s(\frac{11\pi}{12}) = 2</m>.
+            </p>
+          </li>
+          <li permid="aBf">
+            <p permid="tYx">
+              Absolute max <m>s(\frac{5\pi}{12}) = 8</m>;
+              absolute min <m>s(0) = 5 - \frac{3\sqrt{3}}{2} \approx 2.402</m>.
+            </p>
+          </li>
+          <li permid="GIo">
+            <p permid="afG">
+              Absolute max <m>s(\frac{5\pi}{12}) = 8</m>;
+              absolute min <m>s(\frac{11\pi}{12}) = 2</m>.
+              (There are other points at which the function achieves these values on the given interval.)
+            </p>
+          </li>
+          <li permid="mPx">
+            <p permid="GmP">
+              Absolute max <m>s(\frac{5\pi}{12}) = 8</m>;
+              absolute min <m>s(\frac{5\pi}{6}) \approx 2.402</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </answer>
-    <solution permid="dYB">
-      <p permid="Tzw">
-        We can draw a figure similar to <xref ref="F-3-5-ConeEx">Figure</xref>
-        and let <m>h</m> be the height of the pile at time <m>t</m> and <m>r</m> the pile's base radius.
-        Given that <m>\frac{dV}{dt} = 10</m> cubic feet per minute,
-        we want to know <m>\left. \frac{dh}{dt} \right|_{V = 1000}</m>.
-      </p>
-      <p permid="zGF">
-        We first relate <m>V</m> and <m>h</m>.
-        We know that <m>V = \frac{1}{3} \pi r^2 h</m>,
-        as well as that for every time,
-        <m>t</m>, the height and radius are equal so <m>r = h</m>.
-        Thus,
-        <me permid="qWN">
-          V =  \frac{1}{3} \pi h^2 h =  \frac{1}{3} \pi h^3
-        </me>
-        Differentiating both sides of this equation with respect to <m>t</m>
-        <me permid="XdW">
-          \frac{dV}{dt} = \frac{1}{3} \pi \cdot 3h^2 \frac{dh}{dt} = \pi h^2 \frac{dh}{dt}
-        </me>.
-        We note that at the instant <m>V = 1000</m>,
-        <m>1000 = \frac{1}{3} \pi h^3</m>,
-        so <m>h^3 = \frac{3000}{\pi}</m> and therefore <m>h = \sqrt[3]{\frac{3000}{\pi}}</m>.
-        Recall also that <m>\frac{dV}{dt} = 10</m>.
-        Applying all of this information at the instant
-        <m>V = 1000</m> in the equation that relates
-        <m>\frac{dV}{dt}</m> and <m>\frac{dh}{dt}</m>, we have
-        <me permid="Dlf">
-          10 = \pi \left( \sqrt[3]{\frac{3000}{\pi}} \right)^2 \left. \frac{dh}{dt}\right|_{V=1000}
-        </me>.
-        Thus,
-        <me permid="jso">
-          \left. \frac{dh}{dt}\right|_{V=1000} = \frac{10}{\pi \left( \sqrt[3]{\frac{3000}{\pi}} \right)^2} \approx 0.0328
-        </me>
-        feet per minute.
+    <solution permid="cbX">
+      <p permid="RvO">
+        <ol marker="a." permid="lvJ">
+          <li permid="SWG">
+            <p permid="mtY">
+              For <m>s(t) = 3\sin(2(t-\frac{\pi}{6})) + 5</m>,
+              <m>s'(t) = 3\cos(2(t-\frac{\pi}{6})) \cdot 2 = 6\cos(2(t-\frac{\pi}{6}))</m>.
+              It follows that <m>s'(t) = 0</m> if and only if <m>\cos(2(t-\frac{\pi}{6})) = 0</m>,
+              and thus <m>2(t-\frac{\pi}{6}) = \frac{\pi}{2} \pm k\pi</m> for some integer value of <m>k</m>.
+              Solving this most recent equation for <m>t</m>,
+              we have <m>t-\frac{\pi}{6} = \frac{\pi}{4} \pm \frac{k\pi}{2}</m>, so
+              <me permid="aPA">
+                t = \frac{\pi}{6} + \frac{\pi}{4} \pm \frac{k\pi}{2} = \frac{5\pi}{12} \pm \frac{k\pi}{2}
+              </me>.
+              Now we consider the given interval <m>[\frac{\pi}{6}, \frac{7\pi}{6}]</m>,
+              which we can think of as <m>[\frac{2\pi}{12}, \frac{14\pi}{12}]</m>.
+              The value <m>t = \frac{5\pi}{12}</m> lies in this interval,
+              as does <m>t = \frac{5\pi}{12} + \frac{\pi}{2} = \frac{11\pi}{12}</m>.
+              Thus, we have two critical numbers in the interval at which to evaluate <m>s</m>,
+              as well as at the endpoints.
+            </p>
+            <p permid="SBh">
+              Doing so, we find:
+
+              <ul permid="tai">
+                <li permid="zzo">
+                  <p permid="gEM">
+                    <m>s(\frac{5\pi}{12}) = 8</m>;
+                  </p>
+                </li>
+                <li permid="fGx">
+                  <p permid="yIq">
+                    <m>s(\frac{11\pi}{12}) = 2</m>;
+                  </p>
+                </li>
+                <li permid="LNG">
+                  <p permid="ePz">
+                    <m>s(\frac{\pi}{6}) = 5</m>; and
+                  </p>
+                </li>
+                <li permid="rUP">
+                  <p permid="KWI">
+                    <m>s(\frac{7\pi}{6}) = 5</m>.
+                  </p>
+                </li>
+              </ul>
+
+              The absolute max of <m>s</m> on
+              <m>[\frac{\pi}{6}, \frac{7\pi}{6}]</m> is thus <m>s(\frac{5\pi}{12}) = 8</m>,
+              while the absolute min is <m>s(\frac{11\pi}{12}) = 2</m>.
+            </p>
+          </li>
+          <li permid="zdP">
+            <p permid="rdR">
+              From our work in (a),
+              we know that <m>s</m> has critical numbers at <m>t = \frac{5\pi}{12} \pm \frac{k\pi}{2}</m>.
+              On the interval <m>[0, \frac{\pi}{2}]</m>,
+              only <m>t = \frac{5\pi}{12}</m> lies in the interval.
+              Thus we have three values at which to evaluate <m>s</m>.
+            </p>
+            <p permid="Xla">
+              Doing so:
+
+              <ul permid="Zhr">
+                <li permid="YbY">
+                  <p permid="MLV">
+                    <m>s(\frac{5\pi}{12}) = 8</m>;
+                  </p>
+                </li>
+                <li permid="Ejh">
+                  <p permid="Dsj">
+                    <m>s(0) = 3\sin(2(0-\frac{\pi}{6})) + 5 = 3\sin(-\frac{\pi}{3}) + 5 = 5 - \frac{3\sqrt{3}}{2} \approx 2.402</m>; and
+                  </p>
+                </li>
+                <li permid="kqq">
+                  <p permid="jzs">
+                    <m>s(\frac{\pi}{2}) = 3\sin(2(\frac{\pi}{2}-\frac{\pi}{6})) + 5 = 3\sin(\frac{2\pi}{3}) + 5 = 5 + \frac{3\sqrt{3}}{2} \approx 7.598</m>.
+                  </p>
+                </li>
+              </ul>
+
+              The absolute max of <m>s</m> on
+              <m>[0, \frac{\pi}{2}]</m> is thus <m>s(\frac{5\pi}{12}) = 8</m>,
+              while the absolute min is <m>s(0) = 5 - \frac{3\sqrt{3}}{2} \approx 2.402</m>.
+            </p>
+          </li>
+          <li permid="fkY">
+            <p permid="PGB">
+              On the interval from <m>t = 0</m> to <m>t = 2\pi</m>,
+              <m>s</m> completes nearly two full periods,
+              and thus achieves each of its maximum and minimum values.
+              The absolute maximum is <m>8</m> as determined in (a),
+              and the absolute minimum is <m>2</m>.
+              These occur, for example, at <m>s(\frac{5\pi}{12}) = 8</m>,
+              while the absolute min is <m>s(\frac{11\pi}{12}) = 2</m>.
+              There are other points at which the function achieves these values on the given interval.
+            </p>
+          </li>
+          <li permid="Lsh">
+            <p permid="vNK">
+              On the interval <m>[\frac{\pi}{3}, \frac{5\pi}{6}] = [\frac{4\pi}{12}, \frac{10\pi}{12}]</m>,
+              only the critical number <m>t = \frac{5\pi}{12}</m> lies in the interval.
+              Thus we have three values at which to evaluate <m>s</m>.
+            </p>
+            <p permid="bUT">
+              Doing so:
+
+              <ul permid="FoA">
+                <li permid="Qxz">
+                  <p permid="sTe">
+                    <m>s(\frac{5\pi}{12}) = 8</m>;
+                  </p>
+                </li>
+                <li permid="wEI">
+                  <p permid="Icc">
+                    <m>s(\frac{\pi}{3}) = 3\sin(2(\frac{\pi}{3}-\frac{\pi}{6})) + 5 = 3\sin(\frac{\pi}{3}) + 5 = \frac{3\sqrt{3}}{2} + 5 \approx 7.598</m>; and
+                  </p>
+                </li>
+                <li permid="cLR">
+                  <p permid="ojl">
+                    <m>s(\frac{5\pi}{6}) = 3\sin(2(\frac{5\pi}{6}-\frac{\pi}{6})) + 5 = 3\sin(\frac{4\pi}{3}) + 5 = 5 - \frac{3\sqrt{3}}{2} \approx 2.402</m>.
+                  </p>
+                </li>
+              </ul>
+
+              The absolute max of <m>s</m> on
+              <m>[\frac{\pi}{3}, \frac{5\pi}{6}]</m> is thus <m>s(\frac{5\pi}{12}) = 8</m>,
+              while the absolute min is <m>s(\frac{5\pi}{6}) \approx 2.402</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>

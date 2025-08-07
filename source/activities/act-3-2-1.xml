@@ -15,149 +15,139 @@
 
 <worksheet label="ws-act-3-2-1">
    
-    <activity xml:id="act-3-2-1" workspace="3cm">
+    <activity xml:id="act-3-2-1" workspace="6cm">
       <introduction>
         <p>
-          Consider the family of functions defined by <m>p(x) = x^3 - ax</m>,
-          where <m>a \ne 0</m> is an arbitrary constant.
+          Evaluate each of the following limits.
+          If you use L'Hôpital's Rule,
+          indicate where it was used,
+          and be certain the limit is indeterminate before you apply it.
         </p>
       </introduction>
-      <task workspace="3cm" xml:id="act-3-2-1-task-0">
+      <task workspace="9cm" xml:id="act-3-2-1-task-0">
         <statement>
           <p>
-            Find <m>p'(x)</m> and determine the critical numbers of <m>p</m>.
-            How many critical numbers does <m>p</m> have?
+            <m>\displaystyle \lim_{x \to 0} \frac{\ln(1 + x)}{x}</m>
           </p>
         </statement>
         <hint>
           <p>
-            When solving <m>p'(x) = 0</m>,
-            think about two possible cases:
-            when <m>a\gt 0</m> and when <m>a \lt 0</m>.
+            Remember that <m>\ln(1) = 0</m>.
           </p>
         </hint>
         <answer>
-          <p><m>p</m> has two critical numbers (<m>x = \pm \sqrt{\frac{a}{3}}</m>) whenever <m>a \gt 0</m> and no critical numbers when <m>a \lt 0</m>.
+          <p><m> \lim_{x \to 0} \frac{\ln(1 + x)}{x} = 1</m>.
           </p>
         </answer>
         <solution>
           <p>
-            We first note that <m>p'(x) = 3x^2 - a</m>,
-            so to find critical numbers we set
-            <m>p'(x) = 0</m> and solve for <m>x</m>.
-            This leads to the equation <m>3x^2 - a = 0</m>,
-            which implies
+            As <m>x \to 0</m>, we see that <m>\ln(1+x) \to \ln(1) = 0</m>,
+            thus this limit has an indeterminate form.
+            By L'Hôpital's Rule, we have
             <me>
-              x^2 = \frac{a}{3}
+              \lim_{x \to 0} \frac{\ln(1 + x)}{x} = \lim_{x \to 0} \frac{\frac{1}{1 + x}}{1}
             </me>.
-            If <m>a \gt 0</m>,
-            then the solutions to this equation are <m>x = \pm \sqrt{\frac{a}{3}}</m>;
-            if <m>a \lt  0</m>, then the equation has no solution.
-            Hence,
-            <m>p</m> has two critical numbers (<m>x = \pm \sqrt{\frac{a}{3}}</m>) whenever <m>a \gt 0</m> and no critical numbers when <m>a \lt  0</m>.
+            As this limit is no longer indeterminate,
+            we may simply allow <m>x \to 0</m>, and thus we find that
+            <me>
+              \lim_{x \to 0} \frac{\ln(1 + x)}{x} = \frac{\frac{1}{1 + 0}}{1} = 1
+            </me>.
           </p>
         </solution>
       </task>
-      <task workspace="6.5cm" xml:id="act-3-2-1-task-1">
+      <task workspace="10cm" xml:id="act-3-2-1-task-1">
         <statement>
           <p>
-            Construct a first derivative sign chart for <m>p</m>.
-            What can you say about the overall behavior of <m>p</m> if the constant <m>a</m> is positive?
-            Why?
-            What if the constant <m>a</m> is negative?
-            In each case, describe the relative extremes of <m>p</m>.
+            <m>\displaystyle \lim_{x \to \pi} \frac{\cos(x)}{x}</m>
           </p>
         </statement>
         <hint>
           <p>
-            Remember that any quadratic function can be zero at most two times.
-            How does the graph of <m>y = 3x^2 - a</m> look?
+            Note that <m>x \to \pi</m>, not <m>x \to 0</m>.
           </p>
         </hint>
         <answer>
-          <p>
-            When <m>a \lt 0</m>,
-            <m>p</m> is always increasing and has no relative extreme values.
-            When <m>a\gt 0</m>, <m>p</m> has a relative maximum at
-            <m>x = -\sqrt{\frac{a}{3}}</m> and a relative minimum at <m>x = +\sqrt{\frac{a}{3}}</m>.
+          <p><m> \lim_{x \to \pi} \frac{\cos(x)}{x} = -\frac{1}{\pi}</m>.
           </p>
         </answer>
         <solution>
           <p>
-            For the case when <m>a \lt 0</m>,
-            we observe that <m>p'(x) = 3x^2 - a</m> is positive for every value of <m>x</m>,
-            and thus <m>p</m> is always increasing and has no relative extreme values.
-            (There are no critical numbers to place on the first derivative sign chart,
-            and <m>p'</m> is always positive.)
-            For the case when <m>a\gt 0</m>,
-            we observe that <m>p'(x) = 3x^2 - a</m> is a concave up parabola with zeros at
-            <m>x = -\sqrt{\frac{a}{3}}</m> and <m>x = +\sqrt{\frac{a}{3}}</m>.
-            It follows that for <m>x \lt -\sqrt{\frac{a}{3}}</m>,
-            <m>p'(x)\gt 0</m>
-            (so <m>p</m> is increasing);
-            for <m>-\sqrt{\frac{a}{3}} \lt x \lt \sqrt{\frac{a}{3}}</m>,
-            <m>p'(x)\gt 0</m> (so <m>p</m> is decreasing);
-            and for <m>x\gt \sqrt{\frac{a}{3}}</m>,
-            <m>p'(x)\gt 0</m>
-            (so <m>p</m> is again increasing).
-            In this situation, we see that <m>p</m> has a relative maximum at
-            <m>x = -\sqrt{\frac{a}{3}}</m> and a relative minimum at <m>x = +\sqrt{\frac{a}{3}}</m>.
+            Observe that
+            <me>
+              \lim_{x \to \pi} \frac{\cos(x)}{x} = \frac{\cos(\pi)}{\pi} = -\frac{1}{\pi}
+            </me>,
+            since this limit is not indeterminate because the function
+            <m>\frac{\cos(x)}{x}</m> is continuous at <m>x = \pi</m>.
           </p>
         </solution>
       </task>
-      <task workspace="7.5cm" xml:id="act-3-2-1-task-2">
+      <task workspace="9cm" xml:id="act-3-2-1-task-2">
         <statement>
           <p>
-            Find <m>p''(x)</m> and construct a second derivative sign chart for <m>p</m>.
-            What does this tell you about the concavity of <m>p</m>?
-            What role does <m>a</m> play in determining the concavity of <m>p</m>?
+            <m>\displaystyle \lim_{x \to 1} \frac{2 \ln(x)}{1-e^{x-1}}</m>
           </p>
         </statement>
         <hint>
           <p>
-            Don't forget that <m>\frac{d}{dx}[a] = 0</m>.
+            Observe that <m>e^{x-1} \to 1</m> as <m>x \to 1</m>.
           </p>
         </hint>
         <answer>
-          <p><m>p</m> is CCD for <m>x \lt 0</m> and <m>p</m> is CCU for <m>x\gt 0</m>,
-            making <m>x = 0</m> an inflection point.
+          <p><m> \lim_{x \to 1} \frac{2 \ln(x)}{1-e^{x-1}} = -2</m>.
           </p>
         </answer>
         <solution>
           <p>
-            Since <m>p'(x) = 3x^2 - a</m> and <m>a</m> is constant,
-            it follows that <m>p''(x) = 6x</m>.
-            Note that <m>p''(x) = 0</m> when <m>x = 0</m> and that
-            <m>p''(x) \lt 0</m> for <m>x \lt 0</m> and <m>p''(x)\gt 0</m> for <m>x\gt 0</m>.
-            Hence <m>p</m> is CCD for <m>x \lt 0</m> and <m>p</m> is CCU for <m>x\gt 0</m>,
-            making <m>x = 0</m> an inflection point.
+            Since <m>\ln(x) \to 0</m> and <m>e^{x-1} \to 1</m> as <m>x \to 0</m>,
+            this limit is indeterminate with form <m>\frac{0}{0}</m>.
+            Hence, by L'Hôpital's Rule,
+            <me>
+              \lim_{x \to 1} \frac{2 \ln(x)}{1-e^{x-1}} = \lim_{x \to 1} \frac{\frac{2}{x}}{-e^{x-1}}
+            </me>.
+            The updated limit is not indeterminate,
+            and allowing <m>x \to 1</m>, we find
+            <me>
+              \lim_{x \to 1} \frac{2 \ln(x)}{1-e^{x-1}} = \frac{\frac{2}{1}}{-e^{0}} = -2
+            </me>.
           </p>
         </solution>
       </task>
-      <task workspace="8cm" xml:id="act-3-2-1-task-3">
+      <task workspace="9cm" xml:id="act-3-2-1-task-3">
         <statement>
           <p>
-            Without using a graphing utility,
-            sketch and label typical graphs of <m>p(x)</m> for the cases where <m>a\gt 0</m> and <m>a \lt 0</m>.
-            Label all inflection points and local extrema.
+            <m>\displaystyle \lim_{x \to 0} \frac{\sin(x) - x}{\cos(2x)-1}</m>
           </p>
         </statement>
         <hint>
           <p>
-            Think about how a typical cubic polynomial's graph behaves.
+            If necessary, L'Hôpital's Rule can be applied more than once.
           </p>
         </hint>
-        <answer/>
+        <answer>
+          <p><m> \lim_{x \to 0} \frac{\sin(x) - x}{\cos(2x)-1} = 0</m>.
+          </p>
+        </answer>
         <solution>
           <p>
-            Below, we show the two possible situations.
-            At left,
-            for the case when <m>a \lt 0</m> and <m>p</m> is always increasing with an inflection point at <m>x = 0</m>,
-            and at right for when <m>a\gt 0</m> and <m>p</m> has a relative maximum at
-            <m>x = -\sqrt{\frac{a}{3}}</m> and a relative minimum at <m>x = +\sqrt{\frac{a}{3}}</m>,
-            again with an inflection point at <m>x = 0</m>.
-            Note, too,
-            that <m>p</m> has its <m>x</m>-intercepts at <m>x = \pm \sqrt{a}</m>.
+            Since the given limit is indeterminate of form <m>\frac{0}{0}</m>,
+            by L'Hôpital's Rule we have
+            <me>
+              \lim_{x \to 0} \frac{\sin(x) - x}{\cos(2x)-1} =  \lim_{x \to 0} \frac{\cos(x) - 1}{-2\sin(2x)}
+            </me>.
+            Now, as <m>x \to 0</m>,
+            <m>\cos(x) \to 1</m> and <m>\sin(2x) \to 0</m>,
+            which makes the latest limit also indeterminate in form <m>\frac{0}{0}</m>.
+            Applying L'Hôpital's Rule a second time, we now have
+            <me>
+              \lim_{x \to 0} \frac{\sin(x) - x}{\cos(2x)-1} =  \lim_{x \to 0} \frac{-\sin(x)}{-4\cos(2x)}
+            </me>.
+            In the newest limit, we note that
+            <m>\sin(x) \to 0</m> but <m>\cos(2x) \to 1</m> as <m>x \to 0</m>,
+            so the numerator is tending to 0 while the denominator is approaching <m>-4</m>.
+            Thus, the value of the limit is determined to be
+            <me>
+              \lim_{x \to 0} \frac{\sin(x) - x}{\cos(2x)-1} =  0
+            </me>.
           </p>
         </solution>
       </task>

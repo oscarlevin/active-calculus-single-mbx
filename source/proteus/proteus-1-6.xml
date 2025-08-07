@@ -54,7 +54,7 @@
         Drag each of the statements on the left onto the corresponding equivalent statement on the right.  More than one statement on the left can correspond to a single statement on the right.
       </p>
     </statement>
-    <matches>
+    <cardsort>
       <match>
       <premise order="1"> <m>f'(x)</m> is increasing </premise> 
       <premise> the tangent line lies below the graph near the point P </premise>
@@ -73,7 +73,7 @@
         <premise> the graph opens down (is shaped like an upside down bowl)</premise>
           <response> <m>f''(x) \lt 0 </m> </response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise>
     <statement component="proteus" label="proteus-concavity-summary"  xml:id="proteus-concavity-summary">

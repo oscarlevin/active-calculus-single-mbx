@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,91 +12,57 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet label="ws-act-8-6-2">
-   
-    <activity xml:id="act-8-6-2" workspace="3cm">
-      <introduction>
-        <p>
-      Our goal in this activity is to find a power series expansion for
-      <m>f(x) = \frac{1}{1+x^2}</m> centered at <m>x=0</m>.
+  <activity xml:id="act-8-6-2">
+    <introduction>
+      <p>
+      In this activity we apply the Lagrange Error Bound to quantify the accuracy of several different approximations.
     </p>
+      <p/>
+    </introduction>
+    <task workspace="9cm" xml:id="act-8-6-2-task-0">
+      <statement>
         <p>
-      While we could use the methods of <xref ref="sec-8-5-taylor">Section</xref>
-      and differentiate <m>f(x) = \frac{1}{1+x^2}</m> several times to look for patterns and find the Taylor series for <m>f(x)</m>,
-      we seek an alternate approach because of how complicated the derivatives of <m>f(x)</m> quickly become.
-    </p>
-        <p/>
-      </introduction>
-      <task workspace="5cm" xml:id="act-8-6-2-task-0">
-        <statement>
-          <p>
-            What is the Taylor series expansion for <m>g(x) = \frac{1}{1-x}</m>?
-            What is the interval of convergence of this series?
+            Use the degree <m>10</m> Taylor polynomial (centered at <m>a = 0</m>) of <m>f(x) = e^x</m> to estimate the value of <m>e^2</m>.  What is the maximum error of your estimate, according to the Lagrange Error Bound?  How does this compare to the actual error between <m>e^2</m> and <m>T_{10}(2)</m> as reported by a computer algebra system?
           </p>
-        </statement>
-        <hint>
-          <p>
-            Small hints for each of the prompts above.
-          </p>
-        </hint>
-        <answer>
-          <p><m>
-            \frac{1}{1-x} = \sum_{k=0}^{\infty} x^k
-            </m>
-            for <m>-1 \lt x \lt 1</m>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            Recall that
-            <me>
-              g(x) = \frac{1}{1-x} = \sum_{k=0}^{\infty} x^k
-            </me>
-            for <m>-1 \lt  x \lt  1</m>.
-          </p>
-        </solution>
-      </task>
-      <task workspace="5cm" xml:id="act-8-6-2-task-1">
-        <statement>
-          <p>
-            How is <m>g(-x^2)</m> related to <m>f(x)</m>?
-            Explain,
-            and hence substitute <m>-x^2</m> for <m>x</m> in the power series expansion for <m>g(x)</m>.
-            Given the relationship between <m>g(-x^2)</m> and <m>f(x)</m>,
-            how is the resulting series related to <m>f(x)</m>?
-          </p>
-        </statement>
-        <hint/>
-        <answer>
-          <p><m>f(x) = g(-x^2) = \sum_{k=0}^{\infty} (-1)^k x^{2k}</m>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            Substituting <m>-x^2</m> for <m>x</m> in the power series expansion for <m>g(x)</m> gives
-            <md><mrow>f(x) \amp = g(-x^2)</mrow><mrow>\amp = \frac{1}{1-(-x^2)}</mrow><mrow>\amp = \sum_{k=0}^{\infty} \left(-x^2\right)^k</mrow><mrow>\amp = \sum_{k=0}^{\infty} (-1)^k x^{2k}</mrow></md>.
-          </p>
-        </solution>
-      </task>
-      <task workspace="5cm" xml:id="act-8-6-2-task-2">
-        <statement>
-          <p>
-            For which values of <m>x</m> will this power series expansion for <m>f(x)</m> be valid?
-            Why?
-          </p>
-        </statement>
-        <hint/>
-        <answer>
-          <p><m>-1 \lt x \lt 1</m>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            This power series expansion for <m>f(x)</m> will be valid as long as
-            <m>-1 \lt (-x)^2 \lt 1</m> or for <m>-1 \lt x \lt 1</m>.
-          </p>
-        </solution>
-      </task>
-    </activity>
-   
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="8cm" xml:id="act-8-6-2-task-1">
+      <statement>
+        <p>
+                Use a degree <m>n</m> Taylor polynomial (centered at <m>a = 0</m>) of <m>f(x) = \cos(x)</m> to estimate the value of <m>\cos(1)</m> within an accuracy of <m>0.00000001</m>.  According to the Lagrange Error Bound, what value of <m>n</m> is needed to achieve this accuracy?  What is the resulting approximate value of <m>\cos(1)</m>?
+            </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="9cm" xml:id="act-8-6-2-task-2">
+      <statement>
+        <p>
+          Recall that for <m>f(x) = \ln(1+x)</m>, its Taylor series centered at <m>a = 0</m> is given by 
+          <me>
+            \ln(1+x) = x - \frac{1}{2}x^2 + \frac{1}{3}x^3 - \cdots + (-1)^{n-1}\frac{1}{n}x^n + \cdots
+          </me>
+          and that the <m>n^{\text{th}}</m> derivative of <m>f(x) = \ln(1+x)</m> is given by
+          <me>
+            f^{(n)}(x) = \frac{(-1)^{n-1}(n-1)!}{(1+x)^n}
+          </me>.
+          If we want to estimate <m>f(0.5) = \ln(1.5)</m> to within an accuracy of <m>0.0001</m>, what value of <m>n</m> is needed to achieve this accuracy from computing <m>T_n(0.5)</m>, according to the Lagrange Error Bound?
+            </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <hint/>
+    <answer>
+    </answer>
+    <solution>
+    </solution>
+  </activity>
 </worksheet>

@@ -35,8 +35,8 @@
         <image width="50%" source="images/7_2_PA_tangents" />
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="5cm" xml:id="PA-7-2-task-1">
         <statement>
@@ -49,8 +49,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="1.25cm" xml:id="PA-7-2-task-2">
         <statement>
@@ -61,8 +61,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="5cm" xml:id="PA-7-2-task-3">
         <statement>
@@ -75,8 +75,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="3cm" xml:id="PA-7-2-task-4">
         <statement>
@@ -86,8 +86,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
     </exploration>
    

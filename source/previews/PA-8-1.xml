@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2022                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,154 +12,66 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<worksheet component="static" label="ws-PA-8-1">
-   
-    <exploration xml:id="PA-8-1">
-      <introduction>
-        <p>
-    Suppose you receive <m>\dollar5000</m> through an inheritance.
-    You decide to invest this money into a fund that pays <m>8\%</m> annually,
-    compounded monthly.
-    That means that each month your investment earns <m>\frac{0.08}{12} \cdot P</m> additional dollars,
-    where <m>P</m> is your principal balance at the start of the month.
-    So in the first month your investment earns
+<worksheet label="ws-PA-8-1">
+  <exploration xml:id="PA-8-1" component="static">
+    <introduction>
+      <p>
+    Consider the function <m>f(x) = e^x</m> near <m>a = 0</m>.  We know that <m>f'(x) = e^x</m>, so <m>f'(0) = 1</m>; along with the fact that <m>f(0) = 1</m>, it follows that the tangent line approximation is 
     <me>
-      5000 \left(\frac{0.08}{12}\right)
-    </me>
-    or <m>\dollar33.33</m>.
-    If you reinvest this money,
-    you will then have <m>\dollar5033.33</m> in your account at the end of the first month.
-    From this point on,
-    assume that you reinvest all of the interest you earn.
+      L(x) = f(0) + f'(0)(x-0) = 1 + 1(x-0) = 1 + x
+    </me>.
   </p>
-        <p/>
-      </introduction>
-      <task workspace="3cm" xml:id="PA-8-1-task-0">
-        <statement>
-          <p>
-          How much interest will you earn in the second month?
-          How much money will you have in your account at the end of the second month?
+      <figure xml:id="F-8a-1-Intro">
+        <caption>The function <m>f(x)=e^x</m> and its tangent line <m>L(x)=1+x</m> near the point <m>(0,f(0))</m>.</caption>
+        <image width="75%" source="images/8a_1_intro2"/>
+      </figure>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="PA-8-1-task-0">
+      <statement>
+        <p>
+          Build a spreadsheet that computes the difference between <m>f(x)</m> and <m>L(x)</m> for <m>x</m>-values between <m>-1</m> and <m>1</m>, spaced <m>0.1</m> units apart. <alert>Note:</alert> we will revisit this spreadsheet for additional computations in <xref ref="act-8-1-3">Activity</xref>, so it would be ideal if you save your work for later reference.
         </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-      <task workspace="0cm" xml:id="PA-8-1-task-1">
-        <statement>
-          <p>
-          Complete the table below
-          to determine the interest earned and total amount of money in this investment each month for one year.
+        <p>
+           Your spreadsheet should start like the one shown in <xref ref="T-8a-1-PA-linear-approx">Table</xref>.
+          <table xml:id="T-8a-1-PA-linear-approx"><title>Comparing <m>f(x) = e^x</m> and <m>L(x) = 1 + x</m> near <m>a = 0</m>.</title><tabular top="minor" bottom="minor"><row left="minor"><cell right="minor"><m>\Delta x</m></cell><cell right="minor"><m>x</m></cell><cell right="minor"><m>f(x) = e^x</m></cell><cell right="minor"><m>L(x) = 1+x</m></cell></row><row left="minor"><cell right="minor"><m>0.1</m></cell><cell right="minor"><m>-1.0</m></cell><cell right="minor"><m>0.36788</m></cell><cell right="minor"><m>0.0</m></cell></row><row left="minor"><cell right="minor"><m>0.1</m></cell><cell right="minor"><m>-0.9</m></cell><cell right="minor"><m>0.40657</m></cell><cell right="minor"><m>0.1</m></cell></row><row left="minor"><cell right="minor"><m>0.1</m></cell><cell right="minor"><m>-0.8</m></cell><cell right="minor"><m>0.44933</m></cell><cell right="minor"><m>0.2</m></cell></row></tabular></table></p>
+      </statement>
+      <hint/>
+       
+       
+    </task>
+    <task workspace="3cm" xml:id="PA-8-1-task-1">
+      <statement>
+        <p>
+          Next, add a column to your spreadsheet that computes <m>|f(x)-L(x)|</m>. 
         </p>
-        <tabular top="minor" bottom="minor" halign="right">
-          <row halign="center" valign="top">
-            <cell>Month</cell>
-            <cell>
-              <line>Interest</line>
-              <line>earned</line></cell>
-            <cell>
-              <line>Total amount</line>
-              <line>of money</line>
-              <line>in the account</line></cell>
-          </row>
-          <row>
-            <cell><m>0</m></cell>
-            <cell><m>\dollar0.00</m></cell>
-            <cell><m>\dollar5000.00</m></cell>
-          </row>
-          <row>
-            <cell><m>1</m></cell>
-            <cell><m>\dollar33.33</m></cell>
-            <cell><m>\dollar5033.33</m></cell>
-          </row>
-          <row>
-            <cell><m>2</m></cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>3</m></cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>4</m></cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>5</m></cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>6</m></cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>7</m></cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>8</m></cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>9</m></cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>10</m></cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>11</m></cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>12</m></cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-        </tabular>
-
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-      <task workspace="3cm" xml:id="PA-8-1-task-2">
-        <statement>
-          <p>
-          As we will see later,
-          the amount of money <m>P_n</m> in the account after month <m>n</m> is given by
-          <me>
-            P_n = 5000\left(1+\frac{0.08}{12}\right)^{n}
-          </me>.
-          Use this formula to check your calculations in the table above.
-          Then find the amount of money in the account after 5 years.
+        <p>
+          How do the differences between <m>f(x)</m> and <m>L(x)</m> change as you move across the interval from <m>x = -1</m> to <m>x = 1</m>?
         </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-      <task workspace="5cm" xml:id="PA-8-1-task-3">
-        <statement>
-          <p>
-          How many years will it be before the account has doubled in value to $10000?
+      </statement>
+      <hint/>
+       
+       
+    </task>
+    <task workspace="3cm" xml:id="PA-8-1-task-2">
+      <statement>
+        <p>
+          For approximately what values of <m>x</m> is it true that <m>|f(x)-L(x)| \lt 0.1</m>?
         </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-    </exploration>
-   
+      </statement>
+      <hint/>
+       
+       
+    </task>
+    <task workspace="3cm" xml:id="PA-8-1-task-3">
+      <statement>
+        <p>
+          Notice that the curvature in <m>f(x) = e^x</m> is what makes the linear approximation <m>L(x)</m> lose accuracy.  What kind of simple (non-exponential) function might do a better job approximating <m>e^x</m> than a linear one?
+        </p>
+      </statement>
+      <hint/>
+       
+       
+    </task>
+  </exploration>
 </worksheet>

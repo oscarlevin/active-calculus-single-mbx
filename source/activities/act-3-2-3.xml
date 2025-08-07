@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2025                                                   -->
+<!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,195 +12,170 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <worksheet label="ws-act-3-2-3">
    
-    <activity xml:id="act-3-2-3" workspace="3cm">
+    <activity xml:id="act-3-2-3" workspace="6cm">
       <introduction>
         <p>
-      Let <m>L(t) = \frac{A}{1+ce^{-kt}}</m>, where <m>A</m>,
-      <m>c</m>, and <m>k</m> are all positive real numbers.
+      Evaluate each of the following limits.
+      If you use L'Hôpital's Rule,
+      indicate where it was used,
+      and be certain its hypotheses are met before you apply it.
 
       </p>
       </introduction>
       <task workspace="5cm" xml:id="act-3-2-3-task-0">
         <statement>
           <p>
-            Observe that we can equivalently write <m>L(t) = A(1+ce^{-kt})^{-1}</m>.
-            Find <m>L'(t)</m> and explain why <m>L</m> has no critical numbers.
-            Is <m>L</m> always increasing or always decreasing?
-            Why?
+            <m>\displaystyle \lim_{x \to \infty} \frac{x}{\ln(x)}</m>
           </p>
         </statement>
         <hint>
           <p>
-            Use the chain rule, treating <m>A</m>,
-            <m>c</m>, and <m>k</m> as constants.
+            Remember that <m>\ln(x) \to \infty</m> as <m>x \to infty</m>.
           </p>
         </hint>
         <answer>
-          <p><m>L</m> is an always increasing function.
+          <p><m> \lim_{x \to \infty} \frac{x}{\ln(x)} = \infty</m>.
           </p>
         </answer>
         <solution>
           <p>
-            By the chain rule and treating <m>A</m>, <m>c</m>,
-            and <m>k</m> as constants, we find that
+            As both numerator and denominator tend to <m>\infty</m> as <m>x \to \infty</m>,
+            by L'Hôpital's Rule followed by some elementary algebra,
             <me>
-              L'(t) = A(-1)(1+ce^{-kt})^{-2} ce^{-kt}(-k) = Acke^{-kt}(1+ce^{-kt})^{-2}
+              \lim_{x \to \infty} \frac{x}{\ln(x)} = \lim_{x \to \infty} \frac{1}{\frac{1}{x}} = \lim_{x \to \infty} x = \infty
             </me>.
-            Since <m>A</m>, <m>c</m>,
-            and <m>k</m> are all positive and
-            <m>e^{-kt} \gt 0</m> for all values of <m>t</m>,
-            it is apparent that <m>L'(t)</m> is never zero,
-            and indeed is positive for every value of <m>t</m>.
-            Thus, <m>L</m> is an always increasing function.
           </p>
         </solution>
       </task>
       <task workspace="5cm" xml:id="act-3-2-3-task-1">
         <statement>
           <p>
-            It turns out that
-            <me>
-              L''(t) = Ack^2e^{-kt} \frac{ce^{-kt}-1}{(1+ce^{-kt})^3}
-            </me>.
-            Given this fact,
-            find all values of <m>t</m> such that
-            <m>L''(t) = 0</m> and hence construct a second derivative sign chart.
-            For which values of <m>t</m> is a function in this family concave up?  concave down?
+            <m>\displaystyle \lim_{x \to \infty} \frac{e^{x} + x}{2e^{x} + x^2}</m>
           </p>
         </statement>
         <hint>
           <p>
-            Note that the only way
-            <m>L''(t) = 0</m> is if <m>ce^{-kt}-1 = 0</m>.
+            Both the numerator and denominator tend to <m>\infty</m> as <m>x \to \infty</m>.
           </p>
         </hint>
         <answer>
-          <p><m>L</m> is concave up for all
-            <m>t \lt -\frac{1}{k} \ln \left(\frac{1}{c}\right)</m> and concave up for all other values of <m>t</m>.
+          <p><m> \lim_{x \to \infty} \frac{e^{x} + x}{2e^{x} + x^2} = \frac{1}{2}</m>.
           </p>
         </answer>
         <solution>
           <p>
-            Given that
+            Because this limit has indeterminate form
+            <m>\frac{\infty}{\infty}</m>, L'Hôpital's Rule tells us that
             <me>
-              L''(t) = Ack^2e^{-kt} \frac{ce^{-kt}-1}{(1+ce^{-kt})^3}
-            </me>,
-            the only way <m>L''(t) = 0</m> is if <m>ce^{-kt}-1 = 0</m>.
-            Solving <m>ce^{-kt}-1 = 0</m> for <m>t</m>,
-            we first write <m>e^{-kt} = \frac{1}{c}</m>.
-            Taking the natural logarithm of both sides,
-            <m>-kt = \ln(\frac{1}{c})</m>, so that
+              \lim_{x \to \infty} \frac{e^{x} + x}{2e^{x} + x^2} = \lim_{x \to \infty} \frac{e^{x} + 1}{2e^{x} + 2x}
+            </me>.
+            The latest limit is indeterminate for the same reason,
+            and a second application of the rule shows
             <me>
-              t = -\frac{1}{k} \ln \left(\frac{1}{c}\right)
-            </me>
-            is the only value of <m>t</m> for which <m>L''(t) = 0</m>.
-            Now, observe that since
-            <m>ce^{-kt} \to 0</m> as <m>t \to \infty</m>,
-            the quantity <m>ce^{-kt} - 1</m> will be positive to the left of where it is zero and negative to the right of where it is zero.
-            Since this is the only term in <m>L''(t)</m> that can change sign,
-            it follows that <m>L''(t) \gt 0</m> for <m>t \lt  -\frac{1}{k} \ln \left(\frac{1}{c}\right)</m> and
-            <m>L''(t) \gt 0</m> for <m>t \gt -\frac{1}{k} \ln \left(\frac{1}{c}\right)</m>,
-            making <m>L</m> concave up to the left of the noted inflection point and concave down thereafter.
+              \lim_{x \to \infty} \frac{e^{x} + x}{2e^{x} + x^2} = \lim_{x \to \infty} \frac{e^{x}}{2e^{x} + 2}
+            </me>.
+            Note how each application of the rule produces a simpler numerator and denominator.
+            With one more use of L'Hôpital's Rule,
+            followed by a simple algebraic simplification, we have
+            <me>
+              \lim_{x \to \infty} \frac{e^{x} + x}{2e^{x} + x^2} = \lim_{x \to \infty} \frac{e^{x}}{2e^{x}} = \lim_{x \to \infty} \frac{1}{2} = \frac{1}{2}
+            </me>.
           </p>
         </solution>
       </task>
-      <task workspace="6cm" xml:id="act-3-2-3-task-2">
+      <task workspace="7cm" xml:id="act-3-2-3-task-2">
         <statement>
           <p>
-            What is the value of
-            <m>\displaystyle \lim_{t \to \infty} \frac{A}{1+ce^{-kt}}</m>? <m>\displaystyle \lim_{t \to -\infty} \frac{A}{1+ce^{-kt}}</m>?
+            <m>\displaystyle \lim_{x \to 0^+} \frac{\ln(x)}{\frac{1}{x}}</m>
           </p>
         </statement>
         <hint>
           <p>
-            Remember that <m>e^{-t} \to 0</m> as <m>t \to \infty</m> and
-            <m>e^{-t} \to \infty</m> as <m>t \to -\infty</m>.
+            Note that <m>x \to 0^+</m>, not <m>\infty</m>.
           </p>
         </hint>
         <answer>
-          <p><m>
-            \lim_{t \to \infty} \frac{A}{1+ce^{-kt}} = A</m>,
-            and
-            <me>
-              \lim_{t \to \infty} \frac{A}{1+ce^{-kt}} = 0
-            </me>.
+          <p><m> \lim_{x \to 0^+} \frac{\ln(x)}{\frac{1}{x}} = 0</m>.
           </p>
         </answer>
         <solution>
           <p>
-            Recalling that <m>e^{-kt} \to 0</m> as <m>t \to \infty</m>,
-            we observe that
+            As <m>x \to 0^+</m>,
+            <m>\ln(x) \to -\infty</m> and <m>\frac{1}{x} \to +\infty</m>,
+            thus by L'Hôpital's Rule,
             <me>
-              \lim_{t \to \infty} \frac{A}{1+ce^{-kt}} = \frac{A}{1+0} = A
-            </me>,
-            so <m>L</m> has a horizontal asymptote of <m>y = A</m> as <m>t \to \infty</m>.
-            On the other hand,
-            since <m>e^{-kt} \to \infty</m> as <m>t \to -\infty</m>,
-            this causes the denominator of <m>L</m> to grow without bound
-            (while the numerator remains constant),
-            and therefore
+              \lim_{x \to 0^+} \frac{\ln(x)}{\frac{1}{x}} = \lim_{x \to 0^+} \frac{\frac{1}{x}}{-\frac{1}{x^2}}
+            </me>.
+            Reciprocating, multiplying,
+            and simplifying, it follows that
             <me>
-              \lim_{t \to \infty} \frac{A}{1+ce^{-kt}} = 0
-            </me>,
-            which means <m>L</m> has a horizontal asymptote of <m>y = 0</m> as <m>t \to -\infty</m>.
+              \lim_{x \to 0^+} \frac{\ln(x)}{\frac{1}{x}} = \lim_{x \to 0^+} \frac{1}{x}\cdot \frac{x^2}{-1} = \lim_{x \to 0^+} -x = 0
+            </me>.
           </p>
         </solution>
       </task>
-      <task workspace="3cm" xml:id="act-3-2-3-task-3">
+      <task workspace="6cm" xml:id="act-3-2-3-task-3">
         <statement>
           <p>
-            Find the value of <m>L(x)</m> at the inflection point found in (b).
+            <m>\displaystyle \lim_{x \to \frac{\pi}{2}^-} \frac{\tan(x)}{x-\frac{\pi}{2}}</m>
           </p>
         </statement>
         <hint>
           <p>
-            Don't forget that <m>e^{\ln(x)} = x</m> for all <m>x \gt 0</m>.
+            As <m>x \to \frac{\pi}{2}^-</m>,
+            <m>\tan(x) \to \infty</m>.
           </p>
         </hint>
         <answer>
-          <p>
-            The inflection point on the graph of <m>L</m> is <m>( -\frac{1}{k} \ln \left(\frac{1}{c}\right), \frac{A}{2})</m>.
+          <p><m> \lim_{x \to \frac{\pi}{2}^-} \frac{\tan(x)}{x-\frac{\pi}{2}} = -\infty</m>.
           </p>
         </answer>
         <solution>
           <p>
-            From (b), we know that
-            <m>t = -\frac{1}{k} \ln \left(\frac{1}{c}\right)</m> is the location of the inflection point of <m>L</m>.
-            Evaluating the function at this point, we find that
+            Here,
+            the numerator tends to <m>\infty</m> while the denominator tends to <m>0^-</m>.
+            Note well that this limit is not indeterminate,
+            but rather produces a collection of fractions with large positive numerators and small negative denominators.
+            Hence
             <me>
-              L\left( -\frac{1}{k} \ln \left(\frac{1}{c}\right) \right) = \frac{A}{1+ce^{-k [-\frac{1}{k} \ln \left(\frac{1}{c}\right)]}} = \frac{A}{1+ce^{\ln \left(\frac{1}{c}\right)}} = \frac{A}{1+c \cdot \frac{1}{c}} = \frac{A}{2}
+              \lim_{x \to \frac{\pi}{2}^-} \frac{\tan(x)}{x-\frac{\pi}{2}} = -\infty
             </me>.
-            Thus,
-            the inflection point on the graph of <m>L</m> is located at  <m>( -\frac{1}{k} \ln \left(\frac{1}{c}\right), \frac{A}{2})</m>.
+            In particular,
+            we observe that L'Hôpital's Rule is not applicable here.
           </p>
         </solution>
       </task>
-      <task workspace="8cm" xml:id="act-3-2-3-task-4">
+      <task workspace="6cm" xml:id="act-3-2-3-task-4">
         <statement>
           <p>
-            Without using a graphing utility,
-            sketch the graph of a typical member of this family.
-            Write several sentences to describe the overall behavior of a typical function <m>L</m> and how this behavior depends on <m>A</m>,
-            <m>c</m>, and <m>k</m> number.
+            <m>\displaystyle \lim_{x \to \infty} xe^{-x}</m>
           </p>
         </statement>
         <hint>
           <p>
-            Think about horizontal asymptotes,
-            where <m>L</m> is increasing and decreasing, and concavity.
+            Observe that <m>e^{-x} = \frac{1}{e^x}</m>.
           </p>
         </hint>
-        <answer/>
+        <answer>
+          <p><m> \lim_{x \to \infty} xe^{-x} = 0</m>.
+          </p>
+        </answer>
         <solution>
           <p>
-            We have shown that <m>L</m> is an always increasing function that has horizontal asymptotes at <m>y =0</m> and <m>y = A</m>,
-            as well as an inflection point at <m>( -\frac{1}{k} \ln \left(\frac{1}{c}\right), \frac{A}{2})</m>,
-            which we note lies vertically halfway between the asymptotes.
-            In addition, we see that <m>L(0) = \frac{A}{1+c}</m>.
-            The combination of all of this information shows us that a typical graph in this family of functions is given by the following figure.
+            In its original form, <m>\lim_{x \to \infty} xe^{-x}</m>,
+            is indeterminate of form <m>\infty \cdot 0</m>.
+            Rewriting <m>e^{-x}</m> as <m>\frac{1}{e^x}</m>,
+            a straightforward application of L'Hôpital's Rule tells us that
+            <me>
+              \lim_{x \to \infty} xe^{-x} = \lim_{x \to \infty} \frac{x}{e^x} = \lim_{x \to \infty} \frac{1}{e^x}
+            </me>.
+            Since <m>e^x \to \infty</m> as <m>x \to \infty</m>,
+            we find that
+            <me>
+              \lim_{x \to \infty} xe^{-x} = 0
+            </me>.
           </p>
         </solution>
       </task>

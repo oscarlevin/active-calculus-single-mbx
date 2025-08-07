@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,129 +12,155 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<worksheet label="ws-act-3-3-1">
-   
-    <activity xml:id="act-3-3-1" workspace="3cm">
-      <introduction>
-        <p>
-      Let <m>g(x) = \frac{1}{3}x^3 - 2x + 2</m>.
 
+<worksheet xml:id="ws-act-3-3-1">
+  
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-3-1">
+  <introduction>
+    <p>
+      Suppose that <m>g(x)</m> is a function whose first derivative is 
+      <me>
+        g'(x) = \frac{(x+4)(x-2)}{x^2+1}
+      </me>.
+    </p>  
+  </introduction> 
+  <task workspace="3cm" xml:id="act-3-3-1-task-0">
+    <statement>
+      <p>
+        Determine, with justification, all critical numbers of <m>g</m>.
       </p>
-      </introduction>
-      <task workspace="4cm" xml:id="act-3-3-1-task-0">
-        <statement>
+    </statement>
+    <hint>
           <p>
-            Find all critical numbers of <m>g</m> that lie in the interval <m>-2 \le x \le 3</m>.
+            Where is <m>g'(x) = 0</m>?  Is there anywhere that <m>g'(x)</m> is undefined?
           </p>
-        </statement>
-        <hint>
-          <p>
-            Check that each critical number you find satisfies <m>-2 \le x \le 3</m>.
-          </p>
-        </hint>
-        <answer>
-          <p><m>x = \pm \sqrt{2} \approx \pm 1.414</m>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            Since <m>g'(x) = x^2 - 2</m>,
-            the critical numbers of <m>g</m> are <m>x = \pm \sqrt{2} \approx \pm 1.414</m>,
-            both of which lie in the interval <m>-2 \le x \le 3</m>.
-          </p>
-        </solution>
-      </task>
-      <task workspace="4.5cm" xml:id="act-3-3-1-task-1">
-        <statement>
-          <p>
-            Use a graphing utility to construct the graph of <m>g</m> on the interval <m>-2 \le x \le 3</m>.
-          </p>
-        </statement>
-   <!--
-        <hint>
-          <p><url href="https://wolframalpha.com" visual="wolframalpha.com">WolframAlpha</url> is a great choice.
-          </p>
-        </hint>
-   -->
-        <answer/>
-        <solution>
-          <p>
-            The figure shown below shows three related plots,
-            each with the emphases on the interval provided in (c), (d), and (e).
-          </p>
-        </solution>
-      </task>
-      <task workspace="3cm" xml:id="act-3-3-1-task-2">
-        <statement>
-          <p>
-            From the graph,
-            determine the <m>x</m>-values at which the absolute minimum and absolute maximum of <m>g</m> occur on the interval <m>[-2,3]</m>.
-          </p>
-        </statement>
-        <hint>
-          <p>
-            On the graph,
-            look for the lowest and highest possible values of the function.
-          </p>
-        </hint>
-        <answer>
-          <p>
-            On <m>[-2,3]</m>,
-            <m>g</m> has a global maximum at <m>x = 3</m> and a global minimum at <m>x = \sqrt{2}</m>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            On <m>[-2,3]</m>,
-            <m>g</m> has a global maximum at <m>x = 3</m> and a global minimum at <m>x = \sqrt{2}</m>.
-          </p>
-        </solution>
-      </task>
-      <task workspace="6cm" xml:id="act-3-3-1-task-3">
-        <statement>
-          <p>
-            How do your answers change if we instead consider the interval <m>-2 \le x \le 2</m>?
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Ask yourself the same questions as (a)-(c),
-            simply using the new interval.
-          </p>
-        </hint>
-        <answer>
-          <p>
-            On <m>[-2,2]</m>, <m>g</m> has a global maximum at
-            <m>x = -\sqrt{2}</m> and a global minimum at <m>x = \sqrt{2}</m>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            On <m>[-2,2]</m>, <m>g</m> has a global maximum at
-            <m>x = -\sqrt{2}</m> and a global minimum at <m>x = \sqrt{2}</m>.
-          </p>
-        </solution>
-      </task>
-      <task workspace="6cm" xml:id="act-3-3-1-task-4">
-        <statement>
-          <p>
-            What if we instead consider the interval <m>-2 \le x \le 1</m>?
-          </p>
-        </statement>
-        <hint/>
-        <answer>
-          <p>
-            On <m>[-2,1]</m>, <m>g</m> has a global maximum at
-            <m>x = -\sqrt{2}</m> and a global minimum at <m>x = 1</m>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            On <m>[-2,1]</m>, <m>g</m> has a global maximum at
-            <m>x = -\sqrt{2}</m> and a global minimum at <m>x = 1</m>.
-          </p>
-        </solution>
-      </task>
-    </activity>
-   
+    </hint>
+    <answer>
+      <p>
+        <m>x = -4</m> and <m>x = 2</m> are the only two critical numbers of <m>g</m>.
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Using the given fact that <m>g'(x) = \frac{(x+4)(x-2)}{x^2+1}</m>, we observe that since <m>x^2 + 1</m> is never 0, <m>g'(x)</m> is never undefined.  Moreover, <m>g'(x) = 0</m> implies that <m>(x+4)(x-2) = 0</m>, which only happens when <m>x = -4</m> or <m>x = 2</m>, so these are the two critical numbers of <m>g</m>.
+      </p>
+    </solution>
+  </task>
+  <task workspace="5cm" xml:id="act-3-3-1-task-1">
+    <statement>
+      <p>
+        By developing a carefully labeled first derivative sign chart,
+        decide whether <m>g</m> has as a local maximum,
+        local minimum,
+        or neither at each critical number.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Choose values of <m>x</m> that lie just before and/or just after each of the critical numbers, and find the sign of <m>g'(x)</m> at each of them.
+      </p>
+    </hint>
+    <answer>
+      <p>
+        For <m>x \lt -4</m>, <m>g'(x) \gt 0</m>;  for <m>-4 \lt x \lt 2</m>, <m>g'(x) \lt 0</m>; and for <m>x \gt 2</m>, <m>g'(x) \gt 0</m>.
+      </p>
+    </answer>
+    <solution>
+      <p>
+        We can observe that for <m>x \lt -4</m>, <m>g'(x) \gt 0</m>;  for <m>-4 \lt x \lt 2</m>, <m>g'(x) \lt 0</m>; and for <m>x \gt 2</m>, <m>g'(x) \gt 0</m>.
+      </p>
+    </solution>
+  </task>
+  <task workspace="3cm" xml:id="act-3-3-1-task-2">
+    <statement>
+      <p>
+        Does <m>g</m> have a global maximum? global minimum?
+        Justify your claims.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Are there <m>x</m>-values where <m>g'(x)</m> changes from negative to positive?  positive to negative?
+      </p>
+    </hint>
+    <answer>
+      <p>
+        <m>g</m> has a local maximum at <m>x = -4</m>; <m>g</m> has a local minimum at <m>x = 2</m>.
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Using the First Derivative Test and the signs of <m>g'(x)</m> we found in (b), it follows <m>g</m> has a local maximum at <m>x = -4</m>, since at that value <m>g'(x)</m> changes from positive to negative; similarly, <m>g</m> has a local minimum at <m>x = 2</m> since there the derivative changes from negative to positive.
+      </p>
+    </solution>
+  </task>    
+  <task workspace="5cm" xml:id="act-3-3-1-task-3">
+    <statement>
+      <p>
+        Sketch a possible graph of <m>y = g(x)</m>.  Clearly label any local or global extrema on the graph.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Think about where <m>g</m> is increasing and decreasing, as well as where <m>g</m> has relative extremes.
+      </p>
+    </hint>
+    <answer>
+            <figure xml:id="F-act-3-3-1-ans">
+              <caption>A plot of a possible function <m>y = g(x)</m> whose derivative is the given formula for <m>g'(x)</m>.</caption>
+            <image width="60%">
+              <prefigure label="Fig-act-3-3-1-ans" xmlns="https://prefigure.org">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>f(x) = log(x^2+1) + x - 9*atan(x) - 2</definition>
+                  <definition>a = -4</definition>
+                  <definition>b = 2</definition>  
+                  <coordinates bbox="(-15,-15,15,15)">
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <graph function="f"/>
+                    <point p="(a,f(a))" alignment="nw" clear-background="yes">
+                      <m>(-4,g(-4))</m>
+                    </point>
+                    <point p="(b,f(b))" alignment="se" clear-background="yes">
+                      <m>(2,g(2))</m>
+                    </point>    
+                  </coordinates>
+                </diagram>
+              </prefigure>
+            </image>  
+            </figure>
+    </answer>
+    <solution>
+      <p>
+        By thinking about where <m>g</m> is increasing and decreasing, as well as where <m>g</m> has local extremes, we can sketch the following possible graph of <m>g</m>.
+      </p>  
+        <figure xml:id="F-act-3-3-1-soln">
+          <caption>A plot of a possible function <m>y = g(x)</m> whose derivative is the given formula for <m>g'(x)</m>.</caption>
+            <image width="60%">
+              <prefigure label="Fig-act-3-3-1-soln" xmlns="https://prefigure.org">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>f(x) = log(x^2+1) + x - 9*atan(x) - 2</definition>
+                  <definition>a = -4</definition>
+                  <definition>b = 2</definition>  
+                  <coordinates bbox="(-15,-15,15,15)">
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <graph function="f"/>
+                    <point p="(a,f(a))" alignment="nw" clear-background="yes">
+                      <m>(-4,g(-4))</m>
+                    </point>
+                    <point p="(b,f(b))" alignment="se" clear-background="yes">
+                      <m>(2,g(2))</m>
+                    </point>    
+                  </coordinates>
+                </diagram>
+              </prefigure>
+            </image>  
+        </figure>
+        <p>
+          Note that any vertical shift of <m>g</m> will have the same shape and same derivative, so multiple graphs are possible.  In addition, we can observe that as <m>x \to \pm \infty</m>, <m>g'(x) \to 1</m>, and this explains why our graph looks linear in its end behavior in each direction.
+        </p>
+    </solution>
+  </task>
+
+</activity>
+
 </worksheet>

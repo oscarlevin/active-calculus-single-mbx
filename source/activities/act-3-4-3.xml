@@ -16,76 +16,197 @@
 <worksheet label="ws-act-3-4-3">
    
     <activity xml:id="act-3-4-3" workspace="3cm">
-      <statement>
+      <introduction>
         <p>
-          Consider the region in the <m>x</m>-<m>y</m> plane that is bounded by the <m>x</m>-axis and the function <m>f(x) = 25-x^2</m>.
-          Construct a rectangle whose base lies on the <m>x</m>-axis and is centered at the origin,
-          and whose sides extend vertically until they intersect the curve <m>y = 25-x^2</m>.
-          Which such rectangle has the maximum possible area?
-          Which such rectangle has the greatest perimeter?
-        </p>
-        <p>
-          (Challenge:
-          answer the same questions in terms of positive parameters <m>a</m> and <m>b</m> for the function <m>f(x) = b-ax^2</m>.)
-        </p>
-      </statement>
-      <hint>
-        <p>
-      Let <m>x</m> represent half the width of the rectangle's base.
-      How does the rectangle's height depend on <m>x</m>?
-    </p>
-      </hint>
-      <answer>
-        <p>
-      Maximum area:
-      <m>A(\frac{5}{\sqrt{3}}) = \frac{500}{9}\sqrt{3} \approx 96.225</m>.
-      Maximum perimeter: <m>P(1) = 52</m>.
-      <!-- At <m>x = \frac{\sqrt{82}-1}{3}</m> the absolute maximum of combined perimeter and area occurs. -->
-    </p>
-      </answer>
-      <solution>
-        <p>
-      Letting <m>x</m> represent half the width of the rectangle's base,
-      it follows that the rectangle's height is <m>25-x^2</m>.
-      Hence the area of the rectangle is
-      <me>
-        A(x) = 2x(25-x^2) = 50x - 2x^3
-      </me>.
-    </p>
-        <p>
-      Based on the region,
-      the only possible values of <m>x</m> are for <m>0 \le x \le 5</m>;
-      moreover, it is evident that for either <m>x = 0</m> or <m>x = 5</m>,
-      the area of the corresponding rectangle is zero,
-      which can't be where the maximum occurs.
-      Differentiating,
-      <me>
-        A'(x) = 50 - 6x^2
-      </me>,
-      so we find the critical number of <m>A</m> by solving <m>6x^2 = 50</m>,
-      which yields <m>x = \frac{5}{\sqrt{3}} \approx 2.8868</m>,
-      which results in the maximum possible area of
-      <me>
-        A(\frac{5}{\sqrt{3}}) = \frac{500}{9}\sqrt{3} \approx 96.225
-      </me>
-      square units.
-    </p>
-        <p>
-      To maximize perimeter, we note that the rectangle's perimeter is
-      <me>
-        P(x) = 2x + (25-x^2) + 2x + (25 - x^2) = -2x^2 + 4x + 50
-      </me>.
-    </p>
-        <p>
-      It is straightforward to show that the only critical number of the quadratic function <m>P</m> occurs when <m>x = 1</m> and that the corresponding absolute maximum value is <m>P(1) = 52</m>.
-    </p>
-<!--        <p>
-      Finally, to consider combined area and perimeter,
-      examine the function <m>f(x) = A(x) + P(x)</m> on the interval <m>0 \le x \le 5</m>.
-      You should find that the only relevant critical number is
-      <m>x = \frac{\sqrt{82}-1}{3}</m> and that the absolute maximum of <m>f</m> occurs at that value. 
-    </p>-->
-      </solution>
+      Let <m>L(t) = \frac{A}{1+ce^{-kt}}</m>, where <m>A</m>,
+      <m>c</m>, and <m>k</m> are all positive real numbers.
+
+      </p>
+      </introduction>
+      <task workspace="5cm" xml:id="act-3-4-3-task-0">
+        <statement>
+          <p>
+            Observe that we can equivalently write <m>L(t) = A(1+ce^{-kt})^{-1}</m>.
+            Find <m>L'(t)</m> and explain why <m>L</m> has no critical numbers.
+            Is <m>L</m> always increasing or always decreasing?
+            Why?
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Use the chain rule, treating <m>A</m>,
+            <m>c</m>, and <m>k</m> as constants.
+          </p>
+        </hint>
+        <answer>
+          <p><m>L</m> is an always increasing function.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            By the chain rule and treating <m>A</m>, <m>c</m>,
+            and <m>k</m> as constants, we find that
+            <me>
+              L'(t) = A(-1)(1+ce^{-kt})^{-2} ce^{-kt}(-k) = Acke^{-kt}(1+ce^{-kt})^{-2}
+            </me>.
+            Since <m>A</m>, <m>c</m>,
+            and <m>k</m> are all positive and
+            <m>e^{-kt} \gt 0</m> for all values of <m>t</m>,
+            it is apparent that <m>L'(t)</m> is never zero,
+            and indeed is positive for every value of <m>t</m>.
+            Thus, <m>L</m> is an always increasing function.
+          </p>
+        </solution>
+      </task>
+      <task workspace="5cm" xml:id="act-3-4-3-task-1">
+        <statement>
+          <p>
+            It turns out that
+            <me>
+              L''(t) = Ack^2e^{-kt} \frac{ce^{-kt}-1}{(1+ce^{-kt})^3}
+            </me>.
+            Given this fact,
+            find all values of <m>t</m> such that
+            <m>L''(t) = 0</m> and hence construct a second derivative sign chart.
+            For which values of <m>t</m> is a function in this family concave up?  concave down?
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Note that the only way
+            <m>L''(t) = 0</m> is if <m>ce^{-kt}-1 = 0</m>.
+          </p>
+        </hint>
+        <answer>
+          <p><m>L</m> is concave up for all
+            <m>t \lt -\frac{1}{k} \ln \left(\frac{1}{c}\right)</m> and concave up for all other values of <m>t</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Given that
+            <me>
+              L''(t) = Ack^2e^{-kt} \frac{ce^{-kt}-1}{(1+ce^{-kt})^3}
+            </me>,
+            the only way <m>L''(t) = 0</m> is if <m>ce^{-kt}-1 = 0</m>.
+            Solving <m>ce^{-kt}-1 = 0</m> for <m>t</m>,
+            we first write <m>e^{-kt} = \frac{1}{c}</m>.
+            Taking the natural logarithm of both sides,
+            <m>-kt = \ln(\frac{1}{c})</m>, so that
+            <me>
+              t = -\frac{1}{k} \ln \left(\frac{1}{c}\right)
+            </me>
+            is the only value of <m>t</m> for which <m>L''(t) = 0</m>.
+            Now, observe that since
+            <m>ce^{-kt} \to 0</m> as <m>t \to \infty</m>,
+            the quantity <m>ce^{-kt} - 1</m> will be positive to the left of where it is zero and negative to the right of where it is zero.
+            Since this is the only term in <m>L''(t)</m> that can change sign,
+            it follows that <m>L''(t) \gt 0</m> for <m>t \lt  -\frac{1}{k} \ln \left(\frac{1}{c}\right)</m> and
+            <m>L''(t) \gt 0</m> for <m>t \gt -\frac{1}{k} \ln \left(\frac{1}{c}\right)</m>,
+            making <m>L</m> concave up to the left of the noted inflection point and concave down thereafter.
+          </p>
+        </solution>
+      </task>
+      <task workspace="6cm" xml:id="act-3-4-3-task-2">
+        <statement>
+          <p>
+            What is the value of
+            <m>\displaystyle \lim_{t \to \infty} \frac{A}{1+ce^{-kt}}</m>? <m>\displaystyle \lim_{t \to -\infty} \frac{A}{1+ce^{-kt}}</m>?
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Remember that <m>e^{-t} \to 0</m> as <m>t \to \infty</m> and
+            <m>e^{-t} \to \infty</m> as <m>t \to -\infty</m>.
+          </p>
+        </hint>
+        <answer>
+          <p><m>
+            \lim_{t \to \infty} \frac{A}{1+ce^{-kt}} = A</m>,
+            and
+            <me>
+              \lim_{t \to \infty} \frac{A}{1+ce^{-kt}} = 0
+            </me>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Recalling that <m>e^{-kt} \to 0</m> as <m>t \to \infty</m>,
+            we observe that
+            <me>
+              \lim_{t \to \infty} \frac{A}{1+ce^{-kt}} = \frac{A}{1+0} = A
+            </me>,
+            so <m>L</m> has a horizontal asymptote of <m>y = A</m> as <m>t \to \infty</m>.
+            On the other hand,
+            since <m>e^{-kt} \to \infty</m> as <m>t \to -\infty</m>,
+            this causes the denominator of <m>L</m> to grow without bound
+            (while the numerator remains constant),
+            and therefore
+            <me>
+              \lim_{t \to \infty} \frac{A}{1+ce^{-kt}} = 0
+            </me>,
+            which means <m>L</m> has a horizontal asymptote of <m>y = 0</m> as <m>t \to -\infty</m>.
+          </p>
+        </solution>
+      </task>
+      <task workspace="3cm" xml:id="act-3-4-3-task-3">
+        <statement>
+          <p>
+            Find the value of <m>L(x)</m> at the inflection point found in (b).
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Don't forget that <m>e^{\ln(x)} = x</m> for all <m>x \gt 0</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            The inflection point on the graph of <m>L</m> is <m>( -\frac{1}{k} \ln \left(\frac{1}{c}\right), \frac{A}{2})</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            From (b), we know that
+            <m>t = -\frac{1}{k} \ln \left(\frac{1}{c}\right)</m> is the location of the inflection point of <m>L</m>.
+            Evaluating the function at this point, we find that
+            <me>
+              L\left( -\frac{1}{k} \ln \left(\frac{1}{c}\right) \right) = \frac{A}{1+ce^{-k [-\frac{1}{k} \ln \left(\frac{1}{c}\right)]}} = \frac{A}{1+ce^{\ln \left(\frac{1}{c}\right)}} = \frac{A}{1+c \cdot \frac{1}{c}} = \frac{A}{2}
+            </me>.
+            Thus,
+            the inflection point on the graph of <m>L</m> is located at  <m>( -\frac{1}{k} \ln \left(\frac{1}{c}\right), \frac{A}{2})</m>.
+          </p>
+        </solution>
+      </task>
+      <task workspace="8cm" xml:id="act-3-4-3-task-4">
+        <statement>
+          <p>
+            Without using a graphing utility,
+            sketch the graph of a typical member of this family.
+            Write several sentences to describe the overall behavior of a typical function <m>L</m> and how this behavior depends on <m>A</m>,
+            <m>c</m>, and <m>k</m> number.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Think about horizontal asymptotes,
+            where <m>L</m> is increasing and decreasing, and concavity.
+          </p>
+        </hint>
+        <answer>
+          <image width="50%" source="images/3_2_Act3Soln" />
+        </answer>
+        <solution>
+          <p>
+            We have shown that <m>L</m> is an always increasing function that has horizontal asymptotes at <m>y =0</m> and <m>y = A</m>,
+            as well as an inflection point at <m>( -\frac{1}{k} \ln \left(\frac{1}{c}\right), \frac{A}{2})</m>,
+            which we note lies vertically halfway between the asymptotes.
+            In addition, we see that <m>L(0) = \frac{A}{1+c}</m>.
+            The combination of all of this information shows us that a typical graph in this family of functions is given by the following figure.
+          </p>
+          <image width="50%" source="images/3_2_Act3Soln" />
+        </solution>
+      </task>
     </activity>
    
 </worksheet>

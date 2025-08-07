@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,231 +12,158 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet label="ws-act-8-5-1">
-   
-    <activity xml:id="act-8-5-1" workspace="3cm">
-      <introduction>
+  <activity xml:id="act-8-5-1">
+    <introduction>
+      <p>
+        Use known Taylor series and substitution and algebraic techniques to find a Taylor series representation for each of the following functions.  In addition, state the interval of <m>x</m>-values for which you expect each Taylor series to converge.
+      </p>     
+    </introduction>
+    <task workspace="6cm" xml:id="act-8-5-1-task-0">
+      <statement>
         <p>
-      We have just seen that the <m>n</m>th order Taylor polynomial centered at <m>a = 0</m> for the exponential function <m>e^x</m> is
-      <me>
-        \sum_{k=0}^{n} \frac{x^k}{k!}
-      </me>.
-    </p>
+          <m>g(x) = x^3 \sin(x^2)</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer>
         <p>
-      In this activity,
-      we determine small order Taylor polynomials for several other familiar functions,
-      and look for general patterns.
-    </p>
-        <p/>
-      </introduction>
-      <task workspace="16.5cm" xml:id="act-8-5-1-task-0">
-        <statement>
-          <p>
-            Let <m>f(x) = \frac{1}{1-x}</m>.
+          <m>
+              g(x) = x^3 \sin(x^2) = x^5 - \frac{1}{3!}x^9 + \frac{1}{5!}x^{13} - \cdots
+            </m>, which converge for all real numbers <m>x</m>.
+        </p>
+      </answer>  
+      <solution>
+        <p>
+            To find the Taylor series for <m>g(x) = x^3 \sin(x^2)</m>, we start with <m>f(x) = \sin(x)</m> and view <m>g(x) = x^3 f(x^2)</m>.  Thus, since 
+            <me>
+              f(x) = \sin(x) = x - \frac{1}{3!}x^3 + \frac{1}{5!}x^5 - \cdots
+            </me>
+            we have 
+            <me>
+              f(x^2) = x^2 - \frac{1}{3!}x^6 + \frac{1}{5!}x^{10} - \cdots
+            </me>
+            and thus
+            <me>
+              g(x) = x^3 \sin(x^2) = x^5 - \frac{1}{3!}x^9 + \frac{1}{5!}x^{13} - \cdots
+            </me>.
+            We expect this series to converge for all <m>x</m> since the original series for <m>\sin(x)</m> converges for every <m>x</m>.
+          </p>
+      </solution>
+    </task>
+    <task workspace="6cm" xml:id="act-8-5-1-task-1">
+      <statement>
+        <p>
+          <m>h(x) = e^{-x^4}</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer>
+        <p>
+          <m>h(x) = 1 - x^4 + \frac{1}{2!}x^8 - \frac{1}{3!}x^{12} + \cdots</m>, which converges for all real numbers <m>x</m>.
+        </p>
+      </answer>
+      <solution>
+        <p>
+            For <m>h(x) = e^{-x^4}</m>, we start with the series for <m>f(x) = e^x</m> and then substitute <m>-x^2</m> for <m>x</m>.  Doing so,
+            <me>
+              f(x) = e^x = 1 + x + \frac{1}{2!}x^2 + \frac{1}{3!}x^3 + \cdots
+            </me>
+            and thus
+            <me>
+              h(x) = g(-x^4) = 1 - x^4 + \frac{1}{2!}x^8 - \frac{1}{3!}x^{12} + \cdots
+            </me>.
+            Since the series for <m>e^x</m> converges for all real numbers <m>x</m>, the same will be true when we replace <m>x</m> with <m>-x^2</m>.
+          </p>
+      </solution>
+    </task>
+    <task workspace="6cm" xml:id="act-8-5-1-task-2">
+      <statement>
+        <p>
+          <m>p(x) = \dfrac{1}{1+5x}</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer>
+        <p>
+          <m>p(x) = 1 - 5x + (-5x)^2 + (-5x)^3 + \cdots = 1 - 5x + 5^2x^2 - 5^3x^3 + \cdots</m>, which converges whenever <m>|-5x| \lt 1</m>, or for <m>-\frac{1}{5} \lt x \lt \frac{1}{5}</m>.
+        </p>
+      </answer>
+      <solution>
+        <p>
+            Since <m>p(x) = \frac{1}{1+5x}</m> has the same structure as <m>f(x) = \frac{1}{1-x}</m>, we start with the series for <m>f(x)</m>, which converges for <m>-1 \lt x \lt 1</m>.  We will then replace <m>x</m> with <m>-5x</m> since <m>p(x) = f(-5x)</m>.  In particular, since
+            <me>
+              f(x) = \frac{1}{1-x} = 1 + x + x^2 + x^3 + \cdots
+            </me>,
+            we have
+            <me>
+              p(x) = f(-5x) = 1 - 5x + (-5x)^2 + (-5x)^3 + \cdots = 1 - 5x + 5^2x^2 - 5^3x^3 + \cdots
+            </me>
+            The series for <m>p(x)</m> is geometric with <m>a = 1</m> and <m>r = -5x</m>, so it converges whenever <m>|-5x| \lt 1</m>, so for all <m>x</m> such that <m>-\frac{1}{5} \lt x \lt \frac{1}{5}</m>.
+          </p>
+      </solution>
+    </task>
+    <task workspace="7cm" xml:id="act-8-5-1-task-3">
+      <statement>
+        <p>
+          <m>q(x) = x^2\ln(1+x^4)</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer>
+        <p>
+          <m>q(x) = x^6 - \frac{1}{2}x^{10} + \frac{1}{3}x^{14} - \cdots</m>, which converges for <m>|x| \lt 1</m>.
+        </p>
+      </answer>
+      <solution>
+        <p>
+            For <m>q(x) = x^2 \ln(1+x^4)</m>, we start with the series for <m>f(x) = \ln(1+x)</m> and replace <m>x</m> by <m>x^4</m>.  In particular, since
+            <me>
+              f(x) = \ln(1+x) = x - \frac{1}{2}x^2 + \frac{1}{3}x^3 - \cdots
+            </me>
+            we have
+            <me>
+               f(x^4) = x^4 - \frac{1}{2}x^8 + \frac{1}{3}x^{12} - \cdots
+            </me>
+            and thus
+            <me>
+              q(x) = x^2 f(x^4) = x^6 - \frac{1}{2}x^{10} + \frac{1}{3}x^{14} - \cdots
+            </me>.
+            For the series for <m>f(x^4)</m> to converge, we need <m>|x^4| \lt 1</m> since the original series for <m>f(x)</m> converges for <m>|x| \lt 1</m>.  Note that <m>|x^4| \lt 1</m> precisely when <m>|x| \lt 1</m>.  Multiplying by <m>x^2</m> does not affect the values of <m>x</m> for which the series converges.
+          </p>
+      </solution>
+    </task>
+    <task workspace="7cm" xml:id="act-8-5-1-task-4">
+      <statement>
+        <p>
+          <m>r(x) = \dfrac{e^{3x}-1}{3x}</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer>
+        <p>
+          <m>r(x) = 1 + \frac{1}{2!}(3x) + \frac{1}{3!}(3x)^2 + \frac{1}{4!}(3x)^3 + \cdots</m>, which converges for all real numbers <m>x</m>.
+        </p>
+      </answer>
+      <solution>
+        <p>
+          We first observe by using the Taylor series for <m>e^x</m>, 
+          <me>
+            e^{3x} = 1 + 3x + \frac{1}{2!}(3x)^2 + \frac{1}{3!}(3x)^3 + \frac{1}{4!}(3x)^4 + \cdots
+          </me>.
+          Now it follows that 
+          <me>
+            e^{3x} - 1 = 3x + \frac{1}{2!}(3x)^2 + \frac{1}{3!}(3x)^3 + \frac{1}{4!}(3x)^4 + \cdots
+          </me>.
+          Dividing both sides by <m>3x</m>, we find
+          <me>
+            r(x) = \frac{e^{3x} - 1}{3x} = 1 + \frac{1}{2!}(3x) + \frac{1}{3!}(3x)^2 + \frac{1}{4!}(3x)^3 + \cdots
+          </me>.
+          Since the Taylor series for <m>e^{3x}</m> converges for all real <m>x</m>, we expect the same to be true for <m>r(x)</m>.         
+        </p>
+      </solution>
+    </task>
 
-            <ol marker="i."><li><p>
-                  Calculate the first four derivatives of <m>f(x)</m> at <m>x=0</m>.
-                  Then find the fourth order Taylor polynomial <m>P_4(x)</m> for
-                  <m>\frac{1}{1-x}</m> centered at <m>0</m>.
-                </p></li><li><p>
-                  Based on your results from part (i),
-                  determine a general formula for <m>f^{(k)}(0)</m>.
-                </p></li></ol></p>
-        </statement>
-        <hint>
-          <p>
-            Small hints for each of the prompts above.
-          </p>
-        </hint>
-        <answer>
-          <p>
-            <ol marker="i.">
-              <li>
-                <p><m>
-                  f^{(k)}(0) = k!
-                  </m>.
-                </p>
-              </li>
-              <li>
-                <p><me>
-                    P_n(x) = \sum_{k=0}^n  x^k
-                  </me>.
-                </p>
-              </li>
-            </ol>
-          </p>
-        </answer>
-        <solution>
-          <p>
-            <ol marker="i.">
-              <li>
-                <p>
-                  The first four derivatives of <m>f(x)</m> at <m>x=0</m> are
-                  <md><mrow>f(x) \amp = \frac{1}{1-x} \amp    f(0) \amp = 1</mrow><mrow>f'(x) \amp = \frac{1}{(1-x)^2} \amp    f'(0) \amp = 1</mrow><mrow>f''(x) \amp = \frac{2}{(1-x)^3} \amp     f''(0) \amp = 2</mrow><mrow>f^{(3)}(x) \amp = \frac{3!}{(1-x)^4} \amp     f^{(3)}(0) \amp = 3!</mrow><mrow>f^{(4)}(x) \amp = \frac{4!}{(1-x)^5} \amp    f^{(4)}(0) \amp = 4!</mrow></md>.
-                  It appears that the pattern is
-                  <me>
-                    f^{(k)}(0) = k!
-                  </me>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  The <m>n</m>th order Taylor polynomial for <m>f</m> at <m>x=0</m> is
-                  <me>
-                    \sum_{k=0}^n \frac{f^{(k)}}{k!} x^k = \sum_{k=0}^n \frac{k!}{k!} x^k = \sum_{k=0}^n  x^k
-                  </me>.
-                  This makes sense since <m>f(x)</m> is the sum of the geometric series with ratio <m>x</m>,
-                  so the <m>n</m>th order Taylor polynomial should just be the <m>n</m>th partial sum of this geometric series.
-                </p>
-              </li>
-            </ol>
-          </p>
-        </solution>
-      </task>
-      <task workspace="8cm" xml:id="act-8-5-1-task-1">
-        <statement>
-          <p>
-            Let <m>f(x) = \cos(x)</m>.
-
-            <ol marker="i."><li><p>
-                  Calculate the first four derivatives of <m>f(x)</m> at <m>x=0</m>.
-                  Then find the fourth order Taylor polynomial <m>P_4(x)</m> for <m>\cos(x)</m> centered at <m>0</m>.
-                </p></li><li><p>
-                  Based on your results from part (i),
-                  find a general formula for
-                  <m>f^{(k)}(0)</m>.
-                  (Think about how <m>k</m> being even or odd affects the value of the <m>k</m>th derivative.)
-                </p></li></ol></p>
-        </statement>
-        <hint/>
-        <answer>
-          <p>
-            <ol marker="i.">
-              <li>
-                <p><m>
-                  f^{(k)}(0) = 0 \text{ if } k \text{ is odd,
-                  and } f^{(2k)}(0) = (-1)^k
-                  </m>.
-                </p>
-              </li>
-              <li>
-                <p><m>
-                  P_n(x) = 1 - \frac{x^2}{2} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots + (-1)^{n/2}\frac{x^n}{n!}
-                  </m>
-                  if <m>n</m> is even and
-                  <m>
-                  P_n(x) = 1 - \frac{x^2}{2} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots + (-1)^{(n-1)/2}\frac{x^(n-1)}{(n-1)!}
-                  </m>
-                  if <m>n</m> is odd.
-                </p>
-              </li>
-            </ol>
-          </p>
-        </answer>
-        <solution>
-          <p>
-            <ol marker="i.">
-              <li>
-                <p>
-                  The first four derivatives of <m>f(x)</m> at <m>x=0</m> are
-                  <md><mrow>f(x) \amp = \cos(x) \amp   f(0) \amp = 1</mrow><mrow>f'(x) \amp = -\sin(x) \amp   f'(0) \amp = 0</mrow><mrow>f''(x) \amp = -\cos(x) \amp   f''(0) \amp = -1</mrow><mrow>f^{(3)}(x) \amp = \sin(x) \amp   f^{(3)}(0) \amp = 0</mrow><mrow>f^{(4)}(x) \amp = \cos(x) \amp   f^{(4)}(0) \amp = 1</mrow></md>.
-                  It appears that the odd derivatives of <m>f(x)</m> are all plus or minus <m>\sin(x)</m> and so have values of 0 at <m>x=0</m> and the even derivatives are
-                  <m>\pm \cos(x)</m> and have alternating values of 1 and <m>-1</m> at <m>x-0</m>.
-                  Since the even numbers can be represented in the form <m>2k</m> where <m>k</m> is an integer we have
-                  <me>
-                    f^{(k)}(0) = 0 \text{ if }  k \text{ is odd,
-                    and } f^{(2k)}(0) = (-1)^k
-                  </me>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Based on the previous part of this problem the <m>n</m>th order Taylor polynomial for <m>\cos(x)</m> is
-                  <me>
-                    1 - \frac{x^2}{2} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots + (-1)^{n/2}\frac{x^n}{n!}
-                  </me>
-                  if <m>n</m> is even and
-                  <me>
-                    1 - \frac{x^2}{2} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots + (-1)^{(n-1)/2}\frac{x^(n-1)}{(n-1)!}
-                  </me>
-                  if <m>n</m> is odd.
-                </p>
-              </li>
-            </ol>
-          </p>
-        </solution>
-      </task>
-      <task workspace="8cm" xml:id="act-8-5-1-task-2">
-        <statement>
-          <p>
-            Let <m>f(x) = \sin(x)</m>.
-
-            <ol marker="i."><li><p>
-                  Calculate the first four derivatives of <m>f(x)</m> at <m>x=0</m>.
-                  Then find the fourth order Taylor polynomial <m>P_4(x)</m> for <m>\sin(x)</m> centered at <m>0</m>.
-                </p></li><li><p>
-                  Based on your results from part (i),
-                  find a general formula for
-                  <m>f^{(k)}(0)</m>.
-                  (Think about how <m>k</m> being even or odd affects the value of the <m>k</m>th derivative.)
-                </p></li></ol></p>
-        </statement>
-        <hint/>
-        <answer>
-          <p>
-            <ol marker="i.">
-              <li>
-                <p><m>
-                  f^{(k)}(0) = 0 \text{ if } k \text{ is even } \ \ \ \text{ and } \ \ \ f^{(2k+1)}(0) = (-1)^k
-                  </m>.
-                </p>
-              </li>
-              <li>
-                <p><m>
-                  P_n(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots + (-1)^{(n-1)/2}\frac{x^n}{n!}
-                  </m>
-                  if <m>n</m> is odd and
-                  <m>
-                  P_n(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots + (-1)^{n/2+1}\frac{x^{n-1}}{(n-1)!}
-                  </m>
-                  if <m>n</m> is even.
-                </p>
-              </li>
-            </ol>
-          </p>
-        </answer>
-        <solution>
-          <p>
-            <ol marker="i.">
-              <li>
-                <p>
-                  The first four derivatives of <m>f(x)</m> at <m>x=0</m> are
-                  <md><mrow>f(x) \amp = \sin(x) \amp   f(0) \amp = 0</mrow><mrow>f'(x) \amp = \cos(x) \amp   f'(0) \amp = 1</mrow><mrow>f''(x) \amp = -\sin(x) \amp   f''(0) \amp = 0</mrow><mrow>f^{(3)}(x) \amp = -\cos(x) \amp   f^{(3)}(0) \amp = -1</mrow><mrow>f^{(4)}(x) \amp = \sin(x) \amp   f^{(4)}(0) \amp = 0</mrow></md>.
-                  It appears that the even derivatives of <m>f(x)</m> are all plus or minus <m>\sin(x)</m> and so have values of 0 at <m>x=0</m> and the odd derivatives are
-                  <m>\pm \cos(x)</m> and have alternating values of 1 and <m>-1</m> at <m>x-0</m>.
-                  Since the odd numbers can be represented in the form <m>2k+1</m> where <m>k</m> is an integer we have
-                  <me>
-                    f^{(k)}(0) = 0 \text{ if }  k \text{ is even }  \ \ \ \text{ and }  \ \ \ f^{(2k+1)}(0) = (-1)^k
-                  </me>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Based on the previous part of this problem the <m>n</m>th order Taylor polynomial for <m>\sin(x)</m> is
-                  <me>
-                    x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots + (-1)^{(n-1)/2}\frac{x^n}{n!}
-                  </me>
-                  if <m>n</m> is odd and
-                  <me>
-                    x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots + (-1)^{n/2+1}\frac{x^{n-1}}{(n-1)!}
-                  </me>
-                  if <m>n</m> is even.
-                </p>
-              </li>
-            </ol>
-          </p>
-        </solution>
-      </task>
-    </activity>
-   
+  </activity>
 </worksheet>

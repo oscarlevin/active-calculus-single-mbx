@@ -1,7 +1,7 @@
 <publication>
   <source>
     <directories external="../assets" generated="../generated-assets-ed2" />
-    <version include="ed2 production static ed2-static" />
+    <version include="ed2 static ed2-static" />
   </source>
   <html>
     <css theme="default-modern" palette="blues" />
@@ -25,6 +25,7 @@
     <exercise-inline statement="yes" hint="yes" answer="no" solution="no"/>
     <exercise-project statement="yes" hint="no" answer="no" solution="no" />
     <exercise-worksheet statement="yes" hint="no" answer="no" solution="no" />
+    <worksheet left="13mm" right="13mm" top="13mm" bottom="13mm" />
   </common>
   <webwork server="https://webwork-dev.uleth.ca"
            course="chrissy-playground" password="anonymous"

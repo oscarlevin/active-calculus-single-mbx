@@ -185,8 +185,12 @@
             Note that <m>f</m> is piecewise linear.
           </p>
         </hint>
-        <answer/>
-        <solution/>
+        <answer>
+           <image width="40%" source="images/1_7_Act1Soln" />
+        </answer>
+        <solution>
+          <image width="40%" source="images/1_7_Act1Soln" />
+        </solution>
       </task>
     </activity>
    

@@ -17,176 +17,178 @@
     <activity xml:id="act-3-3-3" workspace="3cm">
       <introduction>
         <p>
-      A piece of cardboard that is <m>10 \times 15</m>
-      (each measured in inches)
-      is being made into a box without a top.
-      To do so,
-      squares are cut from each corner of the box and the remaining sides are folded up.
-      If the box needs to be at least 1 inch deep and no more than 3 inches deep,
-      what is the maximum possible volume of the box? what is the minimum volume?
-      Justify your answers using calculus.
-
-      </p>
+      Consider the family of functions given by <m>h(x) = x^2 + \cos(kx)</m>,
+      where <m>k</m> is an arbitrary positive real number.
+    </p>
+        <p/>
       </introduction>
-      <task workspace="5.5cm" xml:id="act-3-3-3-task-0">
+      <task workspace="1.5cm" xml:id="act-3-3-3-task-0">
         <statement>
           <p>
-            Draw a labeled diagram that shows the given information.
-            What variable should we introduce to represent the choice we make in creating the box?
-            Label the diagram appropriately with the variable,
-            and write a sentence to state what the variable represents.
+            Use a graphing utility to sketch the graph of <m>h</m> for several different <m>k</m>-values,
+            including <m>k = 1,3,5,10</m>.
+            Plot <m>h(x) = x^2 + \cos(3x)</m> on the axes provided.
+            What is the smallest value of <m>k</m> at which you think you can see
+            (just by looking at the graph)
+            at least one inflection point on the graph of <m>h</m>?
           </p>
-        </statement>
-        <hint>
-          <p>
-            Consider letting the length of one side of the removed squares be represented by <m>x</m>.
-          </p>
-        </hint>
-        <answer/>
-        <solution>
-          <p>
-            We let <m>x</m> represent the length of a side of the square that is cut from each corner,
-            so that we have the following picture:
-          </p>
-        </solution>
-      </task>
-      <task workspace="2.5cm" xml:id="act-3-3-3-task-1">
-        <statement>
-          <p>
-            Determine a formula for the function <m>V</m> (that depends on the variable in (a)) that tells us the volume of the box.
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Remember that the volume of a box is length <times/> width <times/> height.
-          </p>
-        </hint>
-        <answer>
-          <p><m> V(x) = x (10-2x) (15-2x) = 4x^3 - 50x^2 + 150x</m>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            Because the box has dimensions <m>(10-2x) \times (15-2x) \times x</m>,
-            the volume of the box is given by
-            <me>
-              V(x) = x (10-2x) (15-2x) = 4x^3 - 50x^2 + 150x
-            </me>.
-          </p>
-        </solution>
-      </task>
-      <task workspace="2.5cm" xml:id="act-3-3-3-task-2">
-        <statement>
-          <p>
-            What is the domain of the function <m>V</m>?
-            That is, what values of <m>x</m> make sense for input?
-            Are there additional restrictions provided in the problem?
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Read the given information carefully and think about the picture.
-          </p>
-        </hint>
-        <answer>
-          <p><m>1 \le x \le 3</m>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            Clearly the smallest <m>x</m> can be is 0 and the largest <m>x</m> can be is 5, since one side of the cardboard has length 10.
-            But we're told in the problem to restrict the value of <m>x</m> to <m>1 \le x \le 3</m>,
-            so this is the domain we use for <m>V</m>,
-            even though <m>V</m> is defined for every real number <m>x</m>.
-          </p>
-        </solution>
-      </task>
-      <task workspace="5cm" xml:id="act-3-3-3-task-3">
-        <statement>
-          <p>
-            Determine all critical numbers of the function <m>V</m>.
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Note that since <m>V</m> is a cubic function, <m>V'</m> is quadratic.
-          </p>
-        </hint>
-        <answer>
-          <p><m> x = \frac{25 \pm 5\sqrt{7}}{6} \approx 6.371459426, 1.961873908</m>.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            Since <m>V'(x) = 12x^2 - 100x + 150</m>,
-            it follows that the critical numbers (where <m>V'(x) = 0</m>) are
-            <me>
-              x = \frac{25 \pm 5\sqrt{7}}{6} \approx 6.371459426, 1.961873908
-            </me>.
-          </p>
-        </solution>
-      </task>
-      <task workspace="3cm" xml:id="act-3-3-3-task-4">
-        <statement>
-          <p>
-            Evaluate <m>V</m> at each of the endpoints of the domain and at any critical numbers that lie in the domain.
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Which critical numbers satisfy <m>1 \le x \le 3</m>?
-          </p>
-        </hint>
-        <answer>
-          <p>
-            <ul>
-              <li>
-                <p>
-                  <m>V(1.961873908) = 132.0382370</m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m>V(1) = 104</m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m>V(3) = 108</m>
-                </p>
-              </li>
-            </ul>
-          </p>
-        </answer>
-        <solution>
-          <p>
-            Only the latter critical number is in the relevant domain of <m>V</m>,
-            and hence we consider
 
-            <ul><li><p><m>V(1.961873908) = 132.0382370</m></p></li><li><p><m>V(1) = 104</m></p></li><li><p><m>V(3) = 108</m></p></li></ul></p>
-        </solution>
-      </task>
-      <task workspace="3cm" xml:id="act-3-3-3-task-5">
-        <statement>
-          <p>
-            What is the maximum possible volume of the box? the minimum?
-          </p>
+          <image width="47%" source="images/3_1_Act3" />
         </statement>
         <hint>
           <p>
-            Evaluate the function at appropriate points.
+            Be sure to try some values between 1.5 and 2.
           </p>
         </hint>
         <answer>
           <p>
-            Absolute maximum: 132.0382370;
-            absolute minimum: 104.
+            In the graph below,
+            <m>h(x) = x^2 + \cos(3x)</m> is given in dark blue,
+            while <m>h(x) = x^2 + \cos(1.6x)</m> is shown in light blue.
           </p>
         </answer>
         <solution>
           <p>
-            Hence the absolute maximum possible volume of the box is 132.0382370 and occurs when <m>x = 1.961873908</m>,
-            while the absolute minimum is 104, which occurs when <m>x=1</m>.
+            In the graph below,
+            <m>h(x) = x^2 + \cos(3x)</m> is given in dark blue,
+            while <m>h(x) = x^2 + \cos(1.6x)</m> is shown in light blue.
+          </p>
+          <p>
+            Close inspection of the light blue graph reveals some subtle changes in concavity around <m>x \approx \pm 0.5</m>.
+            For values smaller than <m>1.6</m>,
+            it is very hard to visually detect any inflection points in <m>h(x)</m>.
+          </p>
+        </solution>
+      </task>
+      <task workspace="9cm" xml:id="act-3-3-3-task-1">
+        <statement>
+          <p>
+            Explain why the graph of <m>h</m> has no inflection points if <m>k \le \sqrt{2}</m>,
+            but infinitely many inflection points if <m>k \gt \sqrt{2}</m>.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Treat <m>k</m> as an arbitrary constant in computing <m>h'(x)</m> and <m>h''(x)</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            If <m>\frac{2}{k^2} \gt 1</m>,
+            then the equation <m>\cos(kx) = \frac{2}{k^2}</m> has no solution.
+            Hence, whenever <m>k^2 \lt 2</m>,
+            or <m>k \lt \sqrt{2} \approx 1.414</m>,
+            it follows that the equation
+            <m>\cos(kx) = \frac{2}{k^2}</m> has no solutions <m>x</m>,
+            which means that <m>h''(x)</m> is never zero (indeed,
+            for these <m>k</m>-values,
+            <m>h''(x)</m> is always positive so that <m>h</m> is always concave up).
+            On the other hand, if <m>k \ge \sqrt{2}</m>,
+            then <m>\frac{2}{k^2} \le 1</m>,
+            which guarantees that
+            <m>\cos(kx) = \frac{2}{k^2}</m> has infinitely many solutions,
+            due to the periodicity of the cosine function.
+            At each such point, <m>h''(x) = 2 - k^2 \cos(kx)</m> changes sign,
+            and therefore <m>h</m> has infinitely many inflection points whenever <m>k \ge \sqrt{2}</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Treating <m>k</m> as an arbitrary constant,
+            we first observe that <m>h'(x) = 2x - k\sin(kx)</m>.
+            Again treating <m>k</m> as a constant and differentiating, we find
+            <me>
+              h''(x) = 2 - k^2\cos(kx)
+            </me>.
+            We seek the values of <m>x</m> for which
+            <m>h''(x) = 0</m> at which <m>h''</m> changes sign.
+            Setting <m>h''(x) = 0</m> and rearranging the resulting equation,
+            we now seek <m>x</m> such that
+            <me>
+              k^2 \cos(kx) = 2
+            </me>,
+            or
+            <me>
+              \cos(kx) = \frac{2}{k^2}
+            </me>.
+            Now, remember that <m>k</m> is an arbitrary positive constant and recall that
+            <m>-1 \le \cos(\theta) \le 1</m> for all input values <m>\theta</m>.
+            If <m>\frac{2}{k^2} \gt 1</m>,
+            then the equation <m>\cos(kx) = \frac{2}{k^2}</m> has no solution.
+            Hence, whenever <m>k^2 \lt  2</m>,
+            or <m>k \lt  \sqrt{2} \approx 1.414</m>,
+            it follows that the equation
+            <m>\cos(kx) = \frac{2}{k^2}</m> has no solutions <m>x</m>,
+            which means that <m>h''(x)</m> is never zero (indeed,
+            for these <m>k</m>-values,
+            <m>h''(x)</m> is always positive so that <m>h</m> is always concave up).
+
+            On the other hand,
+            if <m>k \ge \sqrt{2}</m>,
+            then <m>\frac{2}{k^2} \le 1</m>,
+            which guarantees that
+            <m>\cos(kx) = \frac{2}{k^2}</m> has infinitely many solutions,
+            due to the periodicity of the cosine function.
+            At each such point, <m>h''(x) = 2 - k^2 \cos(kx)</m> changes sign,
+            and therefore <m>h</m> has infinitely many inflection points whenever <m>k \ge \sqrt{2}</m>.
+          </p>
+        </solution>
+      </task>
+      <task workspace="8cm" xml:id="act-3-3-3-task-2">
+        <statement>
+          <p>
+            Explain why, no matter the value of <m>k</m>,
+            <m>h</m> can only have finitely many critical numbers.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            What is the largest value of <m>k\sin(kx)</m>?
+            How many times can <m>y = k\sin(kx)</m> intersect the line <m>y = 2x</m>?
+          </p>
+        </hint>
+        <answer>
+          <p>
+            To see why <m>h</m> can only have a finite number of critical numbers regardless of the value of <m>k</m>,
+            consider the equation
+            <me>
+              0 = h'(x) = 2x - k\sin(kx)
+            </me>,
+            which implies that <m>2x = k\sin(kx)</m>.
+            Since <m>-1 \le \sin(kx) \le 1</m>,
+            we know that <m>-k \le k\sin(kx) \le k</m>.
+            Once <m>|x|</m> is sufficiently large,
+            we are guaranteed that <m>|2x| \gt k</m>,
+            which means that for large <m>x</m>,
+            <m>2x</m> and <m>k\sin(kx)</m> cannot intersect.
+            Moreover, for relatively small values of <m>x</m>,
+            the functions <m>2x</m> and
+            <m>k\sin(kx)</m> can only intersect finitely many times since
+            <m>k\sin(kx)</m> oscillates a finite number of times.
+            This is why <m>h</m> can only have a finite number of critical numbers,
+            regardless of the value of <m>k</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            To see why <m>h</m> can only have a finite number of critical numbers regardless of the value of <m>k</m>,
+            consider the equation
+            <me>
+              0 = h'(x) = 2x - k\sin(kx)
+            </me>,
+            which implies that <m>2x = k\sin(kx)</m>.
+            Since <m>-1 \le \sin(kx) \le 1</m>,
+            we know that <m>-k \le k\sin(kx) \le k</m>.
+            Once <m>|x|</m> is sufficiently large,
+            we are guaranteed that <m>|2x| \gt k</m>,
+            which means that for large <m>x</m>,
+            <m>2x</m> and <m>k\sin(kx)</m> cannot intersect.
+            Moreover, for relatively small values of <m>x</m>,
+            the functions <m>2x</m> and
+            <m>k\sin(kx)</m> can only intersect finitely many times since
+            <m>k\sin(kx)</m> oscillates a finite number of times.
+            This is why <m>h</m> can only have a finite number of critical numbers,
+            regardless of the value of <m>k</m>.
           </p>
         </solution>
       </task>

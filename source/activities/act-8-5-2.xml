@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,110 +12,345 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet label="ws-act-8-5-2">
-   
-    <activity xml:id="act-8-5-2" workspace="6cm">
+  <activity xml:id="act-8-5-2">
+    <introduction>
+      <p>
+        In this activity we determine the Taylor series expansion for <m>\sin(x)</m> in a different way and then also find the Taylor series for <m>\arctan(x)</m>.
+      </p>
+      <p/>
+    </introduction>
+    <task workspace="1cm" xml:id="act-8-5-2-task-0">
       <introduction>
         <p>
-      In <xref ref="act-8-5-1">Activity</xref>
-      we determined small order Taylor polynomials for a few familiar functions,
-      and also found general patterns in the derivatives evaluated at <m>0</m>.
-      Use that information to write the Taylor series centered at <m>0</m> for the following functions.
-    </p>
-        <p/>
+          To find the Taylor series for <m>\sin(x)</m> without using the definition, we consider the function <m>f(x) = \cos(x)</m> and recall that <m>f'(x) = -\sin(x)</m>.  Then we use the Power Series Differentiation Theorem on the known series for <m>f(x) = \cos(x)</m> to find the Taylor series for <m>f'(x) = -\sin(x)</m>.
+        </p>
       </introduction>
-      <task workspace="5cm" xml:id="act-8-5-2-task-0">
+      <task workspace="4cm" xml:id="act-8-5-2-task-01">
         <statement>
           <p>
-            <m>f(x) = \frac{1}{1-x}</m>
+            Consider <m>f(x) = \cos(x)</m> and recall that its Taylor series in sigma notation is
+            <me>
+              f(x) = \cos(x) = \sum_{k=0}^{\infty} (-1)^{k} \frac{x^{2k}}{(2k)!}
+            </me>.
+            Write out the first four nonzero terms of the Taylor series in expanded form.
           </p>
         </statement>
-        <hint>
-          <p>
-            Small hints for each of the prompts above.
-          </p>
-        </hint>
+        <hint />
         <answer>
           <p>
-            <m>
-            P(x) = 1 + x + x^2 + x^3 + \cdots + x^n + \cdots
-            </m>
+            <m>f(x) = \cos(x) = 1 - \frac{1}{2!}x^2 + \frac{1}{4!}x^4 - \frac{1}{6!}x^6 + \cdots</m>
           </p>
         </answer>
         <solution>
           <p>
-            For <m>f(x) = \frac{1}{1-x}</m>, its Taylor series is
-            <me>
-              P(x) = 1 + x + x^2 + x^3 + \cdots + x^n + \cdots
-            </me></p>
-        </solution>
+            Using <m>k=0</m>, <m>k=1</m>, <m>k=2</m>, and <m>k=3</m> in the sum, we have <m>f(x) = \cos(x) = 1 - \frac{1}{2!}x^2 + \frac{1}{4!}x^4 - \frac{1}{6!}x^6 + \cdots</m>
+          </p>
+        </solution>  
       </task>
-      <task workspace="6cm" xml:id="act-8-5-2-task-1">
+      <task workspace="3.5cm" xml:id="act-8-5-2-task-02">
         <statement>
-          <p><m>f(x) = \cos(x)</m> (You will need to carefully consider how to indicate that many of the coefficients are 0.
-            Think about a general way to represent an even integer.)
+          <p>
+            Using the expanded form of the Taylor series for <m>f(x) = \cos(x)</m>, apply the Power Series Differentiation Theorem to find the Taylor series for <m>f'(x) = -\sin(x)</m> in expanded form, being sure to simplify each constant coefficient in the expansion.  Show the first three nonzero terms.
           </p>
         </statement>
-        <hint/>
+        <hint />
         <answer>
-          <p><m>
-            P(x) = 1 - \frac{1}{2!}x^2 + \frac{1}{4!}x^4 - \cdots + (-1)^{n}\frac{1}{(2n)!}x^{2n} + \cdots 
-            </m>.
+          <p>
+            <m>f'(x) = -\sin(x) = - x + \frac{1}{3!}\cdot x^3 + \frac{1}{5!} \cdot x^5 + \cdots</m>
           </p>
         </answer>
         <solution>
           <p>
-            For <m>f(x) = \cos(x)</m>, its Taylor series is
+            Since <m>f(x) = \cos(x) = 1 - \frac{1}{2!}x^2 + \frac{1}{4!}x^4 - \frac{1}{6!}x^6 + \cdots</m>, it follows 
             <me>
-              P(x) = 1 - \frac{1}{2!}x^2 + \frac{1}{4!}x^4 - \cdots + (-1)^{n}\frac{1}{(2n)!}x^{2n} + \cdots
+              f'(x) = -\sin(x) = 0 - \frac{1}{2!}\cdot 2x + \frac{1}{4!} \cdot 4x^3 -  \frac{1}{6!}\cdot 6x^5 + \cdots
+            </me>
+            And using the facts that <m>\frac{2}{2!} = 1</m>, <m>\frac{1}{4!} \cdot 4 = \frac{1}{3!}</m>, and <m>\frac{6}{6!} = \frac{1}{5!}</m>, we have
+            <me>
+              f'(x) = -\sin(x) = - x + \frac{1}{3!}\cdot x^3 + \frac{1}{5!} \cdot x^5 + \cdots
+            </me>,
+            which is the series expansion of <m>-\sin(x)</m>.
+          </p>
+        </solution>
+      </task>  
+      <task workspace="5cm" xml:id="act-8-5-2-task-03">
+        <statement>
+          <p>
+            Now recall the series expansion of <m>\cos(x)</m> in sigma notation.  What is the derivative of the general term of the series, 
+            <me>
+              \frac{d}{dx}\left[ (-1)^{k} \frac{x^{2k}}{(2k)!} \right]
+            </me>,
+            in its most simplified form?
+          </p>
+        </statement>
+        <hint />
+        <answer>
+          <p>
+            <m>\frac{d}{dx}\left[ (-1)^{k} \frac{x^{2k}}{(2k)!} \right] = (-1)^{k} \frac{1}{(2k-1)!} \cdot x^{2k-1}</m>
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Applying the power and constant multiple rules, we have
+            <me>
+              \frac{d}{dx}\left[ (-1)^{k} \frac{x^{2k}}{(2k)!} \right] = (-1)^{k} \frac{1}{(2k)!} \cdot (2k)x^{2k-1}
+            </me>.
+            Using the fact that <m>\frac{2k}{(2k)!} = \frac{1}{(2k-1)!}</m>, we have 
+            <me>
+              \frac{d}{dx}\left[ (-1)^{k} \frac{x^{2k}}{(2k)!} \right] = (-1)^{k} \frac{1}{(2k-1)!} \cdot x^{2k-1}
             </me>.
           </p>
         </solution>
       </task>
-      <task workspace="6cm" xml:id="act-8-5-2-task-2">
+      <task workspace="2cm" xml:id="act-8-5-2-task-04">
         <statement>
-          <p><m>f(x) = \sin(x)</m> (You will need to carefully consider how to indicate that many of the coefficients are <m>0</m>.
-            Think about a general way to represent an odd integer.)
+          <p>
+            Finally, state the Taylor series for <m>f'(x) = -\sin(x)</m> in sigma notation.  Be sure to decide whether the series should be indexed starting with <m>k = 0</m> or <m>k = 1</m> and to justify your choice.
           </p>
         </statement>
-        <hint/>
+        <hint />
         <answer>
-          <p><m>
-            P(x) = x - \frac{1}{3!}x^3 + \frac{1}{5!}x^5 - \cdots + (-1)^{n}\frac{1}{(2n+1)!}x^{2n+1} + \cdots 
-            </m>.
+          <p>
+            <m>f'(x) = -\sin(x) = \sum_{k=1}^{\infty} (-1)^{k} \frac{x^{2k-1}}{(2k-1)!}</m>
           </p>
         </answer>
         <solution>
           <p>
-            For <m>f(x) = \sin(x)</m>, its Taylor series is
+            In part (ii), we found that 
             <me>
-              P(x) = x - \frac{1}{3!}x^3 + \frac{1}{5!}x^5 - \cdots + (-1)^{n}\frac{1}{(2n+1)!}x^{2n+1} + \cdots
+              f'(x) = -\sin(x) = - x + \frac{1}{3!}\cdot x^3 + \frac{1}{5!} \cdot x^5 + \cdots
+            </me>
+            and in part (iii) we saw that the general term in the derivative's Taylor series is 
+            <me>
+              \frac{d}{dx}\left[ (-1)^{k} \frac{x^{2k}}{(2k)!} \right] = (-1)^{k} \frac{1}{(2k-1)!} \cdot x^{2k-1}
             </me>.
+            From these two facts, we see that the Taylor series for <m>f'(x) = -\sin(x)</m> must start with <m>k=1</m> in order to correctly capture the first term in the series, as well as to ensure that we don't a negative power of <m>x</m> in the expression.  Thus,
+            <me>
+              f'(x) = -\sin(x) = \sum_{k=1}^{\infty} (-1)^{k} \frac{x^{2k-1}}{(2k-1)!}
+            </me>.              
           </p>
         </solution>
       </task>
-      <task workspace="6cm" xml:id="act-8-5-2-task-3">
+      <task workspace="1.5cm" xml:id="act-8-5-2-task-05">
         <statement>
           <p>
-            <m>f(x) = \frac{1}{1+x}</m>
+            How can you now use your work in part (iv) to find the Taylor series for <m>\sin(x)</m>?
+          </p>
+        </statement>
+      </task>
+      <hint/>
+      <answer>
+        <p>
+          <md>
+            <mrow> \sin(x) = -(-\sin(x)) \amp= - \left( \sum_{k=1}^{\infty} (-1)^{k} \frac{x^{2k-1}}{(2k-1)!} \right)\amp </mrow>
+            <mrow>                       \amp= \sum_{k=1}^{\infty} (-1)^{k-1} \frac{x^{2k-1}}{(2k-1)!}  </mrow>
+            <mrow>                       \amp= \sum_{k=0}^{\infty} (-1)^{k} \frac{x^{2k+1}}{(2k+1)!}  </mrow>
+          </md>  
+        </p>
+      </answer>
+      <solution>
+        <p>
+          Since we know the series for <m>-\sin(x)</m>, we find the series for <m>\sin(x)</m> by taking its opposite.  Doing so,
+          <md>
+            <mrow> \sin(x) = -(-\sin(x)) \amp= - \left( \sum_{k=1}^{\infty} (-1)^{k} \frac{x^{2k-1}}{(2k-1)!} \right)\amp </mrow>
+            <mrow>                       \amp= \sum_{k=1}^{\infty} (-1)^{k-1} \frac{x^{2k-1}}{(2k-1)!}  </mrow>
+          </md> 
+          In the sum, observe that when <m>k = 1</m>, it follows that <m>2k - 1 = 1</m>.  If we recognize that odd integers can be represented either as <m>2k-1</m> or <m>2k+1</m>, it's possible to re-index the series in sigma notation and write
+          <me>
+            \sin(x) = -(-\sin(x)) = \sum_{k=0}^{\infty} (-1)^{k} \frac{x^{2k+1}}{(2k+1)!}
+          </me>.           
+        </p>
+      </solution>
+    </task>    
+    <task workspace="1cm" xml:id="act-8-5-2-task-1">
+      <introduction>
+        <p>
+           Consider the function <m>g(x) = \arctan(x)</m>.  
+        </p>
+      </introduction>
+      <task workspace="3cm" xml:id="act-8-5-2-task-11">
+        <statement>
+          <p>
+            What is <m>g'(x)</m>?
           </p>
         </statement>
         <hint/>
         <answer>
           <p>
-            <m>
-            P_n(x) = 1 + x + x^2 + x^3 + \cdots + x^n
-            </m>
+            <m>g'(x) = \frac{1}{1+x^2}</m>
           </p>
         </answer>
         <solution>
           <p>
-            For <m>f(x) = \frac{1}{1-x}</m>,
-            <me>
-              P_n(x) = 1 + x + x^2 + x^3 + \cdots + x^n
-            </me></p>
+            <m>g'(x) = \frac{1}{1+x^2}</m>
+          </p>
         </solution>
       </task>
-    </activity>
-   
+      <task workspace="3cm" xml:id="act-8-5-2-task-12">
+        <statement>
+          <p>
+            Recall that in <xref ref="PA-8-5">Preview Activity</xref>, we found the Taylor series expansion for
+                <me>
+                  f(x) = \frac{1}{1+x^2}
+                </me>.
+            State the Taylor series for <m>f(x)</m> that you found in the preview activity.
+          </p>
+        </statement>
+        <hint/>
+        <answer>
+          <p>
+            <m>f(x) = g'(x) = \frac{1}{1+x^2} = 1 - x^2 + x^4 - x^6 + \cdots</m>
+          </p>
+        </answer>
+        <solution>
+          <p>
+            In the Preview Activity, we found the Taylor series
+                <me>
+                  f(x) = g'(x) = \frac{1}{1+x^2} = 1 - x^2 + x^4 - x^6 + \cdots
+                </me>.
+          </p>
+        </solution>
+      </task>
+      <task workspace="5cm" xml:id="act-8-5-2-task-13">
+        <statement>
+          <p>
+            Explain why we can think of <m>g(x)</m> as being given by
+                <me>
+                  g(x) = \int_0^x f(u) \, du
+                </me>.  Use this relationship to find a power series expansion for <m>g(x)</m>. 
+          </p>
+        </statement>
+        <answer>
+          <p>
+            By the Second FTC we have
+                <m>
+                  g(x) = \int_0^x f(u) \, du
+                </m>; integrating, it follows that  
+                <m> g(x) =  x - \frac{1}{3}x^3 + \frac{1}{5}x^5 - \frac{1}{7}x^7 + \cdots
+                </m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Since <m>g(x)</m> is an antiderivative of <m>g'(x) = f(x)</m>, by the Second FTC we have
+                <me>
+                  g(x) = \int_0^x f(u) \, du
+                </me>.  
+                Using our work in (b) and integrating, we now have
+                <md>
+                  <mrow> g(x) \amp= \int_0^x f(u) \, du</mrow>
+                  <mrow> \amp= \int_0^x 1 - u^2 + u^4 - u^6 + \cdots</mrow>
+                  <mrow> \amp=  \left. u - \frac{1}{3}u^3 + \frac{1}{5}u^5 - \frac{1}{7}u^7 + \cdots \right|_0^x</mrow>
+                  <mrow> \amp=  x - \frac{1}{3}x^3 + \frac{1}{5}x^5 - \frac{1}{7}x^7 + \cdots </mrow>
+                </md>
+          </p>
+        </solution>
+      </task>
+      <task workspace="3cm" xml:id="act-8-5-2-task-14">
+        <statement>
+          <p>
+            For what interval of <m>x</m>-values is the Taylor series for <m>g(x) = \arctan(x)</m> guaranteed to converge?
+          </p>
+        </statement>
+        <hint/>
+        <answer>
+          <p>
+            The series for <m>g(x)</m> is certain to converge on <m>|x| \lt 1</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Since <m>f(x) = g'(x) = \frac{1}{1+x^2} = 1 - x^2 + x^4 - x^6 + \cdots</m> is guaranteed to converge for <m>|x| \lt 1</m>, it follows that the series for <m>g(x)</m> is certain to converge on that same interval.
+          </p>
+        </solution>
+      </task>
+
+    </task>
+  </activity>
 </worksheet>
+
+<!-- 
+
+****** this task is from the first edition and has been converted to an example in the second edition *******
+    <task workspace="1cm" xml:id="act-8-5-2-task-1">
+      <introduction>
+        <p>
+          In <xref ref="sec-8-4-taylor-series">Section</xref>, we used <xref ref="D-8a-4-Taylor-series">Definition</xref> to find the Taylor series expansion for <m>h(x) = \ln(1+x)</m>.  Here we use substitution and integration to develop the Taylor series of <m>h(x)</m> in a different way.
+        </p>
+      </introduction>
+      <task workspace="3cm" xml:id="act-8-5-2-task-11">
+        <statement>
+          <p>
+            State the Taylor series expansion for <m>p(u) = \frac{1}{1-u}</m>.
+          </p>
+        </statement>
+        <hint/>
+        <answer>
+          <p>
+            <m>p(u) = \frac{1}{1-u} = 1 + u + u^2 + u^3 + \cdots</m> and this series converges for <m>|u| \lt 1</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            We know that <m>p(u) = \frac{1}{1-u} = 1 + u + u^2 + u^3 + \cdots</m> and this series converges for <m>|u| \lt 1</m>.
+          </p>
+        </solution>
+      </task>
+      <task workspace="3cm" xml:id="act-8-5-2-task-12">
+        <statement>
+          <p>
+            Let <m>u = -x</m> and use the series in (i) to find the Taylor series expansion for <m>r(x) = \frac{1}{1+x}</m>.
+          </p>
+        </statement>
+        <hint/>
+        <answer>
+          <p>
+            <m>r(x) = \frac{1}{1+x} = p(-x) = 1 - x + x^2 - x^3 + \cdots</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Letting <m>u = -x</m>, we have
+                  <me>r(x) = \frac{1}{1+x} = p(-x) = 1 - x + x^2 - x^3 + \cdots</me>.
+          </p>
+        </solution>
+      </task>  
+      <task workspace="3cm" xml:id="act-8-5-2-task-13">
+        <statement>
+          <p>
+            Recall that
+                <me>
+                  \ln(1 + x) = \int_0^x \frac{1}{1+t} \, dt
+                </me>.
+                Use this result to find the Taylor series for <m>h(x) = \ln(1+x)</m>.
+          </p>
+        </statement>
+        <hint/>
+        <answer>
+          <p>
+            <m>\ln(1 + x) = x - \frac{1}{2}x^2 + \frac{1}{3} x^3 - \frac{1}{4}x^4 + \cdots
+                </m>;
+                and this series is guaranteed to converge on <m>-1 \lt x \lt 1</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Finally, since
+                <me>
+                  \ln(1 + x) = \int_0^x \frac{1}{1+t} \, dt
+                </me>,
+                it follows that
+                <md>
+                  <mrow>\ln(1 + x) \amp= \int_0^x \frac{1}{1+t} \, dt</mrow>
+                  <mrow>    \amp= \int_0^x 1 - t + t^2 - t^3 + \cdots \, dt</mrow>
+                  <mrow>    \amp= \left. t - \frac{1}{2}t^2 + \frac{1}{3} t^3 - \frac{1}{4}t^4 + \cdots \right|_0^x</mrow>
+                  <mrow>    \amp= x - \frac{1}{2}x^2 + \frac{1}{3} x^3 - \frac{1}{4}x^4 + \cdots </mrow>
+                </md>
+                and this series is guaranteed to converge on the same interval as the series we started with (<m>-1 \lt x \lt 1</m>).  This is also the same series we found for <m>h(x) = \ln(1+x)</m> working directly from the definition of a Taylor series.
+          </p>
+        </solution>
+      </task>  
+    </task>
+-->

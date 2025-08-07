@@ -272,7 +272,7 @@
           </me>,
           so we know a formula for the derivative of <m>E</m>,
           and we know that <m>E(0) = 0</m>.
-          This information is precisely the type we were given in <xref ref="act-3-1-1">Activity</xref>,
+          This information is precisely the type we were given in <xref ref="act-3-3-1">Activity</xref>,
           where we were given information about the derivative of a function,
           but lacked a formula for the function itself.
         </p>
