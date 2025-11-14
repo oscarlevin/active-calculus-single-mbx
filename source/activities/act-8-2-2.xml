@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,132 +12,209 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet label="ws-act-8-2-2">
-   
-    <activity xml:id="act-8-2-2" workspace="3cm">
-      <introduction>
-        <p>
-      Let <m>r \ne 1</m> and <m>a</m> be real numbers and let
-      <me>
-        S = a+ar+ar^2 + \cdots ar^{n-1} + \cdots
-      </me>
-      be an infinite geometric series.
-      For each positive integer <m>n</m>, let
-      <me>
-        S_n = a+ar+ar^2 + \cdots + ar^{n-1}
-      </me>.
-    </p>
-        <p>
-      Recall that
-      <me>
-        S_n = a\frac{1-r^n}{1-r}
-      </me>.
+  <activity xml:id="act-8-2-2">
+    <introduction>
+      <p>
+        Let <m>f(x) = \ln(x)</m>, and recall that <m>f</m> is only defined for <m>x \gt 0</m>.  As such, we can't consider the tangent line (or any other) approximation at <m>a = 0</m>.  Instead, we choose to work with an approximation to <m>f(x) = \ln(x)</m> centered at <m>a = 1</m> and will find the degree <m>4</m> Taylor polynomial approximation 
+        <me>
+          T_4(x) = c_0 + c_1 (x-1) + c_2 (x-1)^2 + c_3(x-1)^3 + c_4(x-1)^4
+        </me>.
       </p>
-      </introduction>
-      <task workspace="3cm" xml:id="act-8-2-2-task-0">
-        <statement>
-          <p>
-            What should we allow <m>n</m> to approach in order to have <m>S_n</m> approach <m>S</m>?
-          </p>
+      <p/>
+    </introduction>
+    <task workspace="4cm" xml:id="act-8-2-2-task-0">
+      <statement>
+        <p>
+          Determine <m>f'(x)</m>, <m>f''(x)</m>, <m>f'''(x)</m>, and <m>f^{(4)}(x)</m>, and then compute <m>f'(1)</m>, <m>f''(1)</m>, <m>f'''(1)</m>, and <m>f^{(4)}(1)</m>.  Enter your results in the provided blanks below.
+          
+          <md><mrow>k \amp= 0 \amp f(x) \amp= \ln(x) \amp f(1) \amp= \ln(1) = 0</mrow><mrow>k \amp= <fillin characters="2"/> \amp f'(x) \amp= <fillin characters="5"/> \amp f'(1) \amp= <fillin characters="5"/></mrow><mrow>k \amp= <fillin characters="2"/> \amp f''(x) \amp= <fillin characters="5"/> \amp f''(1) \amp= <fillin characters="5"/></mrow><mrow>k \amp= <fillin characters="2"/> \amp f'''(x) \amp= <fillin characters="5"/> \amp f'''(1) \amp= <fillin characters="5"/></mrow><mrow>k \amp= <fillin characters="2"/> \amp f^{(4)}(x) \amp= <fillin characters="5"/> \amp f^{(4)}(1) \amp= <fillin characters="5"/></mrow></md></p>
         </statement>
-        <hint>
-          <p>
-            Let <m>n</m> increase without bound.
-          </p>
-        </hint>
+        <hint/>
         <answer>
-          <p>
-            Observe that
-            <me>
-              S = \lim_{n \to \infty} S_n
-            </me>.
-          </p>
+          <tabular top="none" bottom="none">
+            <row>
+              <cell halign="right">
+                <m>f(x) =</m>
+              </cell>
+              <cell>
+                <m>\ln(x)</m>
+              </cell>
+              <cell halign="right">
+                <m>f(1) =</m>
+              </cell>
+              <cell>
+                <m>0</m>
+              </cell>
+            </row>
+            <row>
+              <cell halign="right">
+                <m>f'(x) = </m>
+              </cell>
+              <cell>
+                <m>x^{-1}</m>
+              </cell>
+              <cell halign="right">
+                <m>f'(1) = </m>
+              </cell>
+              <cell>
+                <m>1</m>
+              </cell>
+            </row>
+            <row>
+              <cell halign="right">
+                <m>f''(x) = </m>
+              </cell>
+              <cell>
+                <m>-1 \cdot x^{-2}</m>
+              </cell>
+              <cell halign="right">
+                <m>f''(1) = </m>
+              </cell>
+              <cell>
+                <m>-1</m>
+              </cell>
+            </row>
+            <row>
+              <cell halign="right">
+                <m>f'''(x) = </m>
+              </cell>
+              <cell>
+                <m>(-2)(-1)x^{-3}</m>
+              </cell>
+              <cell halign="right">
+                <m>f'''(1) = </m>
+              </cell>
+              <cell>
+                <m>(-2)(-1)</m>
+              </cell>
+            </row>
+            <row>
+              <cell halign="right">
+                <m>f^{(4)}(x) = </m>
+              </cell>
+              <cell>
+                <m>(-3)(-2)(-1)x^{-4}</m>
+              </cell>
+              <cell halign="right">
+                <m>f^{(4)}(1) = </m>
+              </cell>
+              <cell>
+                <m>(-3)(-2)(-1)</m>
+              </cell>
+            </row>
+          </tabular>
+          
         </answer>
         <solution>
           <p>
-            Observe that
+            Let <m>f(x) = \ln(x)</m> and consider the degree <m>4</m> Taylor polynomial approximation 
             <me>
-              S = \lim_{n \to \infty} S_n
+              T_4(x) = c_0 + c_1 (x-1) + c_2 (x-1)^2 + c_3(x-1)^3 + c_4(x-1)^4
             </me>.
+          </p>
+          
+          <tabular top="none" bottom="none"><row><cell halign="right"><m>f(x) =</m></cell><cell><m>\ln(x)</m></cell><cell halign="right"><m>f(1) =</m></cell><cell><m>0</m></cell></row><row><cell halign="right"><m>f'(x) = </m></cell><cell><m>x^{-1}</m></cell><cell halign="right"><m>f'(1) = </m></cell><cell><m>1</m></cell></row><row><cell halign="right"><m>f''(x) = </m></cell><cell><m>-1 \cdot x^{-2}</m></cell><cell halign="right"><m>f''(1) = </m></cell><cell><m>-1</m></cell></row><row><cell halign="right"><m>f'''(x) = </m></cell><cell><m>(-2)(-1)x^{-3}</m></cell><cell halign="right"><m>f'''(1) = </m></cell><cell><m>(-2)(-1)</m></cell></row><row><cell halign="right"><m>f^{(4)}(x) = </m></cell><cell><m>(-3)(-2)(-1)x^{-4}</m></cell><cell halign="right"><m>f^{(4)}(1) = </m></cell><cell><m>(-3)(-2)(-1)</m></cell></row></tabular>
+        </solution>
+      </task>
+      <task workspace="8cm" xml:id="act-8-2-2-task-1">
+        <statement>
+          <p>
+            Use your work in (<xref ref="act-8-2-2-task-0" text="local"/>) along with the fact that the coefficients of the Taylor polynomial are determined by <m>c_k = \frac{f^{(k)}(a)}{k!}</m> to determine 
+            <me>
+              T_4(x) = c_0 + c_1 (x-1) + c_2 (x-1)^2 + c_3(x-1)^3 + c_4(x-1)^4
+            </me>.
+          </p>
+        </statement>
+        <hint/>
+        <answer>
+          <p><m>
+            T_4(x) = 1 (x-1) - \frac{1}{2} (x-1)^2 + \frac{1}{3}(x-1)^3 - \frac{1}{4}(x-1)^4
+          </m>.
+        </p>
+      </answer>
+      <solution>
+        <p>
+          From our work in (<xref ref="act-8-2-2-task-0" text="local"/>) and the fact that <m>c_k = \frac{f^{(k)}(a)}{k!}</m>, we have 
+          <me>
+            T_4(x) = 0 + 1 (x-1) - \frac{1}{2} (x-1)^2 + \frac{(-2)(-1)}{3!}(x-1)^3 + \frac{(-3)(-2)(-1)}{4!}(x-1)^4
+          </me>,
+          so that
+          <me>
+            T_4(x) = 1 (x-1) - \frac{1}{2} (x-1)^2 + \frac{1}{3}(x-1)^3 - \frac{1}{4}(x-1)^4
+          </me>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5cm" xml:id="act-8-2-2-task-2">
+      <statement>
+        <p>
+          Use appropriate technology to plot <m>f(x) = \ln(x)</m>, its tangent line, <m>T_1(x) = x - 1</m>, and <m>T_4(x)</m> in the same window shown in <xref ref="F-8a-2-act-2">Figure</xref>.  
+        </p>
+        <figure xml:id="F-8a-2-act-2">
+          <caption>The function <m>f(x)=\ln(x)</m> and its degree <m>1</m> Taylor approximation  <m>T_1(x) = x-1</m> near the point <m>(1,f(1))</m>.</caption>
+          <image width="50%" source="images/8a_2_act_2" />
+        </figure>
+        <p>	      
+          What do you notice?	  
+        </p>
+      </statement>
+      <hint/>
+      <answer>
+        <image width="50%" source="images/8a_2_act_2_soln"/>
+        <p><m>T_4(x)</m> provides a much more accurate approximation of <m>f(x)</m> than <m>T_1(x)</m>.	</p>
+        
+      </answer>
+      <solution>
+        <p>
+          Plotting <m>f(x) = \ln(x)</m>, <m>T_1(x) = x - 1</m>, and <m>T_4(x)</m> to the figure,</p>
+          <image width="50%" source="images/8a_2_act_2_soln"/>
+          <p>we notice that <m>T_4(x)</m> provides a much more accurate approximation of <m>f(x)</m> than <m>T_1(x)</m>.	
           </p>
         </solution>
       </task>
-      <task workspace="5cm" xml:id="act-8-2-2-task-1">
+      <task workspace="2cm" xml:id="act-8-2-2-task-3">
         <statement>
           <p>
-            What is the value of <m>\lim_{n \to \infty} r^n</m> for
-            <m>|r| \gt 1</m>? for <m>|r| \lt 1</m>?
-            Explain.
+            Compute <m>|f(x) - T_4(x)|</m> for several different <m>x</m> values (you might find it helpful to use a slider in <em>Desmos</em> in the variable <m>b</m> to experiment with <m>|f(b) - T_4(b)|</m>); for approximately what values of <m>x</m> is it true that <m>|f(x) - T_4(x)| \lt 0.1</m>?
           </p>
         </statement>
-        <hint>
-          <p>
-            Think about what happens to powers of numbers that are less than or greater than 1.
-          </p>
-        </hint>
+        <hint/>
         <answer>
-          <p>
-            If <m>r \gt 1</m>, then <m>\lim_{n \to \infty} r^n = \infty</m>.
-            If <m>0 \lt r \lt 1</m>,
-            then <m>\lim_{n \to \infty} r^n = 0</m>.
+          <p><m>|f(x) - T_4(x)| \lt 0.1</m> for approximately <m>0.29 \lt x \lt 1.97</m>.
           </p>
         </answer>
         <solution>
           <p>
-            If <m>r \gt 1</m>, then <m>\lim_{n \to \infty} r^n = \infty</m>.
-            If <m>0 \lt r \lt 1</m>,
-            then <m>\lim_{n \to \infty} r^n = 0</m>.
+            Using a slider in Desmos to experiment, <m>|f(x) - T_4(x)| \lt 0.1</m> for approximately <m>0.29 \lt x \lt 1.97</m>.
           </p>
         </solution>
       </task>
-      <task workspace="5cm" xml:id="act-8-2-2-task-2">
+      <task workspace="2cm" xml:id="act-8-2-2-task-4">
         <statement>
           <p>
-            If <m>|r| \lt 1</m>,
-            use the formula for <m>S_n</m> and your observations in (a) and (b) to explain why <m>S</m> is finite and find a resulting formula for <m>S</m>.
+            Use the patterns you observe in your work in parts (a) and (b) to conjecture formulas for <m>T_5(x)</m> and <m>T_6(x)</m>.  
+          </p>
+          <p>	
+            For approximately what interval of <m>x</m>-values is it true that <m>|f(x) - T_5(x)| \lt 0.1</m>?  What about <m>|f(x) - T_6(x)| \lt 0.1</m>?  How is this situation different from what we observed with <m>f(x) = \cos(x)</m> in <xref ref="act-8-2-1">Activity</xref>?
           </p>
         </statement>
-        <hint>
-          <p>
-            Consider <m>\frac{1-r^n}{1-r}</m> and how the numerator tends to 1 as
-            <m>n \to \infty</m> for certain values of <m>r</m>.
-          </p>
-        </hint>
+        <hint/>
         <answer>
-          <p>
-            Since
-            <me>
-              S = \lim_{n \to \infty} S_n = \lim_{n \to \infty} a\frac{1-r^n}{1-r}
-            </me>
-            and
-            <me>
-              \lim_{n \to \infty} r^n = 0
-            </me>
-            for <m>0 \lt  r \lt  1</m>, we conclude that
-            <me>
-              S = \lim_{n \to \infty} a\frac{1-r^n}{1-r} = \frac{a}{1-r}
-            </me>
-            when <m>0 \lt  r \lt  1</m>.
+          <p><m>T_5(x) = 1 (x-1) - \frac{1}{2} (x-1)^2 + \frac{1}{3}(x-1)^3 - \frac{1}{4}(x-1)^4 + \frac{1}{5}(x-1)^5</m>; <m>T_6(x) = 1 (x-1) - \frac{1}{2} (x-1)^2 + \frac{1}{3}(x-1)^3 - \frac{1}{4}(x-1)^4 + \frac{1}{5}(x-1)^5 - \frac{1}{6}(x-1)^6</m>.  
+          </p>
+          <p><m>|f(x) - T_5(x)| \lt 0.1</m> for about <m>0.24 \lt x \lt 1.999</m>;  <m>|f(x) - T_6(x)| \lt 0.1</m> for about <m>0.21 \lt x \lt 2</m>.  While the interval of accuracy gets wider as the degree increases, it seems not to extend past <m>x = 2</m> and doesn't move much to the left.  
           </p>
         </answer>
         <solution>
           <p>
-            Since
-            <me>
-              S = \lim_{n \to \infty} S_n = \lim_{n \to \infty} a\frac{1-r^n}{1-r}
-            </me>
-            and
-            <me>
-              \lim_{n \to \infty} r^n = 0
-            </me>
-            for <m>0 \lt  r \lt  1</m>, we conclude that
-            <me>
-              S = \lim_{n \to \infty} a\frac{1-r^n}{1-r} = \frac{a}{1-r}
-            </me>
-            when <m>0 \lt  r \lt  1</m>.
+            Following the pattern in the table, we expect <m>T_5(x) = 1 (x-1) - \frac{1}{2} (x-1)^2 + \frac{1}{3}(x-1)^3 - \frac{1}{4}(x-1)^4 + \frac{1}{5}(x-1)^5</m> and <m>T_6(x) = 1 (x-1) - \frac{1}{2} (x-1)^2 + \frac{1}{3}(x-1)^3 - \frac{1}{4}(x-1)^4 + \frac{1}{5}(x-1)^5 - \frac{1}{6}(x-1)^6</m>.  
+          </p>
+          <p>	
+            Further computations show that <m>|f(x) - T_5(x)| \lt 0.1</m> for about <m>0.24 \lt x \lt 1.999</m>, and  <m>|f(x) - T_6(x)| \lt 0.1</m> for about <m>0.21 \lt x \lt 2</m>.  While the interval of accuracy gets wider as the degree increases, it seems not to extend past <m>x = 2</m> and doesn't move much to the left.  This is different from how we observed the interval of accuracy continue to get wider and wider without bound for <m>f(x) = \cos(x)</m> as we increased the degree of approximation in <xref ref="act-8-2-1">Activity</xref>.
           </p>
         </solution>
       </task>
     </activity>
-   
-</worksheet>
+  </worksheet>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+ 
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-1" permid="NIx">
   <exercise label="Library__LoyolaChicago__Precalc__Chap1Sec2__Q10.pg">
     <webwork source="csafranski/1.1HW_prob1.pg"/>
@@ -35,7 +36,7 @@
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q18.pg"/>
   </exercise>
   <exercise label="Library__Michigan__Chap2Sec1__Q13.pg">
-    <webwork source="Library/Michigan/Chap2Sec1/Q13.pg"/>
+    <webwork source="csafranski/1.1HW_prob8.pg"/>
   </exercise>
   <exercise xml:id="ez-1-1-Bungee" permid="AvQ">
     <statement>
@@ -157,7 +158,7 @@
                 <mrow>AV_{[1,6]} &amp;= \frac{s(6)-s(1)}{6-1} \approx  -13.25</mrow>
                 <mrow>AV_{[8,10]} &amp;= \frac{s(10)-s(8)}{10-8} \approx  -7.35</mrow>
               </md>
-              The units on each of these average velocities are ``feet per second''.
+              The units on each of these average velocities are <q>feet per second</q>.
             </p>
           </li>
           <li permid="cDa">
@@ -205,15 +206,15 @@
     <statement>
       <p permid="TxJ">
         A diver leaps from a 3 meter springboard.
-        His feet leave the board at time <m>t=0</m>,
-        he reaches his maximum height of 4.5 m at <m>t = 1.1</m> seconds,
-        and enters the water at <m>t = 2.45</m>.
+        Their feet leave the board at time <m>t=0</m>,
+        they reaches a maximum height of 4.5 m at <m>t = 1.1</m> seconds,
+        and enter the water at <m>t = 2.45</m>.
         Once in the water,
         the diver coasts to the bottom of the pool (depth 3.5 m),
         touches bottom at <m>t=7</m>,
         rests for one second, and then pushes off the bottom.
-        From there he coasts to the surface,
-        and takes his first breath at <m>t=13</m>.
+        From there they coast to the surface,
+        and take a breath at <m>t=13</m>.
       </p>
       <p permid="zES">
         <ol marker="a." permid="uGE">
@@ -243,14 +244,14 @@
             <p permid="rqz">
               Based on your graph in (a),
               what is the average velocity of the diver between <m>t = 2.45</m> and <m>t=7</m>?
-              Is his average velocity the same on every time interval within <m>[2.45,7]</m>?
+              Is their average velocity the same on every time interval within <m>[2.45,7]</m>?
             </p>
           </li>
           <li permid="hmT">
             <p permid="XxI">
               Let the function <m>v(t)</m> represent the
               <em>instantaneous vertical velocity</em>
-              of the diver at time <m>t</m> (i.e.<nbsp/>the speed at which the height function <m>s(t)</m> is changing;
+              of the diver at time <m>t</m> (i.e.<nbsp/>the rate at which the height function <m>s(t)</m> is changing;
               note that velocity in the upward direction is positive,
               while the velocity of a falling object is negative).
               Based on your understanding of the diver's behavior,
@@ -506,7 +507,7 @@
                 <mrow>AV_{[5,7]} &amp;= \frac{186 904.57 - 185,444.20}{7-5} \approx 730.19</mrow>
                 <mrow>AV_{[5,6]} &amp;= \frac{186 172.95 - 185,444.20}{6-5} \approx 728.7535</mrow>
               </md>
-              The units on each of these quantities are ``people per year''.
+              The units on each of these quantities are <q>people per year</q>.
             </p>
           </li>
         </ol>

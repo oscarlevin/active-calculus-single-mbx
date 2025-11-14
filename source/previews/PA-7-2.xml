@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,17 +12,17 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet component="static" label="ws-PA-7-2">
    
     <exploration xml:id="PA-7-2">
       <introduction>
         <p>
-    Let's consider the initial value problem
-    <me>
-      \frac{dy}{dt} = t - 2, \ \ y(0) = 1
-    </me>.
-  </p>
-        <p/>
+          Let's consider the initial value problem
+          <me>
+            \frac{dy}{dt} = t - 2, \ \ y(0) = 1
+          </me>.
+        </p>
       </introduction>
       <task workspace="0.05cm" xml:id="PA-7-2-task-0">
         <statement>
@@ -32,13 +32,13 @@
           Sketch this tangent line over the interval
           <m>-0.25 \leq t \leq 0.25</m> on the axes provided below.
         </p>
-        <image width="44%" source="images/7_2_PA_tangents" />
+        <image width="50%" source="images/7_2_PA_tangents" />
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
-      <task workspace="6cm" xml:id="PA-7-2-task-1">
+      <task workspace="5cm" xml:id="PA-7-2-task-1">
         <statement>
           <p>
           Also shown in the figure in (a)
@@ -49,10 +49,10 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
-      <task workspace="0.75cm" xml:id="PA-7-2-task-2">
+      <task workspace="1.25cm" xml:id="PA-7-2-task-2">
         <statement>
           <p>
           Using the tangent lines from (a) and (b) as a guide,
@@ -61,8 +61,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="5cm" xml:id="PA-7-2-task-3">
         <statement>
@@ -75,8 +75,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="3cm" xml:id="PA-7-2-task-4">
         <statement>
@@ -86,8 +86,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
     </exploration>
    

@@ -13,7 +13,8 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <docinfo>
-  <brandlogo url="https://activecalculus.org" source="images/ActiveCalculusImage_sm.jpg" />
+  <brandlogo url="https://activecalculus.org" source="images/ActiveCalculusImage_sm.jpg" component="ed1" />
+  <brandlogo url="https://activecalculus.org" source="images/ACS-2E-thumbnail.jpg" component="ed2" />
   <latex-image-preamble>
     \usepackage{pgfplots}
     \definecolor{blue}{HTML}{0000FF}

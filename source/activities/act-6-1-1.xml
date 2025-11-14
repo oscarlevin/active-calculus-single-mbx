@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,19 +12,19 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet label="ws-act-6-1-1">
    
     <activity xml:id="act-6-1-1" workspace="8cm">
       <introduction>
         <p>
-      In each of the following problems,
-      our goal is to determine the area of the region described.
-      For each region, (i) determine the intersection points of the curves, (ii) sketch the region whose area is being found, (iii) draw and label a representative slice,
-      and (iv) state the area of the representative slice.
-      Then, state a definite integral whose value is the exact area of the region,
-      and evaluate the integral to find the numeric value of the region's area.
-
-      </p>
+          In each of the following situations,
+          our goal is to determine the area of the region described.
+          For each region, (i) determine the intersection points of the curves, (ii) sketch the region whose area is being found, (iii) draw and label a representative slice,
+          and (iv) state the area of the representative slice.
+          Then, state a definite integral whose value is the exact area of the region,
+          and evaluate the integral to find the numeric value of the region's area.
+        </p>
       </introduction>
       <task workspace="9cm" xml:id="act-6-1-1-task-0">
         <statement>
@@ -153,6 +153,7 @@
             <me>
               A_2 = \int_0^{\frac{1 + \sqrt{5}}{2}} \left( x^2 - \left(x^3 - x \right) \right) dx = \dfrac{13 + 5\sqrt{5}}{24} \approx 1.007514 
             </me>.
+            The total area is <m>A_1 + A_2 \approx 1.083333</m>.
           </p>
         </answer>
         <solution>
@@ -179,6 +180,7 @@
             <me>
               A_2 = \int_0^{\frac{1 + \sqrt{5}}{2}} \left( x^2 - \left(x^3 - x \right) \right) dx = \dfrac{13 + 5\sqrt{5}}{24} \approx 1.007514 
             </me>.
+            The total area is <m>A_1 + A_2 \approx 1.083333</m>.
           </p>
         </solution>
       </task>

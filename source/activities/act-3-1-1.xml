@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,159 +12,178 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet label="ws-act-3-1-1">
    
     <activity xml:id="act-3-1-1" workspace="3cm">
       <introduction>
         <p>
-      Suppose that <m>g(x)</m> is a function continuous for every value of <m>x \ne 2</m> whose first derivative is <m>g'(x) = \frac{(x+4)(x-1)^2}{x-2}</m>.
-      Further, assume that it is known that <m>g</m> has a vertical asymptote at <m>x = 2</m>.
-
-      </p>
+          A water tank has the shape of an inverted circular cone
+          (point down)
+          with a base of radius 6 feet and a depth of 8 feet.
+          Suppose that water is being pumped into the tank at a constant instantaneous rate of 4 cubic feet per minute.
+        </p>
       </introduction>
-      <task workspace="4cm" xml:id="act-3-1-1-task-0">
+      <task workspace="8cm" xml:id="act-3-1-1-task-0">
         <statement>
           <p>
-            Determine all critical numbers of <m>g</m>.
+            Draw 2-3 pictures of the conical tank that show sketches of the water level at different points in time when the tank is not yet full.
+            Introduce variables that measure the radius of the water's surface and the water's depth in the tank,
+            and label them on your figure.
+          </p>
+        </statement>
+        <hint/>
+        <answer>
+          <image width="50%" source="images/3_5_Act1Soln" />
+        </answer>
+        <solution>
+          <p>
+            Letting <m>r</m> represent the water's radius at time <m>t</m> and <m>h</m> the water's depth,
+            we see the following situation:
+          </p>
+          <image width="50%" source="images/3_5_Act1Soln" />
+        </solution>
+      </task>
+      <task workspace="4cm" xml:id="act-3-1-1-task-1">
+        <statement>
+          <p>
+            Say that <m>r</m> is the radius and <m>h</m> the depth of the water at a given time,
+            <m>t</m>.
+            What equation relates the radius and height of the water, and why?
           </p>
         </statement>
         <hint>
           <p>
-            For which <m>x</m> is <m>g'(x) = 0</m>?
+            Think about similar triangles.
           </p>
         </hint>
         <answer>
-          <p><m>x = -4</m> or <m>x = 1</m>.
+          <p><m>r = \frac{3}{4}h</m>.
           </p>
         </answer>
         <solution>
           <p>
-            Since <m>g'(x) = \frac{(x+4)(x-1)^2}{x-2}</m>,
-            we see that <m>g'(x) = 0</m> implies that <m>x = -4</m> or <m>x = 1</m>.
-            While <m>x = 2</m> makes <m>g'</m> undefined,
-            we are told that <m>g</m> has a vertical asymptote at <m>x = 2</m>,
-            so <m>x = 2</m> is not in the domain of <m>g</m>,
-            and hence is technically not a critical number of <m>g</m>.
-            Nonetheless,
-            we place <m>x = 2</m> on our first derivative sign chart since the vertical asymptote is a location at which <m>g'</m> may change sign.
+            Observe that the right triangle with legs of length <m>h</m> and <m>r</m> is similar to the right triangle with legs of length <m>8</m> and <m>6</m>,
+            respectively,
+            based on how the water assumes the shape of the tank,
+            and thus <m>\frac{r}{h} = \frac{6}{8}</m>,
+            so that <m>r = \frac{3}{4}h</m>.
           </p>
         </solution>
       </task>
-      <task workspace="9cm" xml:id="act-3-1-1-task-1">
+      <task workspace="4cm" xml:id="act-3-1-1-task-2">
         <statement>
           <p>
-            By developing a carefully labeled first derivative sign chart,
-            decide whether <m>g</m> has as a local maximum,
-            local minimum,
-            or neither at each critical number.
+            Determine an equation that relates the volume of water in the tank at time <m>t</m> to the depth <m>h</m> of the water at that time.
           </p>
         </statement>
         <hint>
           <p>
-            Note that <m>(x-1)^2</m> is positive for all <m>x \ne 1</m>.
+            Recall that the volume of a cone is <m>V = \frac{1}{3} \pi r^2 h</m>.
           </p>
         </hint>
         <answer>
-          <p><m>g</m> has a local maximum at <m>x = -4</m> and neither a max nor min at <m>x = 1</m>.
+          <p><m> V = \frac{3}{16} \pi h^3</m>.
           </p>
         </answer>
         <solution>
           <p>
-            The first derivative sign chart shows that <m>g'(x) \gt 0</m> for <m>x \lt -4</m>,
-            <m>g'(x) \lt 0</m> for <m>-4 \lt x \lt 1</m>,
-            <m>g'(x) \lt 0</m> for <m>1 \lt x \lt 2</m>,
-            and <m>g'(x) \gt 0</m> for <m>x \gt 2</m>.
-            By the first derivative test,
-            <m>g</m> has a local maximum at <m>x = -4</m> and neither a max nor min at <m>x = 1</m>.
-            As these are the only two critical numbers,
-            these are the only two locations for possible extremes.
-            (Note:
-            although <m>g</m> changes from decreasing to increasing at <m>x = 2</m>,
-            this is due to a vertical asymptote,
-            and <m>g</m> does not have a minimum there.)
-          </p>
-        </solution>
-      </task>
-      <task workspace="5cm" xml:id="act-3-1-1-task-2">
-        <statement>
-          <p>
-            Does <m>g</m> have a global maximum? global minimum?
-            Justify your claims.
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Use your first derivative sign chart from (b).
-          </p>
-        </hint>
-        <answer>
-          <p><m>g</m> does not have a global minimum;
-            it is unclear
-            (at this point in our work)
-            if <m>g</m> increases without bound,
-            so we can't say for certain whether or not <m>g</m> has a global maximum.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            Because <m>g</m> is decreasing as <m>x \to 2^-</m>
-            (where <m>g</m> has a vertical asymptote),
-            <m>g</m> does not have a global minimum.
-            For <m>x \gt 2</m>, <m>g</m> is always increasing,
-            which suggests that <m>g</m> does not have a global maximum
-            (though we do not know for sure that <m>g</m> increases without bound).
+            Since the water in the tank always takes the shape of a circular cone,
+            the volume of water in the tank at time <m>t</m> is given by <m>V = \frac{1}{3}\pi r^2 h</m>.
+            Because we have established that <m>r = \frac{3}{4}h</m>,
+            it follows that
+            <me>
+              V = \frac{1}{3}\pi \left( \frac{3}{4}h \right)^2 h = \frac{3}{16} \pi h^3
+            </me>.
           </p>
         </solution>
       </task>
       <task workspace="6cm" xml:id="act-3-1-1-task-3">
         <statement>
           <p>
-            What is the value of <m>\displaystyle \lim_{x \to \infty} g'(x)</m>?
-            What does the value of this limit tell you about the long-term behavior of <m>g</m>?
+            Through differentiation,
+            find an equation that relates the instantaneous rate of change of water volume with respect to time to the instantaneous rate of change of water depth at time <m>t</m>.
           </p>
         </statement>
         <hint>
           <p>
-            Try expanding the numerator before evaluating the limit.
+            Remember to differentiate implicitly with respect to <m>t</m>.
           </p>
         </hint>
         <answer>
-          <p><m> \lim_{x \to \infty} g'(x) = \infty</m>.
+          <p><m> \frac{dV}{dt} = \frac{9}{16} \pi h^2 \frac{dh}{dt} </m>.
           </p>
         </answer>
         <solution>
           <p>
-            We observe that
-            <md><mrow>\lim_{x \to \infty} g'(x) =\mathstrut \amp  \lim_{x \to \infty} \frac{(x+4)(x-1)^2}{x-2}</mrow><mrow>=\mathstrut \amp  \lim_{x \to \infty} \frac{x^3 + 2x^2 - 7x + 4}{x-2} \cdot \frac{\frac{1}{x}}{\frac{1}{x}}</mrow><mrow>=\mathstrut \amp  \lim_{x \to \infty} \frac{x^2 + 2x - 7 + \frac{4}{x}}{1 - \frac{2}{x}}</mrow><mrow>=\mathstrut \amp  \infty</mrow></md>
-            Since <m>g'(x) \to \infty</m> as <m>x \to \infty</m>,
-            this tells us that <m>g</m> increases without bound as <m>x \to \infty</m>.
+            Differentiating with respect to <m>t</m>, we now find
+            <me>
+              \frac{dV}{dt} = \frac{9}{16} \pi h^2 \frac{dh}{dt}
+            </me>,
+            which relates the rates of change of <m>V</m> and <m>h</m>.
           </p>
         </solution>
       </task>
-      <task workspace="8cm" xml:id="act-3-1-1-task-4">
+      <task workspace="5cm" xml:id="act-3-1-1-task-4">
         <statement>
           <p>
-            Sketch a possible graph of <m>y = g(x)</m>.
+            Find the instantaneous rate at which the water level is rising when the water in the tank is 3 feet deep.
           </p>
         </statement>
         <hint>
           <p>
-            Think carefully about the information from the sign chart found in (b).
+            Use <m>h = 3</m> and the fact that the value of <m>\frac{dV}{dt}</m> is given.
           </p>
         </hint>
         <answer>
-          <p>
-            A possible graph of <m>g</m> is the following.
+          <p><m>\left. \frac{dh}{dt} \right|_{h=3} = \frac{64}{81\pi} \approx 0.2515</m> feet per minute.
           </p>
         </answer>
         <solution>
           <p>
-            From all of our work above,
-            we know that <m>g</m> has a local maximum at <m>x = -4</m>,
-            a horizontal tangent line with neither a max nor min at <m>x = 1</m>,
-            and a vertical asymptote at <m>x = 2</m>,
-            plus <m>g</m> and <m>g'</m> both increase without bound as <m>x \to \infty</m>.
-            Thus, a possible graph of <m>g</m> is the following.
+            It is given in the problem setting that water is entering the tank at a rate of 4 cubic feet per minute,
+            hence <m>\frac{dV}{dt} = 4</m>,
+            and we are interested in the rate of change of the water's depth when <m>h = 3</m>.
+            Substituting these values into the equation that relates
+            <m>\frac{dV}{dt}</m> and <m>\frac{dh}{dt}</m>, we find that
+            <me>
+              4 =  \frac{9}{16} \pi 3^2 \left. \frac{dh}{dt} \right|_{h=3}
+            </me>,
+            so that <m>\left. \frac{dh}{dt} \right|_{h=3} = \frac{64}{81\pi} \approx 0.2515</m> feet per minute.
+          </p>
+        </solution>
+      </task>
+      <task workspace="5cm" xml:id="act-3-1-1-task-5">
+        <statement>
+          <p>
+            When is the water rising most rapidly:
+            at <m>h = 3</m>, <m>h = 4</m>, or <m>h = 5</m>?  Why?
+          </p>
+        </statement>
+<!--        <hint>
+          <p>
+            Consider
+            <url href="https://gvsu.edu/s/9p" visual="gvsu.edu/s/9p">this visualization</url>.
+            Why does this phenomenon occur?
+          </p>
+        </hint>
+-->
+        <answer>
+          <p>
+            Most rapidly when <m>h = 3</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Having established that 
+            <me>
+              \frac{dV}{dt} = \frac{9}{16} \pi h^2 \frac{dh}{dt}
+            </me>,
+            using <m>\frac{dV}{dt} = 4</m> and solving for <m>\frac{dh}{dt}</m>, we have 
+            <me>
+              \frac{dh}{dt} = \frac{4}{\frac{9}{16} \pi h^2}
+            </me>.
+            This relationship between <m>\frac{dh}{dt}</m> and <m>h</m> shows that as <m>h</m> increases, <m>\frac{dh}{dt}</m> decreases.  Thus, the water (which enters the tank at a constant rate) is rising most rapidly when <m>h = 3</m>, and this matches our intuition for how the water should rise in the conical tank:  quickly at first, and then ever more slowly as time progresses.
           </p>
         </solution>
       </task>

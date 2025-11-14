@@ -17,71 +17,78 @@
     <exploration xml:id="PA-3-2">
       <introduction>
         <p>
-    Let <m>a</m>, <m>h</m>,
-    and <m>k</m> be arbitrary real numbers with <m>a \ne 0</m>,
-    and let <m>f</m> be the function given by the rule <m>f(x) = a(x-h)^2 + k</m>.
+    Let <m>h</m> be the function given by <m>h(x) = \frac{x^5 + x - 2}{x^2 - 1}</m>.
 
     </p>
       </introduction>
-      <task workspace="3cm" xml:id="PA-3-2-task-0">
+      <task workspace="1.5cm" xml:id="PA-3-2-task-0">
         <statement>
           <p>
-          What familiar type of function is <m>f</m>?
-          What information do you know about <m>f</m> just by looking at its form? (Think about the roles of <m>a</m>,
-          <m>h</m>,
-          and <m>k</m>.)
+          What is the domain of <m>h</m>?
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="3cm" xml:id="PA-3-2-task-1">
         <statement>
           <p>
-          Next we use some calculus to develop familiar ideas from a different perspective.
-          To start, treat <m>a</m>, <m>h</m>,
-          and <m>k</m> as constants and compute <m>f'(x)</m>.
+          Explain why <m>\displaystyle\lim_{x \to 1} \frac{x^5 + x - 2}{x^2 - 1}</m> results in an indeterminate form.
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
-      <task workspace="4cm" xml:id="PA-3-2-task-2">
+      <task workspace="12cm" xml:id="PA-3-2-task-2">
         <statement>
           <p>
-          Find all critical numbers of <m>f</m>.
-          (These will depend on at least one of <m>a</m>,
-          <m>h</m>,
-          and <m>k</m>.)
+          Next we will investigate the behavior of both the numerator and denominator of <m>h</m> near the point where <m>x = 1</m>.
+          Let <m>f(x) = x^5 + x - 2</m> and <m>g(x) = x^2 - 1</m>.
+          Find the local linearizations of <m>f</m> and <m>g</m> at <m>a = 1</m>,
+          and call these functions <m>L_f(x)</m> and <m>L_g(x)</m>,
+          respectively.
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
-      <task workspace="6cm" xml:id="PA-3-2-task-3">
+      <task workspace="4cm" xml:id="PA-3-2-task-3">
         <statement>
           <p>
-          Assume that <m>a \lt 0</m>.
-          Construct a first derivative sign chart for <m>f</m>.
+          Explain why <m>h(x) \approx \frac{L_f(x)}{L_g(x)}</m> for <m>x</m> near <m>a = 1</m>.
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="3cm" xml:id="PA-3-2-task-4">
         <statement>
           <p>
-          Based on the information you've found above,
-          classify the critical values of <m>f</m> as maxima or minima.
+          Using your work from (c) and (d), evaluate
+          <me>
+            \lim_{x \to 1} \frac{L_f(x)}{L_g(x)}
+          </me>.
+          What do you think your result tells us about <m>\lim_{x \to 1} h(x)</m>?
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
+      </task>
+      <task workspace="3cm" xml:id="PA-3-2-task-5">
+        <statement>
+          <p>
+          Investigate the function <m>h(x)</m> graphically and numerically near <m>x = 1</m>.
+          What do you think is the value of <m>\lim_{x \to 1} h(x)</m>?
+        </p>
+        </statement>
+        <hint/>
+         
+         
       </task>
     </exploration>
    

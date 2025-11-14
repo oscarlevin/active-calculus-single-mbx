@@ -16,7 +16,7 @@
 <exercises component="proteus" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="proteus-2-8">
 <title>PROTEUS exercises</title>
     <p>
-      In <xref ref="PA-2-8">Preview Activity</xref>, we saw a first example of how we can use the tangent line approximations of two functions to find the value of an indeterminate limit.  Next, we explore several indeterminate limits involving linear functions.  
+      In <xref ref="PA-3-2">Preview Activity</xref>, we saw a first example of how we can use the tangent line approximations of two functions to find the value of an indeterminate limit.  Next, we explore several indeterminate limits involving linear functions.  
     </p>
 
 <exercise component="proteus" label="proteus-2-8-L1"  xml:id="proteus-2-8-L1" attachment="yes">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet label="ws-act-1-6-1">
    
     <activity xml:id="act-1-6-1" workspace="3cm">
@@ -166,28 +167,28 @@
 
             <ul><li><p>
                   on an interval where <m>v</m> is positive,
-                  <m>s</m> is <fillin/>.
+                  <m>s</m> is <fillin characters="10"/>.
                 </p></li><li><p>
                   on an interval where <m>v</m> is negative,
-                  <m>s</m> is <fillin/>.
+                  <m>s</m> is <fillin characters="10"/>.
                 </p></li><li><p>
-                  on an interval where <m>v</m> is zero, <m>s</m> is <fillin/>.
-                </p></li><li><p>
-                  on an interval where <m>a</m> is positive,
-                  <m>v</m> is <fillin/>.
-                </p></li><li><p>
-                  on an interval where <m>a</m> is negative,
-                  <m>v</m> is <fillin/>.
-                </p></li><li><p>
-                  on an interval where <m>a</m> is zero, <m>v</m> is <fillin/>.
+                  on an interval where <m>v</m> is zero, <m>s</m> is <fillin characters="10"/>.
                 </p></li><li><p>
                   on an interval where <m>a</m> is positive,
-                  <m>s</m> is <fillin/>.
+                  <m>v</m> is <fillin characters="10"/>.
                 </p></li><li><p>
                   on an interval where <m>a</m> is negative,
-                  <m>s</m> is <fillin/>.
+                  <m>v</m> is <fillin characters="10"/>.
                 </p></li><li><p>
-                  on an interval where <m>a</m> is zero, <m>s</m> is <fillin/>.
+                  on an interval where <m>a</m> is zero, <m>v</m> is <fillin characters="10"/>.
+                </p></li><li><p>
+                  on an interval where <m>a</m> is positive,
+                  <m>s</m> is <fillin characters="10"/>.
+                </p></li><li><p>
+                  on an interval where <m>a</m> is negative,
+                  <m>s</m> is <fillin characters="10"/>.
+                </p></li><li><p>
+                  on an interval where <m>a</m> is zero, <m>s</m> is <fillin characters="10"/>.
                 </p></li></ul></p>
         </statement>
         <hint>

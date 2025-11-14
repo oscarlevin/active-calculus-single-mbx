@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet component="static" label="ws-PA-1-8">
    
     <exploration xml:id="PA-1-8">
@@ -28,8 +29,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="1cm" xml:id="PA-1-8-task-1">
         <statement>
@@ -39,8 +40,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="1cm" xml:id="PA-1-8-task-2">
         <statement>
@@ -49,8 +50,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="4.5cm" xml:id="PA-1-8-task-3">
         <statement>
@@ -61,8 +62,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="0.1cm" xml:id="PA-1-8-task-4">
         <statement>
@@ -71,11 +72,11 @@
           sketch an accurate,
           labeled graph of <m>y = g(x)</m> along with its tangent line at the point <m>(2,g(2))</m>.
         </p>
-          <image width="47%" source="images/1_8_PA1"/>
+          <image width="40%" source="images/1_8_PA1"/>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
     </exploration>
    

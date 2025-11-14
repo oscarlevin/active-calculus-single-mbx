@@ -24,7 +24,7 @@
       Each of the functions on the left below could be described as having a specific algebraic structure as noted on the right.  Match each function with its corresponding structure. It is possible that not all structures are used; and it is possible that not all functions have a description for its algebraic structure.
     </p>
   </statement>
-  <matches>
+  <cardsort>
     <match>
     <premise order="1"><m>g(x) = \dfrac{\sin(x)}{e^x}</m></premise>
     <response>the quotient of <m>\sin(x)</m> and <m>e^x</m></response> <!-- numerator denominator? -->
@@ -47,7 +47,7 @@
     <match>
       <response>the sum of <m>e^x</m> and <m>\sin(x)</m></response>
     </match>
-  </matches>
+  </cardsort>
 </exercise>
 
 

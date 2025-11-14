@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,77 +12,70 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
+<!-- this preview activity was completely rewritten in 2025; big thanks to Spencer Bagley for the idea -->
+
 <worksheet component="static" label="ws-PA-1-5">
-   
-    <exploration xml:id="PA-1-5">
-      <introduction>
-        <p>
-    One of the longest stretches of straight
-    (and flat)
-    road in North America can be found on the Great Plains in the state of North Dakota on state highway 46,
-    which lies just south of the interstate highway I-94 and runs through the town of Gackle.
-    A car leaves town
-    (at time <m>t = 0</m>)
-    and heads east on highway 46;
-    its position in miles from Gackle at time <m>t</m> in minutes is given by the graph of the function in <xref ref="F-1-5-PA1">Figure</xref>.
-    Three important points are labeled on the graph;
-    where the curve looks linear,
-    assume that it is indeed a straight line.
-  </p>
-        <figure xml:id="F-1-5-PA1">
-          <caption>The graph of <m>y = s(t)</m>, the position of the car along highway 46, which tells its distance in miles from Gackle, ND, at time <m>t</m> in minutes.</caption>
-          <image width="47%" source="images/1_5_PA1"/>
-        </figure>
-        <p/>
-      </introduction>
-      <task workspace="3cm" xml:id="PA-1-5-task-0">
-        <statement>
-          <p>
-          In everyday language,
-          describe the behavior of the car over the provided time interval.
-          In particular,
-          discuss what is happening on the time intervals <m>[57,68]</m> and <m>[68,104]</m>.
-        </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-      <task workspace="3cm" xml:id="PA-1-5-task-1">
-        <statement>
-          <p>
-          Find the slope of the line between the points
-          <m>(57,63.8)</m> and <m>(104,106.8)</m>.
-          What are the units on this slope?
-          What does the slope represent?
-        </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-      <task workspace="3cm" xml:id="PA-1-5-task-2">
-        <statement>
-          <p>
-          Find the average rate of change of the car's position on the interval <m>[68,104]</m>.
-          Include units on your answer.
-        </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-      <task workspace="3cm" xml:id="PA-1-5-task-3">
-        <statement>
-          <p>
-          Estimate the instantaneous rate of change of the car's position at the moment <m>t = 80</m>.
-          Write a sentence to explain your reasoning and the meaning of this value.
-        </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-    </exploration>
-   
+  <exploration xml:id="PA-1-5">
+    <introduction>
+      <p>
+        Suppose that you are driving a car on the highway using cruise control so that you drive at a constant speed.  The time, <m>T</m> (measured in hours), it takes to drive 50 miles depends on the constant rate, 
+        <m>s</m> (measured in miles per hour), at which you are driving.  Since 
+        <me>
+          \mbox{distance} = \mbox{rate} \cdot \mbox{travel time}
+        </me>,
+        it follows that 
+        <me>
+          \mbox{travel time} =  \frac{\mbox{distance}}{\mbox{rate}}
+        </me>,
+        and thus we know that <m>T(s) = \frac{50}{s}</m>.  
+      </p>
+      <p>  
+        For instance, observe that <m>T(75) = \frac{50}{75} = \frac{2}{3}</m>, so it takes <m>\frac{2}{3}</m> of an hour to drive <m>50</m> miles at <m>75</m> miles per hour, and the point <m>(75, \frac{2}{3})</m> lies on the graph of <m>T(s)</m>.
+      </p>
+    </introduction>
+    
+    <task workspace="1cm">
+      <p>
+        Plot the graph of <m>T(s) = \frac{50}{s}</m> on the axes provided in <xref ref="Fig-PA-1-5-axes">Figure</xref>.  Include the point <m>(75, \frac{2}{3})</m>, and plot and label 2 additional points of your choice.  Write a sentence to explain why the shape of the graph makes sense.
+      </p>
+      <figure xml:id="Fig-PA-1-5-axes">
+        <caption>Axes for plotting <m>T(s)</m>.</caption>
+        <image width="50%">
+          <prefigure label="PA-1-5" xmlns="https://prefigure.org">
+            <diagram dimensions="(300,300)" margins="5">
+              <coordinates bbox="(-5,-0.8,85,8.5)">
+                <grid-axes xlabel="s" ylabel="T"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </figure>   
+    </task>
+    <task workspace="3cm">
+      <p>
+        What is the value of <m>T(60)</m>? Include units on your answer. Write a sentence to explain the meaning of this 
+        value in context.
+      </p>
+    </task>
+    <task workspace="3cm">
+      <p>
+        Recall the average rate of change of a function <m>f</m> on an interval <m>[a,b]</m>, given by <m>AV_{[a,b]} = \frac{f(b)-f(a)}{b-a}</m>. 
+        Determine the average rate of change of <m>T</m> on the interval <m>[60,65]</m>, <m>AV_{[60, 65]}</m>.  Include units on your answer.
+      </p>
+    </task>
+    <task workspace="2cm">
+      <p>
+        Is the sign of <m>AV_{[60, 65]}</m> positive or negative?  Why does this sign make sense in light of 
+        the graph of <m>T(s)</m>?  Explain your thinking.
+      </p>
+    </task>
+    <task workspace="2cm">
+      <p>
+        Write a sentence in everyday language that explains the meaning of the value of <m>AV_{[60, 65]}</m>. 
+        Include units in your sentence.
+      </p>
+    </task>
+    
+  </exploration>
 </worksheet>

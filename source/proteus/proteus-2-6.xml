@@ -27,7 +27,7 @@
       Let <m>f(x) = e^x</m> and <m>g(y)=\ln(y)</m>.  For each of the expressions on the left below, drag the expression onto the equivalent simpler expression on the right.   
     </p>
   </statement>
-  <matches>
+  <cardsort>
     <match>
     <premise order="1"><m>\ln(1)</m></premise>
     <response><m>0</m></response>
@@ -56,7 +56,7 @@
       <premise order="6"><m>\ln(0)</m></premise>  
       <response>is undefined</response>
     </match>
-  </matches>
+  </cardsort>
 </exercise>
 
 <!-- 

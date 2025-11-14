@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,128 +12,95 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<worksheet component="static" label="ws-PA-8-2">
-   
-    <exploration xml:id="PA-8-2">
-      <introduction>
-        <p>
-    Warfarin is an anticoagulant that prevents blood clotting;
-    often it is prescribed to stroke victims in order to help ensure blood flow.
-    The level of warfarin has to reach a certain concentration in the blood in order to be effective.
-    Suppose warfarin is taken by a particular patient in a 5 mg dose each day.
-    The drug is absorbed by the body and some is excreted from the system between doses.
-    Assume that at the end of a 24 hour period, 8% of the drug remains in the body.
-    Let <m>Q(n)</m> be the amount
-    (in mg)
-    of warfarin in the body before the <m>(n+1)</m>st dose of the drug is administered.
-  </p>
-        <p/>
-      </introduction>
-      <task workspace="3cm" xml:id="PA-8-2-task-0">
-        <statement>
-          <p>
-          Explain why <m>Q(1) = 5 \times 0.08</m> mg.
-        </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-      <task workspace="5cm" xml:id="PA-8-2-task-1">
-        <statement>
-          <p>
-          Explain why <m>Q(2) = (5+Q(1)) \times 0.08</m> mg.
-          Then show that
-          <me>
-            Q(2) = (5 \times 0.08)\left(1+0.08\right) \text{mg}
-          </me>.
-        </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-      <task workspace="5cm" xml:id="PA-8-2-task-2">
-        <statement>
-          <p>
-          Explain why <m>Q(3) = (5+Q(2)) \times 0.08</m> mg.
-          Then show that
-          <me>
-            Q(3) = (5 \times 0.08)\left(1+0.08+0.08^2\right) \text{mg}
-          </me>.
-        </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-      <task workspace="5cm" xml:id="PA-8-2-task-3">
-        <statement>
-          <p>
-          Explain why <m>Q(4) = (5+Q(3)) \times 0.08</m> mg.
-          Then show that
-          <me>
-            Q(4) = (5 \times 0.08)\left(1+0.08+0.08^2+0.08^3\right) \text{mg}
-          </me>.
-        </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-      <task workspace="5cm" xml:id="PA-8-2-task-4">
-        <statement>
-          <p>
-          There is a pattern that you should see emerging.
-          Use this pattern to find a formula for <m>Q(n)</m>,
-          where <m>n</m> is an arbitrary positive integer.
-        </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-      <task workspace="3cm" xml:id="PA-8-2-task-5">
-        <statement>
-          <p>
-          Complete the table below
-          with values of <m>Q(n)</m> for the provided <m>n</m>-values (reporting <m>Q(n)</m> to 10 decimal places).
-          What appears to be happening to the sequence <m>Q(n)</m> as <m>n</m> increases?
-        </p>
-        <tabular top="minor" bottom="minor" permid="WGx">
-          <row>
-            <cell><m>n</m></cell>
-            <cell><m>1</m></cell>
-            <cell><m>2</m></cell>
-            <cell><m>3</m></cell>
-            <cell><m>4</m></cell>
-            <cell><m>5</m></cell>
-            <cell><m>6</m></cell>
-            <cell><m>7</m></cell>
-            <cell><m>8</m></cell>
-            <cell><m>9</m></cell>
-            <cell><m>10</m></cell>
-          </row>
-          <row>
-            <cell><m>Q(n)</m></cell>
-            <cell><m>0.40</m></cell>
-            <cell><nbsp /><nbsp /></cell>
-            <cell><nbsp /><nbsp /></cell>
-            <cell><nbsp /><nbsp /></cell>
-            <cell><nbsp /><nbsp /></cell>
-            <cell><nbsp /><nbsp /></cell>
-            <cell><nbsp /><nbsp /></cell>
-            <cell><nbsp /><nbsp /></cell>
-            <cell><nbsp /><nbsp /></cell>
-            <cell><nbsp /><nbsp /></cell>
-          </row>
-        </tabular>
 
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-    </exploration>
-   
+<worksheet component="static" label="ws-PA-8-2">
+  <exploration xml:id="PA-8-2">
+    <introduction>
+      <p>
+        Let <m>f(x) = \sin(x)</m> and let <m>T_3(x) = c_0 + c_1 x + c_2 x^2 + c_3x^3</m>.  Our goal is to find the values of <m>c_0, \ldots, c_3</m> that make the sine function and its derivative values agree with those of the cubic polynomial <m>T_3</m> at <m>a = 0</m> and to study the resulting degree <m>3</m> approximation of the sine function.
+      </p>
+    </introduction>
+    <task workspace="2cm" xml:id="PA-8-2-task-0">
+      <statement>
+        <p>
+          As in previous work, the derivatives of <m>T_3(x)</m> and their respective values at <m>a = 0</m> are those shown below.  
+        </p>  
+        <p>
+            Compute the first three derivatives of <m>f(x) = \sin(x)</m> and evaluate them at <m>a = 0</m> accordingly, recording your results in the blanks provided below.
+						<md>
+							<mrow> f(x) \amp= \sin(x) \amp T_3(x) \amp= c_0 + c_1 x + c_2 x^2 + c_3 x^3 </mrow>
+							<mrow> f'(x) \amp= <fillin characters="5" /> \amp T_3'(x) \amp= c_1 + 2c_2 x + 3c_3 x^2 </mrow>
+							<mrow> f''(x) \amp= <fillin characters="5" /> \amp T_3''(x) \amp= 2c_2 + 6c_3x </mrow>
+							<mrow> f'''(x) \amp= <fillin characters="5" /> \amp T_3'''(x) \amp= 6c_3 </mrow>
+							<mrow> \amp </mrow>
+							<mrow> f(0) \amp= <fillin characters="3" /> \amp T_3(0) \amp= c_0  </mrow>
+							<mrow> f'(0) \amp= <fillin characters="3" /> \amp T_3'(0) \amp= c_1  </mrow>
+							<mrow> f''(0) \amp= <fillin characters="3" /> \amp T_3''(0) \amp= 2c_2 </mrow>
+							<mrow> f'''(0) \amp= <fillin characters="3" /> \amp T_3'''(0) \amp= 6c_3 </mrow>
+						</md>
+        </p>
+
+      </statement>
+      <hint/>
+       
+       
+    </task>
+    <task workspace="8cm" xml:id="PA-8-2-task-1">
+      <statement>
+        <p>
+          Now, set <m>T_3(0) = f(0)</m>, <m>T_3'(0) = f'(0)</m>, <m>T_3''(0) = f''(0)</m>, and <m>T_3'''(0) = f'''(0)</m>.  What are the resulting values of <m>c_0, \ldots, c_3</m>?  What is the resulting formula for <m>T_3(x)</m>?
+        </p>
+      </statement>
+      <hint/>
+       
+       
+    </task>
+    <task workspace="0.25cm" xml:id="PA-8-2-task-2">
+      <statement>
+        <p>
+          Recall that the tangent line approximation <m>T_1</m> to <m>f(x) = \sin(x)</m> at <m>a = 0</m> is <m>T_1(x) = x</m>.  Use appropriate computing technology to plot the cubic approximation <m>T_3(x)</m> you found in (b) along with <m>f(x)</m> and <m>T_1(x)</m> in the same window shown in <xref ref="F-8a-2-PA">Figure</xref>. 
+        </p>
+        <figure xml:id="F-8a-2-PA">
+          <caption>The function <m>f(x)=\sin(x)</m> and its tangent line approximation  <m>T_1(x) = x</m> near the point <m>(0,f(0))</m>.</caption>
+          <image width="50%" source="images/8a_2_PA" />
+        </figure>
+      </statement>
+      <hint/>
+       
+       
+    </task>
+    <task workspace="2cm" xml:id="PA-8-2-task-3">
+      <statement>
+        <p>
+           What do you observe about the approximation of <m>f(x)</m> by <m>T_3(x)</m> compared to the approximation of <m>f(x)</m> by <m>T_1(x)</m>?  For example, how do <m>f(1) - T_1(1)</m> and <m>f(1) - T_3(1)</m> compare?
+        </p>
+      </statement>
+      <hint/>
+       
+       
+    </task>
+    <task workspace="1cm" xml:id="PA-8-2-task-4">
+      <statement>
+        <p>
+          In our work so far, we've seen that raising the degree of polynomial improves the approximation of the original function <m>f(x)</m>.  If we wanted to find a degree <m>9</m> approximation to <m>f(x) = \sin(x)</m>, we'd need to find a polynomial whose value and first <m>9</m> derivatives match those of the sine function at <m>a = 0</m>.
+        </p>
+        <p>
+          Fill in the blanks below to determine the next six derivatives of <m>f(x) = \sin(x)</m>, up to <m>f^{(9)}(x)</m>.
+          <md>
+							<mrow> f(x) \amp= \sin(x) \amp f^{(5)}(x) \amp= <fillin characters="5" /> </mrow> 
+              <mrow> f'(x) \amp= \cos(x) \amp f^{(6)}(x) \amp= <fillin characters="5" /> </mrow> 
+              <mrow> f''(x) \amp= -\sin(x) \amp f^{(7)}(x) \amp= <fillin characters="5" /> </mrow> 
+              <mrow> f'''(x) \amp= -\cos(x) \amp f^{(8)}(x) \amp= <fillin characters="5" /> </mrow>
+              <mrow> f^{(4)}(x) \amp= <fillin characters="5" /> \amp f^{(9)}(x) \amp= <fillin characters="5" /> </mrow>
+          </md>    
+        </p>
+        <p>
+          What pattern do you notice in the derivatives of <m>f(x)=\sin(x)</m>?
+        </p>
+      </statement>
+      <hint/>
+       
+       
+    </task>
+  </exploration>
 </worksheet>

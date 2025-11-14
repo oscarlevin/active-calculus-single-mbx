@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-5-2" permid="AjV">
   <exercise label="Library__WHFreeman__Rogawski_Calculus_Early_Transcendentals_Second_Edition__5_The_Integral__5-_4_The_Fundamental_Theorem_of_Calculus_Part_II__5-_4-_35">
     <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/5_The_Integral/5.4_The_Fundamental_Theorem_of_Calculus_Part_II/5.4.35.pg"/>
@@ -37,80 +38,7 @@
     <webwork source="Library/FortLewis/Calc1/06-04-FTC2/HGM4-04-06-FTC2-09.pg" />
   </exercise>
   -->
-  <exercise permid="xaU">
-    <statement>
-      <p permid="Bpo">
-        Let <m>g</m> be the function pictured at left in <xref ref="F-5-2-Ez1">Figure</xref>,
-        and let <m>F</m> be defined by <m>F(x) = \int_{2}^x g(t) \, dt</m>.
-        Assume that the shaded areas have values <m>A_1 = 4.29</m>,
-        <m>A_2 = 12.75</m>, <m>A_3 = 0.36</m>, and <m>A_4 = 1.79</m>.
-        Assume further that the portion of <m>A_2</m> that lies between <m>x = 0.5</m> and <m>x = 2</m> is <m>6.06</m>.
-      </p>
-      <p permid="hwx">
-        Sketch a carefully labeled graph of <m>F</m> on the axes provided,
-        and include a written analysis of how you know where <m>F</m> is zero,
-        increasing, decreasing, concave up, and concave down.
-      </p>
-      <figure xml:id="F-5-2-Ez1" permid="NDG">
-        <caption>At left, the graph of <m>g</m>.  At right, axes for plotting <m>F</m>.</caption>
-        <image width="100%" source="images/5_2_Ez1"/>
-      </figure>
-    </statement>
-    <answer permid="VDE">
-      <p permid="ITN">
-        <m>F</m> is increasing on <m>x \lt -1</m>,
-        <m>0.5 \lt x \lt 4</m>, and <m>5 \lt x \lt 6.5</m>;
-        decreasing on <m>-1 \lt x \lt 0.5</m> and <m>4 \lt x \lt 5</m>;
-        concave up on approximately
-        <m>-0.4 \lt x \lt 2</m> and <m>4.5 \lt x \lt 6</m>;
-        concave down on approximately <m>2 \lt x \lt 4.5</m> and <m>x \gt 6</m>;
-        <m>F(2) = 0</m>; <m>F(0.5) = -6.06</m>;
-        <m>F(-1) = -1.77</m>;
-        <m>F(4) = 6.69</m>; <m>F(5) = 6.33</m>;
-        <m>F(6.5) = 8.12</m>.
-      </p>
-      <sidebyside width="80%" permid="MjS">
-        <image source="images/5_2_Ez1Soln"/>
-      </sidebyside>
-    </answer>
-    <solution permid="pwv">
-      <p permid="EjU">
-        By the Second Fundamental Theorem of Calculus,
-        we know that <m>F'(x) = g(x)</m>.
-        Thus, from the given graph of <m>g</m>,
-        it follows that <m>F</m> is increasing wherever <m>g</m> is positive
-        (on the intervals <m>x \lt -1</m>,
-        <m>0.5 \lt x \lt 4</m>, and <m>5 \lt x \lt 6.5</m>)
-        and decreasing wherever <m>g</m> is negative
-        (on <m>-1 \lt x \lt 0.5</m> and <m>4 \lt x \lt 5</m>).
-        Furthermore,
-        <m>F</m> is concave up wherever <m>g</m> is increasing
-        (on approximately <m>-0.4 \lt x \lt 2</m> and <m>4.5 \lt x \lt 6</m>)
-        and concave down werever <m>g</m> is decreasing
-        (on approximately <m>2 \lt x \lt 4.5</m> and <m>x \gt 6</m>).
-      </p>
-      <p permid="krd">
-        In addition,
-        from the given data about definite integrals and properties of the definite integral,
-        we can determine the following function values:
-        <md permid="yuI">
-          <mrow>F(2) &amp;= \int_{2}^{2} g(t) \, dt = 0</mrow>
-          <mrow>F(0.5) &amp;= \int_{2}^{0.5} g(t) \, dt = -6.06</mrow>
-          <mrow>F(4) &amp;= \int_{2}^{4} g(t) \, dt = \int_{0.5}^4 g(t) \, dt - \int_{0.5}^2 g(t) \, dt = 12.75 - 6.06 = 6.69</mrow>
-          <mrow>F(5) &amp;= F(4) + \int_4^5 g(t) \,dt = 6.69 - 0.36 = 6.33</mrow>
-          <mrow>F(6.5) &amp;= F(5) + \int_4^{6.5} g(t) \,dt = 6.33 + 1.79 = 8.12</mrow>
-          <mrow>F(-1) &amp;= \int_2^{-1} g(t) \, dt = -\int_{-1}^2 g(t) \, dt = -\left( \int_{-1}^{0.5} g(t) \, dt + \int_{0.5}^2 g(t) \, dt \right) = -(-4.29 + 6.06) = -1.77</mrow>
-        </md>
-      </p>
-      <p permid="Qym">
-        In the figure below,
-        we put all of this information to work and sketch an approximate graph of <m>y = F(x)</m>.
-      </p>
-      <sidebyside width="80%" permid="srb">
-        <image source="images/5_2_Ez1Soln"/>
-      </sidebyside>
-    </solution>
-  </exercise>
+
   <exercise permid="did">
     <statement>
       <p permid="tKP">
@@ -249,7 +177,83 @@
         </ol>
       </p>
     </solution>
+  </exercise>  
+
+  <exercise permid="xaU">
+    <statement>
+      <p permid="Bpo">
+        Let <m>g</m> be the function pictured at left in <xref ref="F-5-2-Ez1">Figure</xref>,
+        and let <m>F</m> be defined by <m>F(x) = \int_{2}^x g(t) \, dt</m>.
+        Assume that the shaded areas have values <m>A_1 = 4.29</m>,
+        <m>A_2 = 12.75</m>, <m>A_3 = 0.36</m>, and <m>A_4 = 1.79</m>.
+        Assume further that the portion of <m>A_2</m> that lies between <m>x = 0.5</m> and <m>x = 2</m> is <m>6.06</m>.
+      </p>
+      <p permid="hwx">
+        Sketch a carefully labeled graph of <m>F</m> on the axes provided,
+        and include a written analysis of how you know where <m>F</m> is zero,
+        increasing, decreasing, concave up, and concave down.
+      </p>
+      <figure xml:id="F-5-2-Ez1" permid="NDG">
+        <caption>At left, the graph of <m>g</m>.  At right, axes for plotting <m>F</m>.</caption>
+        <image width="100%" source="images/5_2_Ez1"/>
+      </figure>
+    </statement>
+    <answer permid="VDE">
+      <p permid="ITN">
+        <m>F</m> is increasing on <m>x \lt -1</m>,
+        <m>0.5 \lt x \lt 4</m>, and <m>5 \lt x \lt 6.5</m>;
+        decreasing on <m>-1 \lt x \lt 0.5</m> and <m>4 \lt x \lt 5</m>;
+        concave up on approximately
+        <m>-0.4 \lt x \lt 2</m> and <m>4.5 \lt x \lt 6</m>;
+        concave down on approximately <m>2 \lt x \lt 4.5</m> and <m>x \gt 6</m>;
+        <m>F(2) = 0</m>; <m>F(0.5) = -6.06</m>;
+        <m>F(-1) = -1.77</m>;
+        <m>F(4) = 6.69</m>; <m>F(5) = 6.33</m>;
+        <m>F(6.5) = 8.12</m>.
+      </p>
+      <sidebyside width="80%" permid="MjS">
+        <image source="images/5_2_Ez1Soln"/>
+      </sidebyside>
+    </answer>
+    <solution permid="pwv">
+      <p permid="EjU">
+        By the Second Fundamental Theorem of Calculus,
+        we know that <m>F'(x) = g(x)</m>.
+        Thus, from the given graph of <m>g</m>,
+        it follows that <m>F</m> is increasing wherever <m>g</m> is positive
+        (on the intervals <m>x \lt -1</m>,
+        <m>0.5 \lt x \lt 4</m>, and <m>5 \lt x \lt 6.5</m>)
+        and decreasing wherever <m>g</m> is negative
+        (on <m>-1 \lt x \lt 0.5</m> and <m>4 \lt x \lt 5</m>).
+        Furthermore,
+        <m>F</m> is concave up wherever <m>g</m> is increasing
+        (on approximately <m>-0.4 \lt x \lt 2</m> and <m>4.5 \lt x \lt 6</m>)
+        and concave down werever <m>g</m> is decreasing
+        (on approximately <m>2 \lt x \lt 4.5</m> and <m>x \gt 6</m>).
+      </p>
+      <p permid="krd">
+        In addition,
+        from the given data about definite integrals and properties of the definite integral,
+        we can determine the following function values:
+        <md permid="yuI">
+          <mrow>F(2) \amp= \int_{2}^{2} g(t) \, dt = 0</mrow>
+          <mrow>F(0.5) \amp= \int_{2}^{0.5} g(t) \, dt = -6.06</mrow>
+          <mrow>F(4) \amp= \int_{2}^{4} g(t) \, dt = \int_{0.5}^4 g(t) \, dt - \int_{0.5}^2 g(t) \, dt = 12.75 - 6.06 = 6.69</mrow>
+          <mrow>F(5) \amp= F(4) + \int_4^5 g(t) \,dt = 6.69 - 0.36 = 6.33</mrow>
+          <mrow>F(6.5) \amp= F(5) + \int_4^{6.5} g(t) \,dt = 6.33 + 1.79 = 8.12</mrow>
+          <mrow>F(-1) \amp= \int_2^{-1} g(t) \, dt = -\int_{-1}^2 g(t) \, dt = -\left( \int_{-1}^{0.5} g(t) \, dt + \int_{0.5}^2 g(t) \, dt \right) = -(-4.29 + 6.06) = -1.77</mrow>
+        </md>
+      </p>
+      <p permid="Qym">
+        In the figure below,
+        we put all of this information to work and sketch an approximate graph of <m>y = F(x)</m>.
+      </p>
+      <sidebyside width="80%" permid="srb">
+        <image source="images/5_2_Ez1Soln"/>
+      </sidebyside>
+    </solution>
   </exercise>
+
   <exercise permid="Jpm">
     <statement>
       <p permid="mgq">
@@ -258,16 +262,17 @@
         (in feet per minute)
         decreases as altitude increases,
         because the air is less dense at higher altitudes.
-        Given below is a table showing performance data for a certain single engine aircraft,
+        <xref ref="T-5-2-ez-airplane">Table</xref> provides performance data for a certain single engine aircraft,
         giving its climb rate at various altitudes,
         where <m>c(h)</m> denotes the climb rate of the airplane at an altitude <m>h</m>.
       </p>
-      <table permid="nVD">
+      <table xml:id="T-5-2-ez-airplane" permid="nVD">
         <title>Data for the climbing aircraft.</title>
-        <tabular top="minor" bottom="minor" permid="UcM">
-          <row>
+        <tabular permid="UcM">
+          <row top="minor" bottom="minor">
             <cell>
-              <m>h</m> (feet)</cell>
+              <m>h</m> (feet)
+            </cell>
             <cell>
               <m>0</m>
             </cell>
@@ -286,25 +291,11 @@
             <cell>
               <m>5000</m>
             </cell>
-            <cell>
-              <m>6000</m>
-            </cell>
-            <cell>
-              <m>7000</m>
-            </cell>
-            <cell>
-              <m>8000</m>
-            </cell>
-            <cell>
-              <m>9000</m>
-            </cell>
-            <cell>
-              <m>10{,}000</m>
-            </cell>
           </row>
-          <row>
+          <row top="minor" bottom="minor">
             <cell>
-              <m>c</m> (ft/min)</cell>
+              <m>c</m> (ft/min)
+            </cell>
             <cell>
               <m>925</m>
             </cell>
@@ -323,6 +314,34 @@
             <cell>
               <m>685</m>
             </cell>
+          </row>
+          <row bottom="minor">
+            <cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell>
+          </row>
+          <row top="minor" bottom="minor">
+            <cell>
+              <m>h</m> (feet)
+            </cell>
+            <cell>
+              <m>6000</m>
+            </cell>
+            <cell>
+              <m>7000</m>
+            </cell>
+            <cell>
+              <m>8000</m>
+            </cell>
+            <cell>
+              <m>9000</m>
+            </cell>
+            <cell>
+              <m>10{,}000</m>
+            </cell>
+          </row>
+          <row top="minor" bottom="minor">
+            <cell>
+              <m>c</m> (ft/min)
+            </cell>
             <cell>
               <m>635</m>
             </cell>
@@ -338,7 +357,7 @@
             <cell>
               <m>440</m>
             </cell>
-          </row>
+          </row>          
         </tabular>
       </table>
       <p permid="Snz">
@@ -676,7 +695,7 @@
           <li permid="gMD">
             <p permid="nlJ">
               Given an original function,
-              we know that the units on its derivative are ``units of input per unit of output.'' Since the units on <m>m(h)</m> are ``minutes per foot'', it follows that the antiderivative of <m>m(h)</m> should have output units of ``minutes'' since its input units are ``feet''. The antiderivative function should thus tell us the total number of minutes that it takes for the plane to climb to an altitude of <m>h</m> feet.
+              we know that the units on its derivative are <q>units of input per unit of output</q>. Since the units on <m>m(h)</m> are <q>minutes per foot</q>, it follows that the antiderivative of <m>m(h)</m> should have output units of <q>minutes</q> since its input units are <q>feet</q>. The antiderivative function should thus tell us the total number of minutes that it takes for the plane to climb to an altitude of <m>h</m> feet.
             </p>
           </li>
           <li permid="MTM">
@@ -686,8 +705,8 @@
               <me permid="jlK">
                 M = \int_{0}^{10000} m(h) \, dh
               </me>
-              since the units on <m>m(h)</m> are ``minutes per foot'' and the units on
-              <m>\triangle h</m> in the corresponding Riemann sum are ``feet'', so when we take the product of quantities with these units,
+              since the units on <m>m(h)</m> are <q>minutes per foot</q> and the units on
+              <m>\triangle h</m> in the corresponding Riemann sum are <q>feet</q>, so when we take the product of quantities with these units,
               the resulting numerical quantity is measured in minutes.
             </p>
           </li>
@@ -712,8 +731,8 @@
               we can estimate the desired integral using <m>3</m> subintervals and find that
               <md permid="vAc">
                 <mrow>\int_{0}^{6000} m(h) \, dh &amp;\approx M_3</mrow>
-                <mrow>&amp;= m(1000) \cdot 2000 + m(3000) \cdot 2000 + m(5000) \cdot 2000</mrow>
-                <mrow>&amp;= \left( \frac{1}{875} + \frac{1}{780} + \frac{1}{685} \right) \cdot 2000</mrow>
+                <mrow>\amp= m(1000) \cdot 2000 + m(3000) \cdot 2000 + m(5000) \cdot 2000</mrow>
+                <mrow>\amp= \left( \frac{1}{875} + \frac{1}{780} + \frac{1}{685} \right) \cdot 2000</mrow>
                 <mrow>&amp;\approx 0.00388476 \cdot 2000</mrow>
                 <mrow>&amp;\approx 7.77</mrow>
               </md>.
@@ -723,9 +742,9 @@
               Using <m>5</m> subintervals,
               <md permid="bHl">
                 <mrow>\int_{0}^{10000} m(h) \, dh &amp;\approx M_5</mrow>
-                <mrow>&amp;= m(1000) \cdot 2000 + m(3000) \cdot 2000 + m(5000) \cdot 2000</mrow>
+                <mrow>\amp= m(1000) \cdot 2000 + m(3000) \cdot 2000 + m(5000) \cdot 2000</mrow>
                 <mrow>&amp;+ m(7000) \cdot 2000 + m(9000) \cdot 2000</mrow>
-                <mrow>&amp;= \left( \frac{1}{875} + \frac{1}{780} + \frac{1}{685} + \frac{1}{585} + \frac{1}{490} \right) \cdot 2000</mrow>
+                <mrow>\amp= \left( \frac{1}{875} + \frac{1}{780} + \frac{1}{685} + \frac{1}{585} + \frac{1}{490} \right) \cdot 2000</mrow>
                 <mrow>&amp;\approx 0.007634980475 \cdot 2000</mrow>
                 <mrow>&amp;\approx 15.27</mrow>
               </md>.
@@ -734,7 +753,7 @@
             <p permid="YcL">
               Note that in both of these computations,
               we are using <m>M_n</m> to denote the midpoint rule with <m>n</m> subintervals,
-              and this ``<m>M</m>'' is different from the one we used earlier in <m>M(h)</m>.
+              and this <q><m>M</m></q> is different from the one we used earlier in <m>M(h)</m>.
             </p>
           </li>
         </ol>

@@ -17,99 +17,91 @@
     <exploration xml:id="PA-3-1">
       <introduction>
         <p>
-    Consider the function <m>h</m> given by the graph in <xref ref="F-3-1-PA1">Figure</xref>.
-    Use the graph to answer each of the following questions.
-  </p>
-        <figure xml:id="F-3-1-PA1">
-          <caption>The graph of a function <m>h</m> on the interval <m>[-3,3]</m>.</caption>
-          <image width="50%" source="images/3_1_PA1"/>
-        </figure>
-        <p/>
+    A spherical balloon is being inflated at a constant rate of 20 cubic inches per second.
+    How fast is the radius of the balloon changing at the instant the balloon's diameter is 12 inches?
+    Is the radius changing more rapidly when <m>d = 12</m> or when <m>d = 16</m>?
+    Why?
+
+    </p>
       </introduction>
-      <task workspace="2.5cm" xml:id="PA-3-1-task-0">
+      <task workspace="5cm" xml:id="PA-3-1-task-0">
         <statement>
           <p>
-          Identify all of the values of <m>c</m> such that <m>-3 \lt c \lt 3</m> for which <m>h(c)</m> is a local maximum of <m>h</m>.
+          Draw at least three different spheres with different radii. 
+          As the volume changes, what other aspects of the balloon also change?  
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
-      <task workspace="2.5cm" xml:id="PA-3-1-task-1">
+      <task workspace="7cm" xml:id="PA-3-1-task-1">
         <statement>
           <p>
-          Identify all of the values of <m>c</m> such that <m>-3 \lt c \lt 3</m> for which <m>h(c)</m> is a local minimum of <m>h</m>.
+          Recall that the volume of a sphere of radius <m>r</m> is <m>V = \frac{4}{3} \pi r^3</m>.
+          Note well that in the setting of this problem,
+          <em>both</em> <m>V</m> and <m>r</m> are changing as time <m>t</m> changes,
+          and thus both <m>V</m> and <m>r</m> may be viewed as implicit functions of <m>t</m>,
+          with respective derivatives
+          <m>\frac{dV}{dt}</m> and <m>\frac{dr}{dt}</m>.
+          Differentiate both sides of the equation
+          <m>V = \frac{4}{3} \pi r^3</m> with respect to <m>t</m>
+          (using the chain rule on the right)
+          to find a formula for
+          <m>\frac{dV}{dt}</m> that depends on both <m>r</m> and <m>\frac{dr}{dt}</m>.
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
-      <task workspace="2.5cm" xml:id="PA-3-1-task-2">
+      <task workspace="4cm" xml:id="PA-3-1-task-2">
         <statement>
           <p>
-          Does <m>h</m> have a global maximum on the interval <m>[-3,3]</m>?
-          If so, what is the value of this global maximum?
+          At this point in our work,
+          by differentiating with respect to <m>t</m> we have
+          <q>related the rates</q>
+          of change of <m>V</m> and <m>r</m>.
+          Recall that we are given in the problem that the balloon is being inflated at a constant <em>rate</em>
+          of 20 cubic inches per second.
+          Is this rate the value of
+          <m>\frac{dr}{dt}</m> or <m>\frac{dV}{dt}</m>?
+          Why?
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
-      <task workspace="2.5cm" xml:id="PA-3-1-task-3">
+      <task workspace="5cm" xml:id="PA-3-1-task-3">
         <statement>
           <p>
-          Does <m>h</m> have a global minimum on the interval <m>[-3,3]</m>?
-          If so, what is its value?
+          From part (c), we know the value of
+          <m>\frac{dV}{dt}</m> at every value of <m>t</m>.
+          Next,
+          observe that when the diameter of the balloon is 12,
+          we know the value of the radius.
+          In the equation <m>\frac{dV}{dt} = 4\pi r^2 \frac{dr}{dt}</m>,
+          substitute these values for the relevant quantities and solve for the remaining unknown quantity,
+          which is <m>\left. \frac{dr}{dt} \right|_{d=12}</m>.
+          How fast is the radius changing at the instant <m>d = 12</m>?  What are the units on this quantity?
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
-      <task workspace="3cm" xml:id="PA-3-1-task-4">
+      <task workspace="5cm" xml:id="PA-3-1-task-4">
         <statement>
           <p>
-          Identify all values of <m>c</m> for which <m>h'(c) = 0</m>.
+          How is the situation different when <m>d = 16</m>?
+          When is the radius changing more rapidly,
+          when <m>d = 12</m> or when <m>d = 16</m>?
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
-      </task>
-      <task workspace="3cm" xml:id="PA-3-1-task-5">
-        <statement>
-          <p>
-          Identify all values of <m>c</m> for which <m>h'(c)</m> does not exist.
-        </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-      <task workspace="3cm" xml:id="PA-3-1-task-6">
-        <statement>
-          <p>
-          True or false:
-          every relative maximum and minimum of <m>h</m> on the interval <m>-3 \lt x \lt 3</m> occurs at a point <m>c</m> such that where <m>h'(c)</m> is either zero or does not exist.  Explain your conclusion.
-        </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
-      </task>
-      <task workspace="3cm" xml:id="PA-3-1-task-7">
-        <statement>
-          <p>
-          True or false:
-          at every point where <m>h'(c)</m> is zero or does not exist on the interval <m>-3 \lt x \lt 3</m>,
-          <m>h</m> has a relative maximum or minimum.  Explain your conclusion.
-        </p>
-        </statement>
-        <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
     </exploration>
    

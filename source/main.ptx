@@ -17,7 +17,7 @@
     <!-- ISBN, website, other metadata -->
   <book permid="qaP">
     <title>Active Calculus</title>
-    <subtitle component="proteus">PROTEUS Version</subtitle>
+    <subtitle component="proteus">PROTEUS Version<nbsp/></subtitle>
     <subtitle component="ed2-static">2nd Ed</subtitle>
     <subtitle component="runestone">2nd Ed</subtitle>
     <subtitle component="ed1">1st Ed</subtitle>
@@ -30,8 +30,7 @@
     <xi:include href="./chap-5.xml" />
     <xi:include href="./chap-6.xml" />
     <xi:include href="./chap-7.xml" />
-    <xi:include href="./chap-8.xml" /> 
-    <xi:include href="./chap-8a.xml" />
+    <xi:include href="./chap-8.xml" />
     <xi:include href="safranski.xml" />    
     <xi:include href="./backmatter.xml" />
   </book>

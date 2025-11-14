@@ -15,9 +15,13 @@
 
 <!-- ACS customizations for HTML runs -->
 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+                xmlns:pi="http://pretextbook.org/2020/pretext/internal" 
+                version="1.0">
   <xsl:import href="./core/pretext-html.xsl" />
 
   <!-- Kill answers to WeBWorK exercises -->
   <xsl:template match="exercise[webwork-reps]|exercise[webwork]" mode="solutions"> </xsl:template>
+  <!-- Deal with footnotes from #url -->
+  <xsl:template match="fn[@pi:url]" />
 </xsl:stylesheet>

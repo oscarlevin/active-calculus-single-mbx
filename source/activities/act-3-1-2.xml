@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,125 +12,215 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet label="ws-act-3-1-2">
    
     <activity xml:id="act-3-1-2" workspace="3cm">
       <introduction>
         <p>
-      Suppose that <m>g</m> is a function whose second derivative,
-      <m>g''</m>,
-      is given by the graph in the following figure.
-    </p>
-          <image width="47%" source="images/3_1_Act2"/>
-
+          A television camera is positioned 4000 feet from the base of a rocket launching pad.
+          The angle of elevation of the camera has to change at the correct rate in order to keep the rocket in sight.
+          In addition,
+          the auto-focus of the camera has to take into account the increasing distance between the camera and the rocket.
+          We assume that the rocket rises vertically. (A similar situation is discussed and pictured dynamically <url href="https://gvsu.edu/s/9t" visual="gvsu.edu/s/9t">in this interactive graphic</url>.
+          Exploring the interactive will be helpful to you in answering the questions that follow.)
+        </p>
       </introduction>
-      <task workspace="3cm" xml:id="act-3-1-2-task-0">
+      <task workspace="6cm" xml:id="act-3-1-2-task-0">
         <statement>
           <p>
-            Find the <m>x</m>-coordinates of all points of inflection of <m>g</m>.
+            Draw several figures that show the rocket at different points in time.
+            What quantities are changing?
+            What quantities are constant?
+            Introduce appropriate variables to represent the quantities that are changing.
           </p>
         </statement>
         <hint>
           <p>
-            What must be true of <m>g''(x)</m> at a point of inflection?
+            Let <m>\theta</m> represent the camera angle and note that one leg of the right triangle is constant.
+            Which two are changing?
           </p>
         </hint>
         <answer>
-          <p><m>x = -1</m> is an inflection point of <m>g</m>.
-          </p>
+          <image width="40%" source="images/3_5_Act2Soln" />
         </answer>
         <solution>
           <p>
-            Based on the given graph of <m>g''</m>,
-            the only point at which <m>g''</m> changes sign is <m>x = -1</m>,
-            and hence this is an inflection point of <m>g</m>.
+            Letting <m>\theta</m> be the camera's elevation angle,
+            <m>h</m> the rocket's height,
+            and <m>z</m> the distance from the camera to the rocket,
+            we have the following situation at a given point in time:
           </p>
+          <image width="40%" source="images/3_5_Act2Soln" />
         </solution>
       </task>
-      <task workspace="8cm" xml:id="act-3-1-2-task-1">
+      <task workspace="4cm" xml:id="act-3-1-2-task-1">
         <statement>
           <p>
-            Fully describe the concavity of <m>g</m> by making an appropriate sign chart.
+            Find an equation that relates the camera's angle of elevation to the height of the rocket,
+            and then find an equation that relates the instantaneous rate of change of the camera's elevation angle to the instantaneous rate of change of the rocket's height
+            (where all rates of change are with respect to time).
           </p>
         </statement>
         <hint>
           <p>
-            Use the given graph to decide where <m>g''</m> is positive and negative.
+            Think trigonometrically.
           </p>
         </hint>
         <answer>
-          <p><m>g</m> is concave up for <m>x \lt -1</m>,
-            concave down for <m>-1 \lt x \lt 2</m>,
-            and concave down for <m>x \gt 2</m>.
+          <p><m> \frac{dh}{dt} = 4000 \sec^2 (\theta) \frac{d\theta}{dt}</m>.
           </p>
         </answer>
         <solution>
           <p>
-            Note that <m>g''(x) \gt 0</m> for <m>x \lt -1</m>,
-            <m>g''(x) \lt 0</m> for <m>-1 \lt x \lt 2</m>,
-            and <m>g''(x) \lt 0</m> for <m>x \gt 2</m>.
-            This tells us that <m>g</m> is concave up for <m>x \lt -1</m>,
-            concave down for <m>-1 \lt x \lt 2</m>,
-            and concave down for <m>x \gt 2</m>.
+            To relate <m>\theta</m> and <m>h</m>,
+            observe that the tangent function is a good choice,
+            since <m>\tan(\theta) = \frac{h}{4000}</m>, so that
+            <me>
+              h = 4000 \tan(\theta)
+            </me>.
+            Differentiating implicitly with respect to <m>t</m>,
+            we find that
+            <me>
+              \frac{dh}{dt} = 4000 \sec^2 (\theta) \frac{d\theta}{dt}
+            </me>.
           </p>
         </solution>
       </task>
-      <task workspace="5cm" xml:id="act-3-1-2-task-2">
+      <task workspace="4cm" xml:id="act-3-1-2-task-2">
         <statement>
           <p>
-            Suppose you are given that <m>g'(-1.67857351) = 0</m>.
-            Is there is a local maximum, local minimum, or neither
-            (for the function <m>g</m>)
-            at this critical number of <m>g</m>,
-            or is it impossible to say?
+            Find an equation that relates the distance from the camera to the rocket to the rocket's height,
+            as well as an equation that relates the instantaneous rate of change of distance from the camera to the rocket to the instantaneous rate of change of the rocket's height
+            (where all rates of change are with respect to time).
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Think like Pythagoras.
+          </p>
+        </hint>
+        <answer>
+          <p><m>h \frac{dh}{dt} = z \frac{dz}{dt}</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            To relate <m>z</m> and <m>h</m>,
+            the Pythagorean Theorem is natural to consider.
+            By this famous result,
+            <me>
+              h^2 + 4000^2 = z^2
+            </me>.
+            Differentiating both sides implicitly with respect to <m>t</m>,
+            it follows
+            <me>
+              2h \frac{dh}{dt} = 2z \frac{dz}{dt}
+            </me>,
+            and thus <m>h \frac{dh}{dt} = z \frac{dz}{dt}</m>.
+          </p>
+        </solution>
+      </task>
+      <task workspace="5cm" xml:id="act-3-1-2-task-3">
+        <statement>
+          <p>
+            Suppose that the rocket's speed is 600 ft/sec at the instant it has risen 3000 feet.
+            How fast is the distance from the television camera to the rocket changing at that moment?
+            If the camera is following the rocket,
+            how fast is the camera's angle of elevation changing at that same moment?
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Use the facts that <m>h = 3000</m> and
+            <m>\frac{dh}{dt} = 600</m> in your preceding work.
+          </p>
+        </hint>
+        <answer>
+          <p><m> \left. \frac{dz}{dt} \right|_{h=3000} = 360 \ \text{feet/sec}; </m><m> \left. \frac{d\theta}{dt} \right|_{h=3000} = \frac{12}{125} </m> radians per second.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Using the given fact that the rocket's speed is 600 ft/sec at the instant it has risen 3000 feet,
+            we know that <m>\left. \frac{dh}{dt} \right|_{h=3000} = 600</m>.
+            Note further in the triangle that when <m>h = 3000</m>,
+            it follows <m>z = 5000</m>,
+            since the base leg of the triangle is constant at 4000,
+            by using the Pythagorean Theorem.
+            Substituting this information from the instant
+            <m>h = 3000</m> into the equation that relates the rates of change of <m>z</m> and <m>h</m> found in (c),
+            we find that
+            <me>
+              2 \cdot 3000 \cdot 600 = 2 \cdot 5000 \cdot \left. \frac{dz}{dt} \right|_{h=3000}
+            </me>.
+            Solving for <m>\left. \frac{dz}{dt} \right|_{h=3000}</m> we have
+            <me>
+              \left. \frac{dz}{dt} \right|_{h=3000} = \frac{1800}{5} = 360 \ \text{feet/sec}
+            </me>.
+            To answer the question about how fast the camera angle is changing,
+            we use the same information but now in the equation we found in (b) that relates the rates of change of <m>\theta</m> and <m>h</m>:
+            <me>
+              \frac{dh}{dt} = 4000 \sec^2 (\theta) \frac{d\theta}{dt}
+            </me>.
+            Observe that when <m>h = 3000</m>,
+            in the 3000-4000-5000 right triangle,
+            it follows that <m>\cos(\theta) = \frac{4}{5}</m>,
+            so <m>\sec(\theta) = \frac{5}{4}</m>.
+            Thus, using the instantaneous information,
+            <me>
+              600 = 4000 \cdot \frac{25}{16} \left. \frac{d\theta}{dt} \right|_{h=3000}
+            </me>,
+            and thus
+            <me>
+              \left. \frac{d\theta}{dt} \right|_{h=3000} = \frac{6 \cdot 16}{40 \cdot 25} = \frac{12}{125}
+            </me>,
+            which is measured in radians per second.
+          </p>
+        </solution>
+      </task>
+      <task workspace="5cm" xml:id="act-3-1-2-task-4">
+        <statement>
+          <p>
+            If from an elevation of 3000 feet onward the rocket continues to rise at 600 feet/sec,
+            will the rate of change of distance with respect to time be greater when the elevation is 4000 feet than it was at 3000 feet, or less?
             Why?
           </p>
         </statement>
         <hint>
           <p>
-            What does the second derivative test say?
+            You can answer this question intuitively or by changing the value of <m>h</m> in your work in (d).
           </p>
         </hint>
         <answer>
-          <p><m>g</m> has a local minimum at <m>x = -1.67857351</m>.
+          <p>
+            greater.
           </p>
         </answer>
         <solution>
           <p>
-            Given that <m>g'(-1.67857351) = 0</m>,
-            we know that <m>g</m> has a horizontal tangent line at this critical number.
-            In addition, from the given graph of <m>g''</m>,
-            we see that <m>g''( -1.67857351) \gt 0</m> and observe that <m>g</m> is concave up at <m>x</m>-values near <m>-1.67857351</m>.
-            By the second derivative test,
-            <m>g</m> has a local minimum at <m>x = -1.67857351</m>.
-          </p>
-        </solution>
-      </task>
-      <task workspace="3cm" xml:id="act-3-1-2-task-3">
-        <statement>
-          <p>
-            Assuming that <m>g''(x)</m> is a polynomial
-            (and that all important behavior of <m>g''</m> is seen in the graph above),
-            what degree polynomial do you think <m>g(x)</m> is?
-            Why?
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Can you guess a formula for <m>g''(x)</m> based on its graph?
-          </p>
-        </hint>
-        <answer>
-          <p><m>g</m> is a degree 5 polynomial.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            From the given graph,
-            since <m>g''</m> has a simple zero at <m>x = -1</m> and a repeated zero at <m>x = 2</m>,
-            it appears that <m>g''</m> is a degree 3 polynomial.
-            If so, then <m>g'</m> is a degree 4 polynomial,
-            and <m>g</m> is a degree 5 polynomial.
+            Recalling that <m>2h \frac{dh}{dt} = 2z \frac{dz}{dt}</m>,
+            it follows that
+            <me>
+              \frac{dz}{dt} = \frac{h}{z} \frac{dh}{dt}
+            </me>.
+            Using this equation when <m>h = 3000</m> and
+            <m>\frac{dh}{dt} = 600</m> led us to conclude that <m>\left. \frac{dz}{dt} \right|_{h=3000} = \frac{3}{5} \cdot 600 = 360 \ \text{feet/sec}</m>.
+            If we instead use <m>h = 4000</m>,
+            it follows that <m>z = 4000\sqrt{2}</m>, so that
+            <me>
+              \left. \frac{dz}{dt} \right|_{h=4000} = \frac{4}{4\sqrt{2}} \cdot 600 \approx 424.26 \ \text{feet/sec}
+            </me>.
+            Indeed,
+            <m>\frac{dz}{dt}</m> is an increasing function of <m>h</m>,
+            provided that <m>\frac{dh}{dt}</m> is constant,
+            because we can write <m>h^2 + 4000^2 = z^2</m>,
+            so <m>z = \sqrt{h^2 + 4000^2}</m>, making
+            <me>
+              \frac{dz}{dt} = \frac{h}{\sqrt{h^2 + 4000^2}} \frac{dh}{dt} = \frac{h}{\sqrt{h^2 + 4000^2}} 600
+            </me>.
+            It is straightforward to verify that
+            <m>\frac{h}{\sqrt{h^2 + 4000^2}}</m> is an increasing function of <m>h</m>.
           </p>
         </solution>
       </task>

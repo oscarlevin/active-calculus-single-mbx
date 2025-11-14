@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-4" permid="rjI">
   <exercise label="Library__Michigan__Chap2Sec3__Q09.pg">
     <webwork source="Library/Michigan/Chap2Sec3/Q09.pg"/>
@@ -136,7 +137,7 @@
               </md>.
               So this guess is close, but is off by a factor of <m>2</m>,
               since we want <m>f'(x) = x</m>.
-              Instead, if we use <m>f(x) = \frac{1}{2}x^2-1</m> (note that we chose the ``<m>-1</m>'' so that <m>f(-2)=1</m>,
+              Instead, if we use <m>f(x) = \frac{1}{2}x^2-1</m> (note that we chose the<q><m>-1</m></q> so that <m>f(-2)=1</m>,
               then we have
               <md permid="yOh">
                 <mrow>f'(x) &amp;= \lim_{h \to 0} \frac{f(x+h)-f(x)}{h}</mrow>
@@ -208,9 +209,9 @@
           <li permid="ilv">
             <p permid="qzO">
               The constants <m>3</m> and <m>12</m> don't seem to affect the results at all.
-              The coefficient <m>-4</m> on the linear term in <m>p(x)</m> appears to make the ``<m>-4</m>'' appear in <m>p'(x)= 10x - 4</m>.
+              The coefficient <m>-4</m> on the linear term in <m>p(x)</m> appears to make the <q><m>-4</m></q> appear in <m>p'(x)= 10x - 4</m>.
               The leading coefficient <m>5</m> in
-              <m>(x) = 5x^2 - 4x + 12</m> leads to the coefficient of ``<m>10</m>'' in <m>p'(x) = 10x -4</m>.
+              <m>(x) = 5x^2 - 4x + 12</m> leads to the coefficient of <q><m>10</m></q> in <m>p'(x) = 10x -4</m>.
             </p>
           </li>
         </ol>
@@ -274,14 +275,14 @@
               and that makes sense because those numbers only serve to shift the graphs of <m>g</m> and <m>p</m> vertically,
               which does nothing to change the slope.
 
-              The coefficient <m>-4</m> on the linear term in <m>p(x)</m> appears to make the ``<m>-4</m>'' appear in <m>p'(x)= 10x - 4</m>.
+              The coefficient <m>-4</m> on the linear term in <m>p(x)</m> appears to make the <q><m>-4</m></q> appear in <m>p'(x)= 10x - 4</m>.
               That, too, makes sense in light of the fact that if we considered only the linear function <m>L(x) = -4x</m>,
               the slope would everywhere be <m>-4</m>,
               in contrast to the coefficent <m>-1</m> found on the linear term in <m>g(x) = x^2 - x + 3</m>,
               which leads to the constant <m>-1</m> in <m>g'(x) = 2x - 1</m>.
 
               Finally, the leading coefficient <m>5</m> in
-              <m>(x) = 5x^2 - 4x + 12</m> leads to the coefficient of ``<m>10</m>'' in <m>p'(x) = 10x -4</m>.
+              <m>(x) = 5x^2 - 4x + 12</m> leads to the coefficient of <q><m>10</m></q> in <m>p'(x) = 10x -4</m>.
               This makes sense because if we considered only <m>y = 5x^2</m>,
               the <m>5</m> would make the graph <m>5</m> times as steep as the graph of <m>y = x^2</m>,
               and thus it affects the derivative proportionately.
@@ -291,6 +292,59 @@
       </p>
     </solution>
   </exercise>
+
+  <exercise permid="NIK">
+    <statement>
+      <p permid="GsG">
+        For each graph that provides an original function
+        <m>y = f(x)</m> in <xref ref="F-1-4-Ez3a">Figure</xref>,
+        your task is to sketch an approximate graph of its derivative function,
+        <m>y = f'(x)</m>, on the axes immediately below.
+        View the scale of the grid for the graph of <m>f</m> as being <m>1 \times 1</m>,
+        and assume the horizontal scale of the grid for the graph of <m>f'</m> is identical to that for <m>f</m>.
+        If you need to adjust the vertical scale on the axes for the graph of <m>f'</m>,
+        you should label that accordingly.
+      </p>
+      <figure xml:id="F-1-4-Ez3a" permid="mzP">
+        <caption>Graphs of <m>y = f(x)</m> and grids for plotting the corresponding graph of <m>y = f'(x)</m>.</caption>
+        <sbsgroup permid="CzL">
+          <sidebyside widths="86%" margins="0%" permid="fMo">
+            <image source="images/1_4_Ez3a"/>
+          </sidebyside>
+          <sidebyside widths="86%" margins="0%" permid="LTx">
+            <image source="images/1_4_Ez3b"/>
+          </sidebyside>
+        </sbsgroup>
+      </figure>
+    </statement>
+    <answer permid="KOe">
+      <sbsgroup permid="iGU">
+        <sidebyside widths="86%" margins="0%" permid="saG">
+          <image source="images/1_4_Ez4aSoln"/>
+        </sidebyside>
+        <sidebyside widths="86%" margins="0%" permid="YhP">
+          <image source="images/1_4_Ez4bSoln"/>
+        </sidebyside>
+      </sbsgroup>
+    </answer>
+    <solution permid="eGV">
+      <p permid="wYU">
+        At any point where there is a jump in the graph of the derivative,
+        the derivative is undefined.
+        Normally we would draw an open circle at each end of the graph,
+        but those are omitted here for convenience of plotting.
+      </p>
+      <sbsgroup permid="OOd">
+        <sidebyside widths="86%" margins="7%" permid="EoY">
+          <image source="images/1_4_Ez4aSoln"/>
+        </sidebyside>
+        <sidebyside widths="86%" margins="7%" permid="kwh">
+          <image source="images/1_4_Ez4bSoln"/>
+        </sidebyside>
+      </sbsgroup>
+    </solution>
+  </exercise>
+
   <exercise permid="hBB">
     <statement>
       <p permid="NXf">
@@ -404,55 +458,5 @@
       </p>
     </solution>
   </exercise>
-  <exercise permid="NIK">
-    <statement>
-      <p permid="GsG">
-        For each graph that provides an original function
-        <m>y = f(x)</m> in <xref ref="F-1-4-Ez3a">Figure</xref>,
-        your task is to sketch an approximate graph of its derivative function,
-        <m>y = f'(x)</m>, on the axes immediately below.
-        View the scale of the grid for the graph of <m>f</m> as being <m>1 \times 1</m>,
-        and assume the horizontal scale of the grid for the graph of <m>f'</m> is identical to that for <m>f</m>.
-        If you need to adjust the vertical scale on the axes for the graph of <m>f'</m>,
-        you should label that accordingly.
-      </p>
-      <figure xml:id="F-1-4-Ez3a" permid="mzP">
-        <caption>Graphs of <m>y = f(x)</m> and grids for plotting the corresponding graph of <m>y = f'(x)</m>.</caption>
-        <sbsgroup permid="CzL">
-          <sidebyside widths="86%" margins="0%" permid="fMo">
-            <image source="images/1_4_Ez3a"/>
-          </sidebyside>
-          <sidebyside widths="86%" margins="0%" permid="LTx">
-            <image source="images/1_4_Ez3b"/>
-          </sidebyside>
-        </sbsgroup>
-      </figure>
-    </statement>
-    <answer permid="KOe">
-      <sbsgroup permid="iGU">
-        <sidebyside widths="86%" margins="0%" permid="saG">
-          <image source="images/1_4_Ez4aSoln"/>
-        </sidebyside>
-        <sidebyside widths="86%" margins="0%" permid="YhP">
-          <image source="images/1_4_Ez4bSoln"/>
-        </sidebyside>
-      </sbsgroup>
-    </answer>
-    <solution permid="eGV">
-      <p permid="wYU">
-        At any point where there is a jump in the graph of the derivative,
-        the derivative is undefined.
-        Normally we would draw an open circle at each end of the graph,
-        but those are omitted here for convenience of plotting.
-      </p>
-      <sbsgroup permid="OOd">
-        <sidebyside widths="86%" margins="7%" permid="EoY">
-          <image source="images/1_4_Ez4aSoln"/>
-        </sidebyside>
-        <sidebyside widths="86%" margins="7%" permid="kwh">
-          <image source="images/1_4_Ez4bSoln"/>
-        </sidebyside>
-      </sbsgroup>
-    </solution>
-  </exercise>
+
 </exercises>

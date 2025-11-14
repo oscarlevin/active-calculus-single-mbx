@@ -1,6 +1,6 @@
 <publication>
   <source webwork-problems="../generated-assets/webwork/webwork-representations.xml">
-    <version include="production static ed2"/>
+    <version include="static ed2"/>
     <directories external="../assets" generated="../generated-assets"
 		 />
   </source>
@@ -17,6 +17,7 @@
     <exercise-project statement="yes" hint="no" answer="no" solution="no" />
     <exercise-reading statement="no" hint="no" answer="no" solution="no"/>
     <exercise-worksheet statement="yes" hint="no" answer="no" solution="no" />
+    <worksheet left="13mm" right="13mm" top="13mm" bottom="13mm" />
   </common>
   <numbering>
     <divisions level="2" chapter-start="5" />

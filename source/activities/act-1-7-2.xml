@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,13 +12,14 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet label="ws-act-1-7-2">
    
     <activity xml:id="act-1-7-2" workspace="3cm">
       <introduction>
         <p>
       This activity builds on your work in <xref ref="PA-1-7">Preview Activity</xref>,
-      using the same function <m>f</m> as given by the graph that is repeated in the following figure>.
+      using the same function <m>f</m> as given by the graph that is repeated in the following figure.
       Assume that <m>f(2) = -2.5</m>.
     </p>
           <image width="47%" source="images/1_7_PA1"/>
@@ -67,7 +68,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="2.5cm" xml:id="act-1-7-2-task-2">
+      <task workspace="2cm" xml:id="act-1-7-2-task-2">
         <statement>
           <p>
             At which values of <m>a</m> does <m>f</m> have a limit,
@@ -94,7 +95,7 @@
           </p>
         </solution>
       </task>
-      <task workspace="2.5cm" xml:id="act-1-7-2-task-3">
+      <task workspace="2cm" xml:id="act-1-7-2-task-3">
         <statement>
           <p>
             State all values of <m>a</m> for which <m>f</m> is not continuous at <m>x = a</m>.

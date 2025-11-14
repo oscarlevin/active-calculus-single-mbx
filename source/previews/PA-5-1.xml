@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,22 +12,23 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet component="static" label="ws-PA-5-1">
    
     <exploration xml:id="PA-5-1">
       <introduction>
         <p>
-    Suppose that the following information is known about a function <m>f</m>:
-    the graph of its derivative,
-    <m>y = f'(x)</m>, is given in <xref ref="F-5-1-PA1">Figure</xref>.
-    Further, assume that <m>f'</m> is piecewise linear
-    (as pictured)
-    and that for <m>x \le 0</m> and <m>x \ge 6</m>, <m>f'(x) = 0</m>.
-    Finally, it is given that <m>f(0) = 1</m>.
-  </p>
+          Suppose that the following information is known about a function <m>f</m>:
+          the graph of its derivative,
+          <m>y = f'(x)</m>, is given in <xref ref="F-5-1-PA1">Figure</xref>.
+          Further, assume that <m>f'</m> is piecewise linear
+          (as pictured)
+          and that for <m>x \le 0</m> and <m>x \ge 6</m>, <m>f'(x) = 0</m>.
+          Finally, it is given that <m>f(0) = 1</m>.
+        </p>
         <figure xml:id="F-5-1-PA1">
           <caption>At left, the graph of <m>y = f'(x)</m>; at right, axes for plotting <m>y = f(x)</m>.</caption>
-          <image width="100%" source="images/5_1_PA1"/>
+          <image width="90%" source="images/5_1_PA1"/>
         </figure>
         <p/>
       </introduction>
@@ -39,8 +40,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="2.5cm" xml:id="PA-5-1-task-1">
         <statement>
@@ -49,8 +50,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="3cm" xml:id="PA-5-1-task-2">
         <statement>
@@ -59,8 +60,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="3cm" xml:id="PA-5-1-task-3">
         <statement>
@@ -73,8 +74,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="3cm" xml:id="PA-5-1-task-4">
         <statement>
@@ -85,8 +86,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
       <task workspace="3cm" xml:id="PA-5-1-task-5">
         <statement>
@@ -98,8 +99,8 @@
         </p>
         </statement>
         <hint/>
-        <answer/>
-        <solution/>
+         
+         
       </task>
     </exploration>
    

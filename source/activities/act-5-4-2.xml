@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2019                                                   -->
+<!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,19 +12,19 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet label="ws-act-5-4-2">
    
     <activity xml:id="act-5-4-2" workspace="7cm">
       <introduction>
         <p>
-      Evaluate each of the following indefinite integrals, using the provided hints.
-
-      </p>
+          Evaluate each of the following indefinite integrals, using the provided hints.
+        </p>
       </introduction>
-      <task workspace="6cm" xml:id="act-5-4-2-task-0">
+      <task workspace="5cm" xml:id="act-5-4-2-task-0">
         <statement>
           <p>
-            Evaluate <m>\int \arctan(x) \, dx</m> by using Integration by Parts with the substitution
+            Evaluate <m>\int \arctan(x) \, dx</m> by using integration by parts with the substitution
             <m>u = \arctan(x)</m> and <m>dv = 1 \, dx</m>.
           </p>
         </statement>
@@ -74,7 +74,7 @@
         </statement>
         <hint/>
         <answer>
-          <p><m>\int t^3 \sin(t^2) dt = \frac{1}{2} \left( -t^2 \cos\left(t^2 \right) + \sin\left(t^2\right) \right) </m>.
+          <p><m>\int t^3 \sin(t^2) dt = \frac{1}{2} \left( -t^2 \cos\left(t^2 \right) + \sin\left(t^2\right) \right) + C </m>.
           </p>
         </answer>
         <solution>
@@ -89,7 +89,7 @@
             <md><mrow>\int t^3 \sin(t^2) dt \amp = \frac{1}{2} \int z \sin(z) dz</mrow><mrow>\amp = \frac{1}{2} \left( -z \cos(z) + \int \cos(z) dz \right)</mrow><mrow>\amp = \frac{1}{2} \left( -z \cos(z) + \sin(z) \right)</mrow></md>
             Finally, we use <m>z = t^2</m> and obtain
             <me>
-              \int t^3 \sin(t^2) dt = \frac{1}{2} \left( -t^2 \cos\left(t^2 \right) + \sin\left(t^2\right) \right)
+              \int t^3 \sin(t^2) dt = \frac{1}{2} \left( -t^2 \cos\left(t^2 \right) + \sin\left(t^2\right) \right) + C
             </me>.
           </p>
         </solution>
