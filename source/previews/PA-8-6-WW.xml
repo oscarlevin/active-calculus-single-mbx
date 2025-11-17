@@ -39,7 +39,7 @@
             "When ${BM}S_n-S${EM} is negative, ${BM}a_n${EM} is positive.$BR",
             "When ${BM}S_n-S${EM} is positive, ${BM}a_n${EM} is positive.$BR",
             "When ${BM}S_n-S${EM} is negative, ${BM}a_n${EM} is negative.$BR",
-            "When ${BM}S_n-S${EM} is positive, ${BM}a_n${EM} is positive.$BR",
+            "When ${BM}S_n-S${EM} is positive, ${BM}a_n${EM} is negative.$BR",
             "${BM}S_n+a_n = S_{n+1}${EM}.$BR",
             ]],
             [0,3,6,7]
