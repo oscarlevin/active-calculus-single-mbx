@@ -77,7 +77,11 @@
 
     <xi:include href="./previews/PA-5-1-WW.xml" />
     <xi:include href="./previews/PA-5-1.xml" />
+
   </subsection>
+
+  <!-- this is a test sandbox file -->
+  <xi:include href="./proteus/proteus-5-1.xml" />
 
   <subsection>
     <title>Constructing the graph of an antiderivative</title>
