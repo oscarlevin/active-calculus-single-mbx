@@ -83,6 +83,8 @@
     <xi:include href="./previews/PA-5-3.xml" />
   </subsection>
 
+  <xi:include href="./proteus/proteus-5-3.xml" />
+
   <subsection>
     <title>Reversing the Chain Rule: First Steps</title>
     <p>

@@ -138,6 +138,8 @@
     <xi:include href="./previews/PA-5-2.xml" />
   </subsection>
 
+ <xi:include href="./proteus/proteus-5-2.xml" />
+
   <subsection>
     <title>The Second Fundamental Theorem of Calculus</title>
     <idx><h>Fundamental Theorem of Calculus</h><h>Second</h></idx>
