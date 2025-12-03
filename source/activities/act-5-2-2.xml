@@ -191,7 +191,7 @@
                   </coordinates>
                 </diagram>
               </prefigure>       
-            <description>ADD ALT TEXT TO THIS IMAGE</description></image>
+            <description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 
         </statement>
         <hint>
@@ -212,7 +212,7 @@
                   </coordinates>
                 </diagram>
               </prefigure>       
-            <description>ADD ALT TEXT TO THIS IMAGE</description></image>
+            <description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 
         </answer>
         <solution>
@@ -231,7 +231,7 @@
                   </coordinates>
                 </diagram>
               </prefigure>       
-            <description>ADD ALT TEXT TO THIS IMAGE</description></image>          
+            <description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>          
 
         </solution>
       </task>

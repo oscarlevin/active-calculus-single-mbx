@@ -19,7 +19,7 @@
           Consider the curve defined by the equation <m>y(y^2-1)(y-2) = x(x-1)(x-2)</m>,
           whose graph is pictured in the following figure.
         </p>
-        <image width="40%" source="images/2_7_Act2"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image width="40%" source="images/2_7_Act2"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
         <p>
           Through implicit differentiation, it can be shown that
           <me>

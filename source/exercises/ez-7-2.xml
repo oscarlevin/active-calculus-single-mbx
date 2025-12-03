@@ -68,7 +68,7 @@
             </li>
           </ol>
         </p>
-        <image source="images/7_2_ex_1"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image source="images/7_2_ex_1"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
       </sidebyside>
     </statement>
     <answer permid="Tfx">
@@ -76,7 +76,7 @@
         <ol marker="a." permid="oNB">
           <li permid="KvF">
             <sidebyside width="50%" permid="YUJ">
-              <image source="images/7_2_Ez1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/7_2_Ez1Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
           <li permid="qCO">
@@ -107,7 +107,7 @@
               we see the following slope field.
             </p>
             <sidebyside width="50%" permid="FbS">
-              <image source="images/7_2_Ez1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/7_2_Ez1Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
           <li permid="Pfy">
@@ -163,7 +163,7 @@
         where <m>f(P)</m> is the function graphed below.
       </p>
       <sidebyside width="47%" permid="ljb">
-        <image source="images/7_1_threshold"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image source="images/7_1_threshold"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
       </sidebyside>
       <p permid="XIm">
         <ol marker="a." permid="txu">
@@ -207,7 +207,7 @@
         <ol marker="a." permid="UUK">
           <li permid="MkS">
             <sidebyside width="50%" permid="Rqk">
-              <image source="images/7_2_Ez2Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/7_2_Ez2Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
           <li permid="ssb">
@@ -255,7 +255,7 @@
               This leads us to sketch a direction field like the following.
             </p>
             <sidebyside width="50%" permid="xxt">
-              <image source="images/7_2_Ez2Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/7_2_Ez2Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
           <li permid="xbU">
@@ -361,7 +361,7 @@
               (stable).
             </p>
             <sidebyside width="50%" permid="dEC">
-              <image source="images/7_2_Ez3Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/7_2_Ez3Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
           <li permid="GvG">
@@ -419,7 +419,7 @@
               We conclude that the equilibrium solution <m>P=6</m> is stable.
             </p>
             <sidebyside width="50%" permid="JLL">
-              <image source="images/7_2_Ez3Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/7_2_Ez3Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
           <li permid="Lfz">

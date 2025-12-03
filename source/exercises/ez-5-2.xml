@@ -211,7 +211,7 @@
         <m>F(6.5) = 8.12</m>.
       </p>
       <sidebyside width="80%" permid="MjS">
-        <image source="images/5_2_Ez1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image source="images/5_2_Ez1Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
       </sidebyside>
     </answer>
     <solution permid="pwv">
@@ -248,7 +248,7 @@
         we put all of this information to work and sketch an approximate graph of <m>y = F(x)</m>.
       </p>
       <sidebyside width="80%" permid="srb">
-        <image source="images/5_2_Ez1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image source="images/5_2_Ez1Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
       </sidebyside>
     </solution>
   </exercise>

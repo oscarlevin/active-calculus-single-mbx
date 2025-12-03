@@ -161,14 +161,14 @@
       </statement>
       <hint/>
       <answer>
-        <image width="50%" source="images/8a_2_act_2_soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image width="50%" source="images/8a_2_act_2_soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
         <p><m>T_4(x)</m> provides a much more accurate approximation of <m>f(x)</m> than <m>T_1(x)</m>.	</p>
         
       </answer>
       <solution>
         <p>
           Plotting <m>f(x) = \ln(x)</m>, <m>T_1(x) = x - 1</m>, and <m>T_4(x)</m> to the figure,</p>
-          <image width="50%" source="images/8a_2_act_2_soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image width="50%" source="images/8a_2_act_2_soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
           <p>we notice that <m>T_4(x)</m> provides a much more accurate approximation of <m>f(x)</m> than <m>T_1(x)</m>.	
           </p>
         </solution>

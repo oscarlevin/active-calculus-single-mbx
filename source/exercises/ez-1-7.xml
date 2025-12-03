@@ -95,7 +95,7 @@
           </li>
           <li permid="lQi">
             <sidebyside width="100%" permid="jrb">
-              <image source="images/1_7_Ez2_Soln-updated"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/1_7_Ez2_Soln-updated"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
         </ol>
@@ -138,7 +138,7 @@
               which is reflected by open circles in the following plot.
             </p>
             <sidebyside width="100%" permid="Pyk">
-              <image source="images/1_7_Ez2_Soln-updated"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/1_7_Ez2_Soln-updated"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
         </ol>
@@ -219,7 +219,7 @@
           </li>
           <li permid="Hym">
             <sidebyside width="50%" permid="vFt">
-              <image source="images/1_7_Ez1_Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/1_7_Ez1_Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
         </ol>
@@ -256,7 +256,7 @@
               A possible function <m>p</m> that has the desired properties is shown in the following figure.
             </p>
             <sidebyside width="50%" permid="bMC">
-              <image source="images/1_7_Ez1_Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/1_7_Ez1_Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
         </ol>
@@ -329,7 +329,7 @@
               Two of the many possible graphs for <m>h</m> are shown in the following figure.
             </p>
             <sidebyside width="100%" permid="xSd">
-              <image source="images/1_7_Ez3_Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/1_7_Ez3_Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
         </ol>
@@ -370,7 +370,7 @@
               which also has derivative <m>h'</m>.
             </p>
             <sidebyside width="100%" permid="HTL">
-              <image source="images/1_7_Ez3_Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/1_7_Ez3_Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
         </ol>
@@ -499,7 +499,7 @@
           </li>
           <li permid="ueB">
             <sidebyside width="100%" permid="Uid">
-              <image source="images/1_7_Ez4_Soln-updated"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/1_7_Ez4_Soln-updated"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
         </ol>
@@ -605,7 +605,7 @@
               An approximate graph of <m>g'</m> is shown at right in the figure below.
             </p>
             <sidebyside width="100%" permid="gwv">
-              <image source="images/1_7_Ez4_Soln-updated"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/1_7_Ez4_Soln-updated"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
         </ol>

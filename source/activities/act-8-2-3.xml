@@ -151,7 +151,7 @@
         </statement>
         <hint/>
         <answer>
-          <image width="50%" source="images/8a_2_act_3_soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image width="50%" source="images/8a_2_act_3_soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
           <p><m>T_4(x)</m> provides a much better approximation of <m>f(x)</m> near <m>a = 2</m> and on a wider interval.
           </p>
         </answer>
@@ -159,7 +159,7 @@
           <p>
             Plotting <m>f(x) = \ln(x)</m>, <m>T_1(x) = \ln(2) + \frac{1}{2}(x - 2)</m>, and <m>T_4(x)</m>,
           </p>
-          <image width="50%" source="images/8a_2_act_3_soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image width="50%" source="images/8a_2_act_3_soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
           <p>
             we observe, as expected, that <m>T_4(x)</m> provides a much better approximation of <m>f(x)</m> near <m>a = 2</m> and on a wider interval.
           </p>

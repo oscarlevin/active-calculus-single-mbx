@@ -81,7 +81,7 @@
         <m>\lim_{x \to 3} h(x) = -2</m>.
       </p>
       <sidebyside width="50%" permid="GtG">
-        <image source="images/2_8_Ez1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image source="images/2_8_Ez1Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
       </sidebyside>
     </answer>
     <solution permid="cbK">
@@ -101,7 +101,7 @@
         Hence, <m>\lim_{x \to 3} h(x) = -2</m>.
       </p>
       <sidebyside width="50%" permid="mAP">
-        <image source="images/2_8_Ez1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image source="images/2_8_Ez1Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
       </sidebyside>
     </solution>
   </exercise>
@@ -127,7 +127,7 @@
         <m>(a, \frac{3(a-b)}{5(a-c)})</m>. <m>R</m> is not continuous at <m>x = a</m> and <m>x = c</m>.
       </p>
       <sidebyside width="50%" permid="SHY">
-        <image source="images/2_8_Ez2Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image source="images/2_8_Ez2Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
       </sidebyside>
     </answer>
     <solution permid="oqc">
@@ -165,7 +165,7 @@
         A possible graph of <m>R</m> is shown in the following figure.
       </p>
       <sidebyside width="50%" permid="yPh">
-        <image source="images/2_8_Ez2Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image source="images/2_8_Ez2Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
       </sidebyside>
     </solution>
   </exercise>

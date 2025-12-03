@@ -61,7 +61,7 @@
         Using the given information, we construct the figure shown below.
       </p>
       <sidebyside permid="jNN">
-        <image source="images/3_5_Ez1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image source="images/3_5_Ez1Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
       </sidebyside>
       <p permid="Wuc">
         As pictured,
@@ -150,7 +150,7 @@
         The height of the triangular cross section is <m>h</m> and the length is distance of the dotted line indicated in the figure.
       </p>
       <sidebyside width="65%" permid="PUW">
-        <image source="images/3_5_Ez2Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image source="images/3_5_Ez2Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
       </sidebyside>
       <p permid="uWM">
         Placing the cross section on a coordinate system as in the figure,
@@ -210,7 +210,7 @@
         See the figure below.
       </p>
       <sidebyside permid="wcf">
-        <image source="images/3_5_Ez3Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image source="images/3_5_Ez3Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
       </sidebyside>
       <p permid="Hle">
         Each of <m>x</m>, <m>z</m>,

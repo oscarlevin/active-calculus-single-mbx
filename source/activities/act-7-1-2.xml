@@ -60,7 +60,7 @@
                 </coordinates>
               </diagram>
               </prefigure>
-            <description>ADD ALT TEXT TO THIS IMAGE</description></image>
+            <description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 
             <image>
               <prefigure xmlns="https://prefigure.org" label="Fig-7-1-2-act-axes">
@@ -71,7 +71,7 @@
                   </coordinates>
                 </diagram>              
               </prefigure>
-            <description>ADD ALT TEXT TO THIS IMAGE</description></image>
+            <description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 
           </sidebyside>
 
@@ -128,7 +128,7 @@
                 </coordinates>
               </diagram>
               </prefigure>
-            <description>ADD ALT TEXT TO THIS IMAGE</description></image>
+            <description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 
           </sidebyside>
 
@@ -158,7 +158,7 @@
                   </coordinates>             
                 </diagram>              
               </prefigure>
-            <description>ADD ALT TEXT TO THIS IMAGE</description></image>          
+            <description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>          
 
         </answer>
         <solution>
@@ -185,7 +185,7 @@
                   </coordinates>             
                 </diagram>              
               </prefigure>
-            <description>ADD ALT TEXT TO THIS IMAGE</description></image>          
+            <description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>          
 
         </solution>
       </task>

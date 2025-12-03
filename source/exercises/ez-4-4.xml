@@ -97,7 +97,7 @@
               <m>g(x) = -\frac{5}{4}(x - 5)</m> on <m>5 \le x \le 7</m>.
             </p>
             <sidebyside width="50%" permid="AjI">
-              <image source="images/4_4_Ez2Solnc"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/4_4_Ez2Solnc"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
         </ol>
@@ -122,7 +122,7 @@
               </md>.
             </p>
             <sidebyside width="50%" permid="gqR">
-              <image source="images/4_4_Ez2Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/4_4_Ez2Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
           <li permid="HsI">
@@ -166,7 +166,7 @@
               A graph of <m>g</m> is shown in the figure below.
             </p>
             <sidebyside width="50%" permid="Mya">
-              <image source="images/4_4_Ez2Solnc"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/4_4_Ez2Solnc"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
         </ol>

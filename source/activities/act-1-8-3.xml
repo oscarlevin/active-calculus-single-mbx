@@ -345,7 +345,7 @@
                   </coordinates>
                 </diagram>
               </prefigure>
-            <description>ADD ALT TEXT TO THIS IMAGE</description></image>
+            <description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             <p>
               Since <m>f''(3) = 0.2</m> ande <m>g''(3)=-1</m>, <m>g</m> has <q>more</q> concavity at <m>x = 3</m> than <m>f</m>, so <m>L(x)</m> is a closer approximation of the value of <m>f(x)</m> than of the value of <m>g(x)</m> near <m>x = 3</m>.
             </p>
@@ -371,7 +371,7 @@
                   <!-- <point p="(b,f(b))" alignment="se" clear-background="yes"><m>(2,f(2))</m></point> -->
                 </coordinates></diagram>
               </prefigure>
-            <description>ADD ALT TEXT TO THIS IMAGE</description></image>
+            <description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             <p>
               In the figure, we see how <m>g(x)</m> bends away from <m>L(x)</m> faster than <m>f(x)</m> does.  This is because <m>f''(3) = 0.2</m>, while <m>g''(3)=-1</m>, so <m>g</m> has <q>more</q> concavity at <m>x = 3</m> than <m>f</m>.  As a result, <m>L(x)</m> is a closer approximation of the value of <m>f(x)</m> than of the value of <m>g(x)</m> near <m>x = 3</m>.
             </p>
