@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -30,8 +31,7 @@
   </p>
         <figure xml:id="F-1-5-PA1">
           <caption>The graph of <m>y = s(t)</m>, the position of the car along highway 46, which tells its distance in miles from Gackle, ND, at time <m>t</m> in minutes.</caption>
-          <image width="47%" source="images/1_5_PA1"><description>The graph of <m>y = s(t)</m>, the position of the car along highway 46, which tells its distance in miles from Gackle, ND, at time <m>t</m> in minutes.</description>
-          </image>
+          <image width="47%" source="images/1_5_PA1"/>
         </figure>
         <p/>
       </introduction>

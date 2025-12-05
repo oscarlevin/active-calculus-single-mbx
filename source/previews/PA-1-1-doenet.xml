@@ -64,8 +64,7 @@
             <li>Landing point: <mathInput name="lands"/></li>
           </ul>
           <answer> <award><when> $$f($A.x) = $A.y and $$f($B.x) = $B.y  and $$f($C.x)=$C.y and $$f($D.x)=$D.y and $$f($E.x)=$E.y and $$f($F.x)=$F.y and $start=(0,48) and $highest=(1,64) and $lands = (3,0)</when></award></answer>
-          <!-- MTK commented out the hint because the less than sign in the attribute is invalid and lxml throws an error. -->
-          <!-- <hint hide="($start.nSubmissions < 2) and ($highest.nSubmissions < 2) and ($lands.nSubmissions < 2)">Your answers should be ordered pairs of the form <m>(x,y)</m>.</hint> -->
+          <hint hide="($start.nSubmissions < 2) and ($highest.nSubmissions < 2) and ($lands.nSubmissions < 2)">Your answers should be ordered pairs of the form <m>(x,y)</m>.</hint>
 
            <!-- End of Interactive Answers -->
         </li>

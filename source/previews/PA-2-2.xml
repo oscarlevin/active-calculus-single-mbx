@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -20,7 +21,7 @@
     which is graphed in the provided figure.
 
     </p>
-          <image width="60%" source="images/2_2_PA1a"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image width="60%" source="images/2_2_PA1a"/>
 
       </introduction>
       <task workspace="0.2cm" xml:id="PA-2-2-task-0">
