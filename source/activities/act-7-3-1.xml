@@ -77,7 +77,7 @@
                 <cell/>
               </row>
             </tabular>
-            <image width="70%" source="images/7_3_euler_empty"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+            <image width="70%" source="images/7_3_euler_empty"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
           </sidebyside>
         </statement>
         <answer>
@@ -128,7 +128,7 @@
               </row>
             </tabular>
 
-            <image source="images/7_3_Act1_soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+            <image source="images/7_3_Act1_soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
           </sidebyside>
         </answer>
         <solution>
@@ -183,7 +183,7 @@
               </row>
             </tabular>
 
-            <image source="images/7_3_Act1_soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+            <image source="images/7_3_Act1_soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
           </sidebyside>          
         </solution>
       </task>

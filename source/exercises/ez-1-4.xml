@@ -84,7 +84,7 @@
               See the figure below.
             </p>
             <sidebyside width="100%" permid="uVm">
-              <image source="images/1_4_Ez1Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+              <image source="images/1_4_Ez1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
             </sidebyside>
           </li>
           <li permid="sKA">
@@ -117,7 +117,7 @@
               A plot of <m>f'</m> is shown at right in the figure below.
             </p>
             <sidebyside width="100%" permid="bcv">
-              <image source="images/1_4_Ez1Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+              <image source="images/1_4_Ez1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
             </sidebyside>
           </li>
           <li permid="lgb">
@@ -196,7 +196,7 @@
           </li>
           <li permid="VXd">
             <sidebyside width="50%" permid="HjE">
-              <image source="images/1_4_Ez2bSoln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+              <image source="images/1_4_Ez2bSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
             </sidebyside>
           </li>
           <li permid="Cem">
@@ -235,7 +235,7 @@
           </li>
           <li permid="uzN">
             <sidebyside width="50%" permid="nqN">
-              <image source="images/1_4_Ez2bSoln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+              <image source="images/1_4_Ez2bSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
             </sidebyside>
             <p permid="COg">
               In the above figure, we see plots of both <m>g</m> and <m>g'</m>.
@@ -321,10 +321,10 @@
     <answer permid="KOe">
       <sbsgroup permid="iGU">
         <sidebyside widths="86%" margins="0%" permid="saG">
-          <image source="images/1_4_Ez4aSoln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+          <image source="images/1_4_Ez4aSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
         </sidebyside>
         <sidebyside widths="86%" margins="0%" permid="YhP">
-          <image source="images/1_4_Ez4bSoln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+          <image source="images/1_4_Ez4bSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
         </sidebyside>
       </sbsgroup>
     </answer>
@@ -337,10 +337,10 @@
       </p>
       <sbsgroup permid="OOd">
         <sidebyside widths="86%" margins="7%" permid="EoY">
-          <image source="images/1_4_Ez4aSoln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+          <image source="images/1_4_Ez4aSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
         </sidebyside>
         <sidebyside widths="86%" margins="7%" permid="kwh">
-          <image source="images/1_4_Ez4bSoln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+          <image source="images/1_4_Ez4bSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
         </sidebyside>
       </sbsgroup>
     </solution>
@@ -412,7 +412,7 @@
           </li>
           <li permid="DTz">
             <sidebyside width="90%" permid="TxW">
-              <image source="images/1_4_Ez3Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+              <image source="images/1_4_Ez3Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
             </sidebyside>
           </li>
         </ol>
@@ -453,7 +453,7 @@
           </li>
           <li permid="cwj">
             <sidebyside width="90%" permid="zFf">
-              <image source="images/1_4_Ez3Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+              <image source="images/1_4_Ez3Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
             </sidebyside>
           </li>
         </ol>

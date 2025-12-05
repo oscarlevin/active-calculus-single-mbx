@@ -22,7 +22,7 @@
           </me>
           with the graph of <m>\frac{dP}{dt}</m> vs.<nbsp/><m>P</m> shown below.
         </p>
-        <image width="50%" source="images/7_6_activity_2"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+        <image width="50%" source="images/7_6_activity_2"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
       </introduction>
       <task workspace="3cm" xml:id="act-7-6-2-task-0">
         <statement>

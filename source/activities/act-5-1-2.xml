@@ -30,7 +30,7 @@
         </statement>
         <hint/>
         <answer>
-          <image width="50%" source="images/5_1_act_2_soln_a1"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+          <image width="50%" source="images/5_1_act_2_soln_a1"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
         </answer>
         <solution>
           <p>
@@ -41,7 +41,7 @@
             Other antiderivatives that satisfy
             <m>F(0) = 2</m> and <m>H(0) = 0</m> are also shown.
           </p>
-          <image width="50%" source="images/5_1_act_2_soln_a1"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+          <image width="50%" source="images/5_1_act_2_soln_a1"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
         </solution>
       </task>
       <task workspace="9cm" xml:id="act-5-1-2-task-1">
@@ -74,14 +74,14 @@
         </statement>
         <hint/>
         <answer>
-          <image width="50%" source="images/5_1_act_2_soln_c1"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+          <image width="50%" source="images/5_1_act_2_soln_c1"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
         </answer>
         <solution>
           <p>
             A possible antiderivative <m>P</m> that satifies
             <m>P(0) = 1</m> is shown in the figure below.
           </p>
-          <image width="50%" source="images/5_1_act_2_soln_c1"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+          <image width="50%" source="images/5_1_act_2_soln_c1"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
         </solution>
       </task>
     </activity>

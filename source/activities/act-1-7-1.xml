@@ -176,7 +176,7 @@
             Be sure to carefully use open circles (&#9675;) and filled circles (&#9679;) to represent key points on the graph,
             as dictated by the piecewise formula.
           </p>
-          <image width="47%" source="images/1_7_Act1"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+          <image width="47%" source="images/1_7_Act1"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
         </statement>
         <hint>
           <p>
@@ -184,10 +184,10 @@
           </p>
         </hint>
         <answer>
-           <image width="40%" source="images/1_7_Act1Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+           <image width="40%" source="images/1_7_Act1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
         </answer>
         <solution>
-          <image width="40%" source="images/1_7_Act1Soln"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+          <image width="40%" source="images/1_7_Act1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
         </solution>
       </task>
     </activity>
