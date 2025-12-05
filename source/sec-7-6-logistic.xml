@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-7-6-logistic">
   <title>Population growth and the logistic equation</title>
   <objectives>
@@ -43,8 +45,8 @@
       let's consider again two important differential equations that we have seen in earlier work this chapter.
     </p>
 
-    <xi:include href="./previews/PA-7-6-WW.xml"/>
-    <xi:include href="./previews/PA-7-6.xml"/>
+    <xi:include href="./previews/PA-7-6-WW.xml" />
+    <xi:include href="./previews/PA-7-6.xml" />
   </subsection>
 
   <subsection>
@@ -144,8 +146,7 @@
 
     <figure xml:id="F-7-6-census">
       <caption>A plot of per capita growth rate vs.<nbsp/>population <m>P</m>.</caption>
-      <image width="50%" source="images/7_6_census"><description>A plot of per capita growth rate vs.<nbsp/>population <m>P</m>.</description>
-      </image>
+      <image width="50%" source="images/7_6_census"/>
     </figure>
 
     <p>
@@ -158,10 +159,8 @@
     <figure xml:id="F-7-6-census1">
       <caption>The line that approximates per capita growth as a function of population, <m>P</m>.</caption>
       <sidebyside widths="47% 47%" margins="0%">
-        <image source="images/7_6_census_1"><description>The line that approximates per capita growth as a function of population, <m>P</m>.</description>
-      </image>
-        <image source="images/7_6_census_2"><description>The line that approximates per capita growth as a function of population, <m>P</m>.</description>
-      </image>
+        <image source="images/7_6_census_1"/>
+        <image source="images/7_6_census_2"/>
       </sidebyside>
 
     </figure>
@@ -191,8 +190,7 @@
 
     <figure xml:id="F-7-6logistic">
       <caption>A plot of <m>\frac{dP}{dt}</m> vs.<nbsp/><m>P</m> for the differential equation <m>\frac{dP}{dt} = P(0.025 - 0.002P)</m>.</caption>
-      <image width="50%" source="images/7_6_logistic_de"><description>A plot of <m>\frac{dP}{dt}</m> vs.<nbsp/><m>P</m> for the differential equation <m>\frac{dP}{dt} = P(0.025 - 0.002P)</m>.</description>
-      </image>
+      <image width="50%" source="images/7_6_logistic_de"/>
     </figure>
 
     <p>
@@ -384,8 +382,7 @@
 
     <figure xml:id="F-7-6-logistic-sol">
       <caption>The solution to the logistic equation modeling the earth's population.</caption>
-      <image width="50%" source="images/7_6_logistic_sol"><description>The solution to the logistic equation modeling the earth's population.</description>
-      </image>
+      <image width="50%" source="images/7_6_logistic_sol"/>
     </figure>
 
     <p>

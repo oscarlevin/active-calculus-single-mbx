@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-4-2-Riemann">
   <title>Riemann sums</title>
   <objectives>
@@ -65,8 +67,7 @@
 
       <figure xml:id="F-4-2-Intro">
         <caption>A velocity function that is sometimes negative.</caption>
-        <image source="images/4_2_Intro"><description>A velocity function that is sometimes negative.</description>
-        </image>
+        <image source="images/4_2_Intro"/>
       </figure>
     </sidebyside>
 
@@ -91,11 +92,11 @@
       we consider three different options for the heights of the rectangles we will use.
     </p>
 
-    <xi:include href="./previews/PA-4-2-WW.xml"/>
-    <xi:include href="./previews/PA-4-2.xml"/>
+    <xi:include href="./previews/PA-4-2-WW.xml" />
+    <xi:include href="./previews/PA-4-2.xml" />
   </subsection>
 
-  <xi:include href="./proteus/proteus-4-2.xml"/>
+  <xi:include href="./proteus/proteus-4-2.xml" />
 
   <subsection xml:id="sigma-notation" permid="jCJ">
     <title>Sigma Notation</title>
@@ -168,8 +169,7 @@
 
     <figure xml:id="F-4-2-Interval">
       <caption>Subdividing the interval <m>[a,b]</m> into <m>n</m> subintervals of equal length <m>\Delta x</m>.</caption>
-      <image width="80%" source="images/4_2_Interval"><description>Subdividing the interval <m>[a,b]</m> into <m>n</m> subintervals of equal length <m>\Delta x</m>.</description>
-      </image>
+      <image width="80%" source="images/4_2_Interval"/>
     </figure>
 
     <p>
@@ -219,8 +219,7 @@
 
     <figure xml:id="F-4-2-LeftSum">
       <caption>Subdividing the interval <m>[a,b]</m> into <m>n</m> subintervals of equal length <m>\Delta x</m> and approximating the area under <m>y = f(x)</m> over <m>[a,b]</m> using left rectangles.</caption>
-      <image width="65%" source="images/4_2_LeftSum"><description>Subdividing the interval <m>[a,b]</m> into <m>n</m> subintervals of equal length <m>\Delta x</m> and approximating the area under <m>y = f(x)</m> over <m>[a,b]</m> using left rectangles.</description>
-      </image>
+      <image width="65%" source="images/4_2_LeftSum"/>
     </figure>
 
     <p>
@@ -239,8 +238,7 @@
 
     <figure xml:id="F-4-2-RightMidSum">
       <caption>Riemann sums using right endpoints and midpoints.</caption>
-      <image width="100%" source="images/4_2_RightMidSum"><description>Riemann sums using right endpoints and midpoints.</description>
-      </image>
+      <image width="100%" source="images/4_2_RightMidSum"/>
     </figure>
 
     <p>
@@ -300,8 +298,7 @@
 
     <figure xml:id="F-4-2-RenaultAppletRS">
       <caption>A snapshot of the interactive graphic found at <url href="https://gvsu.edu/s/a9" visual="">gvsu.edu/s/a9</url>.</caption>
-      <image width="71%" source="images/4_2_RenaultAppletRS"><description>A snapshot of the interactive graphic found at <url href="https://gvsu.edu/s/a9" visual="">gvsu.edu/s/a9</url>.</description>
-      </image>
+      <image width="71%" source="images/4_2_RenaultAppletRS"/>
     </figure>
 
     <p>
@@ -365,8 +362,7 @@
 
     <figure xml:id="F-4-2-NegF">
       <caption>At left and center, two left Riemann sums for a function <m>f</m> that is sometimes negative; at right, the areas bounded by <m>f</m> on the interval <m>[a,d]</m>.</caption>
-      <image width="100%" source="images/4_2_NegF"><description>At left and center, two left Riemann sums for a function <m>f</m> that is sometimes negative; at right, the areas bounded by <m>f</m> on the interval <m>[a,d]</m>.</description>
-      </image>
+      <image width="100%" source="images/4_2_NegF"/>
     </figure>
 
     <p>

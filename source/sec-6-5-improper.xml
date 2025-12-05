@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-6-5-improper">
   <title>Improper integrals</title>
   <objectives>
@@ -65,8 +67,8 @@
       Clearly we can adjust the limits of integration to measure the fraction of light bulbs that fail during any time period of interest.
     </p>
 
-    <xi:include href="./previews/PA-6-5-WW.xml"/>
-    <xi:include href="./previews/PA-6-5.xml"/>
+    <xi:include href="./previews/PA-6-5-WW.xml" />
+    <xi:include href="./previews/PA-6-5.xml" />
   </subsection>
 
   <subsection>
@@ -95,8 +97,7 @@
 
     <figure xml:id="F-6-5-InfReg">
       <caption>At left, the area bounded by <m>p(t) = 0.3e^{-0.3t}</m> on the finite interval <m>[0,b]</m>; at right, the result of letting <m>b \to \infty</m>.  By <q><m>\cdots</m></q> in the righthand figure, we mean that the region extends to the right without bound.</caption>
-      <image width="80%" source="images/6_5_InfReg"><description>At left, the area bounded by <m>p(t) = 0.3e^{-0.3t}</m> on the finite interval <m>[0,b]</m>; at right, the result of letting <m>b \to \infty</m>.  By <q><m>\cdots</m></q> in the righthand figure, we mean that the region extends to the right without bound.</description>
-      </image>
+      <image width="80%" source="images/6_5_InfReg"/>
     </figure>
 
     <p>
@@ -176,8 +177,7 @@
 
     <figure xml:id="F-6-5-InfIntegrand">
       <caption>At left, the area bounded by <m>f(x) = \frac{1}{\sqrt{x}}</m> on the finite interval <m>[a,1]</m>; at right, the result of letting <m>a \to 0^+</m>, where we see that the shaded region will extend vertically without bound.</caption>
-      <image width="80%" source="images/6_5_InfIntegrand"><description>At left, the area bounded by <m>f(x) = \frac{1}{\sqrt{x}}</m> on the finite interval <m>[a,1]</m>; at right, the result of letting <m>a \to 0^+</m>, where we see that the shaded region will extend vertically without bound.</description>
-      </image>
+      <image width="80%" source="images/6_5_InfIntegrand"/>
     </figure>
 
     <p>
@@ -226,8 +226,7 @@
 
     <figure xml:id="F-6-5-InfIntegrand2">
       <caption>The function <m>f(x) = \frac{1}{(x-2)^2}</m> on an interval including <m>x = 2</m>.</caption>
-      <image width="47%" source="images/6_5_InfIntegrand2"><description>The function <m>f(x) = \frac{1}{(x-2)^2}</m> on an interval including <m>x = 2</m>.</description>
-      </image>
+      <image width="47%" source="images/6_5_InfIntegrand2"/>
     </figure>
 
     <p>

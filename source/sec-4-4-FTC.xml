@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-4-4-FTC">
   <title>The Fundamental Theorem of Calculus</title>
   <objectives>
@@ -73,8 +75,7 @@
 
     <figure xml:id="F-4-4-Intro">
       <caption>A velocity function that is sometimes negative.</caption>
-      <image width="40%" source="images/4_2_Intro"><description>A velocity function that is sometimes negative.</description>
-      </image>
+      <image width="40%" source="images/4_2_Intro"/>
     </figure>    
 
   </sidebyside>
@@ -83,11 +84,11 @@
       We now turn our attention to an alternate approach.
     </p>
 
-    <xi:include href="./previews/PA-4-4-WW.xml"/>
-    <xi:include href="./previews/PA-4-4.xml"/>
+    <xi:include href="./previews/PA-4-4-WW.xml" />
+    <xi:include href="./previews/PA-4-4.xml" />
   </subsection>
 
-  <xi:include href="./proteus/proteus-4-4.xml"/>
+  <xi:include href="./proteus/proteus-4-4.xml" />
   
 
   <subsection permid="rJY">
@@ -119,8 +120,7 @@
 
     <figure xml:id="F-4-4-FTCVel">
       <caption>Finding distance traveled when we know a velocity function <m>v</m>.</caption>
-      <image width="27%" source="images/4_4_FTCVel"><description>Finding distance traveled when we know a velocity function <m>v</m>.</description>
-      </image>
+      <image width="27%" source="images/4_4_FTCVel"/>
     </figure>
   </sidebyside>
 
@@ -177,8 +177,7 @@
 
     <figure xml:id="F-4-4-FTCVel2">
       <caption>The exact area of the region enclosed by <m>v(t) = 3t^2 + 40</m> on <m>[1,5]</m>.</caption>
-      <image width="47%" source="images/4_4_FTCVel2"><description>The exact area of the region enclosed by <m>v(t) = 3t^2 + 40</m> on <m>[1,5]</m>.</description>
-      </image>
+      <image width="47%" source="images/4_4_FTCVel2"/>
     </figure>
 
     <p>
@@ -507,8 +506,7 @@
 
     <figure xml:id="F-4-4-TCT">
       <caption>The graphs of <m>f'(x) = 4 - 2x</m> (at left) and an antiderivative <m>f(x) = 4x - x^2</m> at right.  Differences in heights on <m>f</m> correspond to net signed areas bounded by <m>f'</m>.</caption>
-      <image width="65%" source="images/4_4_TCT"><description>The graphs of <m>f'(x) = 4 - 2x</m> (at left) and an antiderivative <m>f(x) = 4x - x^2</m> at right.  Differences in heights on <m>f</m> correspond to net signed areas bounded by <m>f'</m>.</description>
-      </image>
+      <image width="65%" source="images/4_4_TCT"/>
     </figure>
 
     <p>
@@ -533,8 +531,7 @@
         </p>  
           <figure xml:id="F-4-4-TCTEx">
             <caption>The rate <m>r(t)</m> of pollution leaking from a tank, measured in gallons per day.</caption>
-            <image width="47%" source="images/4_4_TCTEx"><description>The rate <m>r(t)</m> of pollution leaking from a tank, measured in gallons per day.</description>
-            </image>
+            <image width="47%" source="images/4_4_TCTEx"/>
           </figure>  
         <p>
           Since <m>r(t) \ge 0</m>,

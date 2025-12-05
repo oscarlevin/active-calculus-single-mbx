@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-6-1-area">
   <title>Using definite integrals to find area and length</title>
   <objectives>
@@ -52,8 +54,8 @@
       we investigate how a single definite integral may be used to represent the area between two curves.
     </p>
 
-    <xi:include href="./previews/PA-6-1-WW.xml"/>
-    <xi:include href="./previews/PA-6-1.xml"/>
+    <xi:include href="./previews/PA-6-1-WW.xml" />
+    <xi:include href="./previews/PA-6-1.xml" />
   </subsection>
 
   <subsection>
@@ -93,8 +95,7 @@
 
         <figure xml:id="F-6-1-PA1revisited">
           <caption>The areas bounded by the functions <m>f(x) = (x-1)^2 + 1</m> and <m>g(x) = x+2</m> on the interval <m>[0,3]</m>.</caption>
-          <image width="100%" source="images/6_1_PA1revisited"><description>The areas bounded by the functions <m>f(x) = (x-1)^2 + 1</m> and <m>g(x) = x+2</m> on the interval <m>[0,3]</m>.</description>
-          </image>
+          <image width="100%" source="images/6_1_PA1revisited"/>
         </figure>
 
         <p>
@@ -145,8 +146,7 @@
 
     <figure xml:id="F-6-1-PA1revisited2">
       <caption>The area bounded by the functions <m>f(x) = (x-1)^2 + 1</m> and <m>g(x) = x+2</m> on the interval <m>[0,3]</m>.</caption>
-      <image width="80%" source="images/6_1_PA1revisited2"><description>The area bounded by the functions <m>f(x) = (x-1)^2 + 1</m> and <m>g(x) = x+2</m> on the interval <m>[0,3]</m>.</description>
-      </image>
+      <image width="80%" source="images/6_1_PA1revisited2"/>
     </figure>
 
 
@@ -211,8 +211,7 @@
 
         <figure xml:id="F-6-1-IntWRTy">
           <caption>The area bounded by the functions <m>x = y^2-1</m> and <m>y = x-1</m> (at left), with the region sliced vertically (center) and horizontally (at right).</caption>
-          <image width="100%" source="images/6_1_IntWRTy"><description>The area bounded by the functions <m>x = y^2-1</m> and <m>y = x-1</m> (at left), with the region sliced vertically (center) and horizontally (at right).</description>
-          </image>
+          <image width="100%" source="images/6_1_IntWRTy"/>
         </figure>
       </statement>
       <solution>
@@ -310,8 +309,7 @@
 
     <figure xml:id="F-6-1-ArcLength">
       <caption>At left, a continuous function <m>y = f(x)</m> whose length we seek on the interval <m>a = x_0</m> to <m>b = x_3</m>.  At right, a close up view of a portion of the curve.</caption>
-      <image width="80%" source="images/6_1_ArcLength"><description>At left, a continuous function <m>y = f(x)</m> whose length we seek on the interval <m>a = x_0</m> to <m>b = x_3</m>.  At right, a close up view of a portion of the curve.</description>
-      </image>
+      <image width="80%" source="images/6_1_ArcLength"/>
     </figure>
 
     <p>

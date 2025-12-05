@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,7 +12,9 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <!-- This section was substantially revised in 2025 -->
+
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-1-5-units">
   <title>Interpreting, estimating, and using the derivative</title>
   <objectives>
@@ -54,12 +57,12 @@
       In this section, we investigate several functions with contextual physical meaning and consider how the units on the independent variable, dependent variable, and the derivative function add to our understanding.
     </p>
 
-    <xi:include href="./previews/PA-1-5-WW.xml"/> 
-    <xi:include href="./previews/PA-1-5.xml"/> 
+    <xi:include href="./previews/PA-1-5-WW.xml" /> 
+    <xi:include href="./previews/PA-1-5.xml" /> 
    
   </subsection>
 
-  <xi:include href="./proteus/proteus-1-5.xml"/>
+  <xi:include href="./proteus/proteus-1-5.xml" />
 
   <subsection xml:id="SS-1-5a-units-fprime">
     <title>Units of the derivative function</title>
@@ -138,7 +141,7 @@
         <p>
           The units on <m>T'(60)</m> in <xref ref="Ex-1-5a-2-time-speed">Example</xref> are <q>hours per (mile per hour)</q>, since the number of hours it takes to drive 50 miles depends on the speed (in miles per hour) at which we travel.  If we tried to simplify those units, we lose the meaning inherent to the context of the value of <m>T'(60)</m>.
         </p>
-   <xi:include href="./activities/act-1-5-1.xml"/>  
+   <xi:include href="./activities/act-1-5-1.xml" />  
   </subsection>
 
   <subsection>
@@ -240,8 +243,7 @@
     <figure xml:id="F-1-5a-central-diff">
       <caption>Plot of a function <m>f</m> that satisfies the data in <xref ref="Ex-1-5-1-central-difference">Example</xref>.</caption>
         <image width="35%">
-          <description>Plot of a function <m>f</m> that satisfies the data in <xref ref="Ex-1-5-1-central-difference">Example</xref>.</description>
-        <prefigure xmlns="https://prefigure.org" label="Fig-1-5a-CD">
+          <prefigure label="Fig-1-5a-CD" xmlns="https://prefigure.org">
             <diagram dimensions="(300,300)" margins="5">
               <definition>f(x) = 4-3*(0.5)^x</definition>
               <definition>a = 1</definition>
@@ -276,7 +278,7 @@
       is the slope of the secant line between the points <m>(a-h,f(a-h))</m> and <m>(a+h,f(a+h))</m>.
     </p>
 
-    <xi:include href="./activities/act-1-5-2.xml"/>
+    <xi:include href="./activities/act-1-5-2.xml" />
 
     <p>
       In <xref ref="sec-1-4-derivative-fxn">Section</xref>, we learned how use to the graph of a given function <m>f</m> to plot the graph of its derivative, <m>f'</m>.
@@ -285,7 +287,7 @@
       Notice that the vertical scales are different in size
       and different in units,
       as the units of <m>P</m> are
-      <degree/>F, while those of <m>P'</m> are <degree/>F/min.
+      <degree />F, while those of <m>P'</m> are <degree />F/min.
     </p>
 
 <!-- original image 
@@ -300,19 +302,21 @@
         <figure xml:id="Fig-1-5a-P">
             <caption>Plot of the temperature function, <m>P(t) = 212-148e^{-0.05t}</m>.</caption>
                 <image width="60%">
-                    <description>Plot of the temperature function, <m>P(t) = 212-148e^{-0.05t}</m>.</description>
-                <prefigure xmlns="https://prefigure.org" label="Fig-1-5a-P-1">
+                    <prefigure label="Fig-1-5a-P-1" xmlns="https://prefigure.org">
                       <diagram dimensions="(300,300)" margins="25">
                         <definition>f(x)=212-148*exp(-0.05*x)</definition>
                         <coordinates bbox="(-5,-25,88,345)">
                           <axes/> 
-                          <label anchor="(2,322)" alignment="e" justify="left" clear-background="yes">
+                          <label anchor="(2,322)" alignment="e" justify="left"
+                          clear-background="yes">
                             <m>^\circ \mbox{F}</m>
                           </label>
-                          <label anchor="(78,25)" alignment="e" justify="left" clear-background="yes">
+                          <label anchor="(78,25)" alignment="e" justify="left"
+                          clear-background="yes">
                             <m>\mbox{min}</m>
                           </label>    
-                          <label anchor="(50,225)" alignment="e" justify="left" clear-background="yes">
+                          <label anchor="(50,225)" alignment="e" justify="left"
+                          clear-background="yes">
                             <m>y=P(t)</m>
                           </label>  
                           <graph function="f"/>
@@ -325,20 +329,22 @@
         <figure xml:id="Fig-1-5a-PPrime">
             <caption>Plot of the temperature function's derivative, <m>P'(t)</m>.</caption>
                 <image width="60%">
-                    <description>Plot of the temperature function's derivative, <m>P'(t)</m>.</description>
-                <prefigure xmlns="https://prefigure.org" label="PA-1-5-PPrime-1">
+                    <prefigure label="PA-1-5-PPrime-1" xmlns="https://prefigure.org">
                       <diagram dimensions="(300,300)" margins="25">
                         <definition>f(x)=148*0.05*exp(-0.05*x)</definition>
                         <definition>a = 1</definition>
                         <coordinates bbox="(-5,-0.75,88,10.9)">
                           <axes/> 
-                          <label anchor="(2,10)" alignment="e" justify="left" clear-background="yes">
+                          <label anchor="(2,10)" alignment="e" justify="left"
+                          clear-background="yes">
                             <m>^\circ \mbox{F/min}</m>
                           </label>
-                          <label anchor="(78,0.9)" alignment="e" justify="left" clear-background="yes">
+                          <label anchor="(78,0.9)" alignment="e" justify="left"
+                          clear-background="yes">
                             <m>\mbox{min}</m>
                           </label>    
-                          <label anchor="(40,2.1)" alignment="e" justify="left" clear-background="yes">
+                          <label anchor="(40,2.1)" alignment="e" justify="left"
+                          clear-background="yes">
                             <m>y=P'(t)</m>
                           </label>  
                           <graph function="f"/>
@@ -352,7 +358,7 @@
 <!-- sample prefigure image from preview -->
  
 
-    <xi:include href="./activities/act-1-5-3.xml"/>
+    <xi:include href="./activities/act-1-5-3.xml" />
 
   </subsection>
 
@@ -390,5 +396,5 @@
     </p>
   </subsection>
 
-  <xi:include href="./exercises/ez-1-5.xml"/>
+  <xi:include href="./exercises/ez-1-5.xml" />
 </section>

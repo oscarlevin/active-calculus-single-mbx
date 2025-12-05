@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-7-2-qualitative">
   <title>Qualitative behavior of solutions to differential equations</title>
   <objectives>
@@ -66,8 +68,8 @@
       In the following Preview Activity, we consider a certain differential equation and explore how we can use the equation to find tangent lines to provide a kind of road map for an approximate solution.
     </p>
 
-    <xi:include href="./previews/PA-7-2-WW.xml"/>
-    <xi:include href="./previews/PA-7-2.xml"/>
+    <xi:include href="./previews/PA-7-2-WW.xml" />
+    <xi:include href="./previews/PA-7-2.xml" />
   </subsection>
 
   <subsection>
@@ -92,14 +94,12 @@
     <sidebyside widths="47% 47%" margins="0%">
       <figure xml:id="F-7-2-field-0">
         <caption>Tangent lines at points with <m>t=0</m>.</caption>
-        <image source="images/7_2_field_0"><description>Tangent lines at points with <m>t=0</m>.</description>
-        </image>
+        <image source="images/7_2_field_0"/>
       </figure>
 
       <figure xml:id="F-7-2-field-1">
         <caption>Adding tangent lines at points with <m>t=1</m>.</caption>
-        <image source="images/7_2_field_1"><description>Adding tangent lines at points with <m>t=1</m>.</description>
-        </image>
+        <image source="images/7_2_field_1"/>
       </figure>
     </sidebyside>
 
@@ -121,14 +121,12 @@
     <sidebyside widths="47% 47%" margins="0%">
       <figure xml:id="F-7-2-field-2">
         <caption>Adding tangent lines at points with <m>t=2</m> and <m>t=3</m>.</caption>
-        <image source="images/7_2_field_3"><description>Adding tangent lines at points with <m>t=2</m> and <m>t=3</m>.</description>
-        </image>
+        <image source="images/7_2_field_3"/>
       </figure>
 
       <figure xml:id="F-7-2-field-23">
         <caption>A completed slope field.</caption>
-        <image source="images/7_2_field_23"><description>A completed slope field.</description>
-        </image>
+        <image source="images/7_2_field_23"/>
       </figure>
     </sidebyside>
 
@@ -160,8 +158,7 @@
 
       <figure xml:id="F-7-2-field-31">
         -->
-        <image source="images/7_2_field_31"><description>A sequence of images that show how to sketch the IVP solution that satisfies <m>y(0)=1</m>.</description>
-      </image>
+        <image source="images/7_2_field_31"/>
         <!--
       </figure>
 
@@ -170,14 +167,12 @@
 
       <figure xml:id="F-7-2-field-32">
         -->
-        <image source="images/7_2_field_32"><description>A sequence of images that show how to sketch the IVP solution that satisfies <m>y(0)=1</m>.</description>
-      </image>
+        <image source="images/7_2_field_32"/>
         <!--
       </figure>
 
         -->
-        <image source="images/7_2_field_33"><description>A sequence of images that show how to sketch the IVP solution that satisfies <m>y(0)=1</m>.</description>
-      </image>
+        <image source="images/7_2_field_33"/>
       </sidebyside>
 
     </figure>
@@ -190,8 +185,7 @@
 
     <figure xml:id="F-7-2-field-4">
       <caption>Different solutions to <m>\frac{dy}{dt} = t-2</m> that correspond to different initial values.</caption>
-      <image width="40%" source="images/7_2_field_4"><description>Different solutions to <m>\frac{dy}{dt} = t-2</m> that correspond to different initial values.</description>
-      </image>
+      <image width="40%" source="images/7_2_field_4"/>
     </figure>
     <!-- </sbsgroup> -->
     <p>

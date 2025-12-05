@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+ 
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-5-6-num-int" oldpermid="hec">
   <title>Numerical integration</title>
   <objectives>
@@ -59,8 +61,7 @@
 
     <figure xml:id="F-5-6-LRMsum">
       <caption>Left, right, and middle Riemann sums for <m>y = f(x)</m> on <m>[1,8]</m> with 5 subintervals.</caption>
-      <image width="100%" source="images/5_6_LRMsum"><description>Left, right, and middle Riemann sums for <m>y = f(x)</m> on <m>[1,8]</m> with 5 subintervals.</description>
-      </image>
+      <image width="100%" source="images/5_6_LRMsum"/>
     </figure>
 
     <p>
@@ -98,8 +99,8 @@
       Our main goal is to develop formulas to estimate definite integrals accurately without using a large numbers of rectangles.
     </p>
 
-    <xi:include href="./previews/PA-5-6-WW.xml"/>
-    <xi:include href="./previews/PA-5-6.xml"/>
+    <xi:include href="./previews/PA-5-6-WW.xml" />
+    <xi:include href="./previews/PA-5-6.xml" />
   </subsection>
 
   <subsection>
@@ -125,8 +126,7 @@
 
     <figure xml:id="F-5-6-TRAP">
       <caption>Estimating <m>\int_a^b f(x) \  dx</m> using three subintervals and trapezoids, rather than rectangles, where <m>a = x_0</m> and <m>b = x_3</m>.</caption>
-      <image width="65%" source="images/5_6_TRAP"><description>Estimating <m>\int_a^b f(x) \  dx</m> using three subintervals and trapezoids, rather than rectangles, where <m>a = x_0</m> and <m>b = x_3</m>.</description>
-      </image>
+      <image width="65%" source="images/5_6_TRAP"/>
     </figure>
 
     <p>
@@ -230,8 +230,7 @@
 
     <figure xml:id="F-5-6-MidVTrap">
       <caption>Estimating <m>\int_a^b f(x) \  dx</m> using a single subinterval: at left, the trapezoid rule; in the middle, the midpoint rule; at right, a modified way to think about the midpoint rule.</caption>
-      <image width="100%" source="images/5_6_MidVTrap"><description>Estimating <m>\int_a^b f(x) \  dx</m> using a single subinterval: at left, the trapezoid rule; in the middle, the midpoint rule; at right, a modified way to think about the midpoint rule.</description>
-      </image>
+      <image width="100%" source="images/5_6_MidVTrap"/>
     </figure>
 
     <p>
@@ -268,8 +267,7 @@
 
     <figure xml:id="F-5-6-MidTrapError">
       <caption>Comparing the error in estimating <m>\int_a^b f(x) \  dx</m> using a single subinterval: in red, the error from the Trapezoid rule; in light red, the error from the Midpoint rule.</caption>
-      <image width="30%" source="images/5_6_MidTrapError"><description>Comparing the error in estimating <m>\int_a^b f(x) \  dx</m> using a single subinterval: in red, the error from the Trapezoid rule; in light red, the error from the Midpoint rule.</description>
-      </image>
+      <image width="30%" source="images/5_6_MidTrapError"/>
     </figure>
 
     <p>

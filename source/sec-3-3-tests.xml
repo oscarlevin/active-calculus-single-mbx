@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-3-tests">
   <title>Using derivatives to identify extreme values</title>
   <objectives>
@@ -54,8 +56,7 @@
 
     <figure xml:id="F-3-1-Intro">
       <caption>At left, <m>s(t) = -16t^2 + 24t + 32</m> whose vertex is <m>(\frac{3}{4}, 41)</m>; at right, a function <m>g</m> that demonstrates several high and low points.</caption>
-      <image width="100%" source="images/3_1_Intro"><description>At left, <m>s(t) = -16t^2 + 24t + 32</m> whose vertex is <m>(\frac{3}{4}, 41)</m>; at right, a function <m>g</m> that demonstrates several high and low points.</description>
-      </image>
+      <image width="100%" source="images/3_1_Intro"/>
     </figure>
 
     <definition>
@@ -127,19 +128,18 @@
       it is often straightforward to locate these important behaviors visually.
     </p>
 
-    <xi:include href="./previews/PA-3-3-WW.xml"/>
-    <xi:include href="./previews/PA-3-3.xml"/>
+    <xi:include href="./previews/PA-3-3-WW.xml" />
+    <xi:include href="./previews/PA-3-3.xml" />
   </subsection>
 
   <!-- lol hey look it is a matching / cardsort!!!!!! -->
-  <xi:include href="./proteus/proteus-3-1.xml"/>
+  <xi:include href="./proteus/proteus-3-1.xml" />
 
   <subsection>
     <title>Critical numbers and the first derivative test</title>
     <figure xml:id="F-3-1-extremes">
       <caption>Five different possible behaviors of a function near one of its critical numbers.</caption>
-      <image width="100%" source="images/3_1_extremes"><description>Five different possible behaviors of a function near one of its critical numbers.</description>
-      </image>
+      <image width="100%" source="images/3_1_extremes"/>
     </figure>
 
     <!--From left to right, a function with a relative maximum where its derivative is zero; a function with a relative maximum where its derivative is undefined; a function with neither a maximum nor a minimum at a point where its derivative is zero; a function with a relative minimum where its derivative is zero; and a function with a relative minimum where its derivative is undefined.-->
@@ -268,8 +268,7 @@
 
         <figure xml:id="F-3-1-signchart">
           <caption>The first derivative sign chart for a function <m>f</m> whose derivative is given by the formula <m>f'(x) = e^{-2x}(3-x)(x+1)^2</m>.</caption>
-          <image width="65%" source="images/3_1_signchart"><description>The first derivative sign chart for a function <m>f</m> whose derivative is given by the formula <m>f'(x) = e^{-2x}(3-x)(x+1)^2</m>.</description>
-          </image>
+          <image width="65%" source="images/3_1_signchart"/>
         </figure>
 
         <p>
@@ -302,8 +301,7 @@
 
     <figure xml:id="F-3-1-2Dtest">
       <caption>Four possible graphs of a function <m>f</m> with a horizontal tangent line at a critical point.</caption>
-      <image width="100%" source="images/3_1_2Dtest"><description>Four possible graphs of a function <m>f</m> with a horizontal tangent line at a critical point.</description>
-      </image>
+      <image width="100%" source="images/3_1_2Dtest"/>
     </figure>
 
     <p>
@@ -376,8 +374,7 @@
 
         <figure xml:id="F-3-1-signchart2">
           <caption>The first derivative sign chart for <m>f</m> when <m>f'(x) = 3x^4 - 9x^2 = 3x^2(x^2-3)</m>.</caption>
-          <image width="100%" source="images/3_1_signchart2"><description>The first derivative sign chart for <m>f</m> when <m>f'(x) = 3x^4 - 9x^2 = 3x^2(x^2-3)</m>.</description>
-          </image>
+          <image width="100%" source="images/3_1_signchart2"/>
         </figure>
 
         <p>
@@ -409,8 +406,7 @@
 
         <figure xml:id="F-3-1-signchart3">
           <caption>The second derivative sign chart for <m>f</m> when <m>f''(x) = 12x^3-18x = 12x^2\left(x^2-\frac{3}{2} \right)</m>.</caption>
-          <image width="100%" source="images/3_1_signchart3"><description>The second derivative sign chart for <m>f</m> when <m>f''(x) = 12x^3-18x = 12x^2\left(x^2-\frac{3}{2} \right)</m>.</description>
-          </image>
+          <image width="100%" source="images/3_1_signchart3"/>
         </figure>
 
         <p>
@@ -426,8 +422,7 @@
 
         <figure xml:id="F-3-1-Ex2">
           <caption>A possible graph of the function <m>f</m> in <xref ref="Ex-3-2">Example</xref>.</caption>
-          <image width="65%" source="images/3_1_Ex2"><description>A possible graph of the function <m>f</m> in <xref ref="Ex-3-2">Example</xref>.</description>
-          </image>
+          <image width="65%" source="images/3_1_Ex2"/>
         </figure>
 
         <p>
