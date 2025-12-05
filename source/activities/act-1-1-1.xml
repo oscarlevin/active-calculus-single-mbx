@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -19,7 +20,7 @@
           The following questions concern the position function given by <m>s(t) = 64 - 16(t-1)^2</m>,
           considered in <xref ref="PA-1-1">Preview Activity</xref>, and plotted in the given figure.
         </p>
-          <image width="32%" source="images/1_1_Act1"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image width="32%" source="images/1_1_Act1"/>
       </introduction>
       <task workspace="7.5cm" xml:id="act-1-1-1-task-0">
         <statement>
@@ -146,8 +147,7 @@
       </task>
     </activity>
    
-</worksheet>
-<!--
+</worksheet><!--
 <hint>
   <ol marker="a.">
     <li>On <m>[0.4,0.8]</m>, the average velocity is <m>AV_{[0.4,0.8]} = \frac{s(0.8)-s(0.4)}{0.8-0.4}</m> ft/sec.</li>

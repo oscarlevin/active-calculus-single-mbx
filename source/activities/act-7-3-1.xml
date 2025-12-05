@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet label="ws-act-7-3-1">
    
     <activity xml:id="act-7-3-1" workspace="3cm">
@@ -43,41 +45,41 @@
               <row>
                 <cell><m>0.0000</m></cell>
                 <cell><m>0.0000</m></cell>
-                <cell/>
-                <cell/>
+                <cell></cell>
+                <cell></cell>
               </row>
               <row>
                 <cell><m>0.2000</m></cell>
-                <cell/>
-                <cell/>
-                <cell/>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
               </row>
               <row>
                 <cell><m>0.4000</m></cell>
-                <cell/>
-                <cell/>
-                <cell/>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
               </row>
               <row>
                 <cell><m>0.6000</m></cell>
-                <cell/>
-                <cell/>
-                <cell/>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
               </row>
               <row>
                 <cell><m>0.8000</m></cell>
-                <cell/>
-                <cell/>
-                <cell/>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
               </row>
               <row>
                 <cell><m>1.0000</m></cell>
-                <cell/>
-                <cell/>
-                <cell/>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
               </row>
             </tabular>
-            <image width="70%" source="images/7_3_euler_empty"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+            <image width="70%" source="images/7_3_euler_empty" />
           </sidebyside>
         </statement>
         <answer>
@@ -128,7 +130,7 @@
               </row>
             </tabular>
 
-            <image source="images/7_3_Act1_soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+            <image source="images/7_3_Act1_soln" />
           </sidebyside>
         </answer>
         <solution>
@@ -183,7 +185,7 @@
               </row>
             </tabular>
 
-            <image source="images/7_3_Act1_soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+            <image source="images/7_3_Act1_soln" />
           </sidebyside>          
         </solution>
       </task>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -107,7 +108,7 @@
             What is the meaning of the value you find?
           </p>
 
-          <image width="47%" source="images/4_1_Act2"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image width="47%" source="images/4_1_Act2" />
 
         </statement>
         <hint>

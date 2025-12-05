@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+ 
 <worksheet label="ws-act-1-7-1">
    
     <activity xml:id="act-1-7-1" workspace="3cm">
@@ -173,10 +175,10 @@
           <p>
             On the axes provided,
             sketch an accurate, labeled graph of <m>y = f(x)</m>.
-            Be sure to carefully use open circles (&#9675;) and filled circles (&#9679;) to represent key points on the graph,
+            Be sure to carefully use open circles (○) and filled circles (●) to represent key points on the graph,
             as dictated by the piecewise formula.
           </p>
-          <image width="47%" source="images/1_7_Act1"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image width="47%" source="images/1_7_Act1"/>
         </statement>
         <hint>
           <p>
@@ -184,10 +186,10 @@
           </p>
         </hint>
         <answer>
-           <image width="40%" source="images/1_7_Act1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+           <image width="40%" source="images/1_7_Act1Soln" />
         </answer>
         <solution>
-          <image width="40%" source="images/1_7_Act1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image width="40%" source="images/1_7_Act1Soln" />
         </solution>
       </task>
     </activity>

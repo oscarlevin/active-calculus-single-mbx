@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -22,7 +23,7 @@
     </p>
 <!--        <figure xml:id="F-1-2-act-pos">
           <caption>Plot of the position function <m>y = s(t)</m> in <xref ref="act-1-2-3">Activity</xref>.</caption> -->
-          <image width="47%" source="images/1_2_Act3"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image width="47%" source="images/1_2_Act3"/>
 <!--        </figure> -->
         <p/>
       </introduction>

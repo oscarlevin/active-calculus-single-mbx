@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -32,7 +33,7 @@
             at least one inflection point on the graph of <m>h</m>?
           </p>
 
-          <image width="47%" source="images/3_1_Act3"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image width="47%" source="images/3_1_Act3" />
         </statement>
         <hint>
           <p>

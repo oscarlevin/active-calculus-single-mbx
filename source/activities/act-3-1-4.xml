@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -37,7 +38,7 @@
       as pictured below.
     </p>
         <sidebyside width="50%">
-          <image source="images/3_5_Act4Soln1"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/3_5_Act4Soln1"/>
         </sidebyside>
         <p><m> \left. \frac{dz}{dt} \right|_{x = 45} = \frac{100}{\sqrt{5}} \approx 44.7214 \ \text{feet/sec} </m>.
     </p>
@@ -46,7 +47,7 @@
       as pictured.
     </p>
         <sidebyside width="50%">
-          <image source="images/3_5_Act4Soln2"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/3_5_Act4Soln2"/>
         </sidebyside>
         <p><m> \left. \frac{ds}{dt} \right|_{x = 45} = \frac{430}{\sqrt{17}} \approx 104.2903 \ \text{feet/sec} </m>.
     </p>
@@ -57,7 +58,7 @@
       as pictured below.
     </p>
         <sidebyside width="50%">
-          <image source="images/3_5_Act4Soln1"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/3_5_Act4Soln1"/>
         </sidebyside>
         <p>
       By the Pythagorean Theorem, we know that <m>x^2 + 90^2 = z^2</m>;
@@ -87,7 +88,7 @@
       In this setting, as seen in the diagram below,
     </p>
         <sidebyside width="50%">
-          <image source="images/3_5_Act4Soln2"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/3_5_Act4Soln2"/>
         </sidebyside>
         <p><m>x</m>, <m>r</m>,
       and <m>s</m> form the sides of a right triangle, so that

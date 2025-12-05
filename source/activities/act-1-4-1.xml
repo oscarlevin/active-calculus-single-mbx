@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+ 
 <worksheet label="ws-act-1-4-1">
    
     <activity xml:id="act-1-4-1" workspace="3cm">
@@ -33,16 +35,16 @@
       How do key traits of the graph of the derivative function exemplify properties of the graph of the original function?
     </p>
         <sidebyside widths="100%">
-          <image source="images/1_4_Act1a"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/1_4_Act1a"/>
         </sidebyside>
         <sidebyside widths="100%">
-          <image source="images/1_4_Act1b"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/1_4_Act1b"/>
         </sidebyside>
         <sidebyside widths="100%">
-          <image source="images/1_4_Act1c"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/1_4_Act1c"/>
         </sidebyside>
         <sidebyside widths="100%">
-          <image source="images/1_4_Act1d"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/1_4_Act1d"/>
         </sidebyside>
       </statement>
       <hint>
@@ -54,30 +56,30 @@
       </hint>
       <answer>
         <sidebyside widths="100%">
-          <image source="images/1_4_Act1aSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/1_4_Act1aSoln"/>
         </sidebyside>
         <sidebyside widths="100%">
-          <image source="images/1_4_Act1bSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/1_4_Act1bSoln"/>
         </sidebyside>
         <sidebyside widths="100%">
-          <image source="images/1_4_Act1cSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/1_4_Act1cSoln"/>
         </sidebyside>
         <sidebyside widths="100%">
-          <image source="images/1_4_Act1dSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/1_4_Act1dSoln"/>
         </sidebyside>
       </answer>
       <solution>
         <sidebyside widths="100%">
-          <image source="images/1_4_Act1aSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/1_4_Act1aSoln"/>
         </sidebyside>
         <sidebyside widths="100%">
-          <image source="images/1_4_Act1bSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/1_4_Act1bSoln"/>
         </sidebyside>
         <sidebyside widths="100%">
-          <image source="images/1_4_Act1cSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/1_4_Act1cSoln"/>
         </sidebyside>
         <sidebyside widths="100%">
-          <image source="images/1_4_Act1dSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image source="images/1_4_Act1dSoln"/>
         </sidebyside>
       </solution>
     </activity>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet label="ws-act-8-2-2">
   <activity xml:id="act-8-2-2">
     <introduction>
@@ -152,8 +154,7 @@
         </p>
         <figure xml:id="F-8a-2-act-2">
           <caption>The function <m>f(x)=\ln(x)</m> and its degree <m>1</m> Taylor approximation  <m>T_1(x) = x-1</m> near the point <m>(1,f(1))</m>.</caption>
-          <image width="50%" source="images/8a_2_act_2"><description>The function <m>f(x)=\ln(x)</m> and its degree <m>1</m> Taylor approximation  <m>T_1(x) = x-1</m> near the point <m>(1,f(1))</m>.</description>
-          </image>
+          <image width="50%" source="images/8a_2_act_2" />
         </figure>
         <p>	      
           What do you notice?	  
@@ -161,14 +162,14 @@
       </statement>
       <hint/>
       <answer>
-        <image width="50%" source="images/8a_2_act_2_soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image width="50%" source="images/8a_2_act_2_soln"/>
         <p><m>T_4(x)</m> provides a much more accurate approximation of <m>f(x)</m> than <m>T_1(x)</m>.	</p>
         
       </answer>
       <solution>
         <p>
           Plotting <m>f(x) = \ln(x)</m>, <m>T_1(x) = x - 1</m>, and <m>T_4(x)</m> to the figure,</p>
-          <image width="50%" source="images/8a_2_act_2_soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image width="50%" source="images/8a_2_act_2_soln"/>
           <p>we notice that <m>T_4(x)</m> provides a much more accurate approximation of <m>f(x)</m> than <m>T_1(x)</m>.	
           </p>
         </solution>

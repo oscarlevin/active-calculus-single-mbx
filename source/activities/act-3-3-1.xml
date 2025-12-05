@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet xml:id="ws-act-3-3-1">
   
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-3-1">
@@ -107,8 +109,7 @@
             <figure xml:id="F-act-3-3-1-ans">
               <caption>A plot of a possible function <m>y = g(x)</m> whose derivative is the given formula for <m>g'(x)</m>.</caption>
             <image width="60%">
-              <description>A plot of a possible function <m>y = g(x)</m> whose derivative is the given formula for <m>g'(x)</m>.</description>
-            <prefigure xmlns="https://prefigure.org" label="Fig-act-3-3-1-ans">
+              <prefigure label="Fig-act-3-3-1-ans" xmlns="https://prefigure.org">
                 <diagram dimensions="(300,300)" margins="5">
                   <definition>f(x) = log(x^2+1) + x - 9*atan(x) - 2</definition>
                   <definition>a = -4</definition>
@@ -135,8 +136,7 @@
         <figure xml:id="F-act-3-3-1-soln">
           <caption>A plot of a possible function <m>y = g(x)</m> whose derivative is the given formula for <m>g'(x)</m>.</caption>
             <image width="60%">
-              <description>A plot of a possible function <m>y = g(x)</m> whose derivative is the given formula for <m>g'(x)</m>.</description>
-            <prefigure xmlns="https://prefigure.org" label="Fig-act-3-3-1-soln">
+              <prefigure label="Fig-act-3-3-1-soln" xmlns="https://prefigure.org">
                 <diagram dimensions="(300,300)" margins="5">
                   <definition>f(x) = log(x^2+1) + x - 9*atan(x) - 2</definition>
                   <definition>a = -4</definition>

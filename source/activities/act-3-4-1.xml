@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <worksheet label="ws-act-3-4-1">
    
     <activity xml:id="act-3-4-1" workspace="3cm">
@@ -146,7 +148,7 @@
           </p>
         </hint>
         <answer>
-          <image width="80%" source="images/3_2_Act1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image width="80%" source="images/3_2_Act1Soln" />
         </answer>
         <solution>
           <p>
@@ -159,7 +161,7 @@
             Note, too,
             that <m>p</m> has its <m>x</m>-intercepts at <m>x = \pm \sqrt{a}</m>.
           </p>
-          <image width="80%" source="images/3_2_Act1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+          <image width="80%" source="images/3_2_Act1Soln" />
         </solution>
       </task>
     </activity>
