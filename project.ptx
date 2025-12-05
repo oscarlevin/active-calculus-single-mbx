@@ -12,6 +12,7 @@
       xsl="acs-html.xsl" 
       publication="publication-proteus.ptx" 
       platform="runestone" 
+      deploy-dir="proteus"
     />
     <!-- this is the new sandbox target -->
     <target 
@@ -21,6 +22,7 @@
       xsl="acs-html.xsl" 
       publication="publication-proteus-sandbox.ptx" 
       platform="runestone" 
+      deploy-dir="proteus-sandbox"
     />
     <target
       name="runestone"
