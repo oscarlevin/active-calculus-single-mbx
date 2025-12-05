@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -67,8 +68,7 @@
       </p>
       <figure xml:id="F-3-1-Ez1" permid="thm">
         <caption>At center, a graph of <m>y = f'(x)</m>; at left, axes for plotting <m>y = f(x)</m>; at right, axes for plotting <m>y = f''(x)</m>.</caption>
-        <image width="100%" source="images/3_1_Ez1"><description>At center, a graph of <m>y = f'(x)</m>; at left, axes for plotting <m>y = f(x)</m>; at right, axes for plotting <m>y = f''(x)</m>.</description>
-        </image>
+        <image width="100%" source="images/3_1_Ez1"/>
       </figure>
       <p permid="Nad">
         <ol marker="a." permid="yId">
@@ -129,7 +129,7 @@
               A possible graph of <m>y = f(x)</m> is shown at left in the figure.
             </p>
             <sidebyside permid="WAT">
-              <image source="images/3_1_Ez1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/3_1_Ez1Soln"/>
             </sidebyside>
           </li>
         </ol>
@@ -188,7 +188,7 @@
               we arrive at the graph shown at left below.
             </p>
             <sidebyside permid="CIc">
-              <image source="images/3_1_Ez1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/3_1_Ez1Soln"/>
             </sidebyside>
           </li>
         </ol>
@@ -322,8 +322,7 @@
         </p>
         <figure xml:id="F-3-1-Ez3" permid="ALL">
           <caption>The graph of <m>y = h'(x)</m>.</caption>
-          <image source="images/3_1_Ez3"><description>The graph of <m>y = h'(x)</m>.</description>
-          </image>
+          <image source="images/3_1_Ez3"/>
         </figure>
       </sidebyside>
     </statement>
@@ -335,7 +334,7 @@
               <m>h</m> can have no, one, or two real zeros.
             </p>
             <sidebyside width="50%" permid="OWu">
-              <image source="images/3_1_Ez3Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/3_1_Ez3Soln"/>
             </sidebyside>
           </li>
           <li permid="ndF">
@@ -370,7 +369,7 @@
               one real zero, or two real zeros.
             </p>
             <sidebyside width="50%" permid="vdD">
-              <image source="images/3_1_Ez3Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/3_1_Ez3Soln"/>
             </sidebyside>
           </li>
           <li permid="LGp">
@@ -493,7 +492,7 @@
               </p>
 
               <sidebyside width="50%">
-                <image width="50%" source="images/3_1_Act1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+                <image width="50%" source="images/3_1_Act1Soln" />
               </sidebyside>
 
             </li>
@@ -569,7 +568,7 @@
               </p>
 
               <sidebyside width="50%">
-                <image source="images/3_1_Act1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+                <image source="images/3_1_Act1Soln" />
               </sidebyside>
 
             </li>

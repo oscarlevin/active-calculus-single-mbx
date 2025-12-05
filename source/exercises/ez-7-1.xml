@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-7-1" permid="jtO">
   <exercise label="csafranski__7-_1HW_prob1">
     <webwork source="csafranski/7.1HW_prob1.pg"/>
@@ -74,7 +76,7 @@
               make a plot of <m>dT/dt</m> as a function of <m>T</m>.
             </p>
             <sidebyside width="50%" permid="JiV">
-              <image source="images/7_1_exercise_1"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/7_1_exercise_1"/>
             </sidebyside>
           </li>
           <li permid="FiW">
@@ -124,7 +126,7 @@
           </li>
           <li permid="pZY">
             <sidebyside width="50%" permid="pqe">
-              <image source="images/7_1_Ez1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/7_1_Ez1Soln"/>
             </sidebyside>
           </li>
           <li permid="Whh">
@@ -190,7 +192,7 @@
               Note particularly that <m>\frac{dT}{dt}\vert_{T = 75} = 0</m>.
             </p>
             <sidebyside width="50%" permid="Vxn">
-              <image source="images/7_1_Ez1Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/7_1_Ez1Soln"/>
             </sidebyside>
           </li>
           <li permid="nfs">
@@ -431,7 +433,7 @@
         where <m>f(P)</m> is the function graphed below.
       </p>
       <sidebyside width="50%" permid="BEw">
-        <image source="images/7_1_threshold"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image source="images/7_1_threshold"/>
       </sidebyside>
       <p permid="QGq">
         <ol marker="a." permid="UrU">

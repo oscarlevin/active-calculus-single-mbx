@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -148,8 +149,7 @@
       </p>
       <figure xml:id="F-2-1-Ez3" permid="yeN">
         <caption>The graphs of <m>p</m> (in blue) and <m>q</m> (in green).</caption>
-        <image width="47%" source="images/2_1_Ez3"><description>The graphs of <m>p</m> (in blue) and <m>q</m> (in green).</description>
-        </image>
+        <image width="47%" source="images/2_1_Ez3"/>
       </figure>
       <p permid="RXE">
         <ol marker="a." permid="hXA">

@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2025                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -11,6 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-2-3" permid="ApM">
   <exercise label="csafranski__2.3HW_prob1.pg">
     <webwork source="csafranski/2.3HW_prob1.pg"/>
@@ -189,8 +191,7 @@
         </p>
         <figure xml:id="F-2-3-Ez3" permid="NJx">
           <caption>The graphs of <m>p</m> (in blue) and <m>q</m> (in green).</caption>
-          <image source="images/2_1_Ez3"><description>The graphs of <m>p</m> (in blue) and <m>q</m> (in green).</description>
-          </image>
+          <image source="images/2_1_Ez3"/>
         </figure>
       </sidebyside>
     </statement>

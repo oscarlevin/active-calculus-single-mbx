@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -136,7 +137,7 @@
               </md>.
             </p>
             <sidebyside width="50%" permid="HVY">
-              <image source="images/6_1_Ez1aSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/6_1_Ez1aSoln"/>
             </sidebyside>
           </li>
           <li permid="UUk">
@@ -153,7 +154,7 @@
               </md>.
             </p>
             <sidebyside width="50%" permid="odh">
-              <image source="images/6_1_Ez1bSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/6_1_Ez1bSoln"/>
             </sidebyside>
           </li>
           <li permid="Bbt">
@@ -176,7 +177,7 @@
               </md>.
             </p>
             <sidebyside width="50%" permid="Ukq">
-              <image source="images/6_1_Ez1cSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/6_1_Ez1cSoln"/>
             </sidebyside>
           </li>
           <li permid="hiC">
@@ -201,7 +202,7 @@
               </md>.
             </p>
             <sidebyside width="50%" permid="Arz">
-              <image source="images/6_1_Ez1dSoln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/6_1_Ez1dSoln"/>
             </sidebyside>
           </li>
         </ol>
@@ -249,7 +250,7 @@
         the area between the two curves is exactly <m>A = 2</m>.
       </p>
       <sidebyside width="50%" permid="gyI">
-        <image source="images/6_1_Ez2Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+        <image source="images/6_1_Ez2Soln"/>
       </sidebyside>
     </solution>
   </exercise>
@@ -301,7 +302,7 @@
           </li>
           <li permid="RZE">
             <sidebyside width="50%" permid="MFR">
-              <image source="images/6_1_Ez3Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/6_1_Ez3Soln"/>
             </sidebyside>
           </li>
           <li permid="ygN">
@@ -342,7 +343,7 @@
               and the intersection point is shown in the following figure.
             </p>
             <sidebyside width="50%" permid="sNa">
-              <image source="images/6_1_Ez3Soln"><description>ADD ALT TEXT TO THIS IMAGE</description></image>
+              <image source="images/6_1_Ez3Soln"/>
             </sidebyside>
           </li>
           <li permid="WJx">
